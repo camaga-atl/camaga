@@ -14,6 +14,12 @@
 <!-- composers day 2016 -->
 		<div class="list-concert-box">
 			<h3><a href="events#composersDay">Composers' Day 2016</a></h3>
+			<p><i>Feb 13 & 14 2016</i></p>
+               <p>
+				<a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
+					Venue: Hindu Temple of Atlanta
+				</a>
+			</p>					
 			<img  class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
 			<img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
 			<img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
