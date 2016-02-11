@@ -1,0 +1,21 @@
+{
+  "date": "2016-03-13",
+  "time": "16:00",
+  "venue": "Hindu Temple of Atlanta",
+  "artists": [
+    {
+      "name": "Sikkil Gurucharan",
+      "instrument": "Vocal",
+      "link": "http://sikkilgurucharan.com/"
+    },
+    {
+      "name": "V. Sanjeev",
+      "instrument": "Violin",
+      "link": ""
+    },
+    {
+      "name": "Patri Satishkumar",
+      "instrument": "Mridangam"
+    }
+  ]
+}

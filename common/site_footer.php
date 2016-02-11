@@ -1,0 +1,38 @@
+	<footer>
+		<!-- facebook start -->
+			<div id="fb-root"></div>
+			<script>
+				(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+			<div class="fb-follow" 
+				data-href="https://www.facebook.com/camaga.org" 
+				data-colorscheme="light" 
+				data-layout="button_count" 
+				data-show-faces="false">
+			</div>
+		<!-- facebook end  -->	
+		<!-- Twitter start -->		
+			<script type="text/javascript">
+				window.twttr = (function (d, s, id) {
+				var t, js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src= "https://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+					return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+				}(document, "script", "twitter-wjs"));
+			</script>
+			<a class="twitter-follow-button"
+				href="https://twitter.com/camaga_org"
+				data-show-count="true"
+				data-show-screen-name="false" 
+				data-lang="en">
+			</a>
+		<!-- Twitter end -->
+	</footer>

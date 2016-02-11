@@ -1,0 +1,97 @@
+    {  
+   "date":"2015-11-08",
+   "time":"16:00",
+   "venue":"Hindu Temple of Atlanta",
+   "artists":[  
+      {  
+         "name":"Ritvik Raja",
+         "instrument":"Vocal",
+         "link":"http://rithvikraja.in/"
+      },
+      {  
+         "name":"H. N. Bhaskar",
+         "instrument":"Violin",
+         "link": "https://www.google.com/search?q="
+      },
+      {  
+         "name":"Vijay Ganesh",
+         "instrument":"Mridangam"
+      },
+      {  
+         "name":"Anirudh Athreya",
+         "instrument":"Kanchira"
+      }
+   ],
+   "photos":[  
+      {  
+         "src":"Rithvik Raja.jpg",
+         "title":"Rithvik Raja"
+      },
+      {  
+         "src":"H.N.Bhaskar.jpg",
+         "title":"H.N.Bhaskar"
+      },
+      {  
+         "src":"Vijay Ganesh.jpg",
+         "title":"Vijay Ganesh"
+      },
+      {  
+         "src":"Anirudh Athreya.jpg",
+         "title":"Anirudh Athreya"
+      }
+   ],
+   "songs":[  
+      {  
+         "name":"Chalamela",
+         "ragam":"Nattaikurinji",
+         "talam":"Adi",
+         "composer":"Srirangam Rangaswamy Nattuvanar"
+      },
+      {  
+         "name":"Siddhi Vinayakam",
+         "ragam":"Shanmugapriya",
+         "talam":"Rupakam",
+         "composer":"Muthuswami Dikshithar"
+      },
+      {  
+         "name":"Seethapathe Naamana",
+         "ragam":"Khamas",
+         "talam":"Adi",
+         "composer":"Thyagaraja"
+      },
+      {  
+         "name":"Kaa Vaa Vaa",
+         "ragam":"Varali",
+         "talam":"Adi",
+         "composer":"Papanasam Sivan"
+      },
+      {  
+         "name":"O Jagadamba ",
+         "ragam":"Anandabhairavi",
+         "talam":"Adi",
+         "composer":"Syama Sastri"
+      },
+      {  
+         "name":"Marugelara",
+         "ragam":"Jayanthasri",
+         "talam":"Adi",
+         "composer":"Thyagaraja"
+      },
+      {  
+         "name":"(RTP) Karuninchare",
+         "ragam":"Sahana followed by Ragamalika"
+      },
+      {  
+         "name":"Madhava mamava",
+         "ragam":"Nilambari",
+         "talam":"Adi",
+         "composer":"Narayana Thirthar"
+      },
+      {  
+         "name":"Thillana"
+      },
+      {  
+         "name":"Mangalam"
+      }
+   ]
+}
