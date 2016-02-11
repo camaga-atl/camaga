@@ -11,316 +11,114 @@
 			?>
 			<div id="content">
 		<h2>Upcoming Events</h2>
-<!-- composers day 2016 -->
-
 		<h3><a name="composersDay">Composers' Day 2016</a></h3>
-		<img class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
-		<img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
-		<img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
-		<img class="desktop" src="events/2016/composersDay/muthuswami-dikshithar.png"  />
-		<img class="mobile" src="events/2016/composersDay/trinity.jpg" />
-
-		<h4>Documents</h4>
-		<div>
-			<emp>
-				<a href="events/2016/composersDay/2016-composers-day-program.pdf">
-					Download Composers Day Program&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
+		<p><i>February 13 & 14, 2016</i></p>
+		<img src="events/2016/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
+               <div class="boxed">
+                 	<p>
+				Due to overwhelming registration, CAMAGA has closed the registration process. It will no longer accept registration requests.
+			</p>
+			<p>
+				Please note that those who are already registered, must ensure that the registration fee (if non-member) or the annual membership fee (if renewing the membership) is remitted to CAMAGA before 31st of January.
+			</p>
+			<p>
+				The schedule for the Composers’ day will be posted on CAMAGA web page, a week prior to the event date of Feb. 13th.
+			</p>
 		</div>
-		<div>
-			<emp>
-				<a href="events/2016/composersDay/2016-composers-day-participants-list.pdf">
-					Download Composers Day Participants List&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-		<br/>
-	<div class="composers-day">
-		<h4>February 13, 2016 Program</h4>
-		<table>
-		<thead>
-				<tr>
-					<th>Time</th>
-					<th>Program</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						8:30 - 9:45 AM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						10:00 - 11:15 AM
-					</td>
-					<td>
-						Pancharatna Krithis<br/>
-						 (Group Singing) 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						11:15 - 1:00 PM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						1:00 - 2:00 PM
-					</td>
-					<td>
-						Invited artist <br/>
-						<div>
-							<span class="artist">V. Lakshminarayanan</span>
-							<span class="instrument">Violin</span>
-						</div>
-						<div>
-							<span class="artist">Ram Sriram</span>
-							<span class="instrument">Mridangam</span>
-						</div>
-					</td>
-				<tr>
-					<td>
-						2:00 - 4:00 PM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						4:00 - 4:30 PM
-					</td>
-					<td>
-						Hamsa Ragams<br/>
-						(Thematic Presentation)
-					</td>
-				</tr>
-				<tr>
-					<td>
-						4:30 - 6:30 PM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-
-
-	<div class="composers-day">
-	<h4>February 14, 2016 Program</h4>
-		<table>
-			<thead>
-				<tr>
-					<th>Time</th>
-					<th>Program</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						9:30 - 10:30 AM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						10:30 - 11:00 AM
-					</td>
-					<td>
-						Navagraha Krithis<br/>
-						of Dikshithar</br>
- 						(Thematic Presentation)
-					</td>
-				</tr>
-				<tr>
-					<td>
-						11:00 - 1:00 PM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						1:00 - 1.30 PM
-					</td>
-					<td>
-						Tyagabrahmam and<br/>
-						Tamizh Tyagayya<br/>
-						(Thematic Presentation)
-					</td>
-				<tr>
-					<td>
-						1:30 - 3.00 PM
-					</td>
-					<td>
-						Individual Singing 
-					</td>
-				</tr>
-				<tr>
-					<td>
-						3:00 - 5:00 PM
-					</td>
-					<td>
-						Kalyana Utsavam<br/>
-						Divya Nama Krithis,<br/>
-						Utsava Sampradaya Krithis<br/>
-						Arathi (Group Singing)
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div> <!-- songlist -->
-
-<!-- composers day 2016 -->
-<!-- carnatic mela 2016 -->
-		<h3><a name="carnatic-mela">Carnatic Mela 2016</a></h3>
-		<p><i>Sat April 9, 2016</i></p>
-               <p>
-			<a target="_blank" href="http://maps.google.com/?q=Chinmaya Niketan">
-				Venue:  <br/>
-				Chinmaya Niketan<br/>
-				Sri Rama Temple<br/>
-				5511 Williams Road Norcross GA<br/>
-			</a>	
-		</p>	
 		<p>
-			CAMAGA is organizing a Carnatic Mela.  The event is being organized to celebrate the centenary of Bharat Ratna Smt. M. S. Subbulakshmi, the illustrious musician. 
+			<emp><a href="events/2016/composersDay/2016-composers-day-registration-form.docx">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>	
 		</p>
+                <h4>Format</h4>
+                 <p>
+		           Participants can choose to sing the compositions of pre-Trinity, Trinity, and post-Trinity.
+		</p>
+                 
+                 <h4>Participation slot</h4>
+                 <p>
+	                Because of overwhelming registrations, an individual will be assigned ONLY one slot to participate.  
+        	        For example, if a registrant is proficient in three categories: Vocal, Veena, and Violin, the registrant must choose which one of these three categories he/she wishes to participate. 
+                	This stipulation, however, does not apply to participation as a member of a group.
+                 </p>
 
-		<p>
-			The objective of the Mela is to encourage younger members of the community learning music to participate in enjoyable and yet simple music-related activities
-			 (e.g. choir singing, quiz program, debate, and more).  The Mela would also include items that adults can participate (the adults group activities will be independent
-			 of the kids’ group activities).  Since the purpose of the Mela is make participation enjoyable and not stressful, the format, unlike a music competition, 
-			will have no <emp>winners or losers</emp>.
-  		</p>
- 		<p>
-			The event starts at 10 A.M. (with registration starting at 9:30 AM).  The Mela is scheduled for a total of seven hours including an hour of lunch break.  The Mela 
-			also includes a concert, Nrithya Katha, and dance.  Carnatica Brothers – Sri Shashikiran and Sri Ganesh would be joined by Upanyasa exponent Smt. Suchitra 
-			and Bharatanatyam exponent, Ms. Smitha Madhav.  The concert would be thematic, celebrating the memory of Smt. M. S. Subbulakshmi.  The artists will be accompanied
-			on the violin by B. Raghavendra and on the Mridangam by Thiruvarur Bakthavatsalam.   At the end of the concert, certificates of `appreciation will be awarded by 
-			Carnatica to the participants in the Mela.
-		</p>
-		<p>
-			The concepts list given below describes the various events that are under consideration.  
-		</p>
-		<h4>Carnatic Mela Concepts</h4>
-		<ol style="padding-left: 1.1em;">
-			<li>
-				<h5>Show case Local Talent</h5>
-				Three young performers (chosen in advance; the rules for the selection process will be announced soon) will perform, each for 15 minutes; 
-				we suggest that they focus on compositions that were popularized by Smt. M. S.  Subbulakshmi.
-			</li>
-			<li>
-				<h5>Carnatic Choir</h5>
-				Local teachers will take the lead in putting together a choir; the participants can include both the teachers and their students or others they choose.
-				Only two groups would perform and each group would be assigned twenty minutes maximum time
-			</li>
-			<li>
-				<h5>Quiz, anthrakshari or multi-media presentation</h5>
-			a kids group with a maximum of 4 participants (and a separate group of adults with 4 participants).  A multimedia quiz on Carnatic music would be conducted by the artists.  If no member from a group is able to answer a quiz question, the question will be opened to the audience participation. 				
-			</li>
-			<li>
-				<h5>Musical Pattimandram</h5>
-				30 minutes max including for the moderator to summarize.  Two groups of three individuals (only younger individuals) will debate against each other;  the topics are wide open – Bhakthi or Melody in Smt. M. S. Amma’s performance; Carnatic music as passion or career, how do we made Carnatic Music youth friendly or what makes MS a Carnatic Icon; we welcome suggestions for other interesting topics ). 
-			</li>
-			<li>
-				<h5>Raga Repertoire (time permitting)</h5>
-				Two young individuals group (less than 15 years of age) and two adults group will be formed (the young and adult groups will participate separately).  A member from a group will pick from a box, a slip of paper on which is written a song’s name.  One of the three participants from the group will identify the raga; sing the arohanam and avarohanam of the raga and a few phrases and lines from the composition.  Points will be awarded to each group.  Similar process will be used for the adults groups.
-			</li>
-			<li>
-				<h5>Concert, Nrithya Katha, and the Dance</h5>
-			</li>
-			<li>
-				<h5>Awarding of certificates</h5>
-			</li>
+     		<h4><a href="events/2016/composersDay/2016-composers-day-registration-form.docx">Registration Form</a></h4>
+       		<p>
+			If you are interested in participating in the Great Composers Day – 2016, please complete the <a href="events/2016/composersDay/2016-composers-day-registration-form.docx">registration form</a>. The registration form is required from 
+                </p>
+		<ol style="padding-left: 40px">
+			<li>Individual performers</li>
+			<li>group participants</li>
+			<li>accompanists</li>
+			<li>individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis</li>
 		</ol>
-		<h4>Rules</h4>
-		<ol style="padding-left: 1.1em;">
-			<li>
-				Individuals (both young kids and adults) must send in a
-				<emp>
-					<a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
-						Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i>
-					</a>
-				</emp>
-			</li>
-			<li>
-				A registration fee of $25 must be paid by non-members
-			</li>
-			<li>
-				Since both the time available and the number of participants for each theme is limited, 
-				registrations will be accepted on first come first basis.
-			</li>
-			<li>
-				Participant of a registration will be assigned only to the theme he/she has indicated as
-				the first preference.
-			</li>
-			<li>
-				Initially, a participant will be restricted to one theme only.
-			</li>
-			<li>
-				If, later, there are opening in any of the other themes, CAMAGA may give a participant a
-				second theme also.  Participants for this will be chosen by a lottery.
-			</li>
-		</ol>
-		<p>	
-		If you have any questions or suggestion, you may send an email to sriramr@bellsouth.net
+		<p>
+			Kindly send the registration form as an attachment to your email and forward it to camaga.atlanta@gmail.com.  
 		</p>
-		<div>
-			<emp>
-				<a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
-				      Download Registration Form for Carnatic Mela&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-		<div>
-			<emp>
-				<a href="events/2016/carnatic-mela/2016-carnatic-mela-announcement.docx">
-				      Download Carnatic Mela Announcement&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-		<br/>
-<!-- carnatic mela 2016 -->
-<!-- violin workshop 2016 -->
+		<p>
+		<emp><a href="events/2016/composersDay/2016-composers-day-registration-form.docx">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>
+		</p>
+		<h4>Registration Fee</h4>
+		<p>
+			Registration fee is required only from participants who are not members of CAMAGA (those who did not maintain membership in CAMAGA during the calendar year 2015).  
+			The non-members must pay a registration fee of $25, regardless of whether they participate as a member of a group, or as an individual, or as an accompanist.   
+			<emp>A current member of CAMAGA must renew their annual membership before January 31, 2016 or otherwise, pay registration fee as a non-member.</emp>
+		</p>
+		<p>
+			Non-members intending to participate as individuals must
+			<ol style="padding-left: 40px">
+				<li>first send in their registration forms as an attachment to an email</li>
+				<li>mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084</li> 
+			</ol>
+		</p>
+		<h4>Group Participation</h4>
+		<p>
+			If one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. 
+			CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group
+		</p>
+		<h4>Note to Teachers</h4>
+		<p>
+			In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group. 
+			Please note that CAMAGA does not decide the groups or who should participate within a specific group; it is solely the decision of the teacher.  
+			For each group, teachers must collect the registration fees of $25 from each non- member from the group and mail a check favoring CAMAGA, to 6011 Rocky Shoals Court, Tucker, GA, 30084.
+		</p>
+		<h4>Deadline for receipt of registration form and registration fees (from non-members)</h4>
+		<p>January 31, 2016</p>
+
+		<h4>Registration acknowledgement</h4>
+		<p>
+			Once CAMAGA receives the registration email along with the registration form, they will send an acknowledgement confirming receipt of the registration form. 
+			If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.
+			If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. 
+			CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time.
+		</p>
+		<h4>Early Closure of Registration</h4>
+		<p>
+			If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, 
+			CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2016) and 
+			it will no longer accept registration requests received after the early closure announcement.			
+		</p>
+		<h4>Note</h4>
+		<p>
+			Once the participation details are finalized and announced, no further changes to the schedule will be made.  
+			CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.
+		</p>
+
+
 		<h3><a name="violinWorkshop">Vocal and Violin workshop</a></h3>
 		<h4> by illustrious violinist Sri Ganesh</h4>
 		<p><i>June 18 - 24, 2016</i></p>
 		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
 		<p>
-			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA.
-			The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta. 
+			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA during the month of June, 2016 in Atlanta (dates will be announced soon).  
+			The workshop will be held for seven consecutive days. 
 		</p>
-
 		<p>
 			This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.  
 			We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.  
 			Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.  
 		</p>
-               <p>
-			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
-				Venue:  <br/>
-				KA Academy of Indian Music & Dance<br/>
-				2731 Sandy Plains Rd, Suite #156<br/>
-				Marietta, GA, 30066<br/>
-			</a>	
-		</p>	
  		<p>
 			The workshop will be offered to independent groups
-			<ol style="padding-left: 1.1em;">
+			<ol style="padding-left: 40px">
 				<li>Vocal – seniors</li>
 				<li>Vocal – juniors (who have learnt at the least a few Varnams and Kritis)</li>
 				<li>Violin Seniors</li>
@@ -334,15 +132,6 @@
 			If you are interested in registering, please send an email to camaga.atlanta@gmail.com.  
 			Because of the restrictions on the number of registrants, we will accept request for registration until the maximum participant for each group is reached (first come first served based on the date and time of receipt of the email.
 		</p>
-		<div>
-			<emp>
-				<a href="events/2016/violinWorkshop/2016-violin-workshop-registration-form.docx">
-				      Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-<!-- violin workshop 2016 -->
-		<br/>
 			<h2>Past Events</h2>
 <article  class="collapsible">
 			<h3>Atlanta Carnatic Samraat - Sep 19, 2015</h3>

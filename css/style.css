@@ -104,6 +104,15 @@ img.right {
 		margin-left: 20px;
 	}
 
+       img.desktop {
+		display: none;
+	}
+
+       img.mobile {
+		display: inline;
+		width: auto;
+	}
+
 }	
 
 @media (min-width: 850px) {
@@ -122,6 +131,13 @@ img.right {
 		text-align: center;
 	}
 	
+       img.desktop {
+		display: inline;
+	}
+
+       img.mobile {
+		display: none;
+	}
 }
 
 @media (min-width: 850px) and (max-width: 1068px) {
@@ -246,3 +262,19 @@ span.title {
 }
 
 /* 2015 Sangeeth Samraat End */
+
+.boxed {
+	background-color: #D2E6A1;
+	border : 1px solid #E6E2D9;
+        margin: 2em 0em 2em 0em;
+        padding: 0em 1.6rem 0em 1.6rem;
+}
+
+/* composers-day */
+
+.composers-day {
+	max-width: 800px;
+	padding-bottom: 3em;
+	clear: both;
+	word-wrap: break-word;
+}

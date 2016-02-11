@@ -11,21 +11,77 @@
 			?>
 		<div id="content">
 		<h2>Upcoming Events</h2>
-		<h3><a href="events#composersDay">Great Composers' Day 2016</a></h3>
-		<p><i>February 13th & 14th 2016</i></p>
-		<img src="events/2016/composersDay/trinity.jpg"  style="max-width: 100%; height: auto"/>
+<!-- composers day 2016 -->
+		<div class="list-concert-box">
+			<h3><a href="events#composersDay">Composers' Day 2016</a></h3>
+			<img  class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
+			<img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
+			<img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
+			<img class="desktop" src="events/2016/composersDay/muthuswami-dikshithar.png"  />
+			<img class="mobile" src="events/2016/composersDay/trinity.jpg" />
+			<br/>
+			<br/>
+			<div>
+				<emp>
+					<a href="events/2016/composersDay/2016-composers-day-program.pdf">
+						Download Composers Day Program&nbsp;&nbsp;<i class="fa fa-download"></i>
+					</a>
+				</emp><br/>
+				<emp>
+					<a href="events/2016/composersDay/2016-composers-day-participants-list.pdf">
+						Download Composers Day Participants List&nbsp;&nbsp;<i class="fa fa-download"></i>
+					</a>
+				</emp>
+			</div>
+                	<p>
+				  For more details refer <a href="events#composersDay">here</a> 
+	                 </p>
+		</div>
+<!-- Composer's Day -->
+<!-- carnatic mela -->
+		<div class="list-concert-box">
+		<h3><a href="events#carnatic-mela">Carnatic Mela</a></h3>
+		<p><i>Sat Apr 9, 2016</i></p>
                 <p>
-			  Camaga is organizing <a href="events#composersDay">Great Composers’ day</a> on February 13th and 14th, 2016. For more details refer <a href="events#composersDay">here</a> 
-                 </p>
+			CAMAGA is organizing a Carnatic Mela - to celebrate the centenary of Bharat Ratna Smt. M. S. Subbulakshmi, the illustrious musician. 
+		</p>
+               <p>
+			<a target="_blank" href="http://maps.google.com/?q=Chinmaya Niketan">
+			Venue:  <br/>
+				Chinmaya Niketan<br/>
+				Sri Rama Temple<br/>
+				6611 Williams Road Norcross GA
+			</a>
+		</p>		
+		<p>
+			Refer <a href="events#carnatic-mela">here</a> for more details
+                </p>
+		</div>
+<!-- carnatic mela -->
+<!-- Violin Workshop -->
+		<div class="list-concert-box">
 		<h3><a href="events#violinWorkshop">Vocal and Violin workshop</a></h3>
-		<h4> by illustrious violinist Sri Ganesh<h4>
-		<p><i>Seven days in June 2016</i></p>
-		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
-                <p>
+		<h4> by illustrious violinist Sri Ganesh</h4>
+		<p><i>June 18 - 24, 2016</i></p>
+		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg" height="162" align="left" style="padding: 0em 1em 1em 0em;"/>
+                <p  >
 			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) 
-			will conduct a music workshop organized by CAMAGA during the month of June, 2016 in Atlanta (dates will be announced soon). 
+			will conduct a music workshop organized by CAMAGA during June 18 - 24, 2016. 
+		</p>
+               <p>
+			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
+			Venue:  <br/>
+				KA Academy of Indian Music & Dance<br/>
+				2731 Sandy Plains Rd, Suite #156<br/>
+				Marietta, GA, 30066<br/>
+			</a>
+		</p>		
+		<p>
 			Refer <a href="events#violinWorkshop">here</a> for more details
                 </p>
+		</div>
+<!-- Violin Workshop -->
+		<br/>
 		<?php 
 			include( CAMAGA_ROOT . "concerts/upcoming.php"); 
 		?>	

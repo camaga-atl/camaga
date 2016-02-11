@@ -42,9 +42,7 @@ article li {
 }
 
 img {
-	max-width: 100%
-	height: auto;
-	width: auto;
+	max-width: 100%;
 }
 
 .img-left, .img-right {

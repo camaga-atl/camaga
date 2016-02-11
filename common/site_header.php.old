@@ -14,7 +14,6 @@
 			<li><a class="concerts" href="concerts/main.php">CONCERTS</a></li>
 			<li><a class="events" href="events">EVENTS</a></li>
 			<li><a class="articles" href="articles">ARTICLES</a></li>
-			<li><a class="member" href="member">MEMBER</a></li>
 			<li><a class="contact" href="contact">CONTACT</a></li>
 		</ul>
 	</nav>
