@@ -1,7 +1,8 @@
-	<?php
+        <?php
+		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
 		include("Concerts.php");
 		include("Concert.php");
-		include( $_SERVER['DOCUMENT_ROOT'] . '/camaga/artists/Artist.php' );
+		include( CAMAGA_ROOT . "artists/Artist.php");
 		$datetime = NULL;
 		$concerts = Concerts::getUpcoming();
 	?>
