@@ -2,7 +2,8 @@
 <html lang="en">
 	<?php 
 		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
-		include( CAMAGA_ROOT . "common/html_head.php"); 
+		include( CAMAGA_ROOT . "common/html_head.php");
+		include( CAMAGA_ROOT . "artists/Artist.php");
 	?>
 	<body>
 		<div class="wrapper">
