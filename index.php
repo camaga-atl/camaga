@@ -6,44 +6,14 @@
 	?>
 	<body id="home">
 		<div class="wrapper">
-			<?php 
-				include(CAMAGA_ROOT . "common/site_header.php"); 
+			<?php
+			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
+		<?php
+			include( CAMAGA_ROOT . "concerts/upcoming.php");
+		?>
 		<h2>Upcoming Events</h2>
-<!-- composers day 2016 -->
-		<div class="list-concert-box">
-			<h3><a href="events#composersDay">Composers' Day 2016</a></h3>
-			<p><i>Feb 13 & 14 2016</i></p>
-               <p>
-				<a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-					Venue: Hindu Temple of Atlanta
-				</a>
-			</p>					
-			<img  class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
-			<img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
-			<img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
-			<img class="desktop" src="events/2016/composersDay/muthuswami-dikshithar.png"  />
-			<img class="mobile" src="events/2016/composersDay/trinity.jpg" />
-			<br/>
-			<br/>
-			<div>
-				<emp>
-					<a href="events/2016/composersDay/2016-composers-day-program.pdf">
-						Download Composers Day Program&nbsp;&nbsp;<i class="fa fa-download"></i>
-					</a>
-				</emp><br/>
-				<emp>
-					<a href="events/2016/composersDay/2016-composers-day-participants-list.pdf">
-						Download Composers Day Participants List&nbsp;&nbsp;<i class="fa fa-download"></i>
-					</a>
-				</emp>
-			</div>
-                	<p>
-				  For more details refer <a href="events#composersDay">here</a> 
-	                 </p>
-		</div>
-<!-- Composer's Day -->
 <!-- carnatic mela -->
 		<div class="list-concert-box">
 		<h3><a href="events#carnatic-mela">Carnatic Mela</a></h3>
@@ -88,9 +58,6 @@
 		</div>
 <!-- Violin Workshop -->
 		<br/>
-		<?php 
-			include( CAMAGA_ROOT . "concerts/upcoming.php"); 
-		?>	
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
 

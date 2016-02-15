@@ -11,20 +11,177 @@
 			?>
 			<div id="content">
 		<h2>Upcoming Events</h2>
+<!-- carnatic mela 2016 -->
+		<h3><a name="carnatic-mela">Carnatic Mela 2016</a></h3>
+		<p><i>Sat April 9, 2016</i></p>
+               <p>
+			<a target="_blank" href="http://maps.google.com/?q=Chinmaya Niketan">
+				Venue:  <br/>
+				Chinmaya Niketan<br/>
+				Sri Rama Temple<br/>
+				5511 Williams Road Norcross GA<br/>
+			</a>
+		</p>
+		<p>
+			CAMAGA is organizing a Carnatic Mela.  The event is being organized to celebrate the centenary of Bharat Ratna Smt. M. S. Subbulakshmi, the illustrious musician. 
+		</p>
+
+		<p>
+			The objective of the Mela is to encourage younger members of the community learning music to participate in enjoyable and yet simple music-related activities
+			 (e.g. choir singing, quiz program, debate, and more).  The Mela would also include items that adults can participate (the adults group activities will be independent
+			 of the kids’ group activities).  Since the purpose of the Mela is make participation enjoyable and not stressful, the format, unlike a music competition,
+			will have no <emp>winners or losers</emp>.
+  		</p>
+ 		<p>
+			The event starts at 10 A.M. (with registration starting at 9:30 AM).  The Mela is scheduled for a total of seven hours including an hour of lunch break.  The Mela 
+			also includes a concert, Nrithya Katha, and dance.  Carnatica Brothers – Sri Shashikiran and Sri Ganesh would be joined by Upanyasa exponent Smt. Suchitra 
+			and Bharatanatyam exponent, Ms. Smitha Madhav.  The concert would be thematic, celebrating the memory of Smt. M. S. Subbulakshmi.  The artists will be accompanied
+			on the violin by B. Raghavendra and on the Mridangam by Thiruvarur Bakthavatsalam.   At the end of the concert, certificates of `appreciation will be awarded by 
+			Carnatica to the participants in the Mela.
+		</p>
+		<p>
+			The concepts list given below describes the various events that are under consideration.
+		</p>
+		<h4>Carnatic Mela Concepts</h4>
+		<ol style="padding-left: 1.1em;">
+			<li>
+				<h5>Show case Local Talent</h5>
+				Three young performers (chosen in advance; the rules for the selection process will be announced soon) will perform, each for 15 minutes;
+				we suggest that they focus on compositions that were popularized by Smt. M. S.  Subbulakshmi.
+			</li>
+			<li>
+				<h5>Carnatic Choir</h5>
+				Local teachers will take the lead in putting together a choir; the participants can include both the teachers and their students or others they choose.
+				Only two groups would perform and each group would be assigned twenty minutes maximum time
+			</li>
+			<li>
+				<h5>Quiz, anthrakshari or multi-media presentation</h5>
+			a kids group with a maximum of 4 participants (and a separate group of adults with 4 participants).  A multimedia quiz on Carnatic music would be conducted by the artists.  If no member from a group is able to answer a quiz question, the question will be opened to the audience participation. 				
+			</li>
+			<li>
+				<h5>Musical Pattimandram</h5>
+				30 minutes max including for the moderator to summarize.  Two groups of three individuals (only younger individuals) will debate against each other;  the topics are wide open – Bhakthi or Melody in Smt. M. S. Amma’s performance; Carnatic music as passion or career, how do we made Carnatic Music youth friendly or what makes MS a Carnatic Icon; we welcome suggestions for other interesting topics ). 
+			</li>
+			<li>
+				<h5>Raga Repertoire (time permitting)</h5>
+				Two young individuals group (less than 15 years of age) and two adults group will be formed (the young and adult groups will participate separately).  A member from a group will pick from a box, a slip of paper on which is written a song’s name.  One of the three participants from the group will identify the raga; sing the arohanam and avarohanam of the raga and a few phrases and lines from the composition.  Points will be awarded to each group.  Similar process will be used for the adults groups.
+			</li>
+			<li>
+				<h5>Concert, Nrithya Katha, and the Dance</h5>
+			</li>
+			<li>
+				<h5>Awarding of certificates</h5>
+			</li>
+		</ol>
+		<h4>Rules</h4>
+		<ol style="padding-left: 1.1em;">
+			<li>
+				Individuals (both young kids and adults) must send in a
+				<emp>
+					<a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
+						Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i>
+					</a>
+				</emp>
+			</li>
+			<li>
+				A registration fee of $25 must be paid by non-members
+			</li>
+			<li>
+				Since both the time available and the number of participants for each theme is limited,
+				registrations will be accepted on first come first basis.
+			</li>
+			<li>
+				Participant of a registration will be assigned only to the theme he/she has indicated as
+				the first preference.
+			</li>
+			<li>
+				Initially, a participant will be restricted to one theme only.
+			</li>
+			<li>
+				If, later, there are opening in any of the other themes, CAMAGA may give a participant a
+				second theme also.  Participants for this will be chosen by a lottery.
+			</li>
+		</ol>
+		<p>
+		If you have any questions or suggestion, you may send an email to sriramr@bellsouth.net
+		</p>
+		<div>
+			<emp>
+				<a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
+				      Download Registration Form for Carnatic Mela&nbsp;&nbsp;<i class="fa fa-download"></i>
+				</a>
+			</emp>
+		</div>
+		<div>
+			<emp>
+				<a href="events/2016/carnatic-mela/2016-carnatic-mela-announcement.docx">
+				      Download Carnatic Mela Announcement&nbsp;&nbsp;<i class="fa fa-download"></i>
+				</a>
+			</emp>
+		</div>
+		<br/>
+<!-- carnatic mela 2016 -->
+<!-- violin workshop 2016 -->
+		<h3><a name="violinWorkshop">Vocal and Violin workshop</a></h3>
+		<h4> by illustrious violinist Sri Ganesh</h4>
+		<p><i>June 18 - 24, 2016</i></p>
+		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
+		<p>
+			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA.
+			The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta. 
+		</p>
+
+		<p>
+			This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.  
+			We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.  
+			Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.  
+		</p>
+               <p>
+			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
+				Venue:  <br/>
+				KA Academy of Indian Music & Dance<br/>
+				2731 Sandy Plains Rd, Suite #156<br/>
+				Marietta, GA, 30066<br/>
+			</a>	
+		</p>	
+ 		<p>
+			The workshop will be offered to independent groups
+			<ol style="padding-left: 1.1em;">
+				<li>Vocal – seniors</li>
+				<li>Vocal – juniors (who have learnt at the least a few Varnams and Kritis)</li>
+				<li>Violin Seniors</li>
+				<li>Violin – juniors (who have had training in violin and are proficient in a few varnams and kritis)</li>
+			</ol>
+		</p>
+		<p>
+			The seniors, Vocal and Violin, would receive two hours of training per day while, juniors (grouped in to batches of 5 to 7 students), would receive one hour of training per batch per day.  
+			Consequently, the number of registrants for the entire workshop will be restricted.
+			The registration fee per participant for the one week session is $250 and it is payable in advance.  
+			If you are interested in registering, please send an email to camaga.atlanta@gmail.com.  
+			Because of the restrictions on the number of registrants, we will accept request for registration until the maximum participant for each group is reached (first come first served based on the date and time of receipt of the email.
+		</p>
+		<div>
+			<emp>
+				<a href="events/2016/violinWorkshop/2016-violin-workshop-registration-form.docx">
+				      Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fa fa-download"></i>
+				</a>
+			</emp>
+		</div>
+<!-- violin workshop 2016 -->
+		<br/>
+			<h2>Past Events</h2>
+<article class="collapsible">
+
 <!-- composers day 2016 -->
 
-		<h3><a name="composersDay">Composers' Day 2016</a></h3>
-		<p><i>Feb 13 & 14 2016</i></p>
+		<h3>Composers' Day 2016</h3>
+		<p>Feb 13 & 14 2016</p>
         <p>
 			<a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
 					Venue: Hindu Temple of Atlanta
 			</a>
 		</p>					
-		<img class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
-		<img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
-		<img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
-		<img class="desktop" src="events/2016/composersDay/muthuswami-dikshithar.png"  />
-		<img class="mobile" src="events/2016/composersDay/trinity.jpg" />
+		<img src="events/2016/composersDay/trinity.jpg" />
 
 		<h4>Documents</h4>
 		<div>
@@ -191,166 +348,8 @@
 	</div> <!-- songlist -->
 
 <!-- composers day 2016 -->
-<!-- carnatic mela 2016 -->
-		<h3><a name="carnatic-mela">Carnatic Mela 2016</a></h3>
-		<p><i>Sat April 9, 2016</i></p>
-               <p>
-			<a target="_blank" href="http://maps.google.com/?q=Chinmaya Niketan">
-				Venue:  <br/>
-				Chinmaya Niketan<br/>
-				Sri Rama Temple<br/>
-				5511 Williams Road Norcross GA<br/>
-			</a>	
-		</p>	
-		<p>
-			CAMAGA is organizing a Carnatic Mela.  The event is being organized to celebrate the centenary of Bharat Ratna Smt. M. S. Subbulakshmi, the illustrious musician. 
-		</p>
-
-		<p>
-			The objective of the Mela is to encourage younger members of the community learning music to participate in enjoyable and yet simple music-related activities
-			 (e.g. choir singing, quiz program, debate, and more).  The Mela would also include items that adults can participate (the adults group activities will be independent
-			 of the kids’ group activities).  Since the purpose of the Mela is make participation enjoyable and not stressful, the format, unlike a music competition, 
-			will have no <emp>winners or losers</emp>.
-  		</p>
- 		<p>
-			The event starts at 10 A.M. (with registration starting at 9:30 AM).  The Mela is scheduled for a total of seven hours including an hour of lunch break.  The Mela 
-			also includes a concert, Nrithya Katha, and dance.  Carnatica Brothers – Sri Shashikiran and Sri Ganesh would be joined by Upanyasa exponent Smt. Suchitra 
-			and Bharatanatyam exponent, Ms. Smitha Madhav.  The concert would be thematic, celebrating the memory of Smt. M. S. Subbulakshmi.  The artists will be accompanied
-			on the violin by B. Raghavendra and on the Mridangam by Thiruvarur Bakthavatsalam.   At the end of the concert, certificates of `appreciation will be awarded by 
-			Carnatica to the participants in the Mela.
-		</p>
-		<p>
-			The concepts list given below describes the various events that are under consideration.  
-		</p>
-		<h4>Carnatic Mela Concepts</h4>
-		<ol style="padding-left: 1.1em;">
-			<li>
-				<h5>Show case Local Talent</h5>
-				Three young performers (chosen in advance; the rules for the selection process will be announced soon) will perform, each for 15 minutes; 
-				we suggest that they focus on compositions that were popularized by Smt. M. S.  Subbulakshmi.
-			</li>
-			<li>
-				<h5>Carnatic Choir</h5>
-				Local teachers will take the lead in putting together a choir; the participants can include both the teachers and their students or others they choose.
-				Only two groups would perform and each group would be assigned twenty minutes maximum time
-			</li>
-			<li>
-				<h5>Quiz, anthrakshari or multi-media presentation</h5>
-			a kids group with a maximum of 4 participants (and a separate group of adults with 4 participants).  A multimedia quiz on Carnatic music would be conducted by the artists.  If no member from a group is able to answer a quiz question, the question will be opened to the audience participation. 				
-			</li>
-			<li>
-				<h5>Musical Pattimandram</h5>
-				30 minutes max including for the moderator to summarize.  Two groups of three individuals (only younger individuals) will debate against each other;  the topics are wide open – Bhakthi or Melody in Smt. M. S. Amma’s performance; Carnatic music as passion or career, how do we made Carnatic Music youth friendly or what makes MS a Carnatic Icon; we welcome suggestions for other interesting topics ). 
-			</li>
-			<li>
-				<h5>Raga Repertoire (time permitting)</h5>
-				Two young individuals group (less than 15 years of age) and two adults group will be formed (the young and adult groups will participate separately).  A member from a group will pick from a box, a slip of paper on which is written a song’s name.  One of the three participants from the group will identify the raga; sing the arohanam and avarohanam of the raga and a few phrases and lines from the composition.  Points will be awarded to each group.  Similar process will be used for the adults groups.
-			</li>
-			<li>
-				<h5>Concert, Nrithya Katha, and the Dance</h5>
-			</li>
-			<li>
-				<h5>Awarding of certificates</h5>
-			</li>
-		</ol>
-		<h4>Rules</h4>
-		<ol style="padding-left: 1.1em;">
-			<li>
-				Individuals (both young kids and adults) must send in a
-				<emp>
-					<a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
-						Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i>
-					</a>
-				</emp>
-			</li>
-			<li>
-				A registration fee of $25 must be paid by non-members
-			</li>
-			<li>
-				Since both the time available and the number of participants for each theme is limited, 
-				registrations will be accepted on first come first basis.
-			</li>
-			<li>
-				Participant of a registration will be assigned only to the theme he/she has indicated as
-				the first preference.
-			</li>
-			<li>
-				Initially, a participant will be restricted to one theme only.
-			</li>
-			<li>
-				If, later, there are opening in any of the other themes, CAMAGA may give a participant a
-				second theme also.  Participants for this will be chosen by a lottery.
-			</li>
-		</ol>
-		<p>	
-		If you have any questions or suggestion, you may send an email to sriramr@bellsouth.net
-		</p>
-		<div>
-			<emp>
-				<a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
-				      Download Registration Form for Carnatic Mela&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-		<div>
-			<emp>
-				<a href="events/2016/carnatic-mela/2016-carnatic-mela-announcement.docx">
-				      Download Carnatic Mela Announcement&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-		<br/>
-<!-- carnatic mela 2016 -->
-<!-- violin workshop 2016 -->
-		<h3><a name="violinWorkshop">Vocal and Violin workshop</a></h3>
-		<h4> by illustrious violinist Sri Ganesh</h4>
-		<p><i>June 18 - 24, 2016</i></p>
-		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
-		<p>
-			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA.
-			The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta. 
-		</p>
-
-		<p>
-			This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.  
-			We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.  
-			Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.  
-		</p>
-               <p>
-			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
-				Venue:  <br/>
-				KA Academy of Indian Music & Dance<br/>
-				2731 Sandy Plains Rd, Suite #156<br/>
-				Marietta, GA, 30066<br/>
-			</a>	
-		</p>	
- 		<p>
-			The workshop will be offered to independent groups
-			<ol style="padding-left: 1.1em;">
-				<li>Vocal – seniors</li>
-				<li>Vocal – juniors (who have learnt at the least a few Varnams and Kritis)</li>
-				<li>Violin Seniors</li>
-				<li>Violin – juniors (who have had training in violin and are proficient in a few varnams and kritis)</li>
-			</ol>
-		</p>
-		<p>
-			The seniors, Vocal and Violin, would receive two hours of training per day while, juniors (grouped in to batches of 5 to 7 students), would receive one hour of training per batch per day.  
-			Consequently, the number of registrants for the entire workshop will be restricted.
-			The registration fee per participant for the one week session is $250 and it is payable in advance.  
-			If you are interested in registering, please send an email to camaga.atlanta@gmail.com.  
-			Because of the restrictions on the number of registrants, we will accept request for registration until the maximum participant for each group is reached (first come first served based on the date and time of receipt of the email.
-		</p>
-		<div>
-			<emp>
-				<a href="events/2016/violinWorkshop/2016-violin-workshop-registration-form.docx">
-				      Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-<!-- violin workshop 2016 -->
-		<br/>
-			<h2>Past Events</h2>
-<article  class="collapsible">
+</article>
+<article class="collapsible">
 			<h3>Atlanta Carnatic Samraat - Sep 19, 2015</h3>
 			<p>
 				Below are the results from the <a href="http://sangeethsamraat.com/">Sangeeth Samraat Carnatic Premier League</a> regional event held at Hindu Temple of Atlanta, Riverdale on September 18 & September 19, 2015.
@@ -1091,7 +1090,7 @@ video of the performance.
 						$('*', this).hide();
 						headingE.prepend('<i class="fa fa-caret-right"></i>').show();
 					}
-					var icon = $("i", this);
+					var icon = $("i.fa-caret-right", this);
 					icon.show();
 					icon.parents().show();
 				});
