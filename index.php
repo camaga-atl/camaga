@@ -10,9 +10,6 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
-		<?php
-			include( CAMAGA_ROOT . "concerts/upcoming.php");
-		?>
 		<h2>Upcoming Events</h2>
 <!-- carnatic mela -->
 		<div class="list-concert-box">
@@ -58,257 +55,29 @@
 		</div>
 <!-- Violin Workshop -->
 		<br/>
+		<?php
+			include( CAMAGA_ROOT . "concerts/upcoming.php");
+		?>
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
-
-			<img src="data/events/201509190800/thumbs/01.jpg"
-				data-image="data/events/201509190800/01.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/events/201509190800/thumbs/02.jpg"
-				data-image="data/events/201509190800/02.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/events/201509190800/thumbs/03.jpg"
-				data-image="data/events/201509190800/03.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/events/201509190800/thumbs/04.jpg"
-				data-image="data/events/201509190800/04.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/events/201509190800/thumbs/05.jpg"
-				data-image="data/events/201509190800/05.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/events/201509190800/thumbs/06.jpg"
-				data-image="data/events/201509190800/06.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/events/201509190800/thumbs/07.jpg"
-				data-image="data/events/201509190800/07.jpg"
-				data-description="Sep 18 & 19, 2015 - Sangeeth Samraat">
-
-			<img src="data/concerts/201505301600/thumbs/IMG_0458.JPG"
-				data-image="data/concerts/201505301600/IMG_0458.JPG"
-				data-description="May 30, 2015 - Dr. Ram Sriram, Madurai T.N.Seshagopalan & Jayshankar Balan">
-
-			<img src="data/concerts/201505301600/thumbs/IMG_0448.JPG"
-				data-image="data/concerts/201505301600/IMG_0448.JPG"
-				data-description="May 30, 2015 - Madurai T.N.Seshagopalan">
-
-			<img src="data/concerts/201505301600/thumbs/IMG_0439.JPG"
-				data-image="data/concerts/201505301600/IMG_0439.JPG"
-				data-description="May 30, 2015 - Jayshankar Balan">
-
-			<img src="data/concerts/201505301600/thumbs/IMG_0461.JPG"
-				data-image="data/concerts/201505301600/IMG_0461.JPG"
-				data-description="May 30, 2015 - Dr. Ram Sriram">
-
-			<img src="data/concerts/201505091600/thumbs/IMG_0369.JPG"
-				data-image="data/concerts/201505091600/IMG_0369.JPG"
-				data-description="May 9, 2015 - Thiruvizah Viju S.Anand, Dr. Cherthala K.N.Renganatha Shama & R.Sankaranarayanan">
-
-			<img src="data/concerts/201505091600/thumbs/IMG_0410.JPG"
-				data-image="data/concerts/201505091600/IMG_0410.JPG"
-				data-description="May 9, 2015 - Dr. Cherthala K.N.Renganatha Shama">
-
-			<img src="data/concerts/201505091600/thumbs/IMG_0428.JPG"
-				data-image="data/concerts/201505091600/IMG_0428.JPG"
-				data-description="May 9, 2015 - Thiruvizah Viju S.Anand">
-
-			<img src="data/concerts/201505091600/thumbs/IMG_0405.JPG"
-				data-image="data/concerts/201505091600/IMG_0405.JPG"
-				data-description="May 9, 2015 - R.Sankaranarayanan">
-
-			<img src="data/concerts/201504251600/thumbs/IMG_0765.JPG"
-				data-image="data/concerts/201504251600/IMG_0765.JPG"
-				data-description="April 25, 2015 - Trivandrum Balaji, K.V.Gopalakrishnan, Bharat Sundar & V.V.S.Murari">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-01.JPG"
-				data-image="data/concerts/201504181600/20150417-01.JPG"
-				data-description="April 18, 2015 - Thanjavur Murugaboopathy, Chitraveena Ganesh, Shashikiran, Dushyanth Sridhar & Trivandrum N.Sampath">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-02.JPG"
-				data-image="data/concerts/201504181600/20150417-02.JPG"
-				data-description="April 18, 2015 - Dushyanth Sridhar">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-03.JPG"
-				data-image="data/concerts/201504181600/20150417-03.JPG"
-				data-description="April 18, 2015 - Carnatica Brothers - Chitraveena Ganesh and Shashikiran">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-04.JPG"
-				data-image="data/concerts/201504181600/20150417-04.JPG"
-				data-description="April 18, 2015 - Chitraveena Ganesh">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-05.JPG"
-				data-image="data/concerts/201504181600/20150417-05.JPG"
-				data-description="April 18, 2015 - Shashikiran">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-06.JPG"
-				data-image="data/concerts/201504181600/20150417-06.JPG"
-				data-description="April 18, 2015 - Trivandrum N.Sampath">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-07.JPG"
-				data-image="data/concerts/201504181600/20150417-07.JPG"
-				data-description="April 18, 2015 - Thanjavur Murugaboopathy">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-08.JPG"
-				data-image="data/concerts/201504181600/20150417-08.JPG"
-				data-description="April 18, 2015 - Thanjavur Murugaboopathy, Chitraveena Ganesh, Shashikiran, Dushyanth Sridhar & Trivandrum N.Sampath">
-
-			<img src="data/concerts/201504181600/thumbs/20150417-09.JPG"
-				data-image="data/concerts/201504181600/20150417-09.JPG"
-				data-description="April 18, 2015 - Dushyanth Sridhar">
-
-			<img src="data/events/201504181300/thumbs/01.jpg"
-				data-image="data/events/201504181300/01.jpg"
-				data-description="April 18, 2015 - Anand Krishnan and Nishad Sankar in Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/02.jpg"
-				data-image="data/events/201504181300/02.jpg"
-				data-description="April 18, 2015 - Samhita, Anand Krishnan and Nishad Sankar in Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/03.jpg"
-				data-image="data/events/201504181300/03.jpg"
-				data-description="April 18, 2015 - Shashi Kiran conducting Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/04.jpg"
-				data-image="data/events/201504181300/04.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/05.jpg"
-				data-image="data/events/201504181300/05.jpg"
-				data-description="April 18, 2015 - Shobana, Sree Varshini and Nitheya Shree in Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/06.jpg"
-				data-image="data/events/201504181300/06.jpg"
-				data-description="April 18, 2015 - Shobana, Sree Varshini and Nitheya Shree in Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/07.jpg"
-				data-image="data/events/201504181300/07.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/08.jpg"
-				data-image="data/events/201504181300/08.jpg"
-				data-description="April 18, 2015 - Sree Varshini in Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/09.jpg"
-				data-image="data/events/201504181300/09.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/10.jpg"
-				data-image="data/events/201504181300/10.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/11.jpg"
-				data-image="data/events/201504181300/11.jpg"
-				data-description="April 18, 2015 - Trivandrum N. Sampath & Ganesh tallying scores for Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/12.jpg"
-				data-image="data/events/201504181300/12.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/13.jpg"
-				data-image="data/events/201504181300/13.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/14.jpg"
-				data-image="data/events/201504181300/14.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/15.jpg"
-				data-image="data/events/201504181300/15.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/16.jpg"
-				data-image="data/events/201504181300/16.jpg"
-				data-description="April 18, 2015 - Carnatic Mela Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/17.jpg"
-				data-image="data/events/201504181300/17.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/18.jpg"
-				data-image="data/events/201504181300/18.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Swara Jamming">
-
-			<img src="data/events/201504181300/thumbs/19.jpg"
-				data-image="data/events/201504181300/19.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Raga Repertoire">
-
-			<img src="data/events/201504181300/thumbs/20.jpg"
-				data-image="data/events/201504181300/20.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Raga Repertoire">
-
-			<img src="data/events/201504181300/thumbs/21.jpg"
-				data-image="data/events/201504181300/21.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Raga Repertoire">
-
-			<img src="data/events/201504181300/thumbs/22.jpg"
-				data-image="data/events/201504181300/22.jpg"
-				data-description="April 18, 2015 - Shruthi Santhanam in Raga Repertoire">
-
-			<img src="data/events/201504181300/thumbs/23.jpg"
-				data-image="data/events/201504181300/23.jpg"
-				data-description="April 18, 2015 - Shashank Ganeshan, Sandhya and Shruti Santhanam in Raga Repertoire">
-
-			<img src="data/events/201504181300/thumbs/24.jpg"
-				data-image="data/events/201504181300/24.jpg"
-				data-description="April 18, 2015 - Shivani - Mohana Ragam Repertoire">
-
-			<img src="data/events/201504181300/thumbs/25.jpg"
-				data-image="data/events/201504181300/25.jpg"
-				data-description="April 18, 2015 - Trivandrum N. Sampath">
-
-			<img src="data/events/201504181300/thumbs/26.jpg"
-				data-image="data/events/201504181300/26.jpg"
-				data-description="April 18, 2015 - Neha - Vasanta Ragam Repertoire">
-
-			<img src="data/events/201504181300/thumbs/27.jpg"
-				data-image="data/events/201504181300/27.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Kriti Identification">
-
-			<img src="data/events/201504181300/thumbs/28.jpg"
-				data-image="data/events/201504181300/28.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Kriti Identification Audience Participation">
-
-			<img src="data/events/201504181300/thumbs/29.jpg"
-				data-image="data/events/201504181300/29.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Kriti Identification">
-
-			<img src="data/events/201504181300/thumbs/30.jpg"
-				data-image="data/events/201504181300/30.jpg"
-				data-description="April 18, 2015 - Shashank Ganeshan & Shruthi Santhanam">
-
-			<img src="data/events/201504181300/thumbs/31.jpg"
-				data-image="data/events/201504181300/31.jpg"
-				data-description="April 18, 2015 - Carnatic Mela - Quiz">
-
-			<img src="data/events/201504181300/thumbs/32.jpg"
-				data-image="data/events/201504181300/32.jpg"
-				data-description="April 18, 2015 - Carnatic Violin Choir">
-
-			<img src="data/events/201504181300/thumbs/33.jpg"
-				data-image="data/events/201504181300/33.jpg"
-				data-description="April 18, 2015 - Carnatic Violin Choir - Jassotha Balasubramaniam">
-
-			<img src="data/events/201504181300/thumbs/34.jpg"
-				data-image="data/events/201504181300/34.jpg"
-				data-description="April 18, 2015 - Carnatic Violin Choir">
-
-			<img src="data/events/201504181300/thumbs/35.jpg"
-				data-image="data/events/201504181300/35.jpg"
-				data-description="April 18, 2015 - Carnatic Violin Choir">
-
-			<img src="data/events/201504181300/thumbs/36.jpg"
-				data-image="data/events/201504181300/36.jpg"
-				data-description="April 18, 2015 - Carnatic Violin Choir">
-
-			<img src="data/concerts/201503151600/thumbs/20150315-Narmadha.jpg"
-				data-image="data/concerts/201503151600/20150315-Narmadha.jpg"
-				data-description="March 15, 2015 - Dr. M.Narmadha" />
-				
+			<img src="data/concerts/201603131600/thumbs/IMG_0002.jpg"
+				data-image="data/concerts/201603131600/IMG_0002.jpg"
+				data-description="Mar 13, 2016, Sikkil Gurucharan" />
+			<img src="data/concerts/201603131600/thumbs/IMG_0008.jpg"
+				data-image="data/concerts/201603131600/IMG_0008.jpg"
+				data-description="Mar 13, 2016, V.Sanjeev" />
+			<img src="data/concerts/201603131600/thumbs/IMG_0011.jpg"
+				data-image="data/concerts/201603131600/IMG_0011.jpg"
+				data-description="Mar 13, 2016, Sikkil Gurucharan" />
+			<img src="data/concerts/201603131600/thumbs/IMG_0016.jpg"
+				data-image="data/concerts/201603131600/IMG_0016.jpg"
+				data-description="Mar 13, 2016, Patri Satish Kumar, Sikkil Gurucharan & V.Sanjeev" />
+			<img src="data/concerts/201603131600/thumbs/IMG_0023.jpg"
+				data-image="data/concerts/201603131600/IMG_0023.jpg"
+				data-description="Mar 13, 2016, Patri Satish Kumar" />
+			<img src="data/concerts/201603131600/thumbs/IMG_0027.jpg"
+				data-image="data/concerts/201603131600/IMG_0027.jpg"
+				data-description="Mar 13, 2016, Patri Satish Kumar, Sikkil Gurucharan & V.Sanjeev" />
 	    </div>
 
 <br/></br/>
