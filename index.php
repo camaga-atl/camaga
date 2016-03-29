@@ -10,6 +10,25 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
+<!-- shruthi and Shashank -->
+		<div class="list-concert-box">
+		<h2>Shashank and Shruthi - Congratulations</h2>
+                <p>
+			CAMAGA congratulates our Atlanta’s young musicians, Shruthi  	Santhanam and  Shashank Ganeshan.   At the Aradhana celebrations  and music competition currently being hosted  by the Cleveland Aradhana committtee, Shruthi and Shashank, between the two of them, have won five awards in various categories such as Pallavi rendition, Alapana, Neraval, and Swara Kalpana.  Shruthi and Shashank, you have made Atlanta community proud.  CAMAGA also appreciates their gurus and their parents for their contribution in making this recognition possible.		
+</p>
+			<div id="clevelandgallery" >
+			<img src="data/events/201603290800/thumbs/Shruthi_ReceivesAward.JPG"
+				data-image="data/events/201603290800/Shruthi_ReceivesAward.JPG"
+ />
+			<img src="data/events/201603290800/thumbs/Shruthi_Shashank.JPG"
+				data-image="data/events/201603290800/Shruthi_Shashank.JPG"
+ />
+			<img src="data/events/201603290800/thumbs/VVS_Shashank.JPG"
+				data-image="data/events/201603290800/VVS_Shashank.JPG"
+ />
+                      </div>
+		</div>
+<!-- carnatic mela -->
 		<h2>Upcoming Events</h2>
 <!-- carnatic mela -->
 		<div class="list-concert-box">
@@ -144,6 +163,18 @@
 					slider_scale_mode: "down",
 					theme_hide_panel_under_width: 4000,
 					slider_enable_text_panel: true
+				});	
+			}); 		
+		</script>
+	<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script> 
+	<script type="text/javascript"> 			
+			jQuery(document).ready(function(){ 
+				jQuery("#clevelandgallery").unitegallery({
+					gallery_theme: "carousel",
+					theme_navigation_enable_play: false,
+                                        carousel_space_between_tiles: 200,
+					carousel_navigation_numtiles:1,
+                                        carousel_autoplay: false		
 				});	
 			}); 		
 		</script>
