@@ -390,6 +390,8 @@ function UGStripPanel() {
 
 	function __________EVENTS___________() {
 	}
+	;
+
 	/**
 	 * on next button click
 	 */
@@ -529,7 +531,7 @@ function UGStripPanel() {
 		
 		g_panelBase.destroy();
 		g_objStrip.destroy();
-	};
+	}
 	
 	
 	/**
@@ -538,7 +540,7 @@ function UGStripPanel() {
 	this.getOrientation = function() {
 
 		return (g_temp.orientation);
-	};
+	}
 
 	/**
 	 * set panel orientation (left, right, top, bottom)
@@ -546,7 +548,7 @@ function UGStripPanel() {
 	this.setOrientation = function(orientation) {
 
 		g_temp.orientation = orientation;
-	};
+	}
 
 	
 	/**
@@ -554,28 +556,28 @@ function UGStripPanel() {
 	 */
 	this.init = function(gallery, customOptions) {
 		initPanel(gallery, customOptions);
-	};
+	}
 
 	/**
 	 * run the panel
 	 */
 	this.run = function() {
 		runPanel();
-	};
+	}
 
 	/**
 	 * place panel html
 	 */
 	this.setHtml = function(parentContainer) {
 		setPanelHtml(parentContainer);
-	};
+	}
 
 	/**
 	 * get the panel element
 	 */
 	this.getElement = function() {
 		return (g_objPanel);
-	};
+	}
 
 	/**
 	 * get panel size object
@@ -585,7 +587,7 @@ function UGStripPanel() {
 		var objSize = g_functions.getElementSize(g_objPanel);
 
 		return (objSize);
-	};
+	}
 
 	/**
 	 * set panel width (for horizonal type)
@@ -594,7 +596,7 @@ function UGStripPanel() {
 
 		g_temp.panelWidth = width;
 
-	};
+	}
 
 	/**
 	 * set panel height (for vertical type)
@@ -603,7 +605,7 @@ function UGStripPanel() {
 
 		g_temp.panelHeight = height;
 
-	};
+	}
 
 	/**
 	 * resize the panel
@@ -612,30 +614,30 @@ function UGStripPanel() {
 		t.setWidth(newWidth);
 		setElementsSize();
 		placeElements();
-	};
+	}
 	
-	this.__________Functions_From_Base_____ = function() {};
+	this.__________Functions_From_Base_____ = function() {}
 	
 	/**
 	 * tells if the panel is closed
 	 */
 	this.isPanelClosed = function() {		
 		return (g_panelBase.isPanelClosed());
-	};
+	}
 
 	/**
 	 * get closed panel destanation
 	 */
 	this.getClosedPanelDest = function() {
 		return g_panelBase.getClosedPanelDest();
-	};
+	}	
 		
 	/**
 	 * open the panel
 	 */	
 	this.openPanel = function(noAnimation) {
 		g_panelBase.openPanel(noAnimation);
-	};
+	}
 	
 	
 	/**
@@ -643,21 +645,21 @@ function UGStripPanel() {
 	 */
 	this.closePanel = function(noAnimation) {
 		g_panelBase.closePanel(noAnimation);		
-	};
+	}	
 	
 	/**
 	 * set the panel opened state
 	 */
 	this.setOpenedState = function(originalPos) {
 		g_panelBase.setOpenedState(originalPos);
-	};
+	}
 
 	/**
 	 * set the panel that it's in closed state, and set original pos for opening later
 	 */
 	this.setClosedState = function(originalPos) {
 		g_panelBase.setClosedState(originalPos);	
-	};
+	}
 	
 	/**
 	 * set custom thumbs of the strip
@@ -666,7 +668,7 @@ function UGStripPanel() {
 		
 		g_objStrip.setCustomThumbs(funcSetHtml);
 	
-	};
+	}
 	
 	/**
 	 * set panel disabled at start

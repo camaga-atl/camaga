@@ -14,7 +14,7 @@
 		
 		var api = new UG_API(objGallery);
 		return(api);
-	};
+	}
 
 
 	/**
@@ -35,7 +35,7 @@
 			errorMessage += "<br><br> Please find and remove this jquery.js include and the gallery will work. <br> * There should be only one jquery.js include before all other js includes in the page.";			
 		}
 		
-		errorMessage = "<div style='font-size:16px;color:#BC0C06;max-width:900px;border:1px solid red;padding:10px;'>" + errorMessage + "</div>";
+		errorMessage = "<div style='font-size:16px;color:#BC0C06;max-width:900px;border:1px solid red;padding:10px;'>" + errorMessage + "</div>"
 		
 		jQuery(galleryID).show().html(errorMessage);
 		
@@ -126,11 +126,11 @@ function UniteGalleryMain(){
 		isRunFirstTime: true,
 		originalOptions: {}
 	};
-
-
-
-function __________INIT_GALLERY_______() {
-	}
+	
+	
+	
+	function __________INIT_GALLERY_______(){};
+	
 	/**
 	 * get theme function from theme name
 	 */
@@ -162,8 +162,9 @@ function __________INIT_GALLERY_______() {
 			 g_options.gallery_theme = eval(themeFunction);
 		 }catch(e){
 			 //check registered themes
-		 }
-		g_options.gallery_theme = eval(themeFunction);
+		 };
+		 
+		 g_options.gallery_theme = eval(themeFunction);
 		 
 		 //init the theme
 		 
@@ -727,7 +728,7 @@ function __________INIT_GALLERY_______() {
 		
 		objItem.imageWidth = objSize.width;
 		objItem.imageHeight = objSize.height;		
-	};
+	}
 	
 	/**
 	 * check and fill image size in item object
@@ -746,7 +747,7 @@ function __________INIT_GALLERY_______() {
 		
 		objItem.imageWidth = objSize.width;
 		objItem.imageHeight = objSize.height;		
-	};
+	}
 	
 	
 	/**
@@ -803,7 +804,7 @@ function __________INIT_GALLERY_______() {
 		
 		g_temp.isFreestyleMode = true;
 	
-	};
+	}
 	
 	/**
 	 * init the thumbs panel object
@@ -834,7 +835,7 @@ function __________INIT_GALLERY_______() {
 		options = jQuery.extend(options, g_temp.objCustomOptions);
 		
 		g_objThumbs.init(t, options);
-	};
+	}
 
 	
 	/**
@@ -850,13 +851,14 @@ function __________INIT_GALLERY_______() {
 		 
 		 g_objSlider = new UGSlider();		 
 		 g_objSlider.init(t, customOptions, optionsPrefix);
-	};
-
-
-function __________END_INIT_GALLERY_______() {
 	}
-	function __________EVENTS_____________() {
-	}
+	
+	
+	function __________END_INIT_GALLERY_______(){};
+	
+	function __________EVENTS_____________(){};
+
+	
 	/**
 	 * on gallery mousewheel event handler, advance the thumbs
 	 */
@@ -1052,16 +1054,16 @@ function __________END_INIT_GALLERY_______() {
 			 jQuery(document).keydown(onKeyPress);
 		 		 
 	}
-
-
-function __________GENERAL_______() {
-	}
+		
+	
+	function __________GENERAL_______(){};
+	
 	/**
 	 * get items array
 	 */
 	this.getArrItems = function(){
 		return g_arrItems;
-	};
+	}
 	
 	/**
 	 * get gallery objects
@@ -1079,7 +1081,7 @@ function __________GENERAL_______() {
 		};
 		
 		return(objects);
-	};
+	}
 	
 	/**
 	 * get slider object
@@ -1087,7 +1089,7 @@ function __________GENERAL_______() {
 	this.getObjSlider = function(){
 		
 		return(g_objSlider);
-	};
+	}
 	
 	
 	/**
@@ -1105,7 +1107,7 @@ function __________GENERAL_______() {
 		}
 		
 		return(g_arrItems[index]);
-	};
+	}
 	
 	
 	/**
@@ -1116,7 +1118,7 @@ function __________GENERAL_______() {
 		var objSize = t.getSize();
 				
 		return(objSize.width);
-	};
+	}
 	
 	/**
 	 * get gallery height
@@ -1126,7 +1128,7 @@ function __________GENERAL_______() {
 		var objSize = t.getSize();
 		
 		return(objSize.height);
-	};
+	}
 	
 	
 	/**
@@ -1141,7 +1143,7 @@ function __________GENERAL_______() {
 		objSize.orig_ratio = objSize.orig_width / objSize.orig_height;
 		
 		return(objSize);
-	};
+	}
 	
 	/**
 	 * get gallery ID
@@ -1151,7 +1153,7 @@ function __________GENERAL_______() {
 		var id = g_galleryID.replace("#","");
 			
 		return(id);
-	};
+	}
 	
 	/**
 	 * get next item by current index (or current object)
@@ -1177,7 +1179,7 @@ function __________GENERAL_______() {
 		var objItem = g_arrItems[nextIndex];
 		
 		return(objItem);			
-	};
+	}
 	
 	
 	/**
@@ -1200,7 +1202,7 @@ function __________GENERAL_______() {
 		var objItem = g_arrItems[prevIndex];
 		
 		return(objItem);
-	};
+	}
 	
 	
 	
@@ -1210,7 +1212,7 @@ function __________GENERAL_______() {
 	this.getSelectedItem = function(){
 		
 		return(g_selectedItem);
-	};
+	}
 	
 	
 	/**
@@ -1218,7 +1220,7 @@ function __________GENERAL_______() {
 	 */
 	this.getNumItems = function(){
 		return g_numItems;
-	};
+	}
 	
 	/**
 	 * get true if the current item is last
@@ -1228,7 +1230,7 @@ function __________GENERAL_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1238,7 +1240,7 @@ function __________GENERAL_______() {
 		if(g_selectedItemIndex == 0)
 			return(true);
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1246,7 +1248,7 @@ function __________GENERAL_______() {
 	 */
 	this.getOptions = function(){
 		return g_options;
-	};
+	}
 	
 	
 	/**
@@ -1254,10 +1256,10 @@ function __________GENERAL_______() {
 	 */
 	this.getElement = function(){
 		return(g_objWrapper);
-	};
+	}
 	
 	
-	this.___________SET_CONTROLS___________ = function(){};
+	this.___________SET_CONTROLS___________ = function(){}
 	
 	/**
 	 * set next button element
@@ -1270,7 +1272,7 @@ function __________GENERAL_______() {
 		
 		g_functions.setButtonOnClick(objButton, t.nextItem);
 		
-	};
+	}
 	
 	
 	/**
@@ -1284,7 +1286,7 @@ function __________GENERAL_______() {
 		
 		g_functions.setButtonOnClick(objButton, t.prevItem);
 				
-	};
+	}
 	
 	
 	/**
@@ -1306,7 +1308,7 @@ function __________GENERAL_______() {
 			objButton.removeClass("ug-fullscreenmode");
 		});
 				
-	};
+	}
 	
 	
 	/**
@@ -1318,7 +1320,7 @@ function __________GENERAL_______() {
 		
 		g_objGallery.off(t.events.ENTER_FULLSCREEN);
 		g_objGallery.off(t.events.EXIT_FULLSCREEN);
-	};
+	}
 	
 	
 	/**
@@ -1339,7 +1341,7 @@ function __________GENERAL_______() {
 			objButton.removeClass("ug-stop-mode");
 		});
 		
-	};
+	}
 	
 	/**
 	 * destroy the play button
@@ -1348,7 +1350,7 @@ function __________GENERAL_______() {
 		g_functions.destroyButton(objButton);
 		g_objGallery.off(t.events.START_PLAY);
 		g_objGallery.off(t.events.STOP_PLAY);
-	};
+	}
 	
 	/**
 	 * set playing progress indicator
@@ -1356,7 +1358,7 @@ function __________GENERAL_______() {
 	this.setProgressIndicator = function(objProgress){
 		
 		g_temp.objProgress = objProgress;		
-	};
+	}
 	
 	
 	/**
@@ -1372,10 +1374,10 @@ function __________GENERAL_______() {
 			
 		});
 		
-	};
+	}
 	
 	
-	this.___________END_SET_CONTROLS___________ = function(){};
+	this.___________END_SET_CONTROLS___________ = function(){}
 	
 	
 	/**
@@ -1433,7 +1435,7 @@ function __________GENERAL_______() {
 		
 	}
 	
-	this.___________PLAY_MODE___________ = function(){};
+	this.___________PLAY_MODE___________ = function(){}
 	
 	/**
 	 * start play mode
@@ -1455,7 +1457,7 @@ function __________GENERAL_______() {
 		}
 		
 		g_objGallery.trigger(t.events.START_PLAY);
-	};
+	}
 	
 	
 	/**
@@ -1468,7 +1470,7 @@ function __________GENERAL_______() {
 		
 		g_temp.playTimePassed = 0;
 		g_temp.playTimeLastStep = jQuery.now();
-	};
+	}
 	
 	
 	/**
@@ -1483,7 +1485,7 @@ function __________GENERAL_______() {
 		clearInterval(g_temp.playHandle);
 		
 		g_objGallery.trigger(t.events.PAUSE_PLAYING);
-	};
+	}
 	
 	
 	/**
@@ -1498,7 +1500,7 @@ function __________GENERAL_______() {
 		g_temp.playTimeLastStep = jQuery.now();
 		g_temp.playHandle = setInterval(advanceNextStep, g_temp.playStepInterval);
 		
-	};
+	}
 	
 	
 	/**
@@ -1517,7 +1519,7 @@ function __________GENERAL_______() {
 		}
 		
 		g_objGallery.trigger(t.events.STOP_PLAY);
-	};
+	}
 	
 	
 	/**
@@ -1526,7 +1528,7 @@ function __________GENERAL_______() {
 	this.isPlayMode = function(){
 		
 		return(g_temp.isPlayMode);
-	};
+	}
 	
 	
 	/**
@@ -1538,9 +1540,9 @@ function __________GENERAL_______() {
 			t.startPlayMode();
 		else
 			t.stopPlayMode();
-	};
+	}
 	
-	this.___________END_PLAY_MODE___________ = function(){};
+	this.___________END_PLAY_MODE___________ = function(){}
 	
 	
 	/**
@@ -1565,7 +1567,7 @@ function __________GENERAL_______() {
 	this.setOptions = function(customOptions){
 		
 		g_options = jQuery.extend(g_options, customOptions);		
-	};
+	}
 	
 	
 	/**
@@ -1593,7 +1595,7 @@ function __________GENERAL_______() {
 		
 		g_objGallery.trigger(t.events.ITEM_CHANGE, objItem);
 				
-	};
+	}
 	
 	
 	/**
@@ -1615,7 +1617,7 @@ function __________GENERAL_______() {
 		//debugLine(newItemIndex,true);
 		
 		t.selectItem(newItemIndex);
-	};
+	}
 	
 	
 	/**
@@ -1639,7 +1641,7 @@ function __________GENERAL_______() {
 		
 		t.selectItem(newItemIndex);
 		
-	};
+	}
 	
 	
 	/**
@@ -1684,7 +1686,7 @@ function __________GENERAL_______() {
 			return(true);
 		
 		return(false);		
-	};
+	}
 	
 	
 	/**
@@ -1693,7 +1695,7 @@ function __________GENERAL_______() {
 	this.isFakeFullscreen = function(){
 		
 		return(g_temp.isFakeFullscreen);
-	};
+	}
 	
 	
 	/**
@@ -1709,7 +1711,7 @@ function __________GENERAL_______() {
 		if(isSupported == false)
 			toFakeFullScreen();
 		
-	};
+	}
 	
 	
 	/**
@@ -1722,7 +1724,7 @@ function __________GENERAL_______() {
 		else
 			g_functions.exitFullscreen();
 						
-	};
+	}
 	
 	/**
 	 * toggle fullscreen
@@ -1735,7 +1737,7 @@ function __________GENERAL_______() {
 			t.exitFullScreen();
 		}
 		
-	};
+	}
 	
 	/**
 	 * resize the gallery
@@ -1752,7 +1754,7 @@ function __________GENERAL_______() {
 		if(!noevent && noevent !== true)
 			onGalleryResized();
 		
-	};
+	}
 
 	
 	/**
@@ -1787,7 +1789,7 @@ function __________GENERAL_______() {
 		removeAllSizeClasses(objWrapper);
 		if(addClass != "")
 			objWrapper.addClass(addClass);
-	};
+	}
 	
 	
 	/**
@@ -1799,11 +1801,12 @@ function __________GENERAL_______() {
 			return(true);
 		
 		return(false);
-	};
-
-
-function __________END_GENERAL_______() {
 	}
+	
+	
+	function __________END_GENERAL_______(){};
+		
+	
 	/**
 	 * run the gallery
 	 */

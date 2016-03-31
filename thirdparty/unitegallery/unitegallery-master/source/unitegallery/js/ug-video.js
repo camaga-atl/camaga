@@ -36,7 +36,7 @@ function UGWistiaAPI(){
 		g_ugFunctions.loadJs("fast.wistia.com/assets/external/E-v1.js", true);
 		
 		g_ugWistiaAPI.isAPILoaded = true;		
-	};
+	}
 
 	
 	/**
@@ -111,21 +111,21 @@ function UGWistiaAPI(){
 			break;		
 		}
 		
-	};
+	}
 	
 	/**
 	 * do pause command
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	/**
 	 * do play command
 	 */
 	this.play = function(){
 		t.doCommand("play");
-	};
+	}
 	
 	
 	/**
@@ -150,7 +150,7 @@ function UGWistiaAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 	
 	/**
@@ -204,7 +204,7 @@ function UGSoundCloudAPI(){
 		g_ugFunctions.loadJs("w.soundcloud.com/player/api.js", true);
 		
 		g_ugSoundCloudAPI.isAPILoaded = true;		
-	};
+	}
 	
 	/**
 	 * actually put the video
@@ -290,7 +290,7 @@ function UGSoundCloudAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 
 	/**
@@ -313,7 +313,7 @@ function UGSoundCloudAPI(){
 			break;
 		}
 		
-	};
+	}	
 	
 	
 	/**
@@ -321,7 +321,7 @@ function UGSoundCloudAPI(){
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	
 	/**
@@ -329,7 +329,7 @@ function UGSoundCloudAPI(){
 	 */
 	this.play = function(){
 		t.doCommand("play");
-	};
+	}
 	
 	/**
 	 * destroy the player
@@ -378,7 +378,7 @@ function UGHtml5MediaAPI(){
 		g_ugFunctions.loadCss("cdnjs.cloudflare.com/ajax/libs/mediaelement/2.13.2/css/mediaelementplayer.min.css", true);
 		
 		g_ugHtml5MediaAPI.isAPILoaded = true;		
-	};
+	}
 	
 	/**
 	 * return true if the mediaelement is active
@@ -403,7 +403,7 @@ function UGHtml5MediaAPI(){
 		var htmlID = divID + "_video";
 		var htmlAutoplay = "";
 		if(isAutoplay && isAutoplay === true)
-			htmlAutoplay = "autoplay='autoplay'";
+			htmlAutoplay = "autoplay='autoplay'"
 		
 		var htmlPoster = "";
 		if(data.posterImage)
@@ -493,7 +493,7 @@ function UGHtml5MediaAPI(){
 			
 		}, 500);
 		
-	};
+	}
 
 	/**
 	 * do some command
@@ -515,7 +515,7 @@ function UGHtml5MediaAPI(){
 			break;
 		}
 		
-	};
+	}	
 	
 	
 	/**
@@ -523,7 +523,7 @@ function UGHtml5MediaAPI(){
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	
 	/**
@@ -567,7 +567,7 @@ function UGVimeoAPI(){
 		g_ugFunctions.loadJs("f.vimeocdn.com/js/froogaloop2.min.js", true);
 		
 		g_ugVimeoAPI.isAPILoaded = true;		
-	};
+	}
 	
 	
 	
@@ -665,21 +665,21 @@ function UGVimeoAPI(){
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * do pause command
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	/**
 	 * do play command
 	 */
 	this.play = function(){
 		t.doCommand("play");
-	};
+	}
 	
 	/**
 	 * desrtoy the player and empty the div
@@ -696,7 +696,7 @@ function UGVimeoAPI(){
 			jQuery("#" + g_lastCotnainerID).html("");			
 		}
 	
-	};
+	}
 	
 	/**
 	 * put the vimeo video
@@ -720,7 +720,7 @@ function UGVimeoAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 	
 	/**
@@ -732,7 +732,7 @@ function UGVimeoAPI(){
 			return(true);
 	
 		return(false);
-	};
+	}	
 	
 	/**
 	 * change the video
@@ -745,7 +745,7 @@ function UGVimeoAPI(){
 		g_cueChangeAutoplay = isAutoplay;
 		
 		g_player.api("loadVideo", videoID);
-	};
+	}
 	
 	
 	/**
@@ -776,7 +776,7 @@ function UGYoutubeAPI(){
 	
 	var g_options = {
 			video_youtube_showinfo: true
-	};
+	}
 	
 	this.events = {
 		START_PLAYING: "start_playing",
@@ -836,7 +836,7 @@ function UGYoutubeAPI(){
 	 */
 	this.setOptions = function(objOptions){
 		g_options = jQuery.extend(g_options, objOptions);
-	};
+	}
 	
 	
 	/**
@@ -860,7 +860,7 @@ function UGYoutubeAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 	
 	/**
@@ -916,7 +916,7 @@ function UGYoutubeAPI(){
 				
 		g_ugYoutubeAPI.isAPILoaded = true;	
 		
-	};
+	}
 	
 	
 	/**
@@ -963,21 +963,21 @@ function UGYoutubeAPI(){
 				}
 			break;
 		}
-	};
+	}
 	
 	/**
 	 * play video
 	 */
 	this.play = function(){
 		t.doCommand("play");		
-	};
+	}
 	
 	/**
 	 * stop the video
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	/**
 	 * destroy player
@@ -987,14 +987,14 @@ function UGYoutubeAPI(){
 			g_isPlayerReady = false;		
 			g_player.destroy();
 		}
-	};
+	}
 	
 	/**
 	 * stop the video and seek to start
 	 */
 	this.stopToBeginning = function(){
 		t.doCommand("stopToBeginning");
-	};
+	}
 	
 	/**
 	 * change the video
@@ -1008,7 +1008,7 @@ function UGYoutubeAPI(){
 			g_player.loadVideoById(videoID, 0, "default");
 		else
 			g_player.cueVideoById(videoID, 0, "default");
-	};
+	}
 	
 	
 	/**
@@ -1020,7 +1020,7 @@ function UGYoutubeAPI(){
 			return(true);
 	
 		return(false);
-	};
+	}
 	
 		
 	
@@ -1083,7 +1083,7 @@ function UGVideoPlayer(){
 		if(isStandAloneMode && isStandAloneMode == true)
 			g_temp.standAloneMode = true;
 		
-	};
+	}
 	
 	
 	/**
@@ -1121,11 +1121,11 @@ function UGVideoPlayer(){
 		
 		if(g_temp.standAloneMode == false && g_options.video_enable_closebutton == true)
 			g_objButtonClose = g_objPlayer.children(".ug-videoplayer-button-close")
-	};
-
-
-	function __________EVENTS___________() {
 	}
+
+	
+	function __________EVENTS___________(){};	
+	
 	/**
 	 * on close button click event
 	 */
@@ -1217,7 +1217,7 @@ function UGVideoPlayer(){
 		jQuery(g_wistiaAPI).off(g_wistiaAPI.events.START_PLAYING, onPlayStart);
 		jQuery(g_wistiaAPI).off(g_wistiaAPI.events.STOP_PLAYING, onPlayStop);
 		
-	};
+	}
 	
 	
 	/**
@@ -1226,7 +1226,7 @@ function UGVideoPlayer(){
 	this.initEvents = function(){
 		
 		initEvents();
-	};
+	}
 	
 	
 	/**
@@ -1239,7 +1239,7 @@ function UGVideoPlayer(){
 		if(g_objButtonClose)
 			g_functions.placeElement(g_objButtonClose, "right", "top");
 		
-	};
+	}
 	
 	
 	/**
@@ -1247,14 +1247,14 @@ function UGVideoPlayer(){
 	 */
 	this.setPosition = function(left, top){
 		g_functions.placeElement(g_objPlayer, left, top);
-	};
+	}
 	
 	/**
 	 * get video player object for placing
 	 */
 	this.getObject = function(){
 		return(g_objPlayer);
-	};
+	}
 	
 	
 	/**
@@ -1271,7 +1271,7 @@ function UGVideoPlayer(){
 			g_objButtonClose.show();
 				
 		g_objThis.trigger(t.events.SHOW);
-	};
+	}
 		
 	
 	/**
@@ -1287,7 +1287,7 @@ function UGVideoPlayer(){
 		g_objPlayer.hide();
 		
 		g_objThis.trigger(t.events.HIDE);
-	};
+	}
 
 	
 	/**
@@ -1296,7 +1296,7 @@ function UGVideoPlayer(){
 	this.isVisible = function(){
 		
 		return g_objPlayer.is(":visible");
-	};
+	}
 	
 	/**
 	 * stop and hide other elements except some
@@ -1359,7 +1359,7 @@ function UGVideoPlayer(){
 		else{
 			g_youtubeAPI.putVideo(g_temp.youtubeInnerID, videoID, "100%", "100%", isAutoplay);
 		}
-	};
+	}
 	
 	
 	/**
@@ -1379,7 +1379,7 @@ function UGVideoPlayer(){
 		else
 			g_vimeoAPI.putVideo(g_temp.vimeoPlayerID, videoID, "100%", "100%", isAutoplay);
 
-	};
+	}
 	
 	
 	/**
@@ -1405,7 +1405,7 @@ function UGVideoPlayer(){
 		
 		g_html5API.putVideo(g_temp.html5PlayerID, data, "100%", "100%", isAutoplay);
 		
-	};
+	}
 
 	/**
 	 * play sound cloud
@@ -1420,7 +1420,7 @@ function UGVideoPlayer(){
 		g_objSoundCloud.show();
 		
 		g_soundCloudAPI.putSound(g_temp.soundCloudPlayerID, trackID, "100%", "100%", isAutoplay);
-	};
+	}
 	
 	
 	/**

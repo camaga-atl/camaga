@@ -109,10 +109,11 @@ function UGLightbox(){
 			lightbox_textpanel_padding_left: 10,			//the padding left of the textpanel
 			lightbox_textpanel_padding_right: 10
 	};
-
-
-function __________GENERAL_________() {
-	}
+	
+	
+	function __________GENERAL_________(){};
+	
+	
 	/**
 	 * init the gallery
 	 */
@@ -292,9 +293,10 @@ function __________GENERAL_________() {
 		g_objSlider.refreshSlideItems();
 	
 	}
-
-function __________WIDE_ONLY_________() {
-	}
+	
+	function __________WIDE_ONLY_________(){};
+	
+	
 	/**
 	 * handle panel height according text height
 	 */
@@ -373,10 +375,10 @@ function __________WIDE_ONLY_________() {
 		handlePanelHeight();
 		g_objTextPanel.positionPanel();
 	}
+	
+	
+	function __________COMPACT_ONLY_________(){};
 
-
-function __________COMPACT_ONLY_________() {
-	}
 	/**
 	 * handle slider image height according the textpanel height
 	 * refresh the slider if the height is not in place
@@ -674,9 +676,10 @@ function __________COMPACT_ONLY_________() {
 		if(g_temp.isArrowsInside == true)
 			hideArrows();
 	}
-
-function __________COMMON_________() {
-	}
+	
+	function __________COMMON_________(){};
+	
+	
 	/**
 	 * position the elements
 	 */
@@ -914,10 +917,11 @@ function __________COMMON_________() {
 		if(g_objNumbers)
 			g_objNumbers.stop().fadeTo(g_temp.fadeDuration, 1);
 	}
-
-
-function __________EVENTS_________() {
-	}
+	
+	
+	function __________EVENTS_________(){};
+	
+	
 	/**
 	 * on start dragging slider item event. hide the elements
 	 */
@@ -1186,7 +1190,7 @@ function __________EVENTS_________() {
 		 g_temp.lastMouseX = event.pageX;
 		 g_temp.lastMouseY = event.pageY;
 		
-		 var isHidden = isArrowsHidden();
+		 var isHidden = isArrowsHidden()
 		 
 		 
 		 if(isHidden == true && isMouseInsideImage() && g_objSlider.isAnimating() == false){
@@ -1320,7 +1324,7 @@ function __________EVENTS_________() {
 		g_objGallery.off(g_gallery.events.GALLERY_KEYPRESS, onKeyPress);
 		
 		g_objWrapper.off("mousewheel");
-	};
+	}
 	
 	
 	/**
@@ -1391,7 +1395,7 @@ function __________EVENTS_________() {
 		if(g_objSlider)
 			g_objSlider.startSlideAction();
 		
-	};
+	}
 	
 	
 	/**
@@ -1417,7 +1421,7 @@ function __________EVENTS_________() {
 			});
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -1426,7 +1430,7 @@ function __________EVENTS_________() {
 	this.init = function(gallery, customOptions){
 		
 		initLightbox(gallery, customOptions);
-	};
+	}
 	
 	
 	/**
@@ -1455,7 +1459,7 @@ function __________EVENTS_________() {
 			switchToWide();
 		
 		putLightboxHtml();
-	};
+	}
 	
 	
 	/**

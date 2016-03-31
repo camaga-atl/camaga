@@ -133,9 +133,9 @@ function UGTheme_video(){
 		if(g_temp.putButtonsPanel == true){
 						
 			var html = "<div class='ug-video-buttons-panel'>";
-			html += "<div href='javascript:void(0)' class='ug-button-prev-video'></div>";
-			html += "<div href='javascript:void(0)' class='ug-button-next-video'></div>";
-			html += "</div>";
+			html += "<div href='javascript:void(0)' class='ug-button-prev-video'></div>"
+			html += "<div href='javascript:void(0)' class='ug-button-next-video'></div>"
+			html += "</div>"
 			
 			g_objWrapper.append(html);
 			
@@ -333,7 +333,7 @@ function UGTheme_video(){
 	this.run = function(){
 		
 		runTheme();
-	};
+	}
 	
 	
 	/**

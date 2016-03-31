@@ -83,21 +83,21 @@ function UG_API(gallery){
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * start playing 
 	 */
 	this.play = function(){		
 		g_gallery.startPlayMode();		
-	};
+	}
 	
 	/**
 	 * stop playing
 	 */
 	this.stop = function(){
 		g_gallery.stopPlayMode();
-	};
+	}
 	
 	
 	/**
@@ -105,7 +105,7 @@ function UG_API(gallery){
 	 */
 	this.togglePlay = function(){
 		g_gallery.togglePlayMode();
-	};
+	}
 	
 	
 	/**
@@ -113,14 +113,14 @@ function UG_API(gallery){
 	 */
 	this.enterFullscreen = function(){
 		g_gallery.toFullScreen();
-	};
+	}
 	
 	/**
 	 * exit fullscreen
 	 */
 	this.exitFullscreen = function(){
 		g_gallery.exitFullScreen();
-	};
+	}
 	
 	/**
 	 * toggle fullscreen
@@ -128,7 +128,7 @@ function UG_API(gallery){
 	this.toggleFullscreen = function(){
 		
 		g_gallery.toggleFullscreen();		
-	};
+	}
 	
 	
 	/**
@@ -140,7 +140,7 @@ function UG_API(gallery){
 			return(false);
 		
 		objSlider.zoomBack();
-	};
+	}
 	
 	
 	/**
@@ -153,7 +153,7 @@ function UG_API(gallery){
 			return(false);
 		
 		objSlider.zoomIn();		
-	};
+	}
 
 	/**
 	 * zoom in
@@ -165,14 +165,14 @@ function UG_API(gallery){
 			return(false);
 		
 		objSlider.zoomOut();		
-	};
+	}
 	
 	/**
 	 * next item
 	 */
 	this.nextItem = function(){
 		g_gallery.nextItem();
-	};
+	}
 	
 	
 	/**
@@ -180,7 +180,7 @@ function UG_API(gallery){
 	 */
 	this.prevItem = function(){
 		g_gallery.prevItem();
-	};
+	}
 	
 	/**
 	 * go to some item by index (0-numItems)
@@ -189,7 +189,7 @@ function UG_API(gallery){
 		
 		g_gallery.selectItem(numItem);
 	
-	};
+	}
 	
 	
 	/**
@@ -201,7 +201,7 @@ function UG_API(gallery){
 			g_gallery.resize(width, height);
 		else
 			g_gallery.resize(width);
-	};
+	}
 	
 	
 	/**
@@ -213,7 +213,7 @@ function UG_API(gallery){
 		var output = convertItemDataForOutput(data);
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -222,7 +222,7 @@ function UG_API(gallery){
 	this.getNumItems = function(){
 		var numItems = g_gallery.getNumItems();
 		return(numItems);
-	};
+	}
 	
 	/**
 	 * refresh gallery with another options

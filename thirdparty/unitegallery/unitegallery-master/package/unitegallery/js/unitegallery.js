@@ -85,21 +85,21 @@ function UG_API(gallery){
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * start playing 
 	 */
 	this.play = function(){		
 		g_gallery.startPlayMode();		
-	};
+	}
 	
 	/**
 	 * stop playing
 	 */
 	this.stop = function(){
 		g_gallery.stopPlayMode();
-	};
+	}
 	
 	
 	/**
@@ -107,7 +107,7 @@ function UG_API(gallery){
 	 */
 	this.togglePlay = function(){
 		g_gallery.togglePlayMode();
-	};
+	}
 	
 	
 	/**
@@ -115,14 +115,14 @@ function UG_API(gallery){
 	 */
 	this.enterFullscreen = function(){
 		g_gallery.toFullScreen();
-	};
+	}
 	
 	/**
 	 * exit fullscreen
 	 */
 	this.exitFullscreen = function(){
 		g_gallery.exitFullScreen();
-	};
+	}
 	
 	/**
 	 * toggle fullscreen
@@ -130,7 +130,7 @@ function UG_API(gallery){
 	this.toggleFullscreen = function(){
 		
 		g_gallery.toggleFullscreen();		
-	};
+	}
 	
 	
 	/**
@@ -142,7 +142,7 @@ function UG_API(gallery){
 			return(false);
 		
 		objSlider.zoomBack();
-	};
+	}
 	
 	
 	/**
@@ -155,7 +155,7 @@ function UG_API(gallery){
 			return(false);
 		
 		objSlider.zoomIn();		
-	};
+	}
 
 	/**
 	 * zoom in
@@ -167,14 +167,14 @@ function UG_API(gallery){
 			return(false);
 		
 		objSlider.zoomOut();		
-	};
+	}
 	
 	/**
 	 * next item
 	 */
 	this.nextItem = function(){
 		g_gallery.nextItem();
-	};
+	}
 	
 	
 	/**
@@ -182,7 +182,7 @@ function UG_API(gallery){
 	 */
 	this.prevItem = function(){
 		g_gallery.prevItem();
-	};
+	}
 	
 	/**
 	 * go to some item by index (0-numItems)
@@ -191,7 +191,7 @@ function UG_API(gallery){
 		
 		g_gallery.selectItem(numItem);
 	
-	};
+	}
 	
 	
 	/**
@@ -203,7 +203,7 @@ function UG_API(gallery){
 			g_gallery.resize(width, height);
 		else
 			g_gallery.resize(width);
-	};
+	}
 	
 	
 	/**
@@ -215,7 +215,7 @@ function UG_API(gallery){
 		var output = convertItemDataForOutput(data);
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -224,7 +224,7 @@ function UG_API(gallery){
 	this.getNumItems = function(){
 		var numItems = g_gallery.getNumItems();
 		return(numItems);
-	};
+	}
 	
 	/**
 	 * refresh gallery with another options
@@ -264,14 +264,14 @@ function UGAviaControl(){
 	 */
 	this.enable = function(){
 		g_temp.isControlEnabled = true;
-	};
+	}
 	
 	/**
 	 * disable the control
 	 */
 	this.disable = function(){
 		g_temp.isControlEnabled = false;		
-	};
+	}
 	
 	/**
 	 * init function for avia controls
@@ -289,7 +289,7 @@ function UGAviaControl(){
 		g_isVertical = g_objects.isVertical;		
 				
 		initEvents();
-	};
+	}
 	
 	/**
 	 * get mouse position from event according the orientation
@@ -354,7 +354,7 @@ function UGAviaControl(){
 		jQuery("body").off("touchstart");
 		jQuery("body").off("mousemove");
 
-	};
+	}
 	
 	
 	/**
@@ -582,9 +582,9 @@ function UGCarousel(){
 			storedEventID: "carousel"
 	};
 
-
-	function __________GENERAL_________() {
-	}
+	
+	function __________GENERAL_________(){};
+	
 	/**
 	 * init the gallery
 	 */
@@ -741,11 +741,11 @@ function UGCarousel(){
 		
 		g_temp.isFirstTimeRun = false;
 	}
-
-
-
-function __________GETTERS_______() {
-	}
+	
+	
+	
+	function __________GETTERS_______(){};
+	
 	/**
 	 * get inner position
 	 */
@@ -777,7 +777,7 @@ function __________GETTERS_______() {
 	 */
 	function getNumTilesInSpace(space){
 		
-		var numItems = g_functions.getNumItemsInSpace(space, g_temp.tileWidth, g_options.carousel_space_between_tiles);
+		var numItems = g_functions.getNumItemsInSpace(space, g_temp.tileWidth, g_options.carousel_space_between_tiles)
 				
 		return(numItems);
 	}
@@ -900,10 +900,11 @@ function __________GETTERS_______() {
 		
 		return(numTiles);
 	}
-
-
-function __________OTHER_METHODS_______() {
-	}
+	
+	
+	function __________OTHER_METHODS_______(){};
+	
+	
 	/**
 	 * position existing tiles
 	 */
@@ -1171,11 +1172,11 @@ function __________OTHER_METHODS_______() {
 		fillSidesWithTiles();
 		
 	}
+	
+	
+	
+	function __________AUTOPLAY_______(){};
 
-
-
-function __________AUTOPLAY_______() {
-	}
 	/**
 	 * start autoplay
 	 */
@@ -1254,9 +1255,10 @@ function __________AUTOPLAY_______() {
 		}
 		
 	}
-
-function __________EVENTS_______() {
-	}
+	
+	function __________EVENTS_______(){};
+		
+	
 	/**
 	 * on touch start
 	 */
@@ -1409,7 +1411,7 @@ function __________EVENTS_______() {
 		g_objCarouselWrapper.off("mouseenter").off("mouseleave");
 		
 		g_objTileDesign.destroy();
-	};
+	}
 
 	
 	/**
@@ -1420,7 +1422,7 @@ function __________EVENTS_______() {
 			this.setMaxWidth(width);
 		
 		init(gallery, customOptions);
-	};
+	}
 
 	
 	/**
@@ -1429,7 +1431,7 @@ function __________EVENTS_______() {
 	this.setMaxWidth = function(width){
 		
 		g_temp.carouselMaxWidth = width;
-	};
+	}
 	
 	
 	/**
@@ -1437,21 +1439,21 @@ function __________EVENTS_______() {
 	 */
 	this.setHtml = function(objParent){
 		setHtml(objParent);
-	};
+	}
 	
 	/**
 	 * get the carousel element
 	 */
 	this.getElement = function(){
 		return g_objCarouselWrapper;
-	};
+	}
 	
 	/**
 	 * get tile design object
 	 */
 	this.getObjTileDesign = function(){
 		return(g_objTileDesign);
-	};
+	}
 	
 	
 	/**
@@ -1460,7 +1462,7 @@ function __________EVENTS_______() {
 	this.getEstimatedHeight = function(){
 		var height = g_options.tile_height + g_options.carousel_padding * 2;
 		return(height);
-	};
+	}
 	
 	
 	/**
@@ -1468,7 +1470,7 @@ function __________EVENTS_______() {
 	 */	
 	this.run = function(){
 		run();
-	};
+	}
 	
 	
 	/**
@@ -1488,7 +1490,7 @@ function __________EVENTS_______() {
 			numPrev = 0;
 		
 		scrollToTile(numPrev);
-	};
+	}
 	
 	
 	/**
@@ -1510,7 +1512,7 @@ function __________EVENTS_______() {
 			numNext = numTiles-1;
 	
 		scrollToTile(numNext);
-	};
+	}
 	
 	/**
 	 * set scroll left button
@@ -1518,7 +1520,7 @@ function __________EVENTS_______() {
 	this.setScrollLeftButton = function(objButton){
 		g_functions.setButtonMobileReady(objButton);
 		g_functions.setButtonOnClick(objButton, t.scrollLeft);
-	};
+	}
 	
 	
 	/**
@@ -1527,7 +1529,7 @@ function __________EVENTS_______() {
 	this.setScrollRightButton = function(objButton){
 		g_functions.setButtonMobileReady(objButton);
 		g_functions.setButtonOnClick(objButton, t.scrollRight);
-	};
+	}
 	
 	
 	/**
@@ -1556,7 +1558,7 @@ function __________EVENTS_______() {
 					stopAutoplay();
 				
 		});
-	};
+	}
 	
 	
 	/**
@@ -1695,7 +1697,7 @@ function UGFunctions(){
 		handle: null			//interval handle
 	};
 
-	this.z__________FULL_SCREEN___________ = function(){};
+	this.z__________FULL_SCREEN___________ = function(){}
 	
 	/**
 	 * normalize the percent, return always between 0 and 1
@@ -1709,7 +1711,7 @@ function UGFunctions(){
 			percent = 1;
 		
 		return(percent);
-	};
+	}
 	
 	
 	/**
@@ -1729,7 +1731,7 @@ function UGFunctions(){
 		  }
 		  
 		  return(true);
-	};
+	}	
 	
 	
 	/**
@@ -1751,7 +1753,7 @@ function UGFunctions(){
 		  }
 		  
 		  return(true);
-	};
+	}	
 
 	/**
 	 * cross browser attach even function
@@ -1777,7 +1779,7 @@ function UGFunctions(){
 		addEvent("mozfullscreenchange",document,func);
 		addEvent("webkitfullscreenchange",document,func);
 		addEvent("msfullscreenchange",document,func);
-	};
+	}
 	
 	
 	/**
@@ -1788,7 +1790,7 @@ function UGFunctions(){
 		var fullscreenElement = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement;
 		
 		return(fullscreenElement);
-	};
+	}
 
 	/**
 	 * return if fullscreen enabled
@@ -1801,11 +1803,11 @@ function UGFunctions(){
 			isFullScreen = false;
 		
 		return(isFullScreen);
-	};
+	}
 	
-	this.z__________END_FULL_SCREEN___________ = function(){};
+	this.z__________END_FULL_SCREEN___________ = function(){}
 	
-	this.z__________GET_PROPS___________ = function(){};
+	this.z__________GET_PROPS___________ = function(){}
 	
 	/**
 	 * get browser prefix, can be empty if not detected.
@@ -1831,7 +1833,7 @@ function UGFunctions(){
 	   
 	   g_browserPrefix = "";
 	   return "";
-	};
+	}
 	
 	/**
 	 * get image inside parent data by image (find parent and size)
@@ -1846,7 +1848,7 @@ function UGFunctions(){
 		var objData = t.getImageInsideParentData(objParent, objOrgSize.width, objOrgSize.height, scaleMode, objPadding);
 		
 		return(objData);
-	};
+	}
 	
 	
 	/**
@@ -1960,7 +1962,7 @@ function UGFunctions(){
 		objOutput.style = style;
 		
 		return(objOutput);		
-	};
+	}
 	
 	
 	/**
@@ -2001,7 +2003,7 @@ function UGFunctions(){
 		
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -2028,7 +2030,7 @@ function UGFunctions(){
 		output.y = Math.round(output.y);
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -2062,7 +2064,7 @@ function UGFunctions(){
 		}
 		
 		return(output);
-	};
+	}
 	
 	/**
 	 * get mouse element related point from page related point
@@ -2075,7 +2077,7 @@ function UGFunctions(){
 		var elementPoint = t.getElementLocalPoint(newPoint, element);
 		
 		return(elementPoint);
-	};
+	}
 	
 	
 	/**
@@ -2090,7 +2092,7 @@ function UGFunctions(){
 		elementPoint.y = Math.round(point.y - elementPos.top);
 		
 		return(elementPoint);
-	};
+	}
 	
 	/**
 	 * get image oritinal size
@@ -2104,7 +2106,7 @@ function UGFunctions(){
 		output.height = htmlImage.naturalHeight;
 		
 		return(output);
-	};
+	}
 
 	
 	/**
@@ -2117,7 +2119,7 @@ function UGFunctions(){
 		var ratio = size.width / originalSize.width;
 		
 		return(ratio);
-	};
+	}
 	
 	/**
 	 * tells if the image fit the parent (smaller then the parent)
@@ -2131,7 +2133,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * get size and position of some object
@@ -2154,7 +2156,7 @@ function UGFunctions(){
 		obj.bottom = obj.top + obj.height;
 		
 		return(obj);		
-	};
+	}
 	
 	
 	
@@ -2171,7 +2173,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -2189,7 +2191,7 @@ function UGFunctions(){
 			return(false);
 		
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -2234,13 +2236,13 @@ function UGFunctions(){
 		}
 		
 		return(pos);
-	};
+	}
 	
 	
-	this.z__________END_GET_PROPS___________ = function(){};
+	this.z__________END_GET_PROPS___________ = function(){}
 	
 	
-	this.z_________SET_ELEMENT_PROPS_______ = function(){};
+	this.z_________SET_ELEMENT_PROPS_______ = function(){}
 		
 	
 	/**
@@ -2352,7 +2354,7 @@ function UGFunctions(){
 		t.placeElement(objImage, newX, newY);
 		
 		return(true);
-	};
+	}
 	
 
 	
@@ -2432,7 +2434,7 @@ function UGFunctions(){
 			objCss.top = top;
 				
 		element.css(objCss);		
-	};
+	}
 	
 	
 	/**
@@ -2442,7 +2444,7 @@ function UGFunctions(){
 	this.placeElementInParentCenter = function(element){
 				
 		t.placeElement(element, "center", "middle");
-	};
+	}
 	
 	
 	/**
@@ -2457,10 +2459,10 @@ function UGFunctions(){
 			"top":top+"px",
 			"position":"absolute",
 			"margin":"0px"
-		};
+		}
 		
 		element.css(objCss);
-	};
+	}
 	
 	/**
 	 * set widht and height of the element
@@ -2470,11 +2472,11 @@ function UGFunctions(){
 	    var objCss = {
 			"width":width+"px",
 			"height":height+"px"
-		};
+		}
 		
 		element.css(objCss);	
 	
-	};
+	}
 	
 	/**
 	 * clone element size and position
@@ -2505,7 +2507,7 @@ function UGFunctions(){
 			objSize.top += offsetY;
 		
 		t.setElementSizeAndPosition(objTarget, objSize.left, objSize.top, objSize.width, objSize.height);
-	};
+	}
 	
 	
 	/**
@@ -2552,7 +2554,7 @@ function UGFunctions(){
 		//return the image just created
 		var objImage = objParent.children("img");
 		return(objImage);
-	};
+	}
 	
 	/**
 	 * scale image to fit parent, and place it into parent
@@ -2592,7 +2594,7 @@ function UGFunctions(){
 					  "height":fitHeight+"px",
 					  "left":posx+"px",
 					  "top":posy+"px"});		
-	};
+	}
 	
 	
 	/**
@@ -2610,13 +2612,13 @@ function UGFunctions(){
 		var objCss = {};
 		
 		if(obj.imageWidth !== null){
-			updateCss == true;
+			updateCss == true
 			objImage.removeAttr("width");
 			objCss["width"] = obj.imageWidth+"px";
 		}
 		
 		if(obj.imageHeight != null){
-			updateCss == true;
+			updateCss == true
 			objImage.removeAttr("height");
 			objCss["height"] = obj.imageHeight+"px";
 		}
@@ -2639,7 +2641,7 @@ function UGFunctions(){
 			objImage.css(objCss);			
 		}
 				
-	};
+	}
 	
 	
 	/**
@@ -2701,7 +2703,7 @@ function UGFunctions(){
 				
 		objImage.css(objCss);
 		
-	};
+	}
 	
 	
 	/**
@@ -2717,12 +2719,12 @@ function UGFunctions(){
 		if(element3)
 				element3.show().fadeTo(0,1);
 			
-	};
+	}
 	
 	
-	this.z_________END_SET_ELEMENT_PROPS_______ = function(){};
+	this.z_________END_SET_ELEMENT_PROPS_______ = function(){}
 	
-	this.z_________GALLERY_RELATED_FUNCTIONS_______ = function(){};
+	this.z_________GALLERY_RELATED_FUNCTIONS_______ = function(){}
 	
 	/**
 	 * disable button
@@ -2733,7 +2735,7 @@ function UGFunctions(){
 		
 		if(t.isButtonDisabled(objButton, className) == false)		
 			objButton.addClass(className);		
-	};
+	}
 
 	
 	/**
@@ -2760,7 +2762,7 @@ function UGFunctions(){
 		});
 		
 		return(modifiedOptions);
-	};
+	}
 	
 	
 	/**
@@ -2772,7 +2774,7 @@ function UGFunctions(){
 		
 		if(t.isButtonDisabled(objButton, className) == true)		
 			objButton.removeClass(className);
-	};
+	}
 	
 	
 	/**
@@ -2786,12 +2788,12 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
-	this.z_________END_GALLERY_RELATED_FUNCTIONS_______ = function(){};
+	this.z_________END_GALLERY_RELATED_FUNCTIONS_______ = function(){}
 
-	this.z_________MATH_FUNCTIONS_______ = function(){};
+	this.z_________MATH_FUNCTIONS_______ = function(){}
 	
 	/**
 	 * 
@@ -2813,7 +2815,7 @@ function UGFunctions(){
 		}
 		
 		return(value);
-	};
+	}
 
 	
 	/**
@@ -2826,7 +2828,7 @@ function UGFunctions(){
 		realValue = realMin + (settingMax - settingMin) * ratio;
 		
 		return(realValue);
-	};
+	}
 	
 	
 	/**
@@ -2837,19 +2839,19 @@ function UGFunctions(){
 		var distance = Math.round(Math.sqrt(Math.abs(((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)))));
 		
 		return distance;
-	};
+	}
 	
 	
 	/**
 	 * get center point of the 2 points
 	 */
 	this.getMiddlePoint = function(x1,y1,x2,y2){
-		var output = {};
+		var output = {}
 		output.x = x1 + Math.round((x2 - x1) / 2);
 		output.y = y1 + Math.round((y2 - y1) / 2);
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -2859,7 +2861,7 @@ function UGFunctions(){
 	this.getNumItemsInSpace = function(spaceSize, itemsSize, gapSize){
 		var numItems = Math.floor((spaceSize + gapSize) / (itemsSize + gapSize));
 		return(numItems);
-	};
+	}
 	
 	/**
 	 * get space (width in carousel for example) by num items, item size, and gap size
@@ -2867,7 +2869,7 @@ function UGFunctions(){
 	this.getSpaceByNumItems = function(numItems, itemSize, gapSize){
 		var space = numItems * itemSize + (numItems-1) * gapSize;
 		return(space);
-	};
+	}
 	
 	/**
 	 * get column x pos with even column sizes, start from 0
@@ -2877,7 +2879,7 @@ function UGFunctions(){
 		var posx = col * (colWidth + colGap);
 		
 		return posx;
-	};
+	}
 	
 
 	/**
@@ -2886,10 +2888,10 @@ function UGFunctions(){
 	this.getColByIndex = function(numCols, index){
 		var col = index % numCols;
 		return(col);
-	};
+	}
 	
 	
-	this.z_________EVENT_DATA_FUNCTIONS_______ = function(){};
+	this.z_________EVENT_DATA_FUNCTIONS_______ = function(){}
 
 	
 	/**
@@ -2936,7 +2938,7 @@ function UGFunctions(){
 			jQuery(document).scrollTop(scrollPos);
 		
 		return(objData.scrollDir);
-	};
+	}
 
 	
 	/**
@@ -2949,7 +2951,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -2980,7 +2982,7 @@ function UGFunctions(){
 		
 		g_temp.dataCache[id] = obj;
 		
-	};
+	}
 	
 	
 	/**
@@ -3006,7 +3008,7 @@ function UGFunctions(){
 			obj = jQuery.extend(obj, addData);
 		
 		g_temp.dataCache[id] = obj;
-	};
+	}
 	
 	/**
 	 * get stored event data
@@ -3036,7 +3038,7 @@ function UGFunctions(){
 		}
 		
 		return(obj);
-	};
+	}
 	
 	/**
 	 * return if click event approved according the done motion
@@ -3058,7 +3060,7 @@ function UGFunctions(){
 		
 		return(true);
 		
-	};
+	}
 	
 	
 	/**
@@ -3066,9 +3068,9 @@ function UGFunctions(){
 	 */
 	this.clearStoredEventData = function(id){
 		g_temp.dataCache[id] = null;
-	};
+	}
 	
-	this.z_________GENERAL_FUNCTIONS_______ = function(){};
+	this.z_________GENERAL_FUNCTIONS_______ = function(){}
 	
 	/**
 	 * get css size parameter, like width. if % given, leave it, if number without px - add px.
@@ -3078,7 +3080,7 @@ function UGFunctions(){
 			return(sizeParam + "px");
 			
 		return(sizeParam);
-	};
+	}
 	
 	/**
 	 * convert hex color to rgb color
@@ -3094,7 +3096,7 @@ function UGFunctions(){
 	    b = parseInt(hex.substring(4,6), 16);
 	    result = 'rgba('+r+','+g+','+b+','+opacity+')';
 	    return result;
-	};
+	}	
 	
 	/**
 	 * get timestamp to string
@@ -3106,7 +3108,7 @@ function UGFunctions(){
 		str += " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + ":" + d.getMilliseconds();
 		
 		return(str);
-	};
+	}
 	
 	/**
 	 * get touches array (if exists) from the event
@@ -3120,7 +3122,7 @@ function UGFunctions(){
 		}
 		
 		return(arrTouches);
-	};
+	}
 	
 	/**
 	 * extract touch positions from arrTouches
@@ -3140,7 +3142,7 @@ function UGFunctions(){
 		}
 		
 		return(arrOutput);
-	};
+	}
 	
 	
 	/**
@@ -3148,7 +3150,7 @@ function UGFunctions(){
 	 */
 	this.startTimeDebug = function(){
 		g_temp.starTime = jQuery.now();
-	};
+	}
 	
 	/**
 	 * show time debug
@@ -3159,7 +3161,7 @@ function UGFunctions(){
 		var diffTime = endTime - g_temp.starTime;
 		
 		debugLine({"Time Passed": diffTime},true);
-	};
+	}
 	
 	
 	/**
@@ -3173,7 +3175,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -3182,7 +3184,7 @@ function UGFunctions(){
 	this.isScrollbarExists = function(){
 		var hasScrollbar = window.innerWidth > document.documentElement.clientWidth;
 		return(hasScrollbar);
-	};
+	}
 	
 	
 	/**
@@ -3215,7 +3217,7 @@ function UGFunctions(){
 		}
 		
 		return(g_objProgress);
-	};
+	}
 	
 	
 	/**
@@ -3241,7 +3243,7 @@ function UGFunctions(){
 			return(false);
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -3249,7 +3251,7 @@ function UGFunctions(){
 	 */
 	this.registerTheme = function(themeName){
 		g_temp.arrThemes.push(themeName);
-	};
+	}
 	
 	/**
 	 * get themes array
@@ -3257,7 +3259,7 @@ function UGFunctions(){
 	this.getArrThemes = function(){
 		
 		return(g_temp.arrThemes);
-	};
+	}
 	
 	
 	/**
@@ -3269,7 +3271,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * get first registered theme name
@@ -3280,7 +3282,7 @@ function UGFunctions(){
 		var themeName = g_temp.arrThemes[0];
 		
 		return(themeName);
-	};
+	}
 
 	
 	/**
@@ -3301,7 +3303,7 @@ function UGFunctions(){
 		  }
 		  
 		  return(g_temp.isTouchDevice);
-	};
+	}
 	
 	
 	/**
@@ -3312,7 +3314,7 @@ function UGFunctions(){
 		var isDesktop = typeof window.screenX !== undefined && !t.isTouchDevice() ? true : false;		
 		
 		return(isDesktop);
-	};
+	}
 	
 	
 	/**
@@ -3340,7 +3342,7 @@ function UGFunctions(){
 			return(false);
 				
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -3358,7 +3360,7 @@ function UGFunctions(){
 		}
 		
 		g_temp.timeCache[handlerName] = setTimeout(onEventOver, timeLimit);
-	};
+	}
 	
 	
 	/**
@@ -3380,7 +3382,7 @@ function UGFunctions(){
 		g_temp.lastEventType = eventType;
 		
 		return(returnVal);
-	};
+	}
 	
 	/**
 	 * add some class on hover (hover event)
@@ -3395,7 +3397,7 @@ function UGFunctions(){
 			jQuery(this).removeClass(className);
 		});
 		
-	};
+	}
 	
 	/**
 	 * destroy hover effect on elements
@@ -3407,7 +3409,7 @@ function UGFunctions(){
 		element.off("touchstart");
 		element.off("touchend");
 		element.off("mousedown");
-	};
+	}
 	
 	/**
 	 * set button on click event, advanced
@@ -3429,7 +3431,7 @@ function UGFunctions(){
 			onClickFunction(objThis, event);
 		});
 		
-	};
+	}
 	
 	/**
 	 * load javascript dynamically
@@ -3443,7 +3445,7 @@ function UGFunctions(){
 		tag.src = url;
 		var firstScriptTag = document.getElementsByTagName('script')[0];
 		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);		
-	};
+	}
 	
 	/**
 	 * load css dymanically
@@ -3458,7 +3460,7 @@ function UGFunctions(){
 		  tag.setAttribute("href", url);
 		  
 		document.getElementsByTagName("head")[0].appendChild(tag);
-	};
+	}
 	
 	/**
 	 * add event listener with old browsers fallback
@@ -3471,7 +3473,7 @@ function UGFunctions(){
 		    	elem.attachEvent('on' + event, func);
 		  }
 		 
-	  };
+	  }	
 	
 	 
 	/**
@@ -3539,7 +3541,7 @@ function UGFunctions(){
 		});
 		
 		
-	};
+	}
 	
 	
 	/**
@@ -3561,7 +3563,7 @@ function UGFunctions(){
 
 		}, 300);
 		
-	};
+	}
 	
 	this.z_________END_GENERAL_FUNCTIONS_______ = function(){}
 	
@@ -3591,7 +3593,7 @@ var g_ugFunctions = new UGFunctions();
 		
 		var api = new UG_API(objGallery);
 		return(api);
-	};
+	}
 
 
 	/**
@@ -3612,7 +3614,7 @@ var g_ugFunctions = new UGFunctions();
 			errorMessage += "<br><br> Please find and remove this jquery.js include and the gallery will work. <br> * There should be only one jquery.js include before all other js includes in the page.";			
 		}
 		
-		errorMessage = "<div style='font-size:16px;color:#BC0C06;max-width:900px;border:1px solid red;padding:10px;'>" + errorMessage + "</div>";
+		errorMessage = "<div style='font-size:16px;color:#BC0C06;max-width:900px;border:1px solid red;padding:10px;'>" + errorMessage + "</div>"
 		
 		jQuery(galleryID).show().html(errorMessage);
 		
@@ -3703,11 +3705,11 @@ function UniteGalleryMain(){
 		isRunFirstTime: true,
 		originalOptions: {}
 	};
-
-
-
-function __________INIT_GALLERY_______() {
-	}
+	
+	
+	
+	function __________INIT_GALLERY_______(){};
+	
 	/**
 	 * get theme function from theme name
 	 */
@@ -3739,8 +3741,9 @@ function __________INIT_GALLERY_______() {
 			 g_options.gallery_theme = eval(themeFunction);
 		 }catch(e){
 			 //check registered themes
-		 }
-		g_options.gallery_theme = eval(themeFunction);
+		 };
+		 
+		 g_options.gallery_theme = eval(themeFunction);
 		 
 		 //init the theme
 		 
@@ -4304,7 +4307,7 @@ function __________INIT_GALLERY_______() {
 		
 		objItem.imageWidth = objSize.width;
 		objItem.imageHeight = objSize.height;		
-	};
+	}
 	
 	/**
 	 * check and fill image size in item object
@@ -4323,7 +4326,7 @@ function __________INIT_GALLERY_______() {
 		
 		objItem.imageWidth = objSize.width;
 		objItem.imageHeight = objSize.height;		
-	};
+	}
 	
 	
 	/**
@@ -4380,7 +4383,7 @@ function __________INIT_GALLERY_______() {
 		
 		g_temp.isFreestyleMode = true;
 	
-	};
+	}
 	
 	/**
 	 * init the thumbs panel object
@@ -4411,7 +4414,7 @@ function __________INIT_GALLERY_______() {
 		options = jQuery.extend(options, g_temp.objCustomOptions);
 		
 		g_objThumbs.init(t, options);
-	};
+	}
 
 	
 	/**
@@ -4427,13 +4430,14 @@ function __________INIT_GALLERY_______() {
 		 
 		 g_objSlider = new UGSlider();		 
 		 g_objSlider.init(t, customOptions, optionsPrefix);
-	};
-
-
-function __________END_INIT_GALLERY_______() {
 	}
-	function __________EVENTS_____________() {
-	}
+	
+	
+	function __________END_INIT_GALLERY_______(){};
+	
+	function __________EVENTS_____________(){};
+
+	
 	/**
 	 * on gallery mousewheel event handler, advance the thumbs
 	 */
@@ -4629,16 +4633,16 @@ function __________END_INIT_GALLERY_______() {
 			 jQuery(document).keydown(onKeyPress);
 		 		 
 	}
-
-
-function __________GENERAL_______() {
-	}
+		
+	
+	function __________GENERAL_______(){};
+	
 	/**
 	 * get items array
 	 */
 	this.getArrItems = function(){
 		return g_arrItems;
-	};
+	}
 	
 	/**
 	 * get gallery objects
@@ -4656,7 +4660,7 @@ function __________GENERAL_______() {
 		};
 		
 		return(objects);
-	};
+	}
 	
 	/**
 	 * get slider object
@@ -4664,7 +4668,7 @@ function __________GENERAL_______() {
 	this.getObjSlider = function(){
 		
 		return(g_objSlider);
-	};
+	}
 	
 	
 	/**
@@ -4682,7 +4686,7 @@ function __________GENERAL_______() {
 		}
 		
 		return(g_arrItems[index]);
-	};
+	}
 	
 	
 	/**
@@ -4693,7 +4697,7 @@ function __________GENERAL_______() {
 		var objSize = t.getSize();
 				
 		return(objSize.width);
-	};
+	}
 	
 	/**
 	 * get gallery height
@@ -4703,7 +4707,7 @@ function __________GENERAL_______() {
 		var objSize = t.getSize();
 		
 		return(objSize.height);
-	};
+	}
 	
 	
 	/**
@@ -4718,7 +4722,7 @@ function __________GENERAL_______() {
 		objSize.orig_ratio = objSize.orig_width / objSize.orig_height;
 		
 		return(objSize);
-	};
+	}
 	
 	/**
 	 * get gallery ID
@@ -4728,7 +4732,7 @@ function __________GENERAL_______() {
 		var id = g_galleryID.replace("#","");
 			
 		return(id);
-	};
+	}
 	
 	/**
 	 * get next item by current index (or current object)
@@ -4754,7 +4758,7 @@ function __________GENERAL_______() {
 		var objItem = g_arrItems[nextIndex];
 		
 		return(objItem);			
-	};
+	}
 	
 	
 	/**
@@ -4777,7 +4781,7 @@ function __________GENERAL_______() {
 		var objItem = g_arrItems[prevIndex];
 		
 		return(objItem);
-	};
+	}
 	
 	
 	
@@ -4787,7 +4791,7 @@ function __________GENERAL_______() {
 	this.getSelectedItem = function(){
 		
 		return(g_selectedItem);
-	};
+	}
 	
 	
 	/**
@@ -4795,7 +4799,7 @@ function __________GENERAL_______() {
 	 */
 	this.getNumItems = function(){
 		return g_numItems;
-	};
+	}
 	
 	/**
 	 * get true if the current item is last
@@ -4805,7 +4809,7 @@ function __________GENERAL_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -4815,7 +4819,7 @@ function __________GENERAL_______() {
 		if(g_selectedItemIndex == 0)
 			return(true);
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -4823,7 +4827,7 @@ function __________GENERAL_______() {
 	 */
 	this.getOptions = function(){
 		return g_options;
-	};
+	}
 	
 	
 	/**
@@ -4831,10 +4835,10 @@ function __________GENERAL_______() {
 	 */
 	this.getElement = function(){
 		return(g_objWrapper);
-	};
+	}
 	
 	
-	this.___________SET_CONTROLS___________ = function(){};
+	this.___________SET_CONTROLS___________ = function(){}
 	
 	/**
 	 * set next button element
@@ -4847,7 +4851,7 @@ function __________GENERAL_______() {
 		
 		g_functions.setButtonOnClick(objButton, t.nextItem);
 		
-	};
+	}
 	
 	
 	/**
@@ -4861,7 +4865,7 @@ function __________GENERAL_______() {
 		
 		g_functions.setButtonOnClick(objButton, t.prevItem);
 				
-	};
+	}
 	
 	
 	/**
@@ -4883,7 +4887,7 @@ function __________GENERAL_______() {
 			objButton.removeClass("ug-fullscreenmode");
 		});
 				
-	};
+	}
 	
 	
 	/**
@@ -4895,7 +4899,7 @@ function __________GENERAL_______() {
 		
 		g_objGallery.off(t.events.ENTER_FULLSCREEN);
 		g_objGallery.off(t.events.EXIT_FULLSCREEN);
-	};
+	}
 	
 	
 	/**
@@ -4916,7 +4920,7 @@ function __________GENERAL_______() {
 			objButton.removeClass("ug-stop-mode");
 		});
 		
-	};
+	}
 	
 	/**
 	 * destroy the play button
@@ -4925,7 +4929,7 @@ function __________GENERAL_______() {
 		g_functions.destroyButton(objButton);
 		g_objGallery.off(t.events.START_PLAY);
 		g_objGallery.off(t.events.STOP_PLAY);
-	};
+	}
 	
 	/**
 	 * set playing progress indicator
@@ -4933,7 +4937,7 @@ function __________GENERAL_______() {
 	this.setProgressIndicator = function(objProgress){
 		
 		g_temp.objProgress = objProgress;		
-	};
+	}
 	
 	
 	/**
@@ -4949,10 +4953,10 @@ function __________GENERAL_______() {
 			
 		});
 		
-	};
+	}
 	
 	
-	this.___________END_SET_CONTROLS___________ = function(){};
+	this.___________END_SET_CONTROLS___________ = function(){}
 	
 	
 	/**
@@ -5010,7 +5014,7 @@ function __________GENERAL_______() {
 		
 	}
 	
-	this.___________PLAY_MODE___________ = function(){};
+	this.___________PLAY_MODE___________ = function(){}
 	
 	/**
 	 * start play mode
@@ -5032,7 +5036,7 @@ function __________GENERAL_______() {
 		}
 		
 		g_objGallery.trigger(t.events.START_PLAY);
-	};
+	}
 	
 	
 	/**
@@ -5045,7 +5049,7 @@ function __________GENERAL_______() {
 		
 		g_temp.playTimePassed = 0;
 		g_temp.playTimeLastStep = jQuery.now();
-	};
+	}
 	
 	
 	/**
@@ -5060,7 +5064,7 @@ function __________GENERAL_______() {
 		clearInterval(g_temp.playHandle);
 		
 		g_objGallery.trigger(t.events.PAUSE_PLAYING);
-	};
+	}
 	
 	
 	/**
@@ -5075,7 +5079,7 @@ function __________GENERAL_______() {
 		g_temp.playTimeLastStep = jQuery.now();
 		g_temp.playHandle = setInterval(advanceNextStep, g_temp.playStepInterval);
 		
-	};
+	}
 	
 	
 	/**
@@ -5094,7 +5098,7 @@ function __________GENERAL_______() {
 		}
 		
 		g_objGallery.trigger(t.events.STOP_PLAY);
-	};
+	}
 	
 	
 	/**
@@ -5103,7 +5107,7 @@ function __________GENERAL_______() {
 	this.isPlayMode = function(){
 		
 		return(g_temp.isPlayMode);
-	};
+	}
 	
 	
 	/**
@@ -5115,9 +5119,9 @@ function __________GENERAL_______() {
 			t.startPlayMode();
 		else
 			t.stopPlayMode();
-	};
+	}
 	
-	this.___________END_PLAY_MODE___________ = function(){};
+	this.___________END_PLAY_MODE___________ = function(){}
 	
 	
 	/**
@@ -5142,7 +5146,7 @@ function __________GENERAL_______() {
 	this.setOptions = function(customOptions){
 		
 		g_options = jQuery.extend(g_options, customOptions);		
-	};
+	}
 	
 	
 	/**
@@ -5170,7 +5174,7 @@ function __________GENERAL_______() {
 		
 		g_objGallery.trigger(t.events.ITEM_CHANGE, objItem);
 				
-	};
+	}
 	
 	
 	/**
@@ -5192,7 +5196,7 @@ function __________GENERAL_______() {
 		//debugLine(newItemIndex,true);
 		
 		t.selectItem(newItemIndex);
-	};
+	}
 	
 	
 	/**
@@ -5216,7 +5220,7 @@ function __________GENERAL_______() {
 		
 		t.selectItem(newItemIndex);
 		
-	};
+	}
 	
 	
 	/**
@@ -5261,7 +5265,7 @@ function __________GENERAL_______() {
 			return(true);
 		
 		return(false);		
-	};
+	}
 	
 	
 	/**
@@ -5270,7 +5274,7 @@ function __________GENERAL_______() {
 	this.isFakeFullscreen = function(){
 		
 		return(g_temp.isFakeFullscreen);
-	};
+	}
 	
 	
 	/**
@@ -5286,7 +5290,7 @@ function __________GENERAL_______() {
 		if(isSupported == false)
 			toFakeFullScreen();
 		
-	};
+	}
 	
 	
 	/**
@@ -5299,7 +5303,7 @@ function __________GENERAL_______() {
 		else
 			g_functions.exitFullscreen();
 						
-	};
+	}
 	
 	/**
 	 * toggle fullscreen
@@ -5312,7 +5316,7 @@ function __________GENERAL_______() {
 			t.exitFullScreen();
 		}
 		
-	};
+	}
 	
 	/**
 	 * resize the gallery
@@ -5329,7 +5333,7 @@ function __________GENERAL_______() {
 		if(!noevent && noevent !== true)
 			onGalleryResized();
 		
-	};
+	}
 
 	
 	/**
@@ -5364,7 +5368,7 @@ function __________GENERAL_______() {
 		removeAllSizeClasses(objWrapper);
 		if(addClass != "")
 			objWrapper.addClass(addClass);
-	};
+	}
 	
 	
 	/**
@@ -5376,11 +5380,12 @@ function __________GENERAL_______() {
 			return(true);
 		
 		return(false);
-	};
-
-
-function __________END_GENERAL_______() {
 	}
+	
+	
+	function __________END_GENERAL_______(){};
+		
+	
 	/**
 	 * run the gallery
 	 */
@@ -5797,11 +5802,13 @@ function UGGridPanel(){
 		}
 		
 	}
-
-
-
-function __________EVENTS___________() {
-	}
+	
+	
+	
+	function __________EVENTS___________(){};
+	
+	
+	
 	/**
 	 * event on panel slide finish
 	 */
@@ -5852,11 +5859,12 @@ function __________EVENTS___________() {
 		g_panelBase.destroy();
 		
 		g_objGrid.destroy();
-	};
-
-
-function ______PLACE_ELEMENTS___________() {
 	}
+	
+	
+	function ______PLACE_ELEMENTS___________(){};
+	
+	
 	/**
 	 * get padding left of the grid
 	 */
@@ -5936,7 +5944,7 @@ function ______PLACE_ELEMENTS___________() {
 				nextArrowPaddingY = 0;
 			break;
 			case "grid":
-				prevArrowY = objGridSize.top - objArrowSize.height - g_options.gridpanel_arrows_padding_vert_vert;
+				prevArrowY = objGridSize.top - objArrowSize.height - g_options.gridpanel_arrows_padding_vert_vert
 				nextArrowY = objGridSize.bottom + g_options.gridpanel_arrows_padding_vert;
 				nextArrowPaddingY = 0;
 			break;
@@ -6183,7 +6191,7 @@ function ______PLACE_ELEMENTS___________() {
 	this.getOrientation = function(){
 		
 		return(g_temp.orientation);
-	};
+	}
 	
 	
 	/**
@@ -6208,7 +6216,7 @@ function ______PLACE_ELEMENTS___________() {
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * set panel height
@@ -6222,7 +6230,7 @@ function ______PLACE_ELEMENTS___________() {
 		var gridMaxHeight = getGridMaxHeight();
 		
 		g_objGrid.setMaxHeight(gridMaxHeight);
-	};
+	}
 	
 	
 	/**
@@ -6238,7 +6246,7 @@ function ______PLACE_ELEMENTS___________() {
 		var gridMaxWidth = getGridMaxWidth();
 				
 		g_objGrid.setMaxWidth(gridMaxWidth);
-	};
+	}
 	
 	
 	/**
@@ -6247,14 +6255,14 @@ function ______PLACE_ELEMENTS___________() {
 	this.init = function(gallery, customOptions){
 		
 		initGridPanel(gallery, customOptions);
-	};
+	}
 	
 	/**
 	 * place panel html
 	 */
 	this.setHtml = function(){
 		setHtmlPanel();
-	};
+	}
 	
 	
 	/**
@@ -6263,7 +6271,7 @@ function ______PLACE_ELEMENTS___________() {
 	this.run = function(){
 		
 		runPanel();
-	};
+	}
 	
 	
 	/**
@@ -6271,7 +6279,7 @@ function ______PLACE_ELEMENTS___________() {
 	 */
 	this.getElement = function(){
 		return(g_objPanel);
-	};
+	}
 	
 	
 	/**
@@ -6282,30 +6290,30 @@ function ______PLACE_ELEMENTS___________() {
 		var objSize = g_functions.getElementSize(g_objPanel);
 		
 		return(objSize);
-	};
+	}
 	
-	this.__________Functions_From_Base_____ = function() {};
+	this.__________Functions_From_Base_____ = function() {}
 	
 	/**
 	 * tells if the panel is closed
 	 */
 	this.isPanelClosed = function() {		
 		return (g_panelBase.isPanelClosed());
-	};
+	}
 
 	/**
 	 * get closed panel destanation
 	 */
 	this.getClosedPanelDest = function() {
 		return g_panelBase.getClosedPanelDest();
-	};
+	}	
 		
 	/**
 	 * open the panel
 	 */	
 	this.openPanel = function(noAnimation) {
 		g_panelBase.openPanel(noAnimation);
-	};
+	}
 	
 	
 	/**
@@ -6313,21 +6321,21 @@ function ______PLACE_ELEMENTS___________() {
 	 */
 	this.closePanel = function(noAnimation) {
 		g_panelBase.closePanel(noAnimation);		
-	};
+	}	
 	
 	/**
 	 * set the panel opened state
 	 */
 	this.setOpenedState = function(originalPos) {
 		g_panelBase.setOpenedState(originalPos);
-	};
+	}
 
 	/**
 	 * set the panel that it's in closed state, and set original pos for opening later
 	 */
 	this.setClosedState = function(originalPos) {
 		g_panelBase.setClosedState(originalPos);	
-	};
+	}
 	
 	
 	/**
@@ -6453,10 +6461,11 @@ function UGLightbox(){
 			lightbox_textpanel_padding_left: 10,			//the padding left of the textpanel
 			lightbox_textpanel_padding_right: 10
 	};
-
-
-function __________GENERAL_________() {
-	}
+	
+	
+	function __________GENERAL_________(){};
+	
+	
 	/**
 	 * init the gallery
 	 */
@@ -6636,9 +6645,10 @@ function __________GENERAL_________() {
 		g_objSlider.refreshSlideItems();
 	
 	}
-
-function __________WIDE_ONLY_________() {
-	}
+	
+	function __________WIDE_ONLY_________(){};
+	
+	
 	/**
 	 * handle panel height according text height
 	 */
@@ -6717,10 +6727,10 @@ function __________WIDE_ONLY_________() {
 		handlePanelHeight();
 		g_objTextPanel.positionPanel();
 	}
+	
+	
+	function __________COMPACT_ONLY_________(){};
 
-
-function __________COMPACT_ONLY_________() {
-	}
 	/**
 	 * handle slider image height according the textpanel height
 	 * refresh the slider if the height is not in place
@@ -7018,9 +7028,10 @@ function __________COMPACT_ONLY_________() {
 		if(g_temp.isArrowsInside == true)
 			hideArrows();
 	}
-
-function __________COMMON_________() {
-	}
+	
+	function __________COMMON_________(){};
+	
+	
 	/**
 	 * position the elements
 	 */
@@ -7258,10 +7269,11 @@ function __________COMMON_________() {
 		if(g_objNumbers)
 			g_objNumbers.stop().fadeTo(g_temp.fadeDuration, 1);
 	}
-
-
-function __________EVENTS_________() {
-	}
+	
+	
+	function __________EVENTS_________(){};
+	
+	
 	/**
 	 * on start dragging slider item event. hide the elements
 	 */
@@ -7530,7 +7542,7 @@ function __________EVENTS_________() {
 		 g_temp.lastMouseX = event.pageX;
 		 g_temp.lastMouseY = event.pageY;
 		
-		 var isHidden = isArrowsHidden();
+		 var isHidden = isArrowsHidden()
 		 
 		 
 		 if(isHidden == true && isMouseInsideImage() && g_objSlider.isAnimating() == false){
@@ -7664,7 +7676,7 @@ function __________EVENTS_________() {
 		g_objGallery.off(g_gallery.events.GALLERY_KEYPRESS, onKeyPress);
 		
 		g_objWrapper.off("mousewheel");
-	};
+	}
 	
 	
 	/**
@@ -7735,7 +7747,7 @@ function __________EVENTS_________() {
 		if(g_objSlider)
 			g_objSlider.startSlideAction();
 		
-	};
+	}
 	
 	
 	/**
@@ -7761,7 +7773,7 @@ function __________EVENTS_________() {
 			});
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -7770,7 +7782,7 @@ function __________EVENTS_________() {
 	this.init = function(gallery, customOptions){
 		
 		initLightbox(gallery, customOptions);
-	};
+	}
 	
 	
 	/**
@@ -7799,7 +7811,7 @@ function __________EVENTS_________() {
 			switchToWide();
 		
 		putLightboxHtml();
-	};
+	}
 	
 	
 	/**
@@ -7842,7 +7854,7 @@ function UGPanelsBase(){
 		g_objThis = g_objThisArg;
 		
 		g_objGallery = jQuery(g_gallery);
-	};
+	}
 
 	/**
 	 * set common panels html
@@ -7875,7 +7887,7 @@ function UGPanelsBase(){
 		
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -7886,7 +7898,7 @@ function UGPanelsBase(){
 		// place handle
 		if (g_objHandle)
 			g_objHandle.placeHandle();		
-	};
+	}
 	
 	
 	/**
@@ -7909,7 +7921,7 @@ function UGPanelsBase(){
 			
 		}
 		
-	};
+	}
 	
 	/**
 	 * destroy the panel events
@@ -7922,7 +7934,7 @@ function UGPanelsBase(){
 			g_objGallery.off(g_gallery.events.SLIDER_ACTION_END);
 		}
 		
-	};
+	}
 	
 	/**
 	 * place panel with some animation
@@ -8012,7 +8024,7 @@ function UGPanelsBase(){
 			onPanelSlideFinish();
 		}
 
-	};
+	}
 
 	
 	/**
@@ -8042,7 +8054,7 @@ function UGPanelsBase(){
 			onPanelSlideFinish();
 		}
 
-	};
+	}
 	
 	/**
 	 * set the panel that it's in closed state, and set original pos for opening
@@ -8054,7 +8066,7 @@ function UGPanelsBase(){
 		g_objThis.trigger(g_panel.events.CLOSE_PANEL);
 
 		g_temp.isClosed = true;
-	};
+	}
 
 	/**
 	 * set the panel opened state
@@ -8063,7 +8075,7 @@ function UGPanelsBase(){
 		g_objThis.trigger(g_panel.events.OPEN_PANEL);
 
 		g_temp.isClosed = false;
-	};
+	}
 
 	/**
 	 * get closed panel destanation
@@ -8094,7 +8106,7 @@ function UGPanelsBase(){
 		}
 
 		return (panelDest);
-	};
+	}
 
 
 	/**
@@ -8103,7 +8115,7 @@ function UGPanelsBase(){
 	this.isPanelClosed = function() {
 
 		return (g_temp.isClosed);
-	};
+	}
 	
 	
 	/**
@@ -8169,7 +8181,7 @@ function UGPanelHandle(){
 			g_options.panel_handle_skin = globalSkin;
 		
 		
-	};
+	}
 	
 	
 	/**
@@ -8198,7 +8210,7 @@ function UGPanelHandle(){
 		
 		g_objPanel.append("<div class='"+classTip+" ug-skin-" + g_options.panel_handle_skin + "'></div>");
 		g_objHandleTip = g_objPanel.children(".ug-panel-handle-tip");
-	};
+	}
 	
 	
 	/**
@@ -8260,7 +8272,7 @@ function UGPanelHandle(){
 			setClosedState();
 		});
 		
-	};
+	}
 	
 	/**
 	 * destroy the handle panel events
@@ -8269,7 +8281,7 @@ function UGPanelHandle(){
 		g_functions.destroyButton(g_objHandleTip);
 		jQuery(g_panel).off(g_panel.events.OPEN_PANEL);
 		jQuery(g_panel).off(g_panel.events.CLOSE_PANEL);
-	};
+	}
 	
 	
 	
@@ -8326,7 +8338,7 @@ function UGPanelHandle(){
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * hide the handle
@@ -8336,7 +8348,7 @@ function UGPanelHandle(){
 		if(g_objHandleTip.is(":visible") == true)
 			g_objHandleTip.hide();
 	
-	};
+	}
 	
 	/**
 	 * show the handle
@@ -8386,7 +8398,7 @@ function UGSlider(){
 		AFTER_PUT_IMAGE: "after_put_image",			//after put slide image
 		IMAGE_MOUSEENTER: "slider_image_mouseenter", //on slide image mouseonter
 		IMAGE_MOUSELEAVE: "slider_image_mouseleave"	 //on slide image mouseleave
-	};
+	}
 	
 	var g_options = {
 		  slider_scale_mode: "fill",					//fit: scale down and up the image to always fit the slider
@@ -8518,9 +8530,10 @@ function UGSlider(){
 		isControlsVisible: true,
 		currentControlsMode: "image"
 	};
-
-function __________GENERAL___________() {
-	}
+	
+	function __________GENERAL___________(){};
+	
+	
 	/**
 	 * init the slider
 	 */
@@ -8558,7 +8571,7 @@ function __________GENERAL___________() {
 			var bulletsOptions = {
 					bullets_skin: g_options.slider_bullets_skin,
 					bullets_space_between: g_options.slider_bullets_space_between
-			};
+			}
 			g_objBullets.init(g_gallery, bulletsOptions);
 		}
 		
@@ -9440,13 +9453,13 @@ function __________GENERAL___________() {
 		
 		return(true);
 	}
+	
 
 
-
-
-
-function __________CONTROLS_OBJECT_______() {
-	}
+	
+	
+	function __________CONTROLS_OBJECT_______(){};
+	
 	/**
 	 * modify the slider for mobile
 	 */
@@ -9612,11 +9625,11 @@ function __________CONTROLS_OBJECT_______() {
 		g_temp.currentControlsMode = mode;
 			
 	}
+	
+	
+	
+	function __________EVENTS___________(){};
 
-
-
-function __________EVENTS___________() {
-	}
 	/**
 	 * on item change event
 	 */
@@ -9942,11 +9955,11 @@ function __________EVENTS___________() {
 		
 		g_objSlider.undelegate(".ug-item-wrapper img","mouseenter");
 		g_objSlider.undelegate(".ug-item-wrapper img","mouseleave");
-	};
-
-
-function __________GETTERS___________() {
 	}
+	
+	
+	function __________GETTERS___________(){};
+	
 	/**
 	 * get loader class by loader type
 	 */
@@ -10074,7 +10087,7 @@ function __________GETTERS___________() {
 	this.init = function(objGallery, objOptions, optionsPrefix){
 		
 		initSlider(objGallery, objOptions, optionsPrefix);
-	};
+	}
 
 	/**
 	 * get slide image
@@ -10086,7 +10099,7 @@ function __________GETTERS___________() {
 		
 		var objImage = objSlide.find(".ug-item-wrapper img");
 		return(objImage);
-	};
+	}
 	
 	
 	/**
@@ -10095,7 +10108,7 @@ function __________GETTERS___________() {
 	this.setHtml = function(objParent){
 		
 		setHtmlSlider(objParent);
-	};
+	}
 	
 	
 	/**
@@ -10104,7 +10117,7 @@ function __________GETTERS___________() {
 	this.run = function(){
 		
 		runSlider();
-	};
+	}
 	
 	
 	/**
@@ -10122,7 +10135,7 @@ function __________GETTERS___________() {
 			return(true);
 		else
 			return(false);
-	};
+	}
 	
 	/**
 	 * is animating
@@ -10132,7 +10145,7 @@ function __________GETTERS___________() {
 		var isAnimated = g_objInner.is(":animated");
 		
 		return(isAnimated);
-	};
+	}
 	
 	/**
 	 * check if the slide is current
@@ -10143,7 +10156,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -10156,7 +10169,7 @@ function __________GETTERS___________() {
 			return(false);
 		
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -10172,7 +10185,7 @@ function __________GETTERS___________() {
 		};
 		
 		return(objPadding);
-	};
+	}
 			
 	
 	/**
@@ -10187,7 +10200,7 @@ function __________GETTERS___________() {
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -10198,7 +10211,7 @@ function __________GETTERS___________() {
 		var slides = t.getSlidesReference();
 		
 		return(slides.objCurrentSlide);
-	};
+	}
 	
 	
 	/**
@@ -10213,7 +10226,7 @@ function __________GETTERS___________() {
 			currentIndex = -1;
 		
 		return(currentIndex);
-	};
+	}
 	
 	
 	/**
@@ -10227,7 +10240,7 @@ function __________GETTERS___________() {
 		var objItem = g_gallery.getItem(currentIndex);
 		
 		return(objItem);
-	};
+	}
 		
 	
 	/**
@@ -10240,7 +10253,7 @@ function __________GETTERS___________() {
 			
 		var type = objSlide.data("type");
 		return(type);		
-	};
+	}
 
 	
 	/**
@@ -10260,7 +10273,7 @@ function __________GETTERS___________() {
 		isMouseInside = g_functions.isPointInsideElement(pointImg, objSize);
 		
 		return(isMouseInside);
-	};
+	}
 	
 	
 	/**
@@ -10272,7 +10285,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * change the slider to some item content
@@ -10313,7 +10326,7 @@ function __________GETTERS___________() {
 			doTransition(direction, objItem, forseTransition);
 		}
 					
-	};
+	}
 	
 	
 	/**
@@ -10336,7 +10349,7 @@ function __________GETTERS___________() {
 		setItemToSlide(slides.objPrevSlide, itemPrev);
 		
 		positionSlides();
-	};
+	}
 	
 	
 	/**
@@ -10370,7 +10383,7 @@ function __________GETTERS___________() {
 		
 		//trigger item changed effect
 		g_objThis.trigger(t.events.ITEM_CHANGED);
-	};
+	}
 	
 	
 	this.________EXTERNAL_API___________ = function(){};
@@ -10391,7 +10404,7 @@ function __________GETTERS___________() {
 				g_objVideoPlayer.hide();
 			break;
 		}
-	};
+	}
 	
 	
 	
@@ -10406,7 +10419,7 @@ function __________GETTERS___________() {
 		var objItem = getSlideItem(objSlide);
 		
 		if(objItem.type == "image")
-			return(true);
+			return(true)
 		
 		if(g_options.slider_video_constantsize == true)
 			setVideoPlayerConstantSize();
@@ -10431,7 +10444,7 @@ function __________GETTERS___________() {
 			break;			
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -10456,7 +10469,7 @@ function __________GETTERS___________() {
 		else
 			return(g_options.slider_scale_mode);
 		
-	};
+	}
 	
 	
 	/**
@@ -10472,7 +10485,7 @@ function __________GETTERS___________() {
 		};
 				
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -10481,7 +10494,7 @@ function __________GETTERS___________() {
 	this.getObjZoom = function(){
 		
 		return(g_objZoomSlider);
-	};
+	}
 	
 	
 	
@@ -10491,7 +10504,7 @@ function __________GETTERS___________() {
 	this.getOptions = function(){
 		
 		return(g_options);
-	};
+	}
 	
 	
 	/**
@@ -10500,14 +10513,14 @@ function __________GETTERS___________() {
 	this.getElement = function(){
 		
 		return(g_objSlider);
-	};
+	}
 	
 	/**
 	 * get video object
 	 */
 	this.getVideoObject = function(){
 		return(g_objVideoPlayer);
-	};
+	}
 	
 	
 	/**
@@ -10530,7 +10543,7 @@ function __________GETTERS___________() {
 		var isFit = g_functions.isImageFitParent(objImage);
 		
 		return(isFit);
-	};
+	}
 	
 	
 	/**
@@ -10555,7 +10568,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -10564,7 +10577,7 @@ function __________GETTERS___________() {
 	this.isSlideActionActive = function(){
 		
 		return g_objVideoPlayer.isVisible();
-	};
+	}
 	
 	/**
 	 * return if swipe action active
@@ -10576,7 +10589,7 @@ function __________GETTERS___________() {
 		var isActive = g_objTouchSlider.isTouchActive();
 		
 		return(isActive);
-	};
+	}
 	
 	
 	/**
@@ -10589,7 +10602,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * set the options
@@ -10602,7 +10615,7 @@ function __________GETTERS___________() {
 		
 		g_options = jQuery.extend(g_options, objOptions);
 		
-	};
+	}
 	
 	
 	/**
@@ -10673,7 +10686,7 @@ function __________GETTERS___________() {
 		 resizeSlideItem(g_objSlide3);
 		 
 		 positionSlides();
-	};
+	}
 	
 	/**
 	 * refresh slide items after options change
@@ -10688,7 +10701,7 @@ function __________GETTERS___________() {
 		 resizeSlideItem(g_objSlide3);
 		 positionSlides();
 		 
-	};
+	}
 	
 	
 	/**
@@ -10697,7 +10710,7 @@ function __________GETTERS___________() {
 	this.isMouseOver = function(){
 		
 		return g_objSlider.ismouseover();
-	};
+	}
 	
 	/**
 	 * set slider position
@@ -10706,7 +10719,7 @@ function __________GETTERS___________() {
 		
 		g_functions.placeElement(g_objSlider, left, top);
 			
-	};
+	}
 	
 	
 	/**
@@ -10717,7 +10730,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		g_objZoomSlider.zoomIn();
-	};
+	}
 	
 	/**
 	 * zoom out
@@ -10729,7 +10742,7 @@ function __________GETTERS___________() {
 		
 		g_objZoomSlider.zoomOut();
 			
-	};
+	}
 	
 	/**
 	 * zoom back to original
@@ -10921,7 +10934,7 @@ function UGTextPanel(){
 			break;
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -10983,7 +10996,7 @@ function UGTextPanel(){
 		if(g_options.textpanel_height && g_options.textpanel_height < 0)
 			g_options.textpanel_height = null;
 
-	};
+	}
 	
 	
 	/**
@@ -11014,7 +11027,7 @@ function UGTextPanel(){
 		
 		setCss();
 		
-	};
+	}
 	
 	
 	/**
@@ -11127,7 +11140,7 @@ function UGTextPanel(){
 	 */
 	this.destroy = function(){
 		jQuery(g_gallery).off(g_gallery.events.ITEM_CHANGE);
-	};
+	}
 	
 	/**
 	 * run the text panel
@@ -11137,7 +11150,7 @@ function UGTextPanel(){
 		t.setSizeByParent();
 		
 		initEvents();
-	};
+	}
 	
 	/**
 	 * set panel size
@@ -11175,7 +11188,7 @@ function UGTextPanel(){
 		
 		if(g_temp.isFirstTime == false)
 			t.positionElements(false);
-	};
+	}
 	
 	
 	/**
@@ -11185,7 +11198,7 @@ function UGTextPanel(){
 				
 		var objSize = g_functions.getElementSize(g_objParent);
 		t.setPanelSize(objSize.width);
-	};
+	}
 	
 	/**
 	 * set plain sext without other manipulations
@@ -11198,7 +11211,7 @@ function UGTextPanel(){
 		if(g_objDesc)
 			g_objDesc.html(description);
 		
-	};
+	}
 	
 	
 	/**
@@ -11227,7 +11240,7 @@ function UGTextPanel(){
 			
 		}
 		
-	};
+	}
 	
 	
 		
@@ -11262,7 +11275,7 @@ function UGTextPanel(){
 			objCss.left = customLeft;
 			
 		g_objPanel.css(objCss);
-	};
+	}
 	
 	
 	/**
@@ -11275,7 +11288,7 @@ function UGTextPanel(){
 		
 		g_options = jQuery.extend(g_options, objOptions);
 				
-	};
+	}
 	
 	
 	/**
@@ -11284,7 +11297,7 @@ function UGTextPanel(){
 	this.getElement = function(){
 		
 		return(g_objPanel);
-	};
+	}
 	
 	/**
 	 * get element size
@@ -11293,7 +11306,7 @@ function UGTextPanel(){
 		
 		var objSize = g_functions.getElementSize(g_objPanel);
 		return(objSize);
-	};
+	}
 	
 	
 	/**
@@ -11315,7 +11328,7 @@ function UGTextPanel(){
 		
 		if(toShow === true)
 			t.show();		
-	};
+	}
 	
 	
 	/**
@@ -11323,21 +11336,21 @@ function UGTextPanel(){
 	 */
 	this.hide = function(){
 		g_objPanel.hide();
-	};
+	}
 	
 	/**
 	 * show the panel
 	 */
 	this.show = function(){
 		g_objPanel.show();
-	};
+	}
 	
 	/**
 	 * get options
 	 */
 	this.getOptions = function(){
 		return(g_options);
-	};
+	}
 	
 	/**
 	 * get text panel option
@@ -11383,7 +11396,7 @@ function UGZoomButtonsPanel(){
 		
 		if(customOptions)
 			g_options = jQuery.extend(g_options, customOptions);		
-	};
+	}
 	
 	/**
 	 * append the bullets html to some parent
@@ -11406,7 +11419,7 @@ function UGZoomButtonsPanel(){
 		g_objButtonMinus = g_objPanel.children(".ug-zoompanel-minus");
 		g_objButtonReturn = g_objPanel.children(".ug-zoompanel-return");
 		
-	};
+	}
 	
 	
 	/**
@@ -11415,7 +11428,7 @@ function UGZoomButtonsPanel(){
 	this.getElement = function(){
 		
 		return(g_objPanel);
-	};
+	}
 	
 	
 	/**
@@ -11536,7 +11549,7 @@ function UGBullets(){
 		bullets_skin: "",					//bullets_skin: ""		//skin of the bullets, if empty inherit from gallery skin
 		bullets_addclass: "",					//bullets object class addition
 		bullets_space_between:-1			//set the space between bullets. If -1 then will be set default space from the skins
-	};
+	}
 	
 	
 	/**
@@ -11563,7 +11576,7 @@ function UGBullets(){
 		if(g_options.bullets_skin == "")
 			g_options.bullets_skin = g_options.gallery_skin;
 		
-	};
+	}
 	
 	/**
 	 * add bullets to the html
@@ -11608,7 +11621,7 @@ function UGBullets(){
 		setHtmlBullets();
 		
 		initEvents();
-	};
+	}	
 	
 	
 	/**
@@ -11619,7 +11632,7 @@ function UGBullets(){
 		g_numBullets = numBullets;
 		setHtmlBullets();
 		initEvents();
-	};
+	}
 	
 	
 	/**
@@ -11661,7 +11674,7 @@ function UGBullets(){
 	 */
 	this.getElement = function(){
 		return g_objBullets;
-	};
+	}
 	
 	
 	/**
@@ -11678,7 +11691,7 @@ function UGBullets(){
 		bullet.addClass("ug-bullet-active");
 		
 		g_activeIndex = index;
-	};
+	}
 
 	
 	/**
@@ -11697,7 +11710,7 @@ function UGBullets(){
 				return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -11735,7 +11748,7 @@ function UGProgressBar(){
 		slider_progressbar_color:"#ffffff",			//progress bar color
 		slider_progressbar_opacity: 0.6,			//progress bar opacity
 		slider_progressbar_line_width: 5			//progress bar line width
-	};
+	}
 	
 	
 	/**
@@ -11762,7 +11775,7 @@ function UGProgressBar(){
 		var objInnerHTML = g_objInner[0];
 		objInnerHTML.style.opacity = opacity;
 		objInnerHTML.style.filter = 'alpha(opacity=' + opacity*100 + ')';
-	};
+	}
 	
 	
 	/**
@@ -11771,7 +11784,7 @@ function UGProgressBar(){
 	this.putHidden = function(g_objWrapper, userOptions){
 		t.put(g_objWrapper, userOptions);
 		g_objBar.hide();
-	};
+	}
 	
 	/**
 	 * get the bar object
@@ -11779,7 +11792,7 @@ function UGProgressBar(){
 	this.getElement = function(){
 		
 		return(g_objBar);
-	};
+	}
 	
 	/**
 	 * set progress bar size
@@ -11789,7 +11802,7 @@ function UGProgressBar(){
 		g_objBar.width(width);
 		g_objInner.width(width);
 		t.draw();
-	};
+	}
 	
 	
 	/**
@@ -11798,7 +11811,7 @@ function UGProgressBar(){
 	this.setPosition = function(left, top, offsetLeft, offsetTop){
 		
 		g_functions.placeElement(g_objBar, left, top, offsetLeft, offsetTop);
-	};
+	}
 	
 	
 	/**
@@ -11808,7 +11821,7 @@ function UGProgressBar(){
 		var innerWidth = g_percent * 100;
 		
 		g_objInner.width(innerWidth + "%");
-	};
+	}
 	
 	
 	/**
@@ -11821,7 +11834,7 @@ function UGProgressBar(){
 		//debugLine(g_percent, true);
 		
 		t.draw();
-	};
+	}
 	
 	/**
 	 * get type string
@@ -11846,7 +11859,7 @@ function UGProgressPie(){
 		slider_progresspie_stroke_width: 6,			//progress pie stroke width 
 		slider_progresspie_width: 30,				//progess pie width
 		slider_progresspie_height:30				//progress pie height
-	};
+	}
 	
 	
 	/**
@@ -11859,7 +11872,7 @@ function UGProgressPie(){
 			
 		g_objWrapper.append("<canvas class='ug-canvas-pie' width='"+g_options.slider_progresspie_width+"' height='"+g_options.slider_progresspie_height+"'></canvas>");
 		g_objPie = g_objWrapper.children(".ug-canvas-pie");
-	};
+	}
 	
 	
 	/**
@@ -11869,7 +11882,7 @@ function UGProgressPie(){
 		t.put(g_objWrapper, userOptions);
 		draw(0.1);
 		g_objPie.hide();
-	};
+	}
 	
 	
 	/**
@@ -11877,7 +11890,7 @@ function UGProgressPie(){
 	 */
 	this.getElement = function(){
 		return(g_objPie);
-	};
+	}
 	
 	/**
 	 * set position
@@ -11886,7 +11899,7 @@ function UGProgressPie(){
 		
 		g_functions.placeElement(g_objPie, left, top);
 		
-	};
+	}
 	
 	/**
 	 * get the height and width of the object
@@ -11899,7 +11912,7 @@ function UGProgressPie(){
 		};
 		
 		return(obj);
-	};
+	}	
 	
 	/**
 	 * draw the progress pie
@@ -11996,7 +12009,7 @@ function UGProgressPie(){
 		
 		g_percent = percent;
 		draw(percent);
-	};
+	}
 	
 	/**
 	 * get type string
@@ -12399,6 +12412,8 @@ function UGStripPanel() {
 
 	function __________EVENTS___________() {
 	}
+	;
+
 	/**
 	 * on next button click
 	 */
@@ -12538,7 +12553,7 @@ function UGStripPanel() {
 		
 		g_panelBase.destroy();
 		g_objStrip.destroy();
-	};
+	}
 	
 	
 	/**
@@ -12547,7 +12562,7 @@ function UGStripPanel() {
 	this.getOrientation = function() {
 
 		return (g_temp.orientation);
-	};
+	}
 
 	/**
 	 * set panel orientation (left, right, top, bottom)
@@ -12555,7 +12570,7 @@ function UGStripPanel() {
 	this.setOrientation = function(orientation) {
 
 		g_temp.orientation = orientation;
-	};
+	}
 
 	
 	/**
@@ -12563,28 +12578,28 @@ function UGStripPanel() {
 	 */
 	this.init = function(gallery, customOptions) {
 		initPanel(gallery, customOptions);
-	};
+	}
 
 	/**
 	 * run the panel
 	 */
 	this.run = function() {
 		runPanel();
-	};
+	}
 
 	/**
 	 * place panel html
 	 */
 	this.setHtml = function(parentContainer) {
 		setPanelHtml(parentContainer);
-	};
+	}
 
 	/**
 	 * get the panel element
 	 */
 	this.getElement = function() {
 		return (g_objPanel);
-	};
+	}
 
 	/**
 	 * get panel size object
@@ -12594,7 +12609,7 @@ function UGStripPanel() {
 		var objSize = g_functions.getElementSize(g_objPanel);
 
 		return (objSize);
-	};
+	}
 
 	/**
 	 * set panel width (for horizonal type)
@@ -12603,7 +12618,7 @@ function UGStripPanel() {
 
 		g_temp.panelWidth = width;
 
-	};
+	}
 
 	/**
 	 * set panel height (for vertical type)
@@ -12612,7 +12627,7 @@ function UGStripPanel() {
 
 		g_temp.panelHeight = height;
 
-	};
+	}
 
 	/**
 	 * resize the panel
@@ -12621,30 +12636,30 @@ function UGStripPanel() {
 		t.setWidth(newWidth);
 		setElementsSize();
 		placeElements();
-	};
+	}
 	
-	this.__________Functions_From_Base_____ = function() {};
+	this.__________Functions_From_Base_____ = function() {}
 	
 	/**
 	 * tells if the panel is closed
 	 */
 	this.isPanelClosed = function() {		
 		return (g_panelBase.isPanelClosed());
-	};
+	}
 
 	/**
 	 * get closed panel destanation
 	 */
 	this.getClosedPanelDest = function() {
 		return g_panelBase.getClosedPanelDest();
-	};
+	}	
 		
 	/**
 	 * open the panel
 	 */	
 	this.openPanel = function(noAnimation) {
 		g_panelBase.openPanel(noAnimation);
-	};
+	}
 	
 	
 	/**
@@ -12652,21 +12667,21 @@ function UGStripPanel() {
 	 */
 	this.closePanel = function(noAnimation) {
 		g_panelBase.closePanel(noAnimation);		
-	};
+	}	
 	
 	/**
 	 * set the panel opened state
 	 */
 	this.setOpenedState = function(originalPos) {
 		g_panelBase.setOpenedState(originalPos);
-	};
+	}
 
 	/**
 	 * set the panel that it's in closed state, and set original pos for opening later
 	 */
 	this.setClosedState = function(originalPos) {
 		g_panelBase.setClosedState(originalPos);	
-	};
+	}
 	
 	/**
 	 * set custom thumbs of the strip
@@ -12675,7 +12690,7 @@ function UGStripPanel() {
 		
 		g_objStrip.setCustomThumbs(funcSetHtml);
 	
-	};
+	}
 	
 	/**
 	 * set panel disabled at start
@@ -12737,7 +12752,7 @@ function UGThumbsGeneral(){
 			
 			thumb_wrapper_as_link: false,				//set thumb as link
 			thumb_link_newpage: false					//set the link to open newpage
-		};
+		}
 	
 		var g_temp = {
 			touchEnabled: false,
@@ -12774,7 +12789,7 @@ function UGThumbsGeneral(){
 			g_temp.isEffectOverlay = g_options.thumb_color_overlay_effect;
 			g_temp.isEffectImage = g_options.thumb_image_overlay_effect;
 						
-		};
+		}
 		
 		
 		/**
@@ -12866,7 +12881,7 @@ function UGThumbsGeneral(){
 				 g_arrItems[i].objThumbWrapper = objThumbWrapper;
 				 
 			 }
-		};
+		}
 		
 		
 		/**
@@ -12914,7 +12929,7 @@ function UGThumbsGeneral(){
 				
 			}
 			
-		};
+		}
 		
 		
 		/**
@@ -13072,7 +13087,7 @@ function UGThumbsGeneral(){
 			}
 			
 			g_objThis.trigger(t.events.SETNORMALSTYLE, objThumb);
-		};
+		}
 		
 		
 		/**
@@ -13101,7 +13116,7 @@ function UGThumbsGeneral(){
 			
 			//trigger event for parent classes
 			g_objThis.trigger(t.events.SETOVERSTYLE, objThumb);
-		};
+		}
 		
 		
 		/**
@@ -13145,7 +13160,7 @@ function UGThumbsGeneral(){
 			
 			var arrItem = g_arrItems[index];
 			return(arrItem);
-		};
+		}
 		
 		
 		/**
@@ -13163,7 +13178,7 @@ function UGThumbsGeneral(){
 			
 			//set thumb selected style
 			setThumbSelectedStyle(objThumbWrapper);
-		};
+		}
 		
 		
 		/**
@@ -13278,7 +13293,7 @@ function UGThumbsGeneral(){
 				onMouseOut(objThumb);
 			});
 				
-		};
+		}
 		
 		/**
 		 * destroy the thumb element
@@ -13290,7 +13305,7 @@ function UGThumbsGeneral(){
 			objThumbs.off("mouseenter");
 			objThumbs.off("mouseleave");
 			
-		};
+		}
 		
 		
 		/**
@@ -13302,7 +13317,7 @@ function UGThumbsGeneral(){
 			objThumbWrapper.removeClass("ug-thumb-selected");
 			
 			t.setThumbNormalStyle(objThumbWrapper);
-		};
+		}
 		
 		
 		/**
@@ -13322,7 +13337,7 @@ function UGThumbsGeneral(){
 					
 			});
 
-		};
+		}
 		
 		
 		/**
@@ -13400,7 +13415,7 @@ function UGThumbsGeneral(){
 					"height":objSize.height+"px",
 					"left":objSize.left+"px",
 					"top":objSize.top+"px"
-				};
+				}
 				
 			objImageBW.css(objCss);
 			
@@ -13442,7 +13457,7 @@ function UGThumbsGeneral(){
 			
 			g_options = jQuery.extend(g_options, objOptions);
 			
-		};
+		}
 		
 		
 		/**
@@ -13466,7 +13481,7 @@ function UGThumbsGeneral(){
 			
 			g_temp.isEffectImage = false;		//for custom effects the image is always off
 			
-		};
+		}
 		
 		
 		/**
@@ -13475,7 +13490,7 @@ function UGThumbsGeneral(){
 		this.getOptions = function(){
 			
 			return(g_options);
-		};
+		}
 		
 		
 		/**
@@ -13484,7 +13499,7 @@ function UGThumbsGeneral(){
 		this.getNumThumbs = function(){
 			var numThumbs = g_arrItems.length;
 			return(numThumbs);
-		};
+		}
 		
 		/**
 		 * get all thumbs jquery object
@@ -13542,10 +13557,10 @@ function UGThumbsGrid(){
 			isTilesMode: false,
 			storedEventID: "thumbsgrid"
 		};
-
-
-function __________GENERAL_________() {
-	}
+	
+	
+	function __________GENERAL_________(){};
+	
 	/**
 	 * init the gallery
 	 */
@@ -13565,7 +13580,7 @@ function __________GENERAL_________() {
 		setOptions(customOptions);
 		
 		//set vertical or horizon
-		g_temp.isNavigationVertical = (g_options.grid_panes_direction == "top" || g_options.grid_panes_direction == "bottom");
+		g_temp.isNavigationVertical = (g_options.grid_panes_direction == "top" || g_options.grid_panes_direction == "bottom")
 		
 		if(g_temp.isTilesMode == true){
 			
@@ -14171,11 +14186,11 @@ function __________GENERAL_________() {
 		var innerPos = -g_temp.arrPanes[g_temp.currentPane];
 		animateInnerTo(innerPos);
 	}
-
-
-
-function __________GETTERS_________() {
-	}
+	
+		
+	
+	function __________GETTERS_________(){};
+	
 	/**
 	 * get inner object size according the orientation
 	 */
@@ -14330,10 +14345,11 @@ function __________GETTERS_________() {
 		
 		return(isApprove);
 	}
-
-
-function __________EVENTS_______() {
-	}
+	
+	
+	function __________EVENTS_______(){};
+	
+	
 	/**
 	 * on thumb click event
 	 */
@@ -14552,7 +14568,7 @@ function __________EVENTS_______() {
 		
 		g_objThis.off(t.events.PANE_CHANGE);
 		
-	};
+	}
 	
 	
 	
@@ -14565,7 +14581,7 @@ function __________EVENTS_______() {
 		
 		g_thumbs.setThumbUnselected(objThumbWrapper);
 		
-	};
+	}
 	
 	/**
 	 * check if thmb item visible, means inside the visible part of the inner strip
@@ -14578,7 +14594,7 @@ function __________EVENTS_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	this.__________EXTERNAL_API_________ = function(){};
@@ -14605,7 +14621,7 @@ function __________EVENTS_______() {
 		var numPanes = Math.ceil(totalHeight / gridHeight);
 		
 		return(numPanes);
-	};
+	}
 	
 	/**
 	 * get estimation of number of panes by the width of the grid.
@@ -14627,7 +14643,7 @@ function __________EVENTS_______() {
 		var numPanes = Math.ceil(totalWidth / gridWidth);
 				
 		return(numPanes);
-	};
+	}
 	
 	
 	/**
@@ -14649,14 +14665,14 @@ function __________EVENTS_______() {
 		gridHeight += g_options.grid_padding * 2;
 		
 		return(gridHeight);
-	};
+	}
 	
 	/**
 	 * get the grid element
 	 */
 	this.getElement = function(){
 		return(g_objGrid);
-	};
+	}
 	
 	/**
 	 * get element size and position
@@ -14666,7 +14682,7 @@ function __________EVENTS_______() {
 		var objSize = g_functions.getElementSize(g_objGrid);
 		return(objSize);
 		
-	};
+	}
 	
 	/**
 	 * get number of panes
@@ -14674,7 +14690,7 @@ function __________EVENTS_______() {
 	this.getNumPanes = function(){
 		
 		return(g_temp.numPanes);
-	};
+	}
 	
 	/**
 	 * get if the current pane is first
@@ -14685,7 +14701,7 @@ function __________EVENTS_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -14697,7 +14713,7 @@ function __________EVENTS_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -14711,7 +14727,7 @@ function __________EVENTS_______() {
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -14720,7 +14736,7 @@ function __________EVENTS_______() {
 	this.getPane = function(){
 		
 		return(g_temp.currentPane);
-	};
+	}
 	
 	
 	/**
@@ -14729,7 +14745,7 @@ function __________EVENTS_______() {
 	this.setWidth = function(gridWidth){
 		g_temp.gridWidth = gridWidth;
 		g_temp.isHorizontal = true;
-	};
+	}
 	
 	/**
 	 * set max width, the width will be corrected by the number of items
@@ -14739,7 +14755,7 @@ function __________EVENTS_______() {
 		g_temp.gridWidth = maxWidth;
 		g_temp.isMaxWidth = true;
 		g_temp.isHorizontal = true;
-	};
+	}
 	
 	
 	/**
@@ -14749,7 +14765,7 @@ function __________EVENTS_______() {
 		g_temp.gridHeight = gridHeight;
 		g_temp.isHorizontal = false;
 		
-	};
+	}
 	
 	/**
 	 * set max height, the height will be corrected by the number of items
@@ -14759,7 +14775,7 @@ function __________EVENTS_______() {
 		g_temp.gridHeight = maxHeight;
 		g_temp.isMaxHeight = true;
 		g_temp.isHorizontal = false;
-	};
+	}
 	
 	
 	/**
@@ -14781,7 +14797,7 @@ function __________EVENTS_______() {
 		
 		//trigger pane change event
 		g_objThis.trigger(t.events.PANE_CHANGE, index);
-	};
+	}
 	
 	
 	/**
@@ -14800,7 +14816,7 @@ function __________EVENTS_______() {
 		}
 		
 		t.gotoPane(nextPaneIndex, "next");
-	};
+	}
 	
 	
 	/**
@@ -14817,7 +14833,7 @@ function __________EVENTS_______() {
 		}
 		
 		t.gotoPane(prevPaneIndex, "prev");
-	};
+	}
 	
 	
 	/**
@@ -14843,7 +14859,7 @@ function __________EVENTS_______() {
 	
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -14869,7 +14885,7 @@ function __________EVENTS_______() {
 	
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -14888,7 +14904,7 @@ function __________EVENTS_______() {
 			objBullets.setActive(numPane);
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -14896,7 +14912,7 @@ function __________EVENTS_______() {
 	 */
 	this.getObjTileDesign = function(){
 		return g_tilesDesign;
-	};
+	}
 	
 	
 	/**
@@ -14905,7 +14921,7 @@ function __________EVENTS_______() {
 	this.init = function(gallery, customOptions, isTilesMode){
 		
 		init(gallery, customOptions, isTilesMode);
-	};
+	}
 	
 		
 	
@@ -14914,7 +14930,7 @@ function __________EVENTS_______() {
 	 */	
 	this.run = function(){
 		run();
-	};
+	}
 
 	
 	/**
@@ -14952,7 +14968,7 @@ function UGThumbsStrip(){
 		strip_scroll_to_thumb_easing:"easeOutCubic",		//easing of scrolling to thumb animation
 		strip_control_avia:true,					//avia control - move the strip according strip moseover position
 		strip_control_touch:true					//touch control - move the strip by dragging it
-	};
+	}
 	
 	var g_temp = {
 		isRunOnce:false,
@@ -14964,16 +14980,16 @@ function UGThumbsStrip(){
 		stripInnerSize:0,	
 		thumbSize:0,
 		thumbSecondSize:0,	//size of the height and width of the strip			
-	};
+	}
 	
 	this.events = {		//events variables
 			STRIP_MOVE:"stripmove"
-	};
+	}	
 	
 	//the defaults for vertical align
 	var g_defaultsVertical = {
 		strip_thumbs_align: "top"
-	};
+	}
 	
 	
 	/**
@@ -14995,10 +15011,10 @@ function UGThumbsStrip(){
 		//put the thumbs to inner strip
 		g_thumbs.setHtmlThumbs(g_objStripInner);
 		
-	};
-
-	function ___________GENERAL___________() {
 	}
+
+	function ___________GENERAL___________(){};
+	
 	/**
 	 * init the strip
 	 */
@@ -15085,7 +15101,7 @@ function UGThumbsStrip(){
 		}else{		//vertical
 			g_sizes.thumbSize = thumbsRealHeight;
 			g_sizes.thumbSecondSize = thumbsRealWidth;
-			g_sizes.stripSize = g_objStrip.height();
+			g_sizes.stripSize = g_objStrip.height();;
 			g_sizes.stripInnerSize = g_objStripInner.height();			
 		}
 		
@@ -15339,10 +15355,10 @@ function UGThumbsStrip(){
 			g_functions.placeElement(g_objStripInner, 0, g_options.strip_thumbs_align);
 			
 	}
-
-
-function ___________EVENTS___________() {
-	}
+	
+	
+	function ___________EVENTS___________(){};
+	
 	/**
 	 * on thumb click event. Select the thumb
 	 */
@@ -15405,11 +15421,12 @@ function ___________EVENTS___________() {
 			g_aviaControl.destroy();
 		
 		g_thumbs.destroy();
-	};
-
-
-function ____________GETTERS___________() {
 	}
+	
+	
+	function ____________GETTERS___________(){};
+		
+
 	/**
 	 * check if the inner width is more then strip width
 	 */
@@ -15478,7 +15495,7 @@ function ____________GETTERS___________() {
 	this.init = function(gallery, customOptions){
 		
 		initStrip(gallery, customOptions);
-	};
+	}
 	
 	
 	/**
@@ -15486,7 +15503,7 @@ function ____________GETTERS___________() {
 	 */	
 	this.run = function(){
 		runStrip();
-	};
+	}
 	
 	
 	/**
@@ -15507,7 +15524,7 @@ function ____________GETTERS___________() {
 			distPos = minPos;
 		
 		return(distPos);
-	};
+	}
 	
 	
 	/**
@@ -15542,7 +15559,7 @@ function ____________GETTERS___________() {
 			
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -15553,7 +15570,7 @@ function ____________GETTERS___________() {
 		//trigger onstripmove event
 		jQuery(t).trigger(t.events.STRIP_MOVE);
 		
-	};
+	}
 	
 		
 	
@@ -15567,7 +15584,7 @@ function ____________GETTERS___________() {
 		var isActive = g_touchThumbsControl.isTouchActive();
 		
 		return(isActive);
-	};
+	}
 	
 	
 	/**
@@ -15595,7 +15612,7 @@ function ____________GETTERS___________() {
 			isVisible = true;
 		
 		return(isVisible);
-	};
+	}
 	
 	/**
 	 * get inner strip position according the orientation
@@ -15606,7 +15623,7 @@ function ____________GETTERS___________() {
 			return g_objStripInner.position().left;
 		else
 			return g_objStripInner.position().top;
-	};
+	}
 	
 	
 	/**
@@ -15623,7 +15640,7 @@ function ____________GETTERS___________() {
 			output.minPos = -(g_objStripInner.height() - g_objStrip.height());
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -15632,7 +15649,7 @@ function ____________GETTERS___________() {
 	this.scrollForeward = function(){
 				
 		scrollBy(-g_sizes.stripSize);
-	};
+	}
 	
 	
 	/**
@@ -15641,7 +15658,7 @@ function ____________GETTERS___________() {
 	this.scrollBack = function(){
 				
 		scrollBy(g_sizes.stripSize);
-	};
+	}
 	
 	
 	this.________EXTERNAL_SETTERS___________ = function(){};
@@ -15655,7 +15672,7 @@ function ____________GETTERS___________() {
 		g_options = jQuery.extend(g_options, objOptions);
 		
 		g_thumbs.setOptions(objOptions);
-	};
+	}
 	
 	
 	/**
@@ -15688,7 +15705,7 @@ function ____________GETTERS___________() {
 		 g_temp.is_placed = true;
 		 
 		 checkControlsEnableDisable();
-	};
+	}
 
 	
 	/**
@@ -15721,7 +15738,7 @@ function ____________GETTERS___________() {
 		 g_temp.is_placed = true;
 		
 		 checkControlsEnableDisable();
-	};
+	}
 	
 	
 	/**
@@ -15729,7 +15746,7 @@ function ____________GETTERS___________() {
 	 */
 	this.setPosition = function(left, top, offsetLeft, offsetTop){
 		g_functions.placeElement(g_objStrip, left, top, offsetLeft, offsetTop);		
-	};
+	}
 	
 	
 	/**
@@ -15755,7 +15772,7 @@ function ____________GETTERS___________() {
 		alignInnerStrip();
 		
 		scrollToSelectedThumb();
-	};
+	}
 	
 	
 	/**
@@ -15765,7 +15782,7 @@ function ____________GETTERS___________() {
 		
 		g_thumbs.setThumbUnselected(objThumbWrapper);
 		
-	};
+	}
 	
 	
 	/**
@@ -15775,7 +15792,7 @@ function ____________GETTERS___________() {
 		
 		g_thumbs.setCustomThumbs(funcSetHtml);
 		
-	};
+	}
 	
 	
 	this.________EXTERNAL_GETTERS___________ = function(){};
@@ -15802,7 +15819,7 @@ function ____________GETTERS___________() {
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	
@@ -15814,7 +15831,7 @@ function ____________GETTERS___________() {
 		var obj = g_functions.getElementSize(g_objStrip);
 		
 		return(obj);
-	};
+	}
 	
 	/**
 	 * get thumbs strip height
@@ -15824,7 +15841,7 @@ function ____________GETTERS___________() {
 		var stripHeight = g_objStrip.outerHeight();
 		
 		return(stripHeight)
-	};
+	}
 	
 	
 	/**
@@ -15835,7 +15852,7 @@ function ____________GETTERS___________() {
 		var stripWidth = g_objStrip.outerWidth();
 		
 		return(stripWidth);
-	};
+	}
 	
 	
 	
@@ -15845,7 +15862,7 @@ function ____________GETTERS___________() {
 	this.getSizes = function(){
 		
 		return(g_sizes);
-	};
+	}
 	
 	
 	/**
@@ -15853,7 +15870,7 @@ function ____________GETTERS___________() {
 	 */
 	this.isVertical = function(){
 		return(g_isVertical);
-	};
+	}
 	
 	
 	/**
@@ -15862,7 +15879,7 @@ function ____________GETTERS___________() {
 	this.isPlaced = function(){
 		
 		return(g_temp.is_placed);
-	};
+	}
 	
 	/**
 	 * return if the strip moving enabled or not
@@ -16174,7 +16191,7 @@ function UGTileDesign(){
 	 */
 	this.getItemByTile = function(objTile){
 		return g_thumbs.getItemByThumb(objTile);
-	};
+	}
 	
 	
 	/**
@@ -16188,10 +16205,10 @@ function UGTileDesign(){
 			onPlaceImage(null, objTile, jQuery(objImage));
 		});
 		
-	};
-
-function _________________GETTERS________________() {
 	}
+	
+	function _________________GETTERS________________(){};
+	
 	/**
 	 * get tile image
 	 */
@@ -16289,10 +16306,11 @@ function _________________GETTERS________________() {
 		
 		return objTile.hasClass("ug-tile-clickable");
 	}
-
-
-function _________________SETTERS________________() {
-	}
+	
+	
+	function _________________SETTERS________________(){};
+	
+	
 	/**
 	 * position the elements
 	 */
@@ -16303,7 +16321,7 @@ function _________________SETTERS________________() {
 		var objButtonLink = getButtonLink(objTile);
 		var sizeTile = g_functions.getElementSize(objTile);
 		
-		var objImageOverlay = getTileOverlayImage(objTile);
+		var objImageOverlay = getTileOverlayImage(objTile)
 		var objThumbImage = getTileImage(objTile);
 		var objImageEffect = getTileImageEffect(objTile);
 		
@@ -16402,7 +16420,7 @@ function _________________SETTERS________________() {
 	this.setHtml = function(objParent){
 		g_objParentWrapper = objParent;
 		g_thumbs.setHtmlThumbs(objParent);
-	};
+	}
 	
 	
 	/**
@@ -16684,7 +16702,7 @@ function _________________SETTERS________________() {
 		g_objParentWrapper.delegate(".ug-tile", "click", onTileClick);
 		
 		g_objParentWrapper.delegate(".ug-tile .ug-icon-link", "click", onLinkButtonClick);
-	};
+	}
 	
 	/**
 	 * destroy the element events
@@ -16707,7 +16725,7 @@ function _________________SETTERS________________() {
 		
 		g_thumbs.destroy();
 					
-	};
+	}
 	
 	
 	/**
@@ -16716,7 +16734,7 @@ function _________________SETTERS________________() {
 	this.init = function(gallery, g_thumbs, customOptions){
 		
 		init(gallery, g_thumbs, customOptions);
-	};
+	}
 	
 	/**
 	 * set fixed mode
@@ -16725,14 +16743,14 @@ function _________________SETTERS________________() {
 		
 		g_temp.isFixedMode = true;
 	
-	};
+	}
 	
 	/**
 	 * set parent approve click function
 	 */
 	this.setApproveClickFunction = function(funcApprove){
 		g_temp.funcParentApproveClick = funcApprove;
-	};
+	}
 	
 	/**
 	 * run the tile design
@@ -16753,21 +16771,21 @@ function _________________SETTERS________________() {
 			objThumbs.children(".ug-thumb-image").fadeTo(0,0);			
 			g_thumbs.loadThumbsImages();
 		}
-	};
+	}
 	
 	/**
 	 * get thumbs general option
 	 */
 	this.getObjThumbs = function(){
 		return g_thumbs;
-	};
+	}
 	
 	/**
 	 * get options
 	 */
 	this.getOptions = function(){
 		return g_options;
-	};
+	}
 	
 	/**
 	 * resize tile. If no size given, resize to original size
@@ -16787,7 +16805,7 @@ function _________________SETTERS________________() {
 		g_objWrapper.trigger(g_temp.eventSizeChange, [objTile,true]);
 		
 		
-	};
+	}
 	
 	
 	/**
@@ -16803,7 +16821,7 @@ function _________________SETTERS________________() {
 			t.resizeTile(jQuery(objTile), newWidth, newHeight);
 		});
 		
-	};
+	}
 	
 	/**
 	 * set new options
@@ -16844,10 +16862,10 @@ function UGTiles(){
 			isFirstTimeRun:true,  //if run once
 			handle:null		//interval handle
 	};
-
-
-function __________GENERAL_________() {
-	}
+	
+	
+	function __________GENERAL_________(){};
+	
 	/**
 	 * init the gallery
 	 */
@@ -16903,9 +16921,10 @@ function __________GENERAL_________() {
 	function getParentWidth(){
 		return g_functions.getElementSize(g_objParent).width;
 	}
-
-function __________COLUMN_TYPE_RELATED_________() {
-	}
+	
+	function __________COLUMN_TYPE_RELATED_________(){};
+	
+	
 	/**
 	 * fill common tiles vars
 	 */
@@ -17098,10 +17117,10 @@ function __________COLUMN_TYPE_RELATED_________() {
 		
 		});
 	}
+	
+	
+	function __________JUSTIFIED_TYPE_RELATED_________(){};
 
-
-function __________JUSTIFIED_TYPE_RELATED_________() {
-	}
 	/**
 	 * ------------ JUSTIFIED TYPE RELATED FUNCTIONS ----------------
 	 */
@@ -17364,11 +17383,11 @@ function __________JUSTIFIED_TYPE_RELATED_________() {
 		
 		g_temp.isFirstTimeRun = false;
 	}
-
-
-
-function __________EVENTS_______() {
-	}
+	
+		
+	
+	function __________EVENTS_______(){};
+	
 	/**
 	 * on resize event
 	 */
@@ -17407,7 +17426,7 @@ function __________EVENTS_______() {
 		
 		g_objGallery.off(g_gallery.events.SIZE_CHANGE);
 		g_objTileDesign.destroy();
-	};
+	}
 	
 	
 	/**
@@ -17416,7 +17435,7 @@ function __________EVENTS_______() {
 	this.init = function(gallery, customOptions){
 		
 		init(gallery, customOptions);
-	};
+	}
 
 	
 	/**
@@ -17424,14 +17443,14 @@ function __________EVENTS_______() {
 	 */
 	this.setHtml = function(objParent){
 		setHtml(objParent);
-	};
+	}
 	
 	/**
 	 * get tile design object
 	 */
 	this.getObjTileDesign = function(){
 		return(g_objTileDesign);
-	};
+	}
 	
 	/**
 	 * set html and properties
@@ -17577,7 +17596,7 @@ function UGTouchSliderControl(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * return the item to place
@@ -17998,7 +18017,7 @@ function UGTouchSliderControl(){
 		g_options = jQuery.extend(g_options, customOptions);
 				
 		initEvents();
-	};
+	}
 	
 	
 	/**
@@ -18011,7 +18030,7 @@ function UGTouchSliderControl(){
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -18074,7 +18093,7 @@ function UGTouchThumbsControl(){
 	 */
 	this.enable = function(){
 		g_temp.isControlEnabled = true;
-	};
+	}
 	
 	
 	/**
@@ -18082,7 +18101,7 @@ function UGTouchThumbsControl(){
 	 */
 	this.disable = function(){
 		g_temp.isControlEnabled = false;		
-	};
+	}
 	
 	/**
 	 * init function for avia controls
@@ -18103,7 +18122,7 @@ function UGTouchThumbsControl(){
 		setServiceParams();
 		
 		initEvents();
-	};
+	}
 	
 	/**
 	 * get action related variables
@@ -18133,7 +18152,7 @@ function UGTouchThumbsControl(){
 			return(true);
 		
 		return(false);		
-	};
+	}
 	
 	
 	/**
@@ -18154,7 +18173,7 @@ function UGTouchThumbsControl(){
 			return(true);
 				
 		return(false);
-	};
+	}
 	
 	/**
 	 * set service parameters from user parameters
@@ -18556,7 +18575,7 @@ function UGWistiaAPI(){
 		g_ugFunctions.loadJs("fast.wistia.com/assets/external/E-v1.js", true);
 		
 		g_ugWistiaAPI.isAPILoaded = true;		
-	};
+	}
 
 	
 	/**
@@ -18631,21 +18650,21 @@ function UGWistiaAPI(){
 			break;		
 		}
 		
-	};
+	}
 	
 	/**
 	 * do pause command
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	/**
 	 * do play command
 	 */
 	this.play = function(){
 		t.doCommand("play");
-	};
+	}
 	
 	
 	/**
@@ -18670,7 +18689,7 @@ function UGWistiaAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 	
 	/**
@@ -18724,7 +18743,7 @@ function UGSoundCloudAPI(){
 		g_ugFunctions.loadJs("w.soundcloud.com/player/api.js", true);
 		
 		g_ugSoundCloudAPI.isAPILoaded = true;		
-	};
+	}
 	
 	/**
 	 * actually put the video
@@ -18810,7 +18829,7 @@ function UGSoundCloudAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 
 	/**
@@ -18833,7 +18852,7 @@ function UGSoundCloudAPI(){
 			break;
 		}
 		
-	};
+	}	
 	
 	
 	/**
@@ -18841,7 +18860,7 @@ function UGSoundCloudAPI(){
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	
 	/**
@@ -18849,7 +18868,7 @@ function UGSoundCloudAPI(){
 	 */
 	this.play = function(){
 		t.doCommand("play");
-	};
+	}
 	
 	/**
 	 * destroy the player
@@ -18898,7 +18917,7 @@ function UGHtml5MediaAPI(){
 		g_ugFunctions.loadCss("cdnjs.cloudflare.com/ajax/libs/mediaelement/2.13.2/css/mediaelementplayer.min.css", true);
 		
 		g_ugHtml5MediaAPI.isAPILoaded = true;		
-	};
+	}
 	
 	/**
 	 * return true if the mediaelement is active
@@ -18923,7 +18942,7 @@ function UGHtml5MediaAPI(){
 		var htmlID = divID + "_video";
 		var htmlAutoplay = "";
 		if(isAutoplay && isAutoplay === true)
-			htmlAutoplay = "autoplay='autoplay'";
+			htmlAutoplay = "autoplay='autoplay'"
 		
 		var htmlPoster = "";
 		if(data.posterImage)
@@ -19013,7 +19032,7 @@ function UGHtml5MediaAPI(){
 			
 		}, 500);
 		
-	};
+	}
 
 	/**
 	 * do some command
@@ -19035,7 +19054,7 @@ function UGHtml5MediaAPI(){
 			break;
 		}
 		
-	};
+	}	
 	
 	
 	/**
@@ -19043,7 +19062,7 @@ function UGHtml5MediaAPI(){
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	
 	/**
@@ -19087,7 +19106,7 @@ function UGVimeoAPI(){
 		g_ugFunctions.loadJs("f.vimeocdn.com/js/froogaloop2.min.js", true);
 		
 		g_ugVimeoAPI.isAPILoaded = true;		
-	};
+	}
 	
 	
 	
@@ -19185,21 +19204,21 @@ function UGVimeoAPI(){
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * do pause command
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	/**
 	 * do play command
 	 */
 	this.play = function(){
 		t.doCommand("play");
-	};
+	}
 	
 	/**
 	 * desrtoy the player and empty the div
@@ -19216,7 +19235,7 @@ function UGVimeoAPI(){
 			jQuery("#" + g_lastCotnainerID).html("");			
 		}
 	
-	};
+	}
 	
 	/**
 	 * put the vimeo video
@@ -19240,7 +19259,7 @@ function UGVimeoAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 	
 	/**
@@ -19252,7 +19271,7 @@ function UGVimeoAPI(){
 			return(true);
 	
 		return(false);
-	};
+	}	
 	
 	/**
 	 * change the video
@@ -19265,7 +19284,7 @@ function UGVimeoAPI(){
 		g_cueChangeAutoplay = isAutoplay;
 		
 		g_player.api("loadVideo", videoID);
-	};
+	}
 	
 	
 	/**
@@ -19296,7 +19315,7 @@ function UGYoutubeAPI(){
 	
 	var g_options = {
 			video_youtube_showinfo: true
-	};
+	}
 	
 	this.events = {
 		START_PLAYING: "start_playing",
@@ -19356,7 +19375,7 @@ function UGYoutubeAPI(){
 	 */
 	this.setOptions = function(objOptions){
 		g_options = jQuery.extend(g_options, objOptions);
-	};
+	}
 	
 	
 	/**
@@ -19380,7 +19399,7 @@ function UGYoutubeAPI(){
 			
 		}, 500);
 		
-	};
+	}
 	
 	
 	/**
@@ -19436,7 +19455,7 @@ function UGYoutubeAPI(){
 				
 		g_ugYoutubeAPI.isAPILoaded = true;	
 		
-	};
+	}
 	
 	
 	/**
@@ -19483,21 +19502,21 @@ function UGYoutubeAPI(){
 				}
 			break;
 		}
-	};
+	}
 	
 	/**
 	 * play video
 	 */
 	this.play = function(){
 		t.doCommand("play");		
-	};
+	}
 	
 	/**
 	 * stop the video
 	 */
 	this.pause = function(){
 		t.doCommand("pause");
-	};
+	}
 	
 	/**
 	 * destroy player
@@ -19507,14 +19526,14 @@ function UGYoutubeAPI(){
 			g_isPlayerReady = false;		
 			g_player.destroy();
 		}
-	};
+	}
 	
 	/**
 	 * stop the video and seek to start
 	 */
 	this.stopToBeginning = function(){
 		t.doCommand("stopToBeginning");
-	};
+	}
 	
 	/**
 	 * change the video
@@ -19528,7 +19547,7 @@ function UGYoutubeAPI(){
 			g_player.loadVideoById(videoID, 0, "default");
 		else
 			g_player.cueVideoById(videoID, 0, "default");
-	};
+	}
 	
 	
 	/**
@@ -19540,7 +19559,7 @@ function UGYoutubeAPI(){
 			return(true);
 	
 		return(false);
-	};
+	}
 	
 		
 	
@@ -19603,7 +19622,7 @@ function UGVideoPlayer(){
 		if(isStandAloneMode && isStandAloneMode == true)
 			g_temp.standAloneMode = true;
 		
-	};
+	}
 	
 	
 	/**
@@ -19641,11 +19660,11 @@ function UGVideoPlayer(){
 		
 		if(g_temp.standAloneMode == false && g_options.video_enable_closebutton == true)
 			g_objButtonClose = g_objPlayer.children(".ug-videoplayer-button-close")
-	};
-
-
-	function __________EVENTS___________() {
 	}
+
+	
+	function __________EVENTS___________(){};	
+	
 	/**
 	 * on close button click event
 	 */
@@ -19737,7 +19756,7 @@ function UGVideoPlayer(){
 		jQuery(g_wistiaAPI).off(g_wistiaAPI.events.START_PLAYING, onPlayStart);
 		jQuery(g_wistiaAPI).off(g_wistiaAPI.events.STOP_PLAYING, onPlayStop);
 		
-	};
+	}
 	
 	
 	/**
@@ -19746,7 +19765,7 @@ function UGVideoPlayer(){
 	this.initEvents = function(){
 		
 		initEvents();
-	};
+	}
 	
 	
 	/**
@@ -19759,7 +19778,7 @@ function UGVideoPlayer(){
 		if(g_objButtonClose)
 			g_functions.placeElement(g_objButtonClose, "right", "top");
 		
-	};
+	}
 	
 	
 	/**
@@ -19767,14 +19786,14 @@ function UGVideoPlayer(){
 	 */
 	this.setPosition = function(left, top){
 		g_functions.placeElement(g_objPlayer, left, top);
-	};
+	}
 	
 	/**
 	 * get video player object for placing
 	 */
 	this.getObject = function(){
 		return(g_objPlayer);
-	};
+	}
 	
 	
 	/**
@@ -19791,7 +19810,7 @@ function UGVideoPlayer(){
 			g_objButtonClose.show();
 				
 		g_objThis.trigger(t.events.SHOW);
-	};
+	}
 		
 	
 	/**
@@ -19807,7 +19826,7 @@ function UGVideoPlayer(){
 		g_objPlayer.hide();
 		
 		g_objThis.trigger(t.events.HIDE);
-	};
+	}
 
 	
 	/**
@@ -19816,7 +19835,7 @@ function UGVideoPlayer(){
 	this.isVisible = function(){
 		
 		return g_objPlayer.is(":visible");
-	};
+	}
 	
 	/**
 	 * stop and hide other elements except some
@@ -19879,7 +19898,7 @@ function UGVideoPlayer(){
 		else{
 			g_youtubeAPI.putVideo(g_temp.youtubeInnerID, videoID, "100%", "100%", isAutoplay);
 		}
-	};
+	}
 	
 	
 	/**
@@ -19899,7 +19918,7 @@ function UGVideoPlayer(){
 		else
 			g_vimeoAPI.putVideo(g_temp.vimeoPlayerID, videoID, "100%", "100%", isAutoplay);
 
-	};
+	}
 	
 	
 	/**
@@ -19925,7 +19944,7 @@ function UGVideoPlayer(){
 		
 		g_html5API.putVideo(g_temp.html5PlayerID, data, "100%", "100%", isAutoplay);
 		
-	};
+	}
 
 	/**
 	 * play sound cloud
@@ -19940,7 +19959,7 @@ function UGVideoPlayer(){
 		g_objSoundCloud.show();
 		
 		g_soundCloudAPI.putSound(g_temp.soundCloudPlayerID, trackID, "100%", "100%", isAutoplay);
-	};
+	}
 	
 	
 	/**
@@ -20115,10 +20134,11 @@ function UGZoomSliderControl(){
 		}
 		
 	}
-
-
-function ____________PAN_____________() {
-	}
+	
+	
+	function ____________PAN_____________(){};
+	
+	
 	/**
 	 * check if pan is posible for the current image
 	 * check if the image is bigger then the parent
@@ -20348,11 +20368,11 @@ function ____________PAN_____________() {
 		
 		return(false);
 	}
-
-function ____________END_PAN_____________() {
-	}
-	function ________TOUCH_ZOOM_____________() {
-	}
+	
+	function ____________END_PAN_____________(){};
+	
+	function ________TOUCH_ZOOM_____________(){};
+	
 	/**
 	 * start touch zoom
 	 */
@@ -20514,10 +20534,11 @@ function ____________END_PAN_____________() {
 		}
 		
 	}
-
-
-function ________END_TOUCH_ZOOM_____________() {
-	}
+	
+	
+	function ________END_TOUCH_ZOOM_____________(){};
+	
+	
 	/**
 	 * 
 	 * touch start event - start pan, remember start pan data
@@ -20760,7 +20781,7 @@ function ________END_TOUCH_ZOOM_____________() {
 		}
 		
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -20769,21 +20790,21 @@ function ________END_TOUCH_ZOOM_____________() {
 	this.init = function(objSlider, customOptions){
 		
 		initObject(objSlider, customOptions);
-	};
+	}
 	
 	/**
 	 * zoom in
 	 */
 	this.zoomIn = function(){		
 		zoomCurrentImage("in");	
-	};
+	}
 	
 	/**
 	 * zoom out
 	 */
 	this.zoomOut = function(){		
 		zoomCurrentImage("out");		
-	};
+	}
 	
 	/**
 	 * zoom back

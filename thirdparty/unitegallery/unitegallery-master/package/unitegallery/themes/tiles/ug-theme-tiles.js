@@ -197,7 +197,7 @@ function UGTheme_tiles(){
 		
 		g_tiles.destroy();
 		g_lightbox.destroy();
-	};
+	}
 	
 	
 	/**
@@ -206,7 +206,7 @@ function UGTheme_tiles(){
 	this.run = function(){
 		
 		runTheme();
-	};
+	}
 	
 	
 	/**

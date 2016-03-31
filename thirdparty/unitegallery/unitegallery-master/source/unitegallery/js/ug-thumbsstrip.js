@@ -21,7 +21,7 @@ function UGThumbsStrip(){
 		strip_scroll_to_thumb_easing:"easeOutCubic",		//easing of scrolling to thumb animation
 		strip_control_avia:true,					//avia control - move the strip according strip moseover position
 		strip_control_touch:true					//touch control - move the strip by dragging it
-	};
+	}
 	
 	var g_temp = {
 		isRunOnce:false,
@@ -33,16 +33,16 @@ function UGThumbsStrip(){
 		stripInnerSize:0,	
 		thumbSize:0,
 		thumbSecondSize:0,	//size of the height and width of the strip			
-	};
+	}
 	
 	this.events = {		//events variables
 			STRIP_MOVE:"stripmove"
-	};
+	}	
 	
 	//the defaults for vertical align
 	var g_defaultsVertical = {
 		strip_thumbs_align: "top"
-	};
+	}
 	
 	
 	/**
@@ -64,10 +64,10 @@ function UGThumbsStrip(){
 		//put the thumbs to inner strip
 		g_thumbs.setHtmlThumbs(g_objStripInner);
 		
-	};
-
-	function ___________GENERAL___________() {
 	}
+
+	function ___________GENERAL___________(){};
+	
 	/**
 	 * init the strip
 	 */
@@ -154,7 +154,7 @@ function UGThumbsStrip(){
 		}else{		//vertical
 			g_sizes.thumbSize = thumbsRealHeight;
 			g_sizes.thumbSecondSize = thumbsRealWidth;
-			g_sizes.stripSize = g_objStrip.height();
+			g_sizes.stripSize = g_objStrip.height();;
 			g_sizes.stripInnerSize = g_objStripInner.height();			
 		}
 		
@@ -408,10 +408,10 @@ function UGThumbsStrip(){
 			g_functions.placeElement(g_objStripInner, 0, g_options.strip_thumbs_align);
 			
 	}
-
-
-function ___________EVENTS___________() {
-	}
+	
+	
+	function ___________EVENTS___________(){};
+	
 	/**
 	 * on thumb click event. Select the thumb
 	 */
@@ -474,11 +474,12 @@ function ___________EVENTS___________() {
 			g_aviaControl.destroy();
 		
 		g_thumbs.destroy();
-	};
-
-
-function ____________GETTERS___________() {
 	}
+	
+	
+	function ____________GETTERS___________(){};
+		
+
 	/**
 	 * check if the inner width is more then strip width
 	 */
@@ -547,7 +548,7 @@ function ____________GETTERS___________() {
 	this.init = function(gallery, customOptions){
 		
 		initStrip(gallery, customOptions);
-	};
+	}
 	
 	
 	/**
@@ -555,7 +556,7 @@ function ____________GETTERS___________() {
 	 */	
 	this.run = function(){
 		runStrip();
-	};
+	}
 	
 	
 	/**
@@ -576,7 +577,7 @@ function ____________GETTERS___________() {
 			distPos = minPos;
 		
 		return(distPos);
-	};
+	}
 	
 	
 	/**
@@ -611,7 +612,7 @@ function ____________GETTERS___________() {
 			
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -622,7 +623,7 @@ function ____________GETTERS___________() {
 		//trigger onstripmove event
 		jQuery(t).trigger(t.events.STRIP_MOVE);
 		
-	};
+	}
 	
 		
 	
@@ -636,7 +637,7 @@ function ____________GETTERS___________() {
 		var isActive = g_touchThumbsControl.isTouchActive();
 		
 		return(isActive);
-	};
+	}
 	
 	
 	/**
@@ -664,7 +665,7 @@ function ____________GETTERS___________() {
 			isVisible = true;
 		
 		return(isVisible);
-	};
+	}
 	
 	/**
 	 * get inner strip position according the orientation
@@ -675,7 +676,7 @@ function ____________GETTERS___________() {
 			return g_objStripInner.position().left;
 		else
 			return g_objStripInner.position().top;
-	};
+	}
 	
 	
 	/**
@@ -692,7 +693,7 @@ function ____________GETTERS___________() {
 			output.minPos = -(g_objStripInner.height() - g_objStrip.height());
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -701,7 +702,7 @@ function ____________GETTERS___________() {
 	this.scrollForeward = function(){
 				
 		scrollBy(-g_sizes.stripSize);
-	};
+	}
 	
 	
 	/**
@@ -710,7 +711,7 @@ function ____________GETTERS___________() {
 	this.scrollBack = function(){
 				
 		scrollBy(g_sizes.stripSize);
-	};
+	}
 	
 	
 	this.________EXTERNAL_SETTERS___________ = function(){};
@@ -724,7 +725,7 @@ function ____________GETTERS___________() {
 		g_options = jQuery.extend(g_options, objOptions);
 		
 		g_thumbs.setOptions(objOptions);
-	};
+	}
 	
 	
 	/**
@@ -757,7 +758,7 @@ function ____________GETTERS___________() {
 		 g_temp.is_placed = true;
 		 
 		 checkControlsEnableDisable();
-	};
+	}
 
 	
 	/**
@@ -790,7 +791,7 @@ function ____________GETTERS___________() {
 		 g_temp.is_placed = true;
 		
 		 checkControlsEnableDisable();
-	};
+	}
 	
 	
 	/**
@@ -798,7 +799,7 @@ function ____________GETTERS___________() {
 	 */
 	this.setPosition = function(left, top, offsetLeft, offsetTop){
 		g_functions.placeElement(g_objStrip, left, top, offsetLeft, offsetTop);		
-	};
+	}
 	
 	
 	/**
@@ -824,7 +825,7 @@ function ____________GETTERS___________() {
 		alignInnerStrip();
 		
 		scrollToSelectedThumb();
-	};
+	}
 	
 	
 	/**
@@ -834,7 +835,7 @@ function ____________GETTERS___________() {
 		
 		g_thumbs.setThumbUnselected(objThumbWrapper);
 		
-	};
+	}
 	
 	
 	/**
@@ -844,7 +845,7 @@ function ____________GETTERS___________() {
 		
 		g_thumbs.setCustomThumbs(funcSetHtml);
 		
-	};
+	}
 	
 	
 	this.________EXTERNAL_GETTERS___________ = function(){};
@@ -871,7 +872,7 @@ function ____________GETTERS___________() {
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	
@@ -883,7 +884,7 @@ function ____________GETTERS___________() {
 		var obj = g_functions.getElementSize(g_objStrip);
 		
 		return(obj);
-	};
+	}
 	
 	/**
 	 * get thumbs strip height
@@ -893,7 +894,7 @@ function ____________GETTERS___________() {
 		var stripHeight = g_objStrip.outerHeight();
 		
 		return(stripHeight)
-	};
+	}
 	
 	
 	/**
@@ -904,7 +905,7 @@ function ____________GETTERS___________() {
 		var stripWidth = g_objStrip.outerWidth();
 		
 		return(stripWidth);
-	};
+	}
 	
 	
 	
@@ -914,7 +915,7 @@ function ____________GETTERS___________() {
 	this.getSizes = function(){
 		
 		return(g_sizes);
-	};
+	}
 	
 	
 	/**
@@ -922,7 +923,7 @@ function ____________GETTERS___________() {
 	 */
 	this.isVertical = function(){
 		return(g_isVertical);
-	};
+	}
 	
 	
 	/**
@@ -931,7 +932,7 @@ function ____________GETTERS___________() {
 	this.isPlaced = function(){
 		
 		return(g_temp.is_placed);
-	};
+	}
 	
 	/**
 	 * return if the strip moving enabled or not

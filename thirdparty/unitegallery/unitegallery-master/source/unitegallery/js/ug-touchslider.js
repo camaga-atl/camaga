@@ -130,7 +130,7 @@ function UGTouchSliderControl(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * return the item to place
@@ -551,7 +551,7 @@ function UGTouchSliderControl(){
 		g_options = jQuery.extend(g_options, customOptions);
 				
 		initEvents();
-	};
+	}
 	
 	
 	/**
@@ -564,7 +564,7 @@ function UGTouchSliderControl(){
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	/**

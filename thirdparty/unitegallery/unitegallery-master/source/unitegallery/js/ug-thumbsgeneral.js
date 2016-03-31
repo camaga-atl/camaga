@@ -46,7 +46,7 @@ function UGThumbsGeneral(){
 			
 			thumb_wrapper_as_link: false,				//set thumb as link
 			thumb_link_newpage: false					//set the link to open newpage
-		};
+		}
 	
 		var g_temp = {
 			touchEnabled: false,
@@ -83,7 +83,7 @@ function UGThumbsGeneral(){
 			g_temp.isEffectOverlay = g_options.thumb_color_overlay_effect;
 			g_temp.isEffectImage = g_options.thumb_image_overlay_effect;
 						
-		};
+		}
 		
 		
 		/**
@@ -175,7 +175,7 @@ function UGThumbsGeneral(){
 				 g_arrItems[i].objThumbWrapper = objThumbWrapper;
 				 
 			 }
-		};
+		}
 		
 		
 		/**
@@ -223,7 +223,7 @@ function UGThumbsGeneral(){
 				
 			}
 			
-		};
+		}
 		
 		
 		/**
@@ -381,7 +381,7 @@ function UGThumbsGeneral(){
 			}
 			
 			g_objThis.trigger(t.events.SETNORMALSTYLE, objThumb);
-		};
+		}
 		
 		
 		/**
@@ -410,7 +410,7 @@ function UGThumbsGeneral(){
 			
 			//trigger event for parent classes
 			g_objThis.trigger(t.events.SETOVERSTYLE, objThumb);
-		};
+		}
 		
 		
 		/**
@@ -454,7 +454,7 @@ function UGThumbsGeneral(){
 			
 			var arrItem = g_arrItems[index];
 			return(arrItem);
-		};
+		}
 		
 		
 		/**
@@ -472,7 +472,7 @@ function UGThumbsGeneral(){
 			
 			//set thumb selected style
 			setThumbSelectedStyle(objThumbWrapper);
-		};
+		}
 		
 		
 		/**
@@ -587,7 +587,7 @@ function UGThumbsGeneral(){
 				onMouseOut(objThumb);
 			});
 				
-		};
+		}
 		
 		/**
 		 * destroy the thumb element
@@ -599,7 +599,7 @@ function UGThumbsGeneral(){
 			objThumbs.off("mouseenter");
 			objThumbs.off("mouseleave");
 			
-		};
+		}
 		
 		
 		/**
@@ -611,7 +611,7 @@ function UGThumbsGeneral(){
 			objThumbWrapper.removeClass("ug-thumb-selected");
 			
 			t.setThumbNormalStyle(objThumbWrapper);
-		};
+		}
 		
 		
 		/**
@@ -631,7 +631,7 @@ function UGThumbsGeneral(){
 					
 			});
 
-		};
+		}
 		
 		
 		/**
@@ -709,7 +709,7 @@ function UGThumbsGeneral(){
 					"height":objSize.height+"px",
 					"left":objSize.left+"px",
 					"top":objSize.top+"px"
-				};
+				}
 				
 			objImageBW.css(objCss);
 			
@@ -751,7 +751,7 @@ function UGThumbsGeneral(){
 			
 			g_options = jQuery.extend(g_options, objOptions);
 			
-		};
+		}
 		
 		
 		/**
@@ -775,7 +775,7 @@ function UGThumbsGeneral(){
 			
 			g_temp.isEffectImage = false;		//for custom effects the image is always off
 			
-		};
+		}
 		
 		
 		/**
@@ -784,7 +784,7 @@ function UGThumbsGeneral(){
 		this.getOptions = function(){
 			
 			return(g_options);
-		};
+		}
 		
 		
 		/**
@@ -793,7 +793,7 @@ function UGThumbsGeneral(){
 		this.getNumThumbs = function(){
 			var numThumbs = g_arrItems.length;
 			return(numThumbs);
-		};
+		}
 		
 		/**
 		 * get all thumbs jquery object

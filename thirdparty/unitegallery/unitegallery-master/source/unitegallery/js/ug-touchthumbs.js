@@ -47,7 +47,7 @@ function UGTouchThumbsControl(){
 	 */
 	this.enable = function(){
 		g_temp.isControlEnabled = true;
-	};
+	}
 	
 	
 	/**
@@ -55,7 +55,7 @@ function UGTouchThumbsControl(){
 	 */
 	this.disable = function(){
 		g_temp.isControlEnabled = false;		
-	};
+	}
 	
 	/**
 	 * init function for avia controls
@@ -76,7 +76,7 @@ function UGTouchThumbsControl(){
 		setServiceParams();
 		
 		initEvents();
-	};
+	}
 	
 	/**
 	 * get action related variables
@@ -106,7 +106,7 @@ function UGTouchThumbsControl(){
 			return(true);
 		
 		return(false);		
-	};
+	}
 	
 	
 	/**
@@ -127,7 +127,7 @@ function UGTouchThumbsControl(){
 			return(true);
 				
 		return(false);
-	};
+	}
 	
 	/**
 	 * set service parameters from user parameters

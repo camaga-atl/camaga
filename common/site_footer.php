@@ -1,22 +1,20 @@
 	<footer>
 		<!-- facebook start -->
 			<div id="fb-root"></div>
-			<script>
-				(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			</script>
-			<div class="fb-follow" 
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+				fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-like" 
 				data-href="https://www.facebook.com/camaga.org" 
-				data-colorscheme="light" 
 				data-layout="button_count" 
-				data-show-faces="false">
+				data-action="like" 
+				data-show-faces="false" 
+				data-share="true">
 			</div>
-		<!-- facebook end  -->	
 		<!-- Twitter start -->		
 			<script type="text/javascript">
 				window.twttr = (function (d, s, id) {

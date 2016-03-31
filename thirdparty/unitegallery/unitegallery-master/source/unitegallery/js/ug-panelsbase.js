@@ -19,7 +19,7 @@ function UGPanelsBase(){
 		g_objThis = g_objThisArg;
 		
 		g_objGallery = jQuery(g_gallery);
-	};
+	}
 
 	/**
 	 * set common panels html
@@ -52,7 +52,7 @@ function UGPanelsBase(){
 		
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -63,7 +63,7 @@ function UGPanelsBase(){
 		// place handle
 		if (g_objHandle)
 			g_objHandle.placeHandle();		
-	};
+	}
 	
 	
 	/**
@@ -86,7 +86,7 @@ function UGPanelsBase(){
 			
 		}
 		
-	};
+	}
 	
 	/**
 	 * destroy the panel events
@@ -99,7 +99,7 @@ function UGPanelsBase(){
 			g_objGallery.off(g_gallery.events.SLIDER_ACTION_END);
 		}
 		
-	};
+	}
 	
 	/**
 	 * place panel with some animation
@@ -189,7 +189,7 @@ function UGPanelsBase(){
 			onPanelSlideFinish();
 		}
 
-	};
+	}
 
 	
 	/**
@@ -219,7 +219,7 @@ function UGPanelsBase(){
 			onPanelSlideFinish();
 		}
 
-	};
+	}
 	
 	/**
 	 * set the panel that it's in closed state, and set original pos for opening
@@ -231,7 +231,7 @@ function UGPanelsBase(){
 		g_objThis.trigger(g_panel.events.CLOSE_PANEL);
 
 		g_temp.isClosed = true;
-	};
+	}
 
 	/**
 	 * set the panel opened state
@@ -240,7 +240,7 @@ function UGPanelsBase(){
 		g_objThis.trigger(g_panel.events.OPEN_PANEL);
 
 		g_temp.isClosed = false;
-	};
+	}
 
 	/**
 	 * get closed panel destanation
@@ -271,7 +271,7 @@ function UGPanelsBase(){
 		}
 
 		return (panelDest);
-	};
+	}
 
 
 	/**
@@ -280,7 +280,7 @@ function UGPanelsBase(){
 	this.isPanelClosed = function() {
 
 		return (g_temp.isClosed);
-	};
+	}
 	
 	
 	/**
@@ -346,7 +346,7 @@ function UGPanelHandle(){
 			g_options.panel_handle_skin = globalSkin;
 		
 		
-	};
+	}
 	
 	
 	/**
@@ -375,7 +375,7 @@ function UGPanelHandle(){
 		
 		g_objPanel.append("<div class='"+classTip+" ug-skin-" + g_options.panel_handle_skin + "'></div>");
 		g_objHandleTip = g_objPanel.children(".ug-panel-handle-tip");
-	};
+	}
 	
 	
 	/**
@@ -437,7 +437,7 @@ function UGPanelHandle(){
 			setClosedState();
 		});
 		
-	};
+	}
 	
 	/**
 	 * destroy the handle panel events
@@ -446,7 +446,7 @@ function UGPanelHandle(){
 		g_functions.destroyButton(g_objHandleTip);
 		jQuery(g_panel).off(g_panel.events.OPEN_PANEL);
 		jQuery(g_panel).off(g_panel.events.CLOSE_PANEL);
-	};
+	}
 	
 	
 	
@@ -503,7 +503,7 @@ function UGPanelHandle(){
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * hide the handle
@@ -513,7 +513,7 @@ function UGPanelHandle(){
 		if(g_objHandleTip.is(":visible") == true)
 			g_objHandleTip.hide();
 	
-	};
+	}
 	
 	/**
 	 * show the handle

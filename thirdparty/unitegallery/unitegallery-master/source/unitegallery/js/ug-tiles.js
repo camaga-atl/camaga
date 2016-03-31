@@ -28,10 +28,10 @@ function UGTiles(){
 			isFirstTimeRun:true,  //if run once
 			handle:null		//interval handle
 	};
-
-
-function __________GENERAL_________() {
-	}
+	
+	
+	function __________GENERAL_________(){};
+	
 	/**
 	 * init the gallery
 	 */
@@ -87,9 +87,10 @@ function __________GENERAL_________() {
 	function getParentWidth(){
 		return g_functions.getElementSize(g_objParent).width;
 	}
-
-function __________COLUMN_TYPE_RELATED_________() {
-	}
+	
+	function __________COLUMN_TYPE_RELATED_________(){};
+	
+	
 	/**
 	 * fill common tiles vars
 	 */
@@ -282,10 +283,10 @@ function __________COLUMN_TYPE_RELATED_________() {
 		
 		});
 	}
+	
+	
+	function __________JUSTIFIED_TYPE_RELATED_________(){};
 
-
-function __________JUSTIFIED_TYPE_RELATED_________() {
-	}
 	/**
 	 * ------------ JUSTIFIED TYPE RELATED FUNCTIONS ----------------
 	 */
@@ -548,11 +549,11 @@ function __________JUSTIFIED_TYPE_RELATED_________() {
 		
 		g_temp.isFirstTimeRun = false;
 	}
-
-
-
-function __________EVENTS_______() {
-	}
+	
+		
+	
+	function __________EVENTS_______(){};
+	
 	/**
 	 * on resize event
 	 */
@@ -591,7 +592,7 @@ function __________EVENTS_______() {
 		
 		g_objGallery.off(g_gallery.events.SIZE_CHANGE);
 		g_objTileDesign.destroy();
-	};
+	}
 	
 	
 	/**
@@ -600,7 +601,7 @@ function __________EVENTS_______() {
 	this.init = function(gallery, customOptions){
 		
 		init(gallery, customOptions);
-	};
+	}
 
 	
 	/**
@@ -608,14 +609,14 @@ function __________EVENTS_______() {
 	 */
 	this.setHtml = function(objParent){
 		setHtml(objParent);
-	};
+	}
 	
 	/**
 	 * get tile design object
 	 */
 	this.getObjTileDesign = function(){
 		return(g_objTileDesign);
-	};
+	}
 	
 	/**
 	 * set html and properties

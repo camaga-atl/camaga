@@ -370,7 +370,7 @@ function UGTheme_tilesgrid(){
 		
 		g_lightbox.destroy();
 		
-	};
+	}
 
 	
 	/**
@@ -379,7 +379,7 @@ function UGTheme_tilesgrid(){
 	this.run = function(){
 		
 		runTheme();
-	};
+	}
 	
 	
 	/**

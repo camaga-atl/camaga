@@ -23,14 +23,14 @@ function UGAviaControl(){
 	 */
 	this.enable = function(){
 		g_temp.isControlEnabled = true;
-	};
+	}
 	
 	/**
 	 * disable the control
 	 */
 	this.disable = function(){
 		g_temp.isControlEnabled = false;		
-	};
+	}
 	
 	/**
 	 * init function for avia controls
@@ -48,7 +48,7 @@ function UGAviaControl(){
 		g_isVertical = g_objects.isVertical;		
 				
 		initEvents();
-	};
+	}
 	
 	/**
 	 * get mouse position from event according the orientation
@@ -113,7 +113,7 @@ function UGAviaControl(){
 		jQuery("body").off("touchstart");
 		jQuery("body").off("mousemove");
 
-	};
+	}
 	
 	
 	/**

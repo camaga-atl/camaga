@@ -147,11 +147,12 @@
 
 <br/></br/>
 
-		<?php 
-			include(CAMAGA_ROOT . "common/site_footer.php");
-		?>
 		    </div>
+			<div class="push"></div>
     </div>	
+	<?php 
+		include(CAMAGA_ROOT . "common/site_footer.php");
+	?>
 	
 	<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/js/unitegallery.min.js'></script> 
 	<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js'></script> 

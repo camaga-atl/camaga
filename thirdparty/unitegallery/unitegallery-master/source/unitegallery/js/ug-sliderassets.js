@@ -173,7 +173,7 @@ function UGTextPanel(){
 			break;
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -235,7 +235,7 @@ function UGTextPanel(){
 		if(g_options.textpanel_height && g_options.textpanel_height < 0)
 			g_options.textpanel_height = null;
 
-	};
+	}
 	
 	
 	/**
@@ -266,7 +266,7 @@ function UGTextPanel(){
 		
 		setCss();
 		
-	};
+	}
 	
 	
 	/**
@@ -379,7 +379,7 @@ function UGTextPanel(){
 	 */
 	this.destroy = function(){
 		jQuery(g_gallery).off(g_gallery.events.ITEM_CHANGE);
-	};
+	}
 	
 	/**
 	 * run the text panel
@@ -389,7 +389,7 @@ function UGTextPanel(){
 		t.setSizeByParent();
 		
 		initEvents();
-	};
+	}
 	
 	/**
 	 * set panel size
@@ -427,7 +427,7 @@ function UGTextPanel(){
 		
 		if(g_temp.isFirstTime == false)
 			t.positionElements(false);
-	};
+	}
 	
 	
 	/**
@@ -437,7 +437,7 @@ function UGTextPanel(){
 				
 		var objSize = g_functions.getElementSize(g_objParent);
 		t.setPanelSize(objSize.width);
-	};
+	}
 	
 	/**
 	 * set plain sext without other manipulations
@@ -450,7 +450,7 @@ function UGTextPanel(){
 		if(g_objDesc)
 			g_objDesc.html(description);
 		
-	};
+	}
 	
 	
 	/**
@@ -479,7 +479,7 @@ function UGTextPanel(){
 			
 		}
 		
-	};
+	}
 	
 	
 		
@@ -514,7 +514,7 @@ function UGTextPanel(){
 			objCss.left = customLeft;
 			
 		g_objPanel.css(objCss);
-	};
+	}
 	
 	
 	/**
@@ -527,7 +527,7 @@ function UGTextPanel(){
 		
 		g_options = jQuery.extend(g_options, objOptions);
 				
-	};
+	}
 	
 	
 	/**
@@ -536,7 +536,7 @@ function UGTextPanel(){
 	this.getElement = function(){
 		
 		return(g_objPanel);
-	};
+	}
 	
 	/**
 	 * get element size
@@ -545,7 +545,7 @@ function UGTextPanel(){
 		
 		var objSize = g_functions.getElementSize(g_objPanel);
 		return(objSize);
-	};
+	}
 	
 	
 	/**
@@ -567,7 +567,7 @@ function UGTextPanel(){
 		
 		if(toShow === true)
 			t.show();		
-	};
+	}
 	
 	
 	/**
@@ -575,21 +575,21 @@ function UGTextPanel(){
 	 */
 	this.hide = function(){
 		g_objPanel.hide();
-	};
+	}
 	
 	/**
 	 * show the panel
 	 */
 	this.show = function(){
 		g_objPanel.show();
-	};
+	}
 	
 	/**
 	 * get options
 	 */
 	this.getOptions = function(){
 		return(g_options);
-	};
+	}
 	
 	/**
 	 * get text panel option
@@ -635,7 +635,7 @@ function UGZoomButtonsPanel(){
 		
 		if(customOptions)
 			g_options = jQuery.extend(g_options, customOptions);		
-	};
+	}
 	
 	/**
 	 * append the bullets html to some parent
@@ -658,7 +658,7 @@ function UGZoomButtonsPanel(){
 		g_objButtonMinus = g_objPanel.children(".ug-zoompanel-minus");
 		g_objButtonReturn = g_objPanel.children(".ug-zoompanel-return");
 		
-	};
+	}
 	
 	
 	/**
@@ -667,7 +667,7 @@ function UGZoomButtonsPanel(){
 	this.getElement = function(){
 		
 		return(g_objPanel);
-	};
+	}
 	
 	
 	/**
@@ -788,7 +788,7 @@ function UGBullets(){
 		bullets_skin: "",					//bullets_skin: ""		//skin of the bullets, if empty inherit from gallery skin
 		bullets_addclass: "",					//bullets object class addition
 		bullets_space_between:-1			//set the space between bullets. If -1 then will be set default space from the skins
-	};
+	}
 	
 	
 	/**
@@ -815,7 +815,7 @@ function UGBullets(){
 		if(g_options.bullets_skin == "")
 			g_options.bullets_skin = g_options.gallery_skin;
 		
-	};
+	}
 	
 	/**
 	 * add bullets to the html
@@ -860,7 +860,7 @@ function UGBullets(){
 		setHtmlBullets();
 		
 		initEvents();
-	};
+	}	
 	
 	
 	/**
@@ -871,7 +871,7 @@ function UGBullets(){
 		g_numBullets = numBullets;
 		setHtmlBullets();
 		initEvents();
-	};
+	}
 	
 	
 	/**
@@ -913,7 +913,7 @@ function UGBullets(){
 	 */
 	this.getElement = function(){
 		return g_objBullets;
-	};
+	}
 	
 	
 	/**
@@ -930,7 +930,7 @@ function UGBullets(){
 		bullet.addClass("ug-bullet-active");
 		
 		g_activeIndex = index;
-	};
+	}
 
 	
 	/**
@@ -949,7 +949,7 @@ function UGBullets(){
 				return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -987,7 +987,7 @@ function UGProgressBar(){
 		slider_progressbar_color:"#ffffff",			//progress bar color
 		slider_progressbar_opacity: 0.6,			//progress bar opacity
 		slider_progressbar_line_width: 5			//progress bar line width
-	};
+	}
 	
 	
 	/**
@@ -1014,7 +1014,7 @@ function UGProgressBar(){
 		var objInnerHTML = g_objInner[0];
 		objInnerHTML.style.opacity = opacity;
 		objInnerHTML.style.filter = 'alpha(opacity=' + opacity*100 + ')';
-	};
+	}
 	
 	
 	/**
@@ -1023,7 +1023,7 @@ function UGProgressBar(){
 	this.putHidden = function(g_objWrapper, userOptions){
 		t.put(g_objWrapper, userOptions);
 		g_objBar.hide();
-	};
+	}
 	
 	/**
 	 * get the bar object
@@ -1031,7 +1031,7 @@ function UGProgressBar(){
 	this.getElement = function(){
 		
 		return(g_objBar);
-	};
+	}
 	
 	/**
 	 * set progress bar size
@@ -1041,7 +1041,7 @@ function UGProgressBar(){
 		g_objBar.width(width);
 		g_objInner.width(width);
 		t.draw();
-	};
+	}
 	
 	
 	/**
@@ -1050,7 +1050,7 @@ function UGProgressBar(){
 	this.setPosition = function(left, top, offsetLeft, offsetTop){
 		
 		g_functions.placeElement(g_objBar, left, top, offsetLeft, offsetTop);
-	};
+	}
 	
 	
 	/**
@@ -1060,7 +1060,7 @@ function UGProgressBar(){
 		var innerWidth = g_percent * 100;
 		
 		g_objInner.width(innerWidth + "%");
-	};
+	}
 	
 	
 	/**
@@ -1073,7 +1073,7 @@ function UGProgressBar(){
 		//debugLine(g_percent, true);
 		
 		t.draw();
-	};
+	}
 	
 	/**
 	 * get type string
@@ -1098,7 +1098,7 @@ function UGProgressPie(){
 		slider_progresspie_stroke_width: 6,			//progress pie stroke width 
 		slider_progresspie_width: 30,				//progess pie width
 		slider_progresspie_height:30				//progress pie height
-	};
+	}
 	
 	
 	/**
@@ -1111,7 +1111,7 @@ function UGProgressPie(){
 			
 		g_objWrapper.append("<canvas class='ug-canvas-pie' width='"+g_options.slider_progresspie_width+"' height='"+g_options.slider_progresspie_height+"'></canvas>");
 		g_objPie = g_objWrapper.children(".ug-canvas-pie");
-	};
+	}
 	
 	
 	/**
@@ -1121,7 +1121,7 @@ function UGProgressPie(){
 		t.put(g_objWrapper, userOptions);
 		draw(0.1);
 		g_objPie.hide();
-	};
+	}
 	
 	
 	/**
@@ -1129,7 +1129,7 @@ function UGProgressPie(){
 	 */
 	this.getElement = function(){
 		return(g_objPie);
-	};
+	}
 	
 	/**
 	 * set position
@@ -1138,7 +1138,7 @@ function UGProgressPie(){
 		
 		g_functions.placeElement(g_objPie, left, top);
 		
-	};
+	}
 	
 	/**
 	 * get the height and width of the object
@@ -1151,7 +1151,7 @@ function UGProgressPie(){
 		};
 		
 		return(obj);
-	};
+	}	
 	
 	/**
 	 * draw the progress pie
@@ -1248,7 +1248,7 @@ function UGProgressPie(){
 		
 		g_percent = percent;
 		draw(percent);
-	};
+	}
 	
 	/**
 	 * get type string

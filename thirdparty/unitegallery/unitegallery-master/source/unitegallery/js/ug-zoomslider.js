@@ -145,10 +145,11 @@ function UGZoomSliderControl(){
 		}
 		
 	}
-
-
-function ____________PAN_____________() {
-	}
+	
+	
+	function ____________PAN_____________(){};
+	
+	
 	/**
 	 * check if pan is posible for the current image
 	 * check if the image is bigger then the parent
@@ -378,11 +379,11 @@ function ____________PAN_____________() {
 		
 		return(false);
 	}
-
-function ____________END_PAN_____________() {
-	}
-	function ________TOUCH_ZOOM_____________() {
-	}
+	
+	function ____________END_PAN_____________(){};
+	
+	function ________TOUCH_ZOOM_____________(){};
+	
 	/**
 	 * start touch zoom
 	 */
@@ -544,10 +545,11 @@ function ____________END_PAN_____________() {
 		}
 		
 	}
-
-
-function ________END_TOUCH_ZOOM_____________() {
-	}
+	
+	
+	function ________END_TOUCH_ZOOM_____________(){};
+	
+	
 	/**
 	 * 
 	 * touch start event - start pan, remember start pan data
@@ -790,7 +792,7 @@ function ________END_TOUCH_ZOOM_____________() {
 		}
 		
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -799,21 +801,21 @@ function ________END_TOUCH_ZOOM_____________() {
 	this.init = function(objSlider, customOptions){
 		
 		initObject(objSlider, customOptions);
-	};
+	}
 	
 	/**
 	 * zoom in
 	 */
 	this.zoomIn = function(){		
 		zoomCurrentImage("in");	
-	};
+	}
 	
 	/**
 	 * zoom out
 	 */
 	this.zoomOut = function(){		
 		zoomCurrentImage("out");		
-	};
+	}
 	
 	/**
 	 * zoom back

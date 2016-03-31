@@ -47,10 +47,10 @@ function UGThumbsGrid(){
 			isTilesMode: false,
 			storedEventID: "thumbsgrid"
 		};
-
-
-function __________GENERAL_________() {
-	}
+	
+	
+	function __________GENERAL_________(){};
+	
 	/**
 	 * init the gallery
 	 */
@@ -70,7 +70,7 @@ function __________GENERAL_________() {
 		setOptions(customOptions);
 		
 		//set vertical or horizon
-		g_temp.isNavigationVertical = (g_options.grid_panes_direction == "top" || g_options.grid_panes_direction == "bottom");
+		g_temp.isNavigationVertical = (g_options.grid_panes_direction == "top" || g_options.grid_panes_direction == "bottom")
 		
 		if(g_temp.isTilesMode == true){
 			
@@ -676,11 +676,11 @@ function __________GENERAL_________() {
 		var innerPos = -g_temp.arrPanes[g_temp.currentPane];
 		animateInnerTo(innerPos);
 	}
-
-
-
-function __________GETTERS_________() {
-	}
+	
+		
+	
+	function __________GETTERS_________(){};
+	
 	/**
 	 * get inner object size according the orientation
 	 */
@@ -835,10 +835,11 @@ function __________GETTERS_________() {
 		
 		return(isApprove);
 	}
-
-
-function __________EVENTS_______() {
-	}
+	
+	
+	function __________EVENTS_______(){};
+	
+	
 	/**
 	 * on thumb click event
 	 */
@@ -1057,7 +1058,7 @@ function __________EVENTS_______() {
 		
 		g_objThis.off(t.events.PANE_CHANGE);
 		
-	};
+	}
 	
 	
 	
@@ -1070,7 +1071,7 @@ function __________EVENTS_______() {
 		
 		g_thumbs.setThumbUnselected(objThumbWrapper);
 		
-	};
+	}
 	
 	/**
 	 * check if thmb item visible, means inside the visible part of the inner strip
@@ -1083,7 +1084,7 @@ function __________EVENTS_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	this.__________EXTERNAL_API_________ = function(){};
@@ -1110,7 +1111,7 @@ function __________EVENTS_______() {
 		var numPanes = Math.ceil(totalHeight / gridHeight);
 		
 		return(numPanes);
-	};
+	}
 	
 	/**
 	 * get estimation of number of panes by the width of the grid.
@@ -1132,7 +1133,7 @@ function __________EVENTS_______() {
 		var numPanes = Math.ceil(totalWidth / gridWidth);
 				
 		return(numPanes);
-	};
+	}
 	
 	
 	/**
@@ -1154,14 +1155,14 @@ function __________EVENTS_______() {
 		gridHeight += g_options.grid_padding * 2;
 		
 		return(gridHeight);
-	};
+	}
 	
 	/**
 	 * get the grid element
 	 */
 	this.getElement = function(){
 		return(g_objGrid);
-	};
+	}
 	
 	/**
 	 * get element size and position
@@ -1171,7 +1172,7 @@ function __________EVENTS_______() {
 		var objSize = g_functions.getElementSize(g_objGrid);
 		return(objSize);
 		
-	};
+	}
 	
 	/**
 	 * get number of panes
@@ -1179,7 +1180,7 @@ function __________EVENTS_______() {
 	this.getNumPanes = function(){
 		
 		return(g_temp.numPanes);
-	};
+	}
 	
 	/**
 	 * get if the current pane is first
@@ -1190,7 +1191,7 @@ function __________EVENTS_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1202,7 +1203,7 @@ function __________EVENTS_______() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1216,7 +1217,7 @@ function __________EVENTS_______() {
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -1225,7 +1226,7 @@ function __________EVENTS_______() {
 	this.getPane = function(){
 		
 		return(g_temp.currentPane);
-	};
+	}
 	
 	
 	/**
@@ -1234,7 +1235,7 @@ function __________EVENTS_______() {
 	this.setWidth = function(gridWidth){
 		g_temp.gridWidth = gridWidth;
 		g_temp.isHorizontal = true;
-	};
+	}
 	
 	/**
 	 * set max width, the width will be corrected by the number of items
@@ -1244,7 +1245,7 @@ function __________EVENTS_______() {
 		g_temp.gridWidth = maxWidth;
 		g_temp.isMaxWidth = true;
 		g_temp.isHorizontal = true;
-	};
+	}
 	
 	
 	/**
@@ -1254,7 +1255,7 @@ function __________EVENTS_______() {
 		g_temp.gridHeight = gridHeight;
 		g_temp.isHorizontal = false;
 		
-	};
+	}
 	
 	/**
 	 * set max height, the height will be corrected by the number of items
@@ -1264,7 +1265,7 @@ function __________EVENTS_______() {
 		g_temp.gridHeight = maxHeight;
 		g_temp.isMaxHeight = true;
 		g_temp.isHorizontal = false;
-	};
+	}
 	
 	
 	/**
@@ -1286,7 +1287,7 @@ function __________EVENTS_______() {
 		
 		//trigger pane change event
 		g_objThis.trigger(t.events.PANE_CHANGE, index);
-	};
+	}
 	
 	
 	/**
@@ -1305,7 +1306,7 @@ function __________EVENTS_______() {
 		}
 		
 		t.gotoPane(nextPaneIndex, "next");
-	};
+	}
 	
 	
 	/**
@@ -1322,7 +1323,7 @@ function __________EVENTS_______() {
 		}
 		
 		t.gotoPane(prevPaneIndex, "prev");
-	};
+	}
 	
 	
 	/**
@@ -1348,7 +1349,7 @@ function __________EVENTS_______() {
 	
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -1374,7 +1375,7 @@ function __________EVENTS_______() {
 	
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -1393,7 +1394,7 @@ function __________EVENTS_______() {
 			objBullets.setActive(numPane);
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -1401,7 +1402,7 @@ function __________EVENTS_______() {
 	 */
 	this.getObjTileDesign = function(){
 		return g_tilesDesign;
-	};
+	}
 	
 	
 	/**
@@ -1410,7 +1411,7 @@ function __________EVENTS_______() {
 	this.init = function(gallery, customOptions, isTilesMode){
 		
 		init(gallery, customOptions, isTilesMode);
-	};
+	}
 	
 		
 	
@@ -1419,7 +1420,7 @@ function __________EVENTS_______() {
 	 */	
 	this.run = function(){
 		run();
-	};
+	}
 
 	
 	/**

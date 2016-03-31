@@ -89,7 +89,7 @@
 		<?php 
 			include(CAMAGA_ROOT . "common/site_footer.php");
 		?>						
-		<script src="js/lightbox-2.6.min.js"></script>		
+		<script src="thirdparty/lightbox2/lightbox2-master/dist/js/lightbox.min.js"></script>
 		<script>
 			$(document).ready( function() {
 				// make each a giant clickable row

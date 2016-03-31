@@ -33,7 +33,7 @@ function UGSlider(){
 		AFTER_PUT_IMAGE: "after_put_image",			//after put slide image
 		IMAGE_MOUSEENTER: "slider_image_mouseenter", //on slide image mouseonter
 		IMAGE_MOUSELEAVE: "slider_image_mouseleave"	 //on slide image mouseleave
-	};
+	}
 	
 	var g_options = {
 		  slider_scale_mode: "fill",					//fit: scale down and up the image to always fit the slider
@@ -165,9 +165,10 @@ function UGSlider(){
 		isControlsVisible: true,
 		currentControlsMode: "image"
 	};
-
-function __________GENERAL___________() {
-	}
+	
+	function __________GENERAL___________(){};
+	
+	
 	/**
 	 * init the slider
 	 */
@@ -205,7 +206,7 @@ function __________GENERAL___________() {
 			var bulletsOptions = {
 					bullets_skin: g_options.slider_bullets_skin,
 					bullets_space_between: g_options.slider_bullets_space_between
-			};
+			}
 			g_objBullets.init(g_gallery, bulletsOptions);
 		}
 		
@@ -1087,13 +1088,13 @@ function __________GENERAL___________() {
 		
 		return(true);
 	}
+	
 
 
-
-
-
-function __________CONTROLS_OBJECT_______() {
-	}
+	
+	
+	function __________CONTROLS_OBJECT_______(){};
+	
 	/**
 	 * modify the slider for mobile
 	 */
@@ -1259,11 +1260,11 @@ function __________CONTROLS_OBJECT_______() {
 		g_temp.currentControlsMode = mode;
 			
 	}
+	
+	
+	
+	function __________EVENTS___________(){};
 
-
-
-function __________EVENTS___________() {
-	}
 	/**
 	 * on item change event
 	 */
@@ -1589,11 +1590,11 @@ function __________EVENTS___________() {
 		
 		g_objSlider.undelegate(".ug-item-wrapper img","mouseenter");
 		g_objSlider.undelegate(".ug-item-wrapper img","mouseleave");
-	};
-
-
-function __________GETTERS___________() {
 	}
+	
+	
+	function __________GETTERS___________(){};
+	
 	/**
 	 * get loader class by loader type
 	 */
@@ -1721,7 +1722,7 @@ function __________GETTERS___________() {
 	this.init = function(objGallery, objOptions, optionsPrefix){
 		
 		initSlider(objGallery, objOptions, optionsPrefix);
-	};
+	}
 
 	/**
 	 * get slide image
@@ -1733,7 +1734,7 @@ function __________GETTERS___________() {
 		
 		var objImage = objSlide.find(".ug-item-wrapper img");
 		return(objImage);
-	};
+	}
 	
 	
 	/**
@@ -1742,7 +1743,7 @@ function __________GETTERS___________() {
 	this.setHtml = function(objParent){
 		
 		setHtmlSlider(objParent);
-	};
+	}
 	
 	
 	/**
@@ -1751,7 +1752,7 @@ function __________GETTERS___________() {
 	this.run = function(){
 		
 		runSlider();
-	};
+	}
 	
 	
 	/**
@@ -1769,7 +1770,7 @@ function __________GETTERS___________() {
 			return(true);
 		else
 			return(false);
-	};
+	}
 	
 	/**
 	 * is animating
@@ -1779,7 +1780,7 @@ function __________GETTERS___________() {
 		var isAnimated = g_objInner.is(":animated");
 		
 		return(isAnimated);
-	};
+	}
 	
 	/**
 	 * check if the slide is current
@@ -1790,7 +1791,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1803,7 +1804,7 @@ function __________GETTERS___________() {
 			return(false);
 		
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -1819,7 +1820,7 @@ function __________GETTERS___________() {
 		};
 		
 		return(objPadding);
-	};
+	}
 			
 	
 	/**
@@ -1834,7 +1835,7 @@ function __________GETTERS___________() {
 		};
 		
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -1845,7 +1846,7 @@ function __________GETTERS___________() {
 		var slides = t.getSlidesReference();
 		
 		return(slides.objCurrentSlide);
-	};
+	}
 	
 	
 	/**
@@ -1860,7 +1861,7 @@ function __________GETTERS___________() {
 			currentIndex = -1;
 		
 		return(currentIndex);
-	};
+	}
 	
 	
 	/**
@@ -1874,7 +1875,7 @@ function __________GETTERS___________() {
 		var objItem = g_gallery.getItem(currentIndex);
 		
 		return(objItem);
-	};
+	}
 		
 	
 	/**
@@ -1887,7 +1888,7 @@ function __________GETTERS___________() {
 			
 		var type = objSlide.data("type");
 		return(type);		
-	};
+	}
 
 	
 	/**
@@ -1907,7 +1908,7 @@ function __________GETTERS___________() {
 		isMouseInside = g_functions.isPointInsideElement(pointImg, objSize);
 		
 		return(isMouseInside);
-	};
+	}
 	
 	
 	/**
@@ -1919,7 +1920,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * change the slider to some item content
@@ -1960,7 +1961,7 @@ function __________GETTERS___________() {
 			doTransition(direction, objItem, forseTransition);
 		}
 					
-	};
+	}
 	
 	
 	/**
@@ -1983,7 +1984,7 @@ function __________GETTERS___________() {
 		setItemToSlide(slides.objPrevSlide, itemPrev);
 		
 		positionSlides();
-	};
+	}
 	
 	
 	/**
@@ -2017,7 +2018,7 @@ function __________GETTERS___________() {
 		
 		//trigger item changed effect
 		g_objThis.trigger(t.events.ITEM_CHANGED);
-	};
+	}
 	
 	
 	this.________EXTERNAL_API___________ = function(){};
@@ -2038,7 +2039,7 @@ function __________GETTERS___________() {
 				g_objVideoPlayer.hide();
 			break;
 		}
-	};
+	}
 	
 	
 	
@@ -2053,7 +2054,7 @@ function __________GETTERS___________() {
 		var objItem = getSlideItem(objSlide);
 		
 		if(objItem.type == "image")
-			return(true);
+			return(true)
 		
 		if(g_options.slider_video_constantsize == true)
 			setVideoPlayerConstantSize();
@@ -2078,7 +2079,7 @@ function __________GETTERS___________() {
 			break;			
 		}
 		
-	};
+	}
 	
 	
 	/**
@@ -2103,7 +2104,7 @@ function __________GETTERS___________() {
 		else
 			return(g_options.slider_scale_mode);
 		
-	};
+	}
 	
 	
 	/**
@@ -2119,7 +2120,7 @@ function __________GETTERS___________() {
 		};
 				
 		return(obj);
-	};
+	}
 	
 	
 	/**
@@ -2128,7 +2129,7 @@ function __________GETTERS___________() {
 	this.getObjZoom = function(){
 		
 		return(g_objZoomSlider);
-	};
+	}
 	
 	
 	
@@ -2138,7 +2139,7 @@ function __________GETTERS___________() {
 	this.getOptions = function(){
 		
 		return(g_options);
-	};
+	}
 	
 	
 	/**
@@ -2147,14 +2148,14 @@ function __________GETTERS___________() {
 	this.getElement = function(){
 		
 		return(g_objSlider);
-	};
+	}
 	
 	/**
 	 * get video object
 	 */
 	this.getVideoObject = function(){
 		return(g_objVideoPlayer);
-	};
+	}
 	
 	
 	/**
@@ -2177,7 +2178,7 @@ function __________GETTERS___________() {
 		var isFit = g_functions.isImageFitParent(objImage);
 		
 		return(isFit);
-	};
+	}
 	
 	
 	/**
@@ -2202,7 +2203,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -2211,7 +2212,7 @@ function __________GETTERS___________() {
 	this.isSlideActionActive = function(){
 		
 		return g_objVideoPlayer.isVisible();
-	};
+	}
 	
 	/**
 	 * return if swipe action active
@@ -2223,7 +2224,7 @@ function __________GETTERS___________() {
 		var isActive = g_objTouchSlider.isTouchActive();
 		
 		return(isActive);
-	};
+	}
 	
 	
 	/**
@@ -2236,7 +2237,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * set the options
@@ -2249,7 +2250,7 @@ function __________GETTERS___________() {
 		
 		g_options = jQuery.extend(g_options, objOptions);
 		
-	};
+	}
 	
 	
 	/**
@@ -2320,7 +2321,7 @@ function __________GETTERS___________() {
 		 resizeSlideItem(g_objSlide3);
 		 
 		 positionSlides();
-	};
+	}
 	
 	/**
 	 * refresh slide items after options change
@@ -2335,7 +2336,7 @@ function __________GETTERS___________() {
 		 resizeSlideItem(g_objSlide3);
 		 positionSlides();
 		 
-	};
+	}
 	
 	
 	/**
@@ -2344,7 +2345,7 @@ function __________GETTERS___________() {
 	this.isMouseOver = function(){
 		
 		return g_objSlider.ismouseover();
-	};
+	}
 	
 	/**
 	 * set slider position
@@ -2353,7 +2354,7 @@ function __________GETTERS___________() {
 		
 		g_functions.placeElement(g_objSlider, left, top);
 			
-	};
+	}
 	
 	
 	/**
@@ -2364,7 +2365,7 @@ function __________GETTERS___________() {
 			return(true);
 		
 		g_objZoomSlider.zoomIn();
-	};
+	}
 	
 	/**
 	 * zoom out
@@ -2376,7 +2377,7 @@ function __________GETTERS___________() {
 		
 		g_objZoomSlider.zoomOut();
 			
-	};
+	}
 	
 	/**
 	 * zoom back to original

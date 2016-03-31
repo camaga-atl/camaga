@@ -52,9 +52,9 @@ function UGCarousel(){
 			storedEventID: "carousel"
 	};
 
-
-	function __________GENERAL_________() {
-	}
+	
+	function __________GENERAL_________(){};
+	
 	/**
 	 * init the gallery
 	 */
@@ -211,11 +211,11 @@ function UGCarousel(){
 		
 		g_temp.isFirstTimeRun = false;
 	}
-
-
-
-function __________GETTERS_______() {
-	}
+	
+	
+	
+	function __________GETTERS_______(){};
+	
 	/**
 	 * get inner position
 	 */
@@ -247,7 +247,7 @@ function __________GETTERS_______() {
 	 */
 	function getNumTilesInSpace(space){
 		
-		var numItems = g_functions.getNumItemsInSpace(space, g_temp.tileWidth, g_options.carousel_space_between_tiles);
+		var numItems = g_functions.getNumItemsInSpace(space, g_temp.tileWidth, g_options.carousel_space_between_tiles)
 				
 		return(numItems);
 	}
@@ -370,10 +370,11 @@ function __________GETTERS_______() {
 		
 		return(numTiles);
 	}
-
-
-function __________OTHER_METHODS_______() {
-	}
+	
+	
+	function __________OTHER_METHODS_______(){};
+	
+	
 	/**
 	 * position existing tiles
 	 */
@@ -641,11 +642,11 @@ function __________OTHER_METHODS_______() {
 		fillSidesWithTiles();
 		
 	}
+	
+	
+	
+	function __________AUTOPLAY_______(){};
 
-
-
-function __________AUTOPLAY_______() {
-	}
 	/**
 	 * start autoplay
 	 */
@@ -724,9 +725,10 @@ function __________AUTOPLAY_______() {
 		}
 		
 	}
-
-function __________EVENTS_______() {
-	}
+	
+	function __________EVENTS_______(){};
+		
+	
 	/**
 	 * on touch start
 	 */
@@ -879,7 +881,7 @@ function __________EVENTS_______() {
 		g_objCarouselWrapper.off("mouseenter").off("mouseleave");
 		
 		g_objTileDesign.destroy();
-	};
+	}
 
 	
 	/**
@@ -890,7 +892,7 @@ function __________EVENTS_______() {
 			this.setMaxWidth(width);
 		
 		init(gallery, customOptions);
-	};
+	}
 
 	
 	/**
@@ -899,7 +901,7 @@ function __________EVENTS_______() {
 	this.setMaxWidth = function(width){
 		
 		g_temp.carouselMaxWidth = width;
-	};
+	}
 	
 	
 	/**
@@ -907,21 +909,21 @@ function __________EVENTS_______() {
 	 */
 	this.setHtml = function(objParent){
 		setHtml(objParent);
-	};
+	}
 	
 	/**
 	 * get the carousel element
 	 */
 	this.getElement = function(){
 		return g_objCarouselWrapper;
-	};
+	}
 	
 	/**
 	 * get tile design object
 	 */
 	this.getObjTileDesign = function(){
 		return(g_objTileDesign);
-	};
+	}
 	
 	
 	/**
@@ -930,7 +932,7 @@ function __________EVENTS_______() {
 	this.getEstimatedHeight = function(){
 		var height = g_options.tile_height + g_options.carousel_padding * 2;
 		return(height);
-	};
+	}
 	
 	
 	/**
@@ -938,7 +940,7 @@ function __________EVENTS_______() {
 	 */	
 	this.run = function(){
 		run();
-	};
+	}
 	
 	
 	/**
@@ -958,7 +960,7 @@ function __________EVENTS_______() {
 			numPrev = 0;
 		
 		scrollToTile(numPrev);
-	};
+	}
 	
 	
 	/**
@@ -980,7 +982,7 @@ function __________EVENTS_______() {
 			numNext = numTiles-1;
 	
 		scrollToTile(numNext);
-	};
+	}
 	
 	/**
 	 * set scroll left button
@@ -988,7 +990,7 @@ function __________EVENTS_______() {
 	this.setScrollLeftButton = function(objButton){
 		g_functions.setButtonMobileReady(objButton);
 		g_functions.setButtonOnClick(objButton, t.scrollLeft);
-	};
+	}
 	
 	
 	/**
@@ -997,7 +999,7 @@ function __________EVENTS_______() {
 	this.setScrollRightButton = function(objButton){
 		g_functions.setButtonMobileReady(objButton);
 		g_functions.setButtonOnClick(objButton, t.scrollRight);
-	};
+	}
 	
 	
 	/**
@@ -1026,7 +1028,7 @@ function __________EVENTS_______() {
 					stopAutoplay();
 				
 		});
-	};
+	}
 	
 	
 	/**

@@ -8,7 +8,7 @@
 					$imgSrc = $concert -> getDataDirUrl() . "/" . $photo["src"]; 
 					$thumbSrc = $concert -> getThumbsDirUrl() . "/" . $photo["src"]; 
 	?> 
-					<img src="<?php	echo $thumbSrc ?>"
+					<img src="<?php	echo $imgSrc ?>"
 						 data-image="<?php echo $imgSrc ?>" 
 						 data-description="<?php echo ($photo['title'])?>"
 					/>	 

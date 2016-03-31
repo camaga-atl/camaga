@@ -298,7 +298,7 @@ function UGTileDesign(){
 	 */
 	this.getItemByTile = function(objTile){
 		return g_thumbs.getItemByThumb(objTile);
-	};
+	}
 	
 	
 	/**
@@ -312,10 +312,10 @@ function UGTileDesign(){
 			onPlaceImage(null, objTile, jQuery(objImage));
 		});
 		
-	};
-
-function _________________GETTERS________________() {
 	}
+	
+	function _________________GETTERS________________(){};
+	
 	/**
 	 * get tile image
 	 */
@@ -413,10 +413,11 @@ function _________________GETTERS________________() {
 		
 		return objTile.hasClass("ug-tile-clickable");
 	}
-
-
-function _________________SETTERS________________() {
-	}
+	
+	
+	function _________________SETTERS________________(){};
+	
+	
 	/**
 	 * position the elements
 	 */
@@ -427,7 +428,7 @@ function _________________SETTERS________________() {
 		var objButtonLink = getButtonLink(objTile);
 		var sizeTile = g_functions.getElementSize(objTile);
 		
-		var objImageOverlay = getTileOverlayImage(objTile);
+		var objImageOverlay = getTileOverlayImage(objTile)
 		var objThumbImage = getTileImage(objTile);
 		var objImageEffect = getTileImageEffect(objTile);
 		
@@ -526,7 +527,7 @@ function _________________SETTERS________________() {
 	this.setHtml = function(objParent){
 		g_objParentWrapper = objParent;
 		g_thumbs.setHtmlThumbs(objParent);
-	};
+	}
 	
 	
 	/**
@@ -808,7 +809,7 @@ function _________________SETTERS________________() {
 		g_objParentWrapper.delegate(".ug-tile", "click", onTileClick);
 		
 		g_objParentWrapper.delegate(".ug-tile .ug-icon-link", "click", onLinkButtonClick);
-	};
+	}
 	
 	/**
 	 * destroy the element events
@@ -831,7 +832,7 @@ function _________________SETTERS________________() {
 		
 		g_thumbs.destroy();
 					
-	};
+	}
 	
 	
 	/**
@@ -840,7 +841,7 @@ function _________________SETTERS________________() {
 	this.init = function(gallery, g_thumbs, customOptions){
 		
 		init(gallery, g_thumbs, customOptions);
-	};
+	}
 	
 	/**
 	 * set fixed mode
@@ -849,14 +850,14 @@ function _________________SETTERS________________() {
 		
 		g_temp.isFixedMode = true;
 	
-	};
+	}
 	
 	/**
 	 * set parent approve click function
 	 */
 	this.setApproveClickFunction = function(funcApprove){
 		g_temp.funcParentApproveClick = funcApprove;
-	};
+	}
 	
 	/**
 	 * run the tile design
@@ -877,21 +878,21 @@ function _________________SETTERS________________() {
 			objThumbs.children(".ug-thumb-image").fadeTo(0,0);			
 			g_thumbs.loadThumbsImages();
 		}
-	};
+	}
 	
 	/**
 	 * get thumbs general option
 	 */
 	this.getObjThumbs = function(){
 		return g_thumbs;
-	};
+	}
 	
 	/**
 	 * get options
 	 */
 	this.getOptions = function(){
 		return g_options;
-	};
+	}
 	
 	/**
 	 * resize tile. If no size given, resize to original size
@@ -911,7 +912,7 @@ function _________________SETTERS________________() {
 		g_objWrapper.trigger(g_temp.eventSizeChange, [objTile,true]);
 		
 		
-	};
+	}
 	
 	
 	/**
@@ -927,7 +928,7 @@ function _________________SETTERS________________() {
 			t.resizeTile(jQuery(objTile), newWidth, newHeight);
 		});
 		
-	};
+	}
 	
 	/**
 	 * set new options

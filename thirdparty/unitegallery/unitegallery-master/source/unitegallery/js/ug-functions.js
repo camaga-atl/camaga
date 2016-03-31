@@ -86,7 +86,7 @@ function UGFunctions(){
 		handle: null			//interval handle
 	};
 
-	this.z__________FULL_SCREEN___________ = function(){};
+	this.z__________FULL_SCREEN___________ = function(){}
 	
 	/**
 	 * normalize the percent, return always between 0 and 1
@@ -100,7 +100,7 @@ function UGFunctions(){
 			percent = 1;
 		
 		return(percent);
-	};
+	}
 	
 	
 	/**
@@ -120,7 +120,7 @@ function UGFunctions(){
 		  }
 		  
 		  return(true);
-	};
+	}	
 	
 	
 	/**
@@ -142,7 +142,7 @@ function UGFunctions(){
 		  }
 		  
 		  return(true);
-	};
+	}	
 
 	/**
 	 * cross browser attach even function
@@ -168,7 +168,7 @@ function UGFunctions(){
 		addEvent("mozfullscreenchange",document,func);
 		addEvent("webkitfullscreenchange",document,func);
 		addEvent("msfullscreenchange",document,func);
-	};
+	}
 	
 	
 	/**
@@ -179,7 +179,7 @@ function UGFunctions(){
 		var fullscreenElement = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement;
 		
 		return(fullscreenElement);
-	};
+	}
 
 	/**
 	 * return if fullscreen enabled
@@ -192,11 +192,11 @@ function UGFunctions(){
 			isFullScreen = false;
 		
 		return(isFullScreen);
-	};
+	}
 	
-	this.z__________END_FULL_SCREEN___________ = function(){};
+	this.z__________END_FULL_SCREEN___________ = function(){}
 	
-	this.z__________GET_PROPS___________ = function(){};
+	this.z__________GET_PROPS___________ = function(){}
 	
 	/**
 	 * get browser prefix, can be empty if not detected.
@@ -222,7 +222,7 @@ function UGFunctions(){
 	   
 	   g_browserPrefix = "";
 	   return "";
-	};
+	}
 	
 	/**
 	 * get image inside parent data by image (find parent and size)
@@ -237,7 +237,7 @@ function UGFunctions(){
 		var objData = t.getImageInsideParentData(objParent, objOrgSize.width, objOrgSize.height, scaleMode, objPadding);
 		
 		return(objData);
-	};
+	}
 	
 	
 	/**
@@ -351,7 +351,7 @@ function UGFunctions(){
 		objOutput.style = style;
 		
 		return(objOutput);		
-	};
+	}
 	
 	
 	/**
@@ -392,7 +392,7 @@ function UGFunctions(){
 		
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -419,7 +419,7 @@ function UGFunctions(){
 		output.y = Math.round(output.y);
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -453,7 +453,7 @@ function UGFunctions(){
 		}
 		
 		return(output);
-	};
+	}
 	
 	/**
 	 * get mouse element related point from page related point
@@ -466,7 +466,7 @@ function UGFunctions(){
 		var elementPoint = t.getElementLocalPoint(newPoint, element);
 		
 		return(elementPoint);
-	};
+	}
 	
 	
 	/**
@@ -481,7 +481,7 @@ function UGFunctions(){
 		elementPoint.y = Math.round(point.y - elementPos.top);
 		
 		return(elementPoint);
-	};
+	}
 	
 	/**
 	 * get image oritinal size
@@ -495,7 +495,7 @@ function UGFunctions(){
 		output.height = htmlImage.naturalHeight;
 		
 		return(output);
-	};
+	}
 
 	
 	/**
@@ -508,7 +508,7 @@ function UGFunctions(){
 		var ratio = size.width / originalSize.width;
 		
 		return(ratio);
-	};
+	}
 	
 	/**
 	 * tells if the image fit the parent (smaller then the parent)
@@ -522,7 +522,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * get size and position of some object
@@ -545,7 +545,7 @@ function UGFunctions(){
 		obj.bottom = obj.top + obj.height;
 		
 		return(obj);		
-	};
+	}
 	
 	
 	
@@ -562,7 +562,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -580,7 +580,7 @@ function UGFunctions(){
 			return(false);
 		
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -625,13 +625,13 @@ function UGFunctions(){
 		}
 		
 		return(pos);
-	};
+	}
 	
 	
-	this.z__________END_GET_PROPS___________ = function(){};
+	this.z__________END_GET_PROPS___________ = function(){}
 	
 	
-	this.z_________SET_ELEMENT_PROPS_______ = function(){};
+	this.z_________SET_ELEMENT_PROPS_______ = function(){}
 		
 	
 	/**
@@ -743,7 +743,7 @@ function UGFunctions(){
 		t.placeElement(objImage, newX, newY);
 		
 		return(true);
-	};
+	}
 	
 
 	
@@ -823,7 +823,7 @@ function UGFunctions(){
 			objCss.top = top;
 				
 		element.css(objCss);		
-	};
+	}
 	
 	
 	/**
@@ -833,7 +833,7 @@ function UGFunctions(){
 	this.placeElementInParentCenter = function(element){
 				
 		t.placeElement(element, "center", "middle");
-	};
+	}
 	
 	
 	/**
@@ -848,10 +848,10 @@ function UGFunctions(){
 			"top":top+"px",
 			"position":"absolute",
 			"margin":"0px"
-		};
+		}
 		
 		element.css(objCss);
-	};
+	}
 	
 	/**
 	 * set widht and height of the element
@@ -861,11 +861,11 @@ function UGFunctions(){
 	    var objCss = {
 			"width":width+"px",
 			"height":height+"px"
-		};
+		}
 		
 		element.css(objCss);	
 	
-	};
+	}
 	
 	/**
 	 * clone element size and position
@@ -896,7 +896,7 @@ function UGFunctions(){
 			objSize.top += offsetY;
 		
 		t.setElementSizeAndPosition(objTarget, objSize.left, objSize.top, objSize.width, objSize.height);
-	};
+	}
 	
 	
 	/**
@@ -943,7 +943,7 @@ function UGFunctions(){
 		//return the image just created
 		var objImage = objParent.children("img");
 		return(objImage);
-	};
+	}
 	
 	/**
 	 * scale image to fit parent, and place it into parent
@@ -983,7 +983,7 @@ function UGFunctions(){
 					  "height":fitHeight+"px",
 					  "left":posx+"px",
 					  "top":posy+"px"});		
-	};
+	}
 	
 	
 	/**
@@ -1001,13 +1001,13 @@ function UGFunctions(){
 		var objCss = {};
 		
 		if(obj.imageWidth !== null){
-			updateCss == true;
+			updateCss == true
 			objImage.removeAttr("width");
 			objCss["width"] = obj.imageWidth+"px";
 		}
 		
 		if(obj.imageHeight != null){
-			updateCss == true;
+			updateCss == true
 			objImage.removeAttr("height");
 			objCss["height"] = obj.imageHeight+"px";
 		}
@@ -1030,7 +1030,7 @@ function UGFunctions(){
 			objImage.css(objCss);			
 		}
 				
-	};
+	}
 	
 	
 	/**
@@ -1092,7 +1092,7 @@ function UGFunctions(){
 				
 		objImage.css(objCss);
 		
-	};
+	}
 	
 	
 	/**
@@ -1108,12 +1108,12 @@ function UGFunctions(){
 		if(element3)
 				element3.show().fadeTo(0,1);
 			
-	};
+	}
 	
 	
-	this.z_________END_SET_ELEMENT_PROPS_______ = function(){};
+	this.z_________END_SET_ELEMENT_PROPS_______ = function(){}
 	
-	this.z_________GALLERY_RELATED_FUNCTIONS_______ = function(){};
+	this.z_________GALLERY_RELATED_FUNCTIONS_______ = function(){}
 	
 	/**
 	 * disable button
@@ -1124,7 +1124,7 @@ function UGFunctions(){
 		
 		if(t.isButtonDisabled(objButton, className) == false)		
 			objButton.addClass(className);		
-	};
+	}
 
 	
 	/**
@@ -1151,7 +1151,7 @@ function UGFunctions(){
 		});
 		
 		return(modifiedOptions);
-	};
+	}
 	
 	
 	/**
@@ -1163,7 +1163,7 @@ function UGFunctions(){
 		
 		if(t.isButtonDisabled(objButton, className) == true)		
 			objButton.removeClass(className);
-	};
+	}
 	
 	
 	/**
@@ -1177,12 +1177,12 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
-	this.z_________END_GALLERY_RELATED_FUNCTIONS_______ = function(){};
+	this.z_________END_GALLERY_RELATED_FUNCTIONS_______ = function(){}
 
-	this.z_________MATH_FUNCTIONS_______ = function(){};
+	this.z_________MATH_FUNCTIONS_______ = function(){}
 	
 	/**
 	 * 
@@ -1204,7 +1204,7 @@ function UGFunctions(){
 		}
 		
 		return(value);
-	};
+	}
 
 	
 	/**
@@ -1217,7 +1217,7 @@ function UGFunctions(){
 		realValue = realMin + (settingMax - settingMin) * ratio;
 		
 		return(realValue);
-	};
+	}
 	
 	
 	/**
@@ -1228,19 +1228,19 @@ function UGFunctions(){
 		var distance = Math.round(Math.sqrt(Math.abs(((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)))));
 		
 		return distance;
-	};
+	}
 	
 	
 	/**
 	 * get center point of the 2 points
 	 */
 	this.getMiddlePoint = function(x1,y1,x2,y2){
-		var output = {};
+		var output = {}
 		output.x = x1 + Math.round((x2 - x1) / 2);
 		output.y = y1 + Math.round((y2 - y1) / 2);
 		
 		return(output);
-	};
+	}
 	
 	
 	/**
@@ -1250,7 +1250,7 @@ function UGFunctions(){
 	this.getNumItemsInSpace = function(spaceSize, itemsSize, gapSize){
 		var numItems = Math.floor((spaceSize + gapSize) / (itemsSize + gapSize));
 		return(numItems);
-	};
+	}
 	
 	/**
 	 * get space (width in carousel for example) by num items, item size, and gap size
@@ -1258,7 +1258,7 @@ function UGFunctions(){
 	this.getSpaceByNumItems = function(numItems, itemSize, gapSize){
 		var space = numItems * itemSize + (numItems-1) * gapSize;
 		return(space);
-	};
+	}
 	
 	/**
 	 * get column x pos with even column sizes, start from 0
@@ -1268,7 +1268,7 @@ function UGFunctions(){
 		var posx = col * (colWidth + colGap);
 		
 		return posx;
-	};
+	}
 	
 
 	/**
@@ -1277,10 +1277,10 @@ function UGFunctions(){
 	this.getColByIndex = function(numCols, index){
 		var col = index % numCols;
 		return(col);
-	};
+	}
 	
 	
-	this.z_________EVENT_DATA_FUNCTIONS_______ = function(){};
+	this.z_________EVENT_DATA_FUNCTIONS_______ = function(){}
 
 	
 	/**
@@ -1327,7 +1327,7 @@ function UGFunctions(){
 			jQuery(document).scrollTop(scrollPos);
 		
 		return(objData.scrollDir);
-	};
+	}
 
 	
 	/**
@@ -1340,7 +1340,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1371,7 +1371,7 @@ function UGFunctions(){
 		
 		g_temp.dataCache[id] = obj;
 		
-	};
+	}
 	
 	
 	/**
@@ -1397,7 +1397,7 @@ function UGFunctions(){
 			obj = jQuery.extend(obj, addData);
 		
 		g_temp.dataCache[id] = obj;
-	};
+	}
 	
 	/**
 	 * get stored event data
@@ -1427,7 +1427,7 @@ function UGFunctions(){
 		}
 		
 		return(obj);
-	};
+	}
 	
 	/**
 	 * return if click event approved according the done motion
@@ -1449,7 +1449,7 @@ function UGFunctions(){
 		
 		return(true);
 		
-	};
+	}
 	
 	
 	/**
@@ -1457,9 +1457,9 @@ function UGFunctions(){
 	 */
 	this.clearStoredEventData = function(id){
 		g_temp.dataCache[id] = null;
-	};
+	}
 	
-	this.z_________GENERAL_FUNCTIONS_______ = function(){};
+	this.z_________GENERAL_FUNCTIONS_______ = function(){}
 	
 	/**
 	 * get css size parameter, like width. if % given, leave it, if number without px - add px.
@@ -1469,7 +1469,7 @@ function UGFunctions(){
 			return(sizeParam + "px");
 			
 		return(sizeParam);
-	};
+	}
 	
 	/**
 	 * convert hex color to rgb color
@@ -1485,7 +1485,7 @@ function UGFunctions(){
 	    b = parseInt(hex.substring(4,6), 16);
 	    result = 'rgba('+r+','+g+','+b+','+opacity+')';
 	    return result;
-	};
+	}	
 	
 	/**
 	 * get timestamp to string
@@ -1497,7 +1497,7 @@ function UGFunctions(){
 		str += " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + ":" + d.getMilliseconds();
 		
 		return(str);
-	};
+	}
 	
 	/**
 	 * get touches array (if exists) from the event
@@ -1511,7 +1511,7 @@ function UGFunctions(){
 		}
 		
 		return(arrTouches);
-	};
+	}
 	
 	/**
 	 * extract touch positions from arrTouches
@@ -1531,7 +1531,7 @@ function UGFunctions(){
 		}
 		
 		return(arrOutput);
-	};
+	}
 	
 	
 	/**
@@ -1539,7 +1539,7 @@ function UGFunctions(){
 	 */
 	this.startTimeDebug = function(){
 		g_temp.starTime = jQuery.now();
-	};
+	}
 	
 	/**
 	 * show time debug
@@ -1550,7 +1550,7 @@ function UGFunctions(){
 		var diffTime = endTime - g_temp.starTime;
 		
 		debugLine({"Time Passed": diffTime},true);
-	};
+	}
 	
 	
 	/**
@@ -1564,7 +1564,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	
 	/**
@@ -1573,7 +1573,7 @@ function UGFunctions(){
 	this.isScrollbarExists = function(){
 		var hasScrollbar = window.innerWidth > document.documentElement.clientWidth;
 		return(hasScrollbar);
-	};
+	}
 	
 	
 	/**
@@ -1606,7 +1606,7 @@ function UGFunctions(){
 		}
 		
 		return(g_objProgress);
-	};
+	}
 	
 	
 	/**
@@ -1632,7 +1632,7 @@ function UGFunctions(){
 			return(false);
 		});
 		
-	};
+	}
 	
 	
 	/**
@@ -1640,7 +1640,7 @@ function UGFunctions(){
 	 */
 	this.registerTheme = function(themeName){
 		g_temp.arrThemes.push(themeName);
-	};
+	}
 	
 	/**
 	 * get themes array
@@ -1648,7 +1648,7 @@ function UGFunctions(){
 	this.getArrThemes = function(){
 		
 		return(g_temp.arrThemes);
-	};
+	}
 	
 	
 	/**
@@ -1660,7 +1660,7 @@ function UGFunctions(){
 			return(true);
 		
 		return(false);
-	};
+	}
 	
 	/**
 	 * get first registered theme name
@@ -1671,7 +1671,7 @@ function UGFunctions(){
 		var themeName = g_temp.arrThemes[0];
 		
 		return(themeName);
-	};
+	}
 
 	
 	/**
@@ -1692,7 +1692,7 @@ function UGFunctions(){
 		  }
 		  
 		  return(g_temp.isTouchDevice);
-	};
+	}
 	
 	
 	/**
@@ -1703,7 +1703,7 @@ function UGFunctions(){
 		var isDesktop = typeof window.screenX !== undefined && !t.isTouchDevice() ? true : false;		
 		
 		return(isDesktop);
-	};
+	}
 	
 	
 	/**
@@ -1731,7 +1731,7 @@ function UGFunctions(){
 			return(false);
 				
 		return(true);
-	};
+	}
 	
 	
 	/**
@@ -1749,7 +1749,7 @@ function UGFunctions(){
 		}
 		
 		g_temp.timeCache[handlerName] = setTimeout(onEventOver, timeLimit);
-	};
+	}
 	
 	
 	/**
@@ -1771,7 +1771,7 @@ function UGFunctions(){
 		g_temp.lastEventType = eventType;
 		
 		return(returnVal);
-	};
+	}
 	
 	/**
 	 * add some class on hover (hover event)
@@ -1786,7 +1786,7 @@ function UGFunctions(){
 			jQuery(this).removeClass(className);
 		});
 		
-	};
+	}
 	
 	/**
 	 * destroy hover effect on elements
@@ -1798,7 +1798,7 @@ function UGFunctions(){
 		element.off("touchstart");
 		element.off("touchend");
 		element.off("mousedown");
-	};
+	}
 	
 	/**
 	 * set button on click event, advanced
@@ -1820,7 +1820,7 @@ function UGFunctions(){
 			onClickFunction(objThis, event);
 		});
 		
-	};
+	}
 	
 	/**
 	 * load javascript dynamically
@@ -1834,7 +1834,7 @@ function UGFunctions(){
 		tag.src = url;
 		var firstScriptTag = document.getElementsByTagName('script')[0];
 		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);		
-	};
+	}
 	
 	/**
 	 * load css dymanically
@@ -1849,7 +1849,7 @@ function UGFunctions(){
 		  tag.setAttribute("href", url);
 		  
 		document.getElementsByTagName("head")[0].appendChild(tag);
-	};
+	}
 	
 	/**
 	 * add event listener with old browsers fallback
@@ -1862,7 +1862,7 @@ function UGFunctions(){
 		    	elem.attachEvent('on' + event, func);
 		  }
 		 
-	  };
+	  }	
 	
 	 
 	/**
@@ -1930,7 +1930,7 @@ function UGFunctions(){
 		});
 		
 		
-	};
+	}
 	
 	
 	/**
@@ -1952,7 +1952,7 @@ function UGFunctions(){
 
 		}, 300);
 		
-	};
+	}
 	
 	this.z_________END_GENERAL_FUNCTIONS_______ = function(){}
 	

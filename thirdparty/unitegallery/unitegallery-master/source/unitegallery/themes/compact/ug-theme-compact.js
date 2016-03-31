@@ -46,7 +46,7 @@ function UGTheme_compact(){
 		slider_progress_indicator_align_hor: "right",
 		slider_progress_indicator_offset_vert: 36,	
 		slider_progress_indicator_offset_hor: 63			
-	};
+	}
 	
 	//special defaults for right side panel position
 	var g_defaults_right = {
@@ -62,7 +62,7 @@ function UGTheme_compact(){
 		slider_progress_indicator_offset_vert: 36,	
 		slider_progress_indicator_offset_hor: 63	
 		
-	};
+	}
 	
 	//special defaults for bottom panel position
 	var g_defaults_bottom = {
@@ -73,7 +73,7 @@ function UGTheme_compact(){
 		slider_progress_indicator_align_hor: "left",
 		slider_progress_indicator_offset_vert: 36,	
 		slider_progress_indicator_offset_hor: 16	
-	};
+	}
 	
 	//special defaults for top panel position
 	var g_defaults_top = {
@@ -88,7 +88,7 @@ function UGTheme_compact(){
 		
 		slider_progress_indicator_align_vert: "bottom",
 		slider_progress_indicator_offset_vert: 40
-	};
+	}
 	
 	
 	//temp variables
@@ -422,7 +422,7 @@ function UGTheme_compact(){
 		g_objPanel.destroy();
 		g_objSlider.destroy();
 		
-	};
+	}
 	
 	
 	/**
@@ -431,7 +431,7 @@ function UGTheme_compact(){
 	this.run = function(){
 		
 		runTheme();
-	};
+	}
 	
 	
 	/**

@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="css/site_header.css">
 		<link rel="stylesheet" href="css/concerts.css">
 		<link rel="stylesheet" href="css/form.css">
-		<link rel="stylesheet" href="css/lightbox.css" />	
+		<link rel="stylesheet" href="thirdparty/lightbox2/lightbox2-master/dist/css/lightbox.min.css" />	
 		<link rel="stylesheet" href="css/jquery-ui-timepicker-addon.css">		
 		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>		      

@@ -363,11 +363,13 @@ function UGGridPanel(){
 		}
 		
 	}
-
-
-
-function __________EVENTS___________() {
-	}
+	
+	
+	
+	function __________EVENTS___________(){};
+	
+	
+	
 	/**
 	 * event on panel slide finish
 	 */
@@ -418,11 +420,12 @@ function __________EVENTS___________() {
 		g_panelBase.destroy();
 		
 		g_objGrid.destroy();
-	};
-
-
-function ______PLACE_ELEMENTS___________() {
 	}
+	
+	
+	function ______PLACE_ELEMENTS___________(){};
+	
+	
 	/**
 	 * get padding left of the grid
 	 */
@@ -502,7 +505,7 @@ function ______PLACE_ELEMENTS___________() {
 				nextArrowPaddingY = 0;
 			break;
 			case "grid":
-				prevArrowY = objGridSize.top - objArrowSize.height - g_options.gridpanel_arrows_padding_vert_vert;
+				prevArrowY = objGridSize.top - objArrowSize.height - g_options.gridpanel_arrows_padding_vert_vert
 				nextArrowY = objGridSize.bottom + g_options.gridpanel_arrows_padding_vert;
 				nextArrowPaddingY = 0;
 			break;
@@ -749,7 +752,7 @@ function ______PLACE_ELEMENTS___________() {
 	this.getOrientation = function(){
 		
 		return(g_temp.orientation);
-	};
+	}
 	
 	
 	/**
@@ -774,7 +777,7 @@ function ______PLACE_ELEMENTS___________() {
 			break;
 		}
 		
-	};
+	}
 	
 	/**
 	 * set panel height
@@ -788,7 +791,7 @@ function ______PLACE_ELEMENTS___________() {
 		var gridMaxHeight = getGridMaxHeight();
 		
 		g_objGrid.setMaxHeight(gridMaxHeight);
-	};
+	}
 	
 	
 	/**
@@ -804,7 +807,7 @@ function ______PLACE_ELEMENTS___________() {
 		var gridMaxWidth = getGridMaxWidth();
 				
 		g_objGrid.setMaxWidth(gridMaxWidth);
-	};
+	}
 	
 	
 	/**
@@ -813,14 +816,14 @@ function ______PLACE_ELEMENTS___________() {
 	this.init = function(gallery, customOptions){
 		
 		initGridPanel(gallery, customOptions);
-	};
+	}
 	
 	/**
 	 * place panel html
 	 */
 	this.setHtml = function(){
 		setHtmlPanel();
-	};
+	}
 	
 	
 	/**
@@ -829,7 +832,7 @@ function ______PLACE_ELEMENTS___________() {
 	this.run = function(){
 		
 		runPanel();
-	};
+	}
 	
 	
 	/**
@@ -837,7 +840,7 @@ function ______PLACE_ELEMENTS___________() {
 	 */
 	this.getElement = function(){
 		return(g_objPanel);
-	};
+	}
 	
 	
 	/**
@@ -848,30 +851,30 @@ function ______PLACE_ELEMENTS___________() {
 		var objSize = g_functions.getElementSize(g_objPanel);
 		
 		return(objSize);
-	};
+	}
 	
-	this.__________Functions_From_Base_____ = function() {};
+	this.__________Functions_From_Base_____ = function() {}
 	
 	/**
 	 * tells if the panel is closed
 	 */
 	this.isPanelClosed = function() {		
 		return (g_panelBase.isPanelClosed());
-	};
+	}
 
 	/**
 	 * get closed panel destanation
 	 */
 	this.getClosedPanelDest = function() {
 		return g_panelBase.getClosedPanelDest();
-	};
+	}	
 		
 	/**
 	 * open the panel
 	 */	
 	this.openPanel = function(noAnimation) {
 		g_panelBase.openPanel(noAnimation);
-	};
+	}
 	
 	
 	/**
@@ -879,21 +882,21 @@ function ______PLACE_ELEMENTS___________() {
 	 */
 	this.closePanel = function(noAnimation) {
 		g_panelBase.closePanel(noAnimation);		
-	};
+	}	
 	
 	/**
 	 * set the panel opened state
 	 */
 	this.setOpenedState = function(originalPos) {
 		g_panelBase.setOpenedState(originalPos);
-	};
+	}
 
 	/**
 	 * set the panel that it's in closed state, and set original pos for opening later
 	 */
 	this.setClosedState = function(originalPos) {
 		g_panelBase.setClosedState(originalPos);	
-	};
+	}
 	
 	
 	/**
