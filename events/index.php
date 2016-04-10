@@ -11,8 +11,58 @@
 			?>
 			<div id="content">
 		<h2>Upcoming Events</h2>
+<!-- violin workshop 2016 -->
+		<h3><a name="violinWorkshop">Vocal and Violin workshop</a></h3>
+		<h4> by illustrious violinist Sri Ganesh</h4>
+		<p><i>June 18 - 24, 2016</i></p>
+		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
+		<p>
+			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA.
+			The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta. 
+		</p>
+
+		<p>
+			This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.  
+			We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.  
+			Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.  
+		</p>
+               <p>
+			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
+				Venue:  <br/>
+				KA Academy of Indian Music & Dance<br/>
+				2731 Sandy Plains Rd, Suite #156<br/>
+				Marietta, GA, 30066<br/>
+			</a>	
+		</p>	
+ 		<p>
+			The workshop will be offered to independent groups
+			<ol style="padding-left: 1.1em;">
+				<li>Vocal – seniors</li>
+				<li>Vocal – juniors (who have learnt at the least a few Varnams and Kritis)</li>
+				<li>Violin Seniors</li>
+				<li>Violin – juniors (who have had training in violin and are proficient in a few varnams and kritis)</li>
+			</ol>
+		</p>
+		<p>
+			The seniors, Vocal and Violin, would receive two hours of training per day while, juniors (grouped in to batches of 5 to 7 students), would receive one hour of training per batch per day.  
+			Consequently, the number of registrants for the entire workshop will be restricted.
+			The registration fee per participant for the one week session is $250 and it is payable in advance.  
+			If you are interested in registering, please send an email to camaga.atlanta@gmail.com.  
+			Because of the restrictions on the number of registrants, we will accept request for registration until the maximum participant for each group is reached (first come first served based on the date and time of receipt of the email.
+		</p>
+		<div>
+			<emp>
+				<a href="events/2016/violinWorkshop/2016-violin-workshop-registration-form.docx">
+				      Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fa fa-download"></i>
+				</a>
+			</emp>
+		</div>
+<!-- violin workshop 2016 -->
+		<br/>
+			<h2>Past Events</h2>
+<article class="collapsible">
 <!-- carnatic mela 2016 -->
-		<h3><a name="carnatic-mela">Carnatic Mela 2016</a></h3>
+		<h3>Carnatic Mela 2016</h3>
 		<p><i>Sat April 9, 2016</i></p>
                <p>
 			<a target="_blank" href="http://maps.google.com/?q=Chinmaya Niketan">
@@ -121,55 +171,28 @@
 		</div>
 		<br/>
 <!-- carnatic mela 2016 -->
-<!-- violin workshop 2016 -->
-		<h3><a name="violinWorkshop">Vocal and Violin workshop</a></h3>
-		<h4> by illustrious violinist Sri Ganesh</h4>
-		<p><i>June 18 - 24, 2016</i></p>
-		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
-		<p>
-			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA.
-			The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta. 
-		</p>
 
-		<p>
-			This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.  
-			We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.  
-			Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.  
-		</p>
-               <p>
-			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
-				Venue:  <br/>
-				KA Academy of Indian Music & Dance<br/>
-				2731 Sandy Plains Rd, Suite #156<br/>
-				Marietta, GA, 30066<br/>
-			</a>	
-		</p>	
- 		<p>
-			The workshop will be offered to independent groups
-			<ol style="padding-left: 1.1em;">
-				<li>Vocal – seniors</li>
-				<li>Vocal – juniors (who have learnt at the least a few Varnams and Kritis)</li>
-				<li>Violin Seniors</li>
-				<li>Violin – juniors (who have had training in violin and are proficient in a few varnams and kritis)</li>
-			</ol>
-		</p>
-		<p>
-			The seniors, Vocal and Violin, would receive two hours of training per day while, juniors (grouped in to batches of 5 to 7 students), would receive one hour of training per batch per day.  
-			Consequently, the number of registrants for the entire workshop will be restricted.
-			The registration fee per participant for the one week session is $250 and it is payable in advance.  
-			If you are interested in registering, please send an email to camaga.atlanta@gmail.com.  
-			Because of the restrictions on the number of registrants, we will accept request for registration until the maximum participant for each group is reached (first come first served based on the date and time of receipt of the email.
-		</p>
-		<div>
-			<emp>
-				<a href="events/2016/violinWorkshop/2016-violin-workshop-registration-form.docx">
-				      Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fa fa-download"></i>
-				</a>
-			</emp>
-		</div>
-<!-- violin workshop 2016 -->
-		<br/>
-			<h2>Past Events</h2>
+</article>
+<!-- shruthi and Shashank -->
+<article class="collapsible">
+		<h3>Shashank and Shruthi - Congratulations</h3>
+                <p>
+			CAMAGA congratulates our Atlanta’s young musicians, Shruthi  	Santhanam and  Shashank Ganeshan.   At the Aradhana celebrations  and music competition currently being hosted  by the Cleveland Aradhana committtee, Shruthi and Shashank, between the two of them, have won five awards in various categories such as Pallavi rendition, Alapana, Neraval, and Swara Kalpana.  Shruthi and Shashank, you have made Atlanta community proud.  CAMAGA also appreciates their gurus and their parents for their contribution in making this recognition possible.		
+</p>
+			<div id="clevelandgallery" >
+			<img src="data/events/201603290800/thumbs/Shruthi_ReceivesAward.JPG"
+				data-image="data/events/201603290800/Shruthi_ReceivesAward.JPG"
+ />
+			<img src="data/events/201603290800/thumbs/Shruthi_Shashank.JPG"
+				data-image="data/events/201603290800/Shruthi_Shashank.JPG"
+ />
+			<img src="data/events/201603290800/thumbs/VVS_Shashank.JPG"
+				data-image="data/events/201603290800/VVS_Shashank.JPG"
+ />
+                      </div>
+</article>
+<!-- shashank and shruthi -->
+
 <article class="collapsible">
 
 <!-- composers day 2016 -->
@@ -1112,6 +1135,19 @@ video of the performance.
 				});					
 			});
 		</script>
+	<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script> 
+	<script type="text/javascript"> 			
+			jQuery(document).ready(function(){ 
+				jQuery("#clevelandgallery").unitegallery({
+					gallery_theme: "carousel",
+					theme_navigation_enable_play: false,
+                                        carousel_space_between_tiles: 200,
+					carousel_navigation_numtiles:1,
+                                        carousel_autoplay: false		
+				});	
+			}); 		
+		</script>
+
 	</body>
 </html>
 
