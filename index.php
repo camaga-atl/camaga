@@ -41,6 +41,26 @@
 		<br/>
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
+			<img src="data/events/201604090900/thumbs/debate1.JPG"
+				data-image="data/events/201604090900/thumbs/debate1.JPG"
+				data-description="Apr 9, 2016, Shruthi Santhanam, Nitheyaa Shree & Shashank Ganeshan during the Carnatic Mela debate" />
+			<img src="data/events/201604090900/thumbs/debate2JPG"
+				data-image="data/events/201604090900/thumbs/debate2.JPG"
+				data-description="Apr 9, 2016, Smriti Suresh, Shree Varshney & Aditya Krishnaswamy during the Carnatic Mela debate" />
+			<img src="data/events/201604090900/thumbs/debate3.JPG"
+				data-image="data/events/201604090900/thumbs/debate3.JPG"
+				data-description="Apr 9, 2016, Shruthi Santhanam, Nitheyaa Shree & Shashank Ganeshan during the Carnatic Mela debate" />
+			<img src="data/concerts/201604091405/thumbs/Shivaani_Aditya_Tejas.png"  		data-image="data/concerts/201604091405/Shivaani_Aditya_Tejas.png"
+				data-description="Apr 9, 2016, Tejas Nagendra, Shivaani Komanduri & Aditya Krishnaswamy " />
+			<img src="data/concerts/201604091430/thumbs/Aishwarya_Raghavendra_Sriram_Sundar_2.JPG"  		data-image="data/concerts/201604091430/Aishwarya_Raghavendra_Sriram_Sundar_2.JPG"
+				data-description="Apr 9, 2016, Ram Sriram, N.Sundar, S. Aishwarya & B.V.Raghavendra" />
+			<img src="data/concerts/201604091430/thumbs/Aishwarya_Raghavendra_Sriram_Sundar_Smitha.JPG"  		data-image="data/concerts/201604091430/Aishwarya_Raghavendra_Sriram_Sundar_Smitha.JPG"
+				data-description="Apr 9, 2016, Ram Sriram, N.Sundar, S. Aishwarya, B.V.Raghavendra & Smitha Madhav" />
+			<img src="data/concerts/201604091630/thumbs/CarnaticaBros_Raghavendra_Vaidyanathan_GuruPrasad_SmithaMadhav.JPG"  		data-image="data/concerts/201604091630/CarnaticaBros_Raghavendra_Vaidyanathan_GuruPrasad_SmithaMadhav.JPG"
+				data-description="Apr 9, 2016, Ram Sriram, N.Sundar, Carnatic Brothers, B.V.Raghavendra & Smitha Madhav" />
+			<img src="data/concerts/201604021600/thumbs/IMG_0160.JPG"
+				data-image="data/concerts/201604021600/IMG_0160.JPG"
+				data-description="Apr 2, 2016, Thanjavur Murugabhoopathy, Guru Prasad, Aruna Sairam and B.Raghavendra Rao" />
 			<img src="data/concerts/201603271600/thumbs/01.jpg"
 				data-image="data/concerts/201603271600/01.jpg"
 				data-description="Mar 27, 2016, Ram Sriram, Uma, Radhika and Prasad Mantraratnam" />
