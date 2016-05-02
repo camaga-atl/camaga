@@ -10,6 +10,18 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
+               <div>
+                <h2>Dr. Narsi Narasimhan passes away</h2>
+		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
+                <p>
+                       We are very saddened to hear that Dr. Narsi Narasimhan had died. 
+                       As the founder of Indian Professionals Network, he not only brought together the Atlanta professional organizations but also the community. 
+                       His yeomen service to Atlanta and its people will always be remembered and cherished. 
+                       Dr. Narasimhan had been an ardent supporter of CAMAGA since its inception. 
+                       CAMAGA conveys its deepest condolences to his family.
+                </p>
+               </div>
+                <br/>
 		<?php
 			include( CAMAGA_ROOT . "concerts/upcoming.php");
 		?>
@@ -41,6 +53,21 @@
 		<br/>
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
+			<img src="data/concerts/201604301600/thumbs/01.jpg"
+				data-image="data/concerts/201604301600/01.jpg"
+				data-description="Apr 30, 2016, Vinod Seetharaman, Padma Sugavanam & Kamalakiran Vinjamuri" />
+			<img src="data/concerts/201604301600/thumbs/02.jpg"
+				data-image="data/concerts/201604301600/02.jpg"
+				data-description="Apr 30, 2016, Padma Sugavanam" />
+			<img src="data/concerts/201604301600/thumbs/03.jpg"
+				data-image="data/concerts/201604301600/03.jpg"
+				data-description="Apr 30, 2016, Kamalakiran Vinjamuri" />
+			<img src="data/concerts/201604301600/thumbs/04.jpg"
+				data-image="data/concerts/201604301600/04.jpg"
+				data-description="Apr 30, 2016, Vinod Seetharaman" />
+			<img src="data/concerts/201604301600/thumbs/05.jpg"
+				data-image="data/concerts/201604301600/05.jpg"
+				data-description="Apr 30, 2016, Vinod Seetharaman & Padma Sugavanam" />
 			<img src="data/events/201604090900/thumbs/debate1.JPG"
 				data-image="data/events/201604090900/thumbs/debate1.JPG"
 				data-description="Apr 9, 2016, Shruthi Santhanam, Nitheyaa Shree & Shashank Ganeshan during the Carnatic Mela debate" />
