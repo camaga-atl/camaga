@@ -10,7 +10,8 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
-               <div>
+		<br/>
+               <div  class="list-concert-box">
                 <h2>Dr. Narsi Narasimhan passes away</h2>
 		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
                 <p>
