@@ -10,19 +10,6 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
-		<br/>
-               <div  class="list-concert-box">
-                <h2>Dr. Narsi Narasimhan passes away</h2>
-		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
-                <p>
-                       We are very saddened to hear that Dr. Narsi Narasimhan had died. 
-                       As the founder of Indian Professionals Network, he not only brought together the Atlanta professional organizations but also the community. 
-                       His yeomen service to Atlanta and its people will always be remembered and cherished. 
-                       Dr. Narasimhan had been an ardent supporter of CAMAGA since its inception. 
-                       CAMAGA conveys its deepest condolences to his family.
-                </p>
-               </div>
-                <br/>
 		<?php
 			include( CAMAGA_ROOT . "concerts/upcoming.php");
 		?>
@@ -52,6 +39,18 @@
 		</div>
 <!-- Violin Workshop -->
 		<br/>
+               <div  class="list-concert-box">
+                <h2>Dr. Narsi Narasimhan passes away</h2>
+		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
+                <p>
+                       We are very saddened to hear that Dr. Narsi Narasimhan had died. 
+                       As the founder of Indian Professionals Network, he not only brought together the Atlanta professional organizations but also the community. 
+                       His yeomen service to Atlanta and its people will always be remembered and cherished. 
+                       Dr. Narasimhan had been an ardent supporter of CAMAGA since its inception. 
+                       CAMAGA conveys its deepest condolences to his family.
+                </p>
+               </div>
+                <br/>
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
 			<img src="data/concerts/201604301600/thumbs/01.jpg"
