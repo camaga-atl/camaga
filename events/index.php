@@ -11,8 +11,12 @@
 			?>
 			<div id="content">
 		<h2>Upcoming Events</h2>
+                <p>No events scheduled at this time. Please check back again later</p>
+		<br/>
+			<h2>Past Events</h2>
 <!-- violin workshop 2016 -->
-		<h3><a name="violinWorkshop">Vocal and Violin workshop</a></h3>
+<article class="collapsible">
+		<h3>Vocal and Violin workshop</h3>
 		<h4> by illustrious violinist Sri Ganesh</h4>
 		<p><i>June 18 - 24, 2016</i></p>
 		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
@@ -57,11 +61,25 @@
 				</a>
 			</emp>
 		</div>
+</article>
 <!-- violin workshop 2016 -->
-		<br/>
-			<h2>Past Events</h2>
+
+
+<!-- narsi -->
 <article class="collapsible">
+                <h3>Dr. Narsi Narasimhan passes away</h3>
+		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
+                <p>
+                       We are very saddened to hear that Dr. Narsi Narasimhan had died. 
+                       As the founder of Indian Professionals Network, he not only brought together the Atlanta professional organizations but also the community. 
+                       His yeomen service to Atlanta and its people will always be remembered and cherished. 
+                       Dr. Narasimhan had been an ardent supporter of CAMAGA since its inception. 
+                       CAMAGA conveys its deepest condolences to his family.
+                </p>
+</article>
+<!-- narsi -->
 <!-- carnatic mela 2016 -->
+<article class="collapsible">
 		<h3>Carnatic Mela 2016</h3>
 		<p><i>Sat April 9, 2016</i></p>
                <p>
@@ -179,7 +197,7 @@
                 <p>
 			CAMAGA congratulates our Atlanta’s young musicians, Shruthi  	Santhanam and  Shashank Ganeshan.   At the Aradhana celebrations  and music competition currently being hosted  by the Cleveland Aradhana committtee, Shruthi and Shashank, between the two of them, have won five awards in various categories such as Pallavi rendition, Alapana, Neraval, and Swara Kalpana.  Shruthi and Shashank, you have made Atlanta community proud.  CAMAGA also appreciates their gurus and their parents for their contribution in making this recognition possible.		
 </p>
-			<div id="clevelandgallery" >
+			<div id="clevelandgallery">
 			<img src="data/events/201603290800/thumbs/Shruthi_ReceivesAward.JPG"
 				data-image="data/events/201603290800/Shruthi_ReceivesAward.JPG"
  />
@@ -1082,6 +1100,7 @@ video of the performance.
         ?>	
 		<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/js/unitegallery.min.js'></script> 
 		<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js'></script> 		
+  	        <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script> 
 		<script type="text/javascript">
 			jQuery("#gallery").unitegallery({
 				gallery_theme: "compact",
@@ -1098,6 +1117,13 @@ video of the performance.
 				gallery_theme: "compact",
 				gallery_min_width: 150,
 				theme_hide_panel_under_width: 4000
+			});	
+			jQuery("#clevelandgallery").unitegallery({
+				gallery_theme: "carousel",
+				theme_navigation_enable_play: false,
+                                carousel_space_between_tiles: 200,
+        			carousel_navigation_numtiles:1,
+                                carousel_autoplay: false		
 			});	
 		</script>		
 		<script>
@@ -1135,19 +1161,6 @@ video of the performance.
 				});					
 			});
 		</script>
-	<script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script> 
-	<script type="text/javascript"> 			
-			jQuery(document).ready(function(){ 
-				jQuery("#clevelandgallery").unitegallery({
-					gallery_theme: "carousel",
-					theme_navigation_enable_play: false,
-                                        carousel_space_between_tiles: 200,
-					carousel_navigation_numtiles:1,
-                                        carousel_autoplay: false		
-				});	
-			}); 		
-		</script>
-
 	</body>
 </html>
 

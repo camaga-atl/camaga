@@ -10,47 +10,11 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
+<!-- upcoming concerts -->
 		<?php
 			include( CAMAGA_ROOT . "concerts/upcoming.php");
 		?>
-		<br/>
-		<h2>Upcoming Events</h2>
-<!-- Violin Workshop -->
-		<div class="list-concert-box">
-		<h3><a href="events#violinWorkshop">Vocal and Violin workshop</a></h3>
-		<h4> by illustrious violinist Sri Ganesh</h4>
-		<p><i>June 18 - 24, 2016</i></p>
-		<img src="events/2016/violinWorkshop/ganeshKumaresh.jpg" height="162" align="left" style="padding: 0em 1em 1em 0em;"/>
-                <p  >
-			CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) 
-			will conduct a music workshop organized by CAMAGA during June 18 - 24, 2016. 
-		</p>
-               <p>
-			<a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
-			Venue:  <br/>
-				KA Academy of Indian Music & Dance<br/>
-				2731 Sandy Plains Rd, Suite #156<br/>
-				Marietta, GA, 30066<br/>
-			</a>
-		</p>		
-		<p>
-			Refer <a href="events#violinWorkshop">here</a> for more details
-                </p>
-		</div>
-<!-- Violin Workshop -->
-		<br/>
-               <div  class="list-concert-box">
-                <h2>Dr. Narsi Narasimhan passes away</h2>
-		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
-                <p>
-                       We are very saddened to hear that Dr. Narsi Narasimhan had died. 
-                       As the founder of Indian Professionals Network, he not only brought together the Atlanta professional organizations but also the community. 
-                       His yeomen service to Atlanta and its people will always be remembered and cherished. 
-                       Dr. Narasimhan had been an ardent supporter of CAMAGA since its inception. 
-                       CAMAGA conveys its deepest condolences to his family.
-                </p>
-               </div>
-                <br/>
+<!-- upcoming concerts -->
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
 			<img src="data/concerts/201604301600/thumbs/01.jpg"
