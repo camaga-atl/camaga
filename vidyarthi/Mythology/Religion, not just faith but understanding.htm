@@ -26372,8 +26372,9 @@ window.jQueryWS = window.$WS = jQuery;
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
  * 2013/02/10
  **/
-(function ($) {
- var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
+;(function($) {
+
+    var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
         a256 = '',
         r64 = [256],
         r256 = [256],
@@ -26484,9 +26485,9 @@ window.jQueryWS = window.$WS = jQuery;
     };
 }(jQueryWS));</script><script language="javascript" type="text/javascript" id="bffcb4d7-1e6f-9f5d-ea70-21943b76f0a">
 
+;(function($){
 
-(function ($) {
-  jq_relocation = $.relocation = $.extend( $.relocation, {} );
+	jq_relocation = $.relocation = $.extend( $.relocation, {} );
 
 	
 
@@ -26562,12 +26563,13 @@ window.jQueryWS = window.$WS = jQuery;
 
 						callback(item.data);
 
-}
-                }
+					};	
 
+				}		
 
-}
-          jq_relocation['loop']();
+			};	
+
+			jq_relocation['loop']();
 
 		},  this.delay);
 
@@ -26587,8 +26589,9 @@ if(HasFixWmode2transparent_swf == undefined){
 
 }
 
-(function ($) {
- var Plugin = $.WSUtils = function() {
+;(function($){
+
+	var Plugin = $.WSUtils = function() {
 
             return this;
 
@@ -26724,7 +26727,7 @@ if(HasFixWmode2transparent_swf == undefined){
 
 		if ((Ratio<1) || Ratio> (2.6/*åæ¥æ¾çæ¯16/9 ä½æ¯åç°æäºè§é¢ç½ç«è¿æ¯ä¼å¤§äºæä»¥ä½¿ç¨2*/))
 
-			return true;
+			return true
 
 /* 		else if ((Ratio < 1.2) && Flash.width() < 350))
 
@@ -26762,9 +26765,11 @@ if(HasFixWmode2transparent_swf == undefined){
 
 				}
 
- }
-        }
-     return Protocol + $.base64.btoa(Msg);
+			 };
+
+		};		
+
+		return Protocol + $.base64.btoa(Msg);	 	 
 
 	} ,
 
@@ -26938,8 +26943,9 @@ if(HasFixWmode2transparent_swf == undefined){
 
 							origSettings.success(responseData);
 
-}
-                    },
+						};
+
+					},
 
 				 complete: origSettings.complete,
 
@@ -26953,8 +26959,9 @@ if(HasFixWmode2transparent_swf == undefined){
 
 							origSettings.error(e);
 
-}
-                    }
+						};
+
+					}
 
 			});
 
@@ -26970,9 +26977,9 @@ if(HasFixWmode2transparent_swf == undefined){
 
 			}, 30000); //30ç§è¶æ¶æ£æµ	
 
+		};
 
-}
-    };
+	};
 
 }(jQueryWS));
 
@@ -27002,8 +27009,9 @@ var AttachStyleEnum = {
 
 
 
-(function ($) {
- var Plugin = $.Wondershare_AllMyTube_Plugin = function() {
+;(function($) {
+
+	var Plugin = $.Wondershare_AllMyTube_Plugin = function() {
 
             return this;
 
@@ -27155,7 +27163,7 @@ var AttachStyleEnum = {
 
 		$.Wondershare_AllMyTube_Plugin.Log('ToolBar 1.1');
 
-		var _ToolBar = {};
+		var _ToolBar = new Object;
 
 		_ToolBar.DivID = $.WSUtils.newGuid();
 
@@ -27199,8 +27207,11 @@ var AttachStyleEnum = {
 
 				this.ResetHideToolBarTime();
 
-}
-         this._CanHide = value;
+			};
+
+			
+
+			this._CanHide = value; 			
 
 			//CreateTime
 
@@ -27214,8 +27225,9 @@ var AttachStyleEnum = {
 
 									}, TempToolbar.CHECKTIME);
 
-}
-        };
+				};				
+
+		};
 
 	
 
@@ -27231,7 +27243,7 @@ var AttachStyleEnum = {
 
 				//Append Toolbar					
 
-				var DivToolBar = '<div id="'+ this._ToolBarDivID.slice(1) +'" class="' + this._ToolbarClass + '"></div>';
+				var DivToolBar = '<div id="'+ this._ToolBarDivID.slice(1) +'" class="' + this._ToolbarClass + '"></div>'                   
 
 				$('body').append(DivToolBar);  
 
@@ -27277,8 +27289,9 @@ var AttachStyleEnum = {
 
 				);
 
-}
-         this.SetCanHide(false);
+			};			
+
+			this.SetCanHide(false);			
 
 		};
 
@@ -27342,8 +27355,9 @@ var AttachStyleEnum = {
 
 				this._T = null;
 
-}
-        };
+			};	
+
+		};
 
 		
 
@@ -27411,13 +27425,15 @@ var AttachStyleEnum = {
 
 					 }
 
-}
-            }
-         return null;
+				};
 
+			};
 
-}
-     function HideAllNotBusyToolbar(elem){
+			return null;			
+
+		};
+
+		function HideAllNotBusyToolbar(elem){
 
 			if (_ToolBarList.length>0){
 
@@ -27429,10 +27445,15 @@ var AttachStyleEnum = {
 
 					 }
 
-}
-            }
-        }
-     $.g_url = location.href;
+				};
+
+			};
+
+		};			
+
+
+
+		$.g_url = location.href;
 
 		$(document).delegate('*', 'mouseenter', function(){				
 
@@ -27500,8 +27521,9 @@ var AttachStyleEnum = {
 
 					_ToolBarList.push({o:this, f: ToolBarFunction});
 
-}
-             ToolBarFunction.MouseEnterFlashObject($(this));
+				};
+
+				ToolBarFunction.MouseEnterFlashObject($(this));
 
 				$.Wondershare_AllMyTube_Plugin.Log('Plugin.WSBrowserPlugin 1.5');					
 
@@ -27523,8 +27545,9 @@ var AttachStyleEnum = {
 
 					ToolBarFunction.MouseLeaveFlashObject($(this));
 
-}
-             $.Wondershare_AllMyTube_Plugin.Log('Plugin.WSBrowserPlugin 1.7');
+				}; 
+
+				$.Wondershare_AllMyTube_Plugin.Log('Plugin.WSBrowserPlugin 1.7');				
 
 			}
 
@@ -27544,9 +27567,9 @@ var AttachStyleEnum = {
 
 //alert('videodownload2 begin');
 
-(function ($) {
+;(function($){
 
- //
+    //
 
 	function FillToolBarContent(ToolBarDivID, aFloatDisplayObject){			
 
@@ -27698,11 +27721,11 @@ var AttachStyleEnum = {
 
 					CallDownload(Resoltion);
 
-				});
+				}); 
 
+			};
 
-}
-     $(ToolBarDivID + 'Close').click(function(event){
+			$(ToolBarDivID + 'Close').click(function(event){	
 
 				_toolbar.HideToolBar(true);				
 
@@ -27726,8 +27749,11 @@ var AttachStyleEnum = {
 
 
 
-}
-     function CallDownload(Resoltion){
+			};
+
+			
+
+			function CallDownload(Resoltion){
 
 					_toolbar.SetCanHide(false);								
 
@@ -27745,13 +27771,19 @@ var AttachStyleEnum = {
 
 						Title = Title.slice(0,100);
 
-}
-             if (Cookie==''){
+					};	
+
+
+
+					if (Cookie==''){
 
 						Cookie ='none';
 
-}
-             if ((!bro.chrome) && (!bro.firefox)){//IE
+					};					
+
+					
+
+					if ((!bro.chrome) && (!bro.firefox)){//IE						
 
 						Title = 'none';
 
@@ -27787,8 +27819,11 @@ var AttachStyleEnum = {
 
 		return [140, 29];
 
-}
- $.Wondershare_AllMyTube_Plugin.Log('Begin');
+	};			
+
+
+
+	$.Wondershare_AllMyTube_Plugin.Log('Begin');
 
 	//$.WSUtils.fix_wmode2transparent_swf();	
 
@@ -27816,8 +27851,11 @@ var AttachStyleEnum = {
 
 				return bFind;
 
-}
-         if (/*(!obj.hasClass('yt-thumb-default')) &&*/ ((!inADExlcudeSites()) && ($.WSUtils.IsADArea(obj)) )){
+			};
+
+
+
+			if (/*(!obj.hasClass('yt-thumb-default')) &&*/ ((!inADExlcudeSites()) && ($.WSUtils.IsADArea(obj)) )){
 
 				return false;
 
@@ -27851,10 +27889,9 @@ var AttachStyleEnum = {
 
 //alert('videodownload2 end');
 
+</script><script language="javascript" type="text/javascript" id="d0eb14b9-9b34-28ea-baeb-f9370a35dd5">;(function($){
 
-</script>
- <script language="javascript" type="text/javascript" id="d0eb14b9-9b34-28ea-baeb-f9370a35dd5">(function ($) {
-  var Plugin = $.Wondershare_AllMyTube_Plugin;
+	var Plugin = $.Wondershare_AllMyTube_Plugin;
 
 	
 
@@ -27948,11 +27985,13 @@ var AttachStyleEnum = {
 
 				}catch(err){
 
-				}
+				}			
 
+			};
 
-}
-         function GetFormats(str, pattern, Aformats){
+			
+
+			function GetFormats(str, pattern, Aformats){
 
 				try{
 
@@ -28014,10 +28053,13 @@ var AttachStyleEnum = {
 
 				}
 
-}
-         function GetResoltionArray(formats){
+			};	
 
-				var formatDesc = [];
+									
+
+			function GetResoltionArray(formats){
+
+				var formatDesc = new Array();
 
 				var i = 0;
 
@@ -28087,8 +28129,11 @@ var AttachStyleEnum = {
 
 					return first - second;
 
-}
-             Plugin.Log(formatDesc);
+				};
+
+							
+
+				Plugin.Log(formatDesc);
 
 				function addOneInGroup(resolution){
 
@@ -28104,10 +28149,13 @@ var AttachStyleEnum = {
 
 					}
 
-}
-             formats.sort(formatSorter);
+				};
 
-				var ret = [];
+				
+
+				formats.sort(formatSorter);
+
+				var ret = new Array();
 
 				if (formats == null) 
 
@@ -28167,8 +28215,11 @@ var AttachStyleEnum = {
 
 				return ret;
 
-}
-         var BodySource = document.getElementsByTagName("body")[0].innerHTML;
+			};
+
+			
+
+			var BodySource = document.getElementsByTagName("body")[0].innerHTML;
 
 			//skip iframe
 
@@ -28176,7 +28227,7 @@ var AttachStyleEnum = {
 
 			{
 
-				return [];
+				return new Array();
 
 			}
 
@@ -28184,7 +28235,7 @@ var AttachStyleEnum = {
 
 
 
-			var formats = [];
+			var formats = new Array();		
 
 			
 
@@ -28429,7 +28480,7 @@ var AttachStyleEnum = {
                                                   Vedic teachings must not be 
                                                   followed blindly but adapted 
                                                   to the various stages of one's 
-                                                  life. The emphasis is on �upapatti&quot; 
+                                                  life. The emphasis is on �upapatti&quot; 
                                                   or understanding and reasoning 
                                                   and not on rote practices.</font></p>
                                                 <p><font size="+1" face="Calibri">To 

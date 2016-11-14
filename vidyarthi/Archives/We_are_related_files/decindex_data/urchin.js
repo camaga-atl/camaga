@@ -29,8 +29,8 @@ var _ucid="utm_id";		// id number
 var _ucno="utm_nooverride";	// don't override
 
 //-- Auto/Organic Sources and Keywords
-var _uOsr=[];
-var _uOkw=[];
+var _uOsr=new Array();
+var _uOkw=new Array();
 _uOsr[0]="google";	_uOkw[0]="q";
 _uOsr[1]="yahoo";	_uOkw[1]="p";
 _uOsr[2]="msn";		_uOkw[2]="q";
@@ -53,13 +53,13 @@ _uOsr[18]="virgilio";	_uOkw[18]="qs";
 _uOsr[19]="teoma";	_uOkw[19]="q";
 
 //-- Auto/Organic Keywords to Ignore
-var _uOno=[];
+var _uOno=new Array();
 //_uOno[0]="urchin";
 //_uOno[1]="urchin.com";
 //_uOno[2]="www.urchin.com";
 
 //-- Referral domains to Ignore
-var _uRno=[];
+var _uRno=new Array();
 //_uRno[0]=".urchin.com";
 
 //-- **** Don't modify below this point ***
@@ -157,9 +157,9 @@ function _uInfo(page) {
   i2.src=_ugifpath2+"?"+"utmwv="+_uwv+s+"&utmac="+_uacct+"&utmcc="+_uGCS();
   i2.onload=function() { _uVoid(); }
  }
-
+ return;
 }
-function _uVoid() {  }
+function _uVoid() { return; }
 function _uCInfo() {
  if (!_ucto || _ucto=="") { _ucto="15768000"; }
  var c="",t="-",t2="-",t3="-",o=0,cs=0,cn=0,i=0,z="-",s="";
@@ -295,8 +295,8 @@ function __utmSetTrans() {
  if (!e) return;
  var l=e.value.split("UTM:");
  var i,i2,c;
- if (_userv==0 || _userv==2) i=[];
- if (_userv==1 || _userv==2) { i2=[]; c=_uGCS(); }
+ if (_userv==0 || _userv==2) i=new Array();
+ if (_userv==1 || _userv==2) { i2=new Array(); c=_uGCS(); }
 
  for (var ii=0;ii<l.length;ii++) {
   l[ii]=_uTrim(l[ii]);
@@ -334,7 +334,7 @@ function __utmSetTrans() {
    i2[ii].onload=function() { _uVoid(); }
   }
  }
-
+ return;
 }
 function _uFlash() {
  var f="-",n=navigator;
@@ -409,7 +409,7 @@ function __utmLinkPost(f,h) {
    else f.action=f.action.substring(0,ih-1)+"&"+p+f.action.substring(ih);
   }
  }
-
+ return;
 }
 function __utmSetVar(v) {
  if (!v || v=="") return;
@@ -507,7 +507,7 @@ function __utmVisitorCode() {
  if ((i=a.indexOf(".",0))<0) return;
  if ((i2=a.indexOf(".",i+1))>0) r=a.substring(i+1,i2); else return "";  
  if ((i=a.indexOf(".",i2+1))>0) t=a.substring(i2+1,i); else return "";  
- var c=['A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9'];
+ var c=new Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');
  return c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5&m]+c[t&m];
 }
 function _uIN(n) {

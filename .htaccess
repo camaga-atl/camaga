@@ -2,28 +2,28 @@
 <Files login>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  C:\xampp\htdocs\camaga\.htpasswd
+AuthUserFile  /home/content/i/p/n/ipnatlanta/html/camaga/.htpasswd
 Require valid-user
 </Files>
 
 <Files createForm.php>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  C:\xampp\htdocs\camaga\.htpasswd
+AuthUserFile  /home/content/i/p/n/ipnatlanta/html/camaga/.htpasswd
 Require valid-user
 </Files>
 
 <Files editForm.php>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  C:\xampp\htdocs\camaga\.htpasswd
+AuthUserFile  /home/content/i/p/n/ipnatlanta/html/camaga/.htpasswd
 Require valid-user
 </Files>
 
 <Limit POST PUT DELETE>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  C:\xampp\htdocs\camaga\.htpasswd
+AuthUserFile  /home/content/i/p/n/ipnatlanta/html/camaga/.htpasswd
 Require valid-user
 </Limit>
 

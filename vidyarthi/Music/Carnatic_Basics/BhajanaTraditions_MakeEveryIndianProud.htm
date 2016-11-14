@@ -61,7 +61,7 @@ document.write ("	<table align='left' cellspacing='0' cellpadding='1' width='775
 function showAd(city) {
 
   if (!document.phpAds_used) document.phpAds_used = ',';
-   phpAds_random = String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
   
    document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
    document.write ("http://www.indofacts.com/indogram/adserver/adjs.php?n=" + phpAds_random);
@@ -86,7 +86,7 @@ function showAd(city) {
 function showAd(city) {
 
   if (!document.phpAds_used) document.phpAds_used = ',';
-   phpAds_random = String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
   
    document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
    document.write ("http://www.indofacts.com/indogram/adserver/adjs.php?n=" + phpAds_random);
@@ -319,7 +319,7 @@ else
 function showMiddleAd(city) {
 
   if (!document.phpAds_used) document.phpAds_used = ',';
-   phpAds_random = String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
   
    document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
    document.write ("http://www.indofacts.com/indogram/adserver/adjs.php?n=" + phpAds_random);
@@ -585,7 +585,7 @@ text-decoration: none;
   <SCRIPT LANGUAGE="Javascript">
   <!--
   // the array global_article is used to allow multiple categories
-  var global_article = [];
+  var global_article = new Array();
   var global_article_counter = 0;
   var article = null;
   var early_exit = true;
@@ -714,19 +714,19 @@ document.write("<A HREF='"+global_article[counter].document_url+"' + class='more
   document.write("<INPUT TYPE='hidden' NAME='parent_code' VALUE='2064832'>");
   document.write("<INPUT TYPE='hidden' NAME='clone_system' VALUE='c'>");
   document.write("<INPUT TYPE='hidden' NAME='system' VALUE='c'>");
-  document.write("<INPUT TYPE='hidden' NAME='heading_font_size' VALUE=''><INPUT TYPE='hidden' NAME='headline_bgcolor' VALUE='ffffff'>");
-  document.write("<INPUT TYPE='hidden' NAME='webfeed_heading' VALUE=''><INPUT TYPE='hidden' NAME='cluster_width' VALUE='100%'>");
-  document.write("<INPUT TYPE='hidden' NAME='cluster_name' VALUE='query=india%20usa%20political%20news&o=js'><INPUT TYPE='hidden' NAME='source_time_underline' VALUE='false'>");
-  document.write("<INPUT TYPE='hidden' NAME='time_display' VALUE='Yes'><INPUT TYPE='hidden' NAME='heading_display' VALUE='Yes'>");
-  document.write("<INPUT TYPE='hidden' NAME='headline_fgcolor' VALUE='cc9966'><INPUT TYPE='hidden' NAME='cluster_cellspacing' VALUE='0'>");
-  document.write("<INPUT TYPE='hidden' NAME='number_of_headlines' VALUE='20'><INPUT TYPE='hidden' NAME='source_time_fgcolor' VALUE='333333'>");
-  document.write("<INPUT TYPE='hidden' NAME='headline_font_size' VALUE='11'><INPUT TYPE='hidden' NAME='search_keywords' VALUE='india usa political news'>");
-  document.write("<INPUT TYPE='hidden' NAME='source_time_font_size' VALUE='10'><INPUT TYPE='hidden' NAME='headline_italic' VALUE='false'>");
-  document.write("<INPUT TYPE='hidden' NAME='headline_font' VALUE='Verdana, geneva, arial, san-serif'><INPUT TYPE='hidden' NAME='source_time_italic' VALUE='false'>");
-  document.write("<INPUT TYPE='hidden' NAME='source_time_font' VALUE='Verdana, geneva, arial, san-serif'><INPUT TYPE='hidden' NAME='wizard_brand' VALUE='moreover'>");
-  document.write("<INPUT TYPE='hidden' NAME='cluster_cellpadding' VALUE='1'><INPUT TYPE='hidden' NAME='headline_bold' VALUE='true'>");
-  document.write("<INPUT TYPE='hidden' NAME='cluster_border' VALUE='0'><INPUT TYPE='hidden' NAME='source_time_bold' VALUE='false'>");
-  document.write("<INPUT TYPE='hidden' NAME='headline_underline' VALUE='false'><INPUT TYPE='hidden' NAME='cluster_layout' VALUE='<BR>'>");
+  document.write("<INPUT TYPE='hidden' NAME='heading_font_size' VALUE=''><INPUT TYPE='hidden' NAME='headline_bgcolor' VALUE='ffffff'>")
+  document.write("<INPUT TYPE='hidden' NAME='webfeed_heading' VALUE=''><INPUT TYPE='hidden' NAME='cluster_width' VALUE='100%'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_name' VALUE='query=india%20usa%20political%20news&o=js'><INPUT TYPE='hidden' NAME='source_time_underline' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='time_display' VALUE='Yes'><INPUT TYPE='hidden' NAME='heading_display' VALUE='Yes'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_fgcolor' VALUE='cc9966'><INPUT TYPE='hidden' NAME='cluster_cellspacing' VALUE='0'>")
+  document.write("<INPUT TYPE='hidden' NAME='number_of_headlines' VALUE='20'><INPUT TYPE='hidden' NAME='source_time_fgcolor' VALUE='333333'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_font_size' VALUE='11'><INPUT TYPE='hidden' NAME='search_keywords' VALUE='india usa political news'>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_font_size' VALUE='10'><INPUT TYPE='hidden' NAME='headline_italic' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_font' VALUE='Verdana, geneva, arial, san-serif'><INPUT TYPE='hidden' NAME='source_time_italic' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_font' VALUE='Verdana, geneva, arial, san-serif'><INPUT TYPE='hidden' NAME='wizard_brand' VALUE='moreover'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_cellpadding' VALUE='1'><INPUT TYPE='hidden' NAME='headline_bold' VALUE='true'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_border' VALUE='0'><INPUT TYPE='hidden' NAME='source_time_bold' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_underline' VALUE='false'><INPUT TYPE='hidden' NAME='cluster_layout' VALUE='<BR>'>")
 
   document.write("</FORM>");
   // End of clone button code //

@@ -1,0 +1,13 @@
+
+
+#AuthType Basic
+#AuthName "CAMAGA Protected Area"
+#AuthUserFile  /home/content/i/p/n/ipnatlanta/html/camaga/beta/concerts/.htpasswd
+#Require valid-user
+
+RewriteEngine On
+
+RewriteRule ^(createform)$ createForm.php [QSA]
+RewriteRule ^([0-9]{12})/editform$ editForm.php?datetime=$1 [QSA]
+RewriteRule ^([0-9]{12})$ ./main.php?datetime=$1 [QSA]
+RewriteRule ^$ ./main.php
