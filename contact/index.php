@@ -23,15 +23,18 @@
 					<dt>President</dt>
 						<dd>Ram Sriram</dd>
 					<dt>Secretary</dt>
-						<dd>Siva Nathan</dd>
+						<dd>S.Ramaswamy</dd>
 					<dt>Treasurer</dt>
 						<dd>Raj Rengarajan</dd>
 					<dt>Trustees</dt>
+						<dd>Rama Krishnamurthy</dd>
 						<dd>Suresh Kothandaraman</dd>
-						<dd>Moorthy Srinivasan</dd>
 						<dd>Kalpana Rengarajan</dd>
+						<dd>Ramesh Vepure</dd>
+					<dt>Administrative Committee</dt>
+						<dd>Bala Balakrishnan</dd>
+						<dd>Moorthy Srinivasan</dd>
 						<dd>R.Vasudevan</dd>
-						<dd>S.Ramaswamy</dd>
 				</dl>
 				<h3>Membership</h3>
 				<dl>
