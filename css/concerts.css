@@ -13,17 +13,9 @@ Colors used
 	display: block;
 	background: -moz-linear-gradient(left, #FFFFF1, #FFFDF3);    
 	background: -webkit-gradient(linear, left center, right center, from(#FFFFF1), to(#FFFDF3));
-	
-}
-/*
-.list-concert-box {
-	border-bottom: 1px solid #E8E8E8;
+	border-bottom: 1px dotted #E8E8E8;
 }
 
-.list-concert-box:first-child {
-	border-top: 1px solid #E8E8E8;
-}
-*/
 .event-box {
 	overflow: auto;
 }
