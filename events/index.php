@@ -15,20 +15,30 @@
 		<h3><a name="composersDay">Great Composers' Day Celebrations 2017</a></h3>
 		<p><i>February 18 & 19, 2017</i></p>
 		<img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-		<p>
-			<emp><a href="events/2017/composersDay/2017-composers-day-registration-form.docx">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>	
-		</p>
-		<p>
+        <br/>
+        <br/>
+        <hr/>
+         <h4>Registration Closed</h4> 
+        <p>
+                Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, we had to close the registration for the two-day event as of January 23, 2017 
+       </p>
+       <p>
+                If you have already registered, please make sure to send in the registration fee before 5 PM on January 31, 2017. 
+                Please also note that, if the payment is not received by that date, CAMAGA will assign the slot to the individuals in the wait list, with the assumption that you do not intend to participate in the event. 
+                As always CAMAGA thanks you for your support and cooperation.
+       </p>
+       <hr/>
+	<p>
           CAMAGA will be hosting the Great Composers’ day on February 18th and 19th, 2017.
         </p>
-		<p>
+       <p>
 		  <b>Format</b>:  Participants can choose compositions pre-Trinity, Trinity, and post-Trinity.
         </p>
         <p> 
            <b>Participation slot</b>:  Because of overwhelming registrations, an individual will be assigned ONLY one slot to participate.  For example, if a registrant is proficient in three categories: Vocal, Veena, and Violin, the registrant must choose which one of these three categories he/she wishes to participate.  This stipulation, however, does not apply to participation as member of a group or individuals providing instrumental support.
         </p>
-		<p>
-           <b>Registration Form</b>: If you are interested in participating in the Great Composers Day – 2017, please download and complete the <emp><a href="events/2017/composersDay/2017-composers-day-registration-form.docx">Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp> 
+	<p>
+                <b>Registration Form</b>: 
         </p>
         <p>
            The registration form is required from 1) Individual performers; 2) group participants; 3) accompanists, and 4) individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis. Kindly send the registration form as an attachment to your email and forward it to camaga.atlanta@gmail.com.
