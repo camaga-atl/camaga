@@ -15,10 +15,18 @@
 		<h3><a name="composersDay">Great Composers' Day Celebrations 2017</a></h3>
 		<p><i>February 18 & 19, 2017</i></p>
 		<img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-        <br/>
-        <br/>
-        <hr/>
-         <h4>Registration Closed</h4> 
+                <h3>Download Program Details Documents</h3>
+                <p>
+			<a href="events/2017/composersDay/2017-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+			<a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                </p>
+		<br/>
+                <hr/>
+		<h2>Past Events</h2>
+<!--2017 Composer Day Announcement-->
+<article class="collapsible">
+        <h3>2017 Composers Day Registration Announcement</h3>
+       <h4>Registration Closed</h4> 
         <p>
                 Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, we had to close the registration for the two-day event as of January 23, 2017 
        </p>
@@ -68,9 +76,12 @@
            <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.    
         </p>
 		<hr/>
-		<br/>
-			<h2>Past Events</h2>
-<!-- violin workshop 2016 -->
+
+</article>
+<!--2017 Composer Day Announcement-->
+
+
+<!-- vocal and violin workshop by Ganesh -->
 <article class="collapsible">
 		<h3>Vocal and Violin workshop</h3>
 		<h4> by illustrious violinist Sri Ganesh</h4>

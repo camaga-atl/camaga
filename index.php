@@ -15,7 +15,7 @@
 		<div class="list-concert-box">
 		    <h3><a href="events#composersDay">Great Composers' Day Celebrations 2017</a></h3>
 		    <p><i>February 18th & 19th 2017</i></p>
-            <p>
+                         <p>
 				<a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
 					Venue: Hindu Temple of Atlanta
 				</a>
@@ -28,20 +28,13 @@
 			<br/>
 			<br/>
            	<p>
-		        Camaga will be celebrating the <a href="events#composersDay">Great Composers’ day</a> on February 18th and 19th, 2017. For more details refer <a href="events#composersDay">here</a>             
+		        Camaga will be celebrating the <a href="events#composersDay">Great Composers’ day</a> on February 18th and 19th, 2017.            
 		</p>
-                <hr/>
-                <h4> Registration Closed</h4>
+                <h4>Download Documents</h4>
                 <p>
-                      Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, we had to close the registration for the two-day event as of January 23, 2017 
+			<a href="events/2017/composersDay/2017-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+			<a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2017, 2:50 PM</span>
                 </p>
-                <p>
-                      If you have already registered, please make sure to send in the registration fee before 5 PM on January 31, 2017. 
-                      Please also note that, if the payment is not received by that date, CAMAGA will assign the slot to the individuals in the wait list, with the assumption that you do not intend to participate in the event. 
-                      As always CAMAGA thanks you for your support and cooperation.
-                </p>
-                <hr/>
- 
 		</div>
 <!-- composers day -->
 <!-- upcoming concerts -->
