@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php 
-		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
+		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
 		include( CAMAGA_ROOT . "common/html_head.php"); 
 	?>
 	<body id="home">
@@ -10,33 +10,6 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
-<!-- composers day -->
-		<h2>Upcoming Events</h2>
-		<div class="list-concert-box">
-		    <h3><a href="events#composersDay">Great Composers' Day Celebrations 2017</a></h3>
-		    <p><i>February 18th & 19th 2017</i></p>
-                         <p>
-				<a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-					Venue: Hindu Temple of Atlanta
-				</a>
-			</p>					
-			<img  class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
-			<img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
-			<img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
-			<img class="desktop" src="events/2016/composersDay/muthuswami-dikshithar.png"  />
-			<img class="mobile" src="events/2016/composersDay/trinity.jpg" />
-			<br/>
-			<br/>
-           	<p>
-		        Camaga will be celebrating the <a href="events#composersDay">Great Composers’ day</a> on February 18th and 19th, 2017.            
-		</p>
-                <h4>Download Documents</h4>
-                <p>
-			<a href="events/2017/composersDay/2017-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-			<a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2017, 2:50 PM</span>
-                </p>
-		</div>
-<!-- composers day -->
 <!-- upcoming concerts -->
 		<?php
 			include( CAMAGA_ROOT . "concerts/upcoming.php");

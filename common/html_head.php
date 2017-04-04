@@ -1,7 +1,7 @@
 	<head>
 		<meta charset="UTF-8"> 	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<base href="/camaga/">
+		<base href="/">
 		<link rel="stylesheet" href="css/screen.css">
 		<link rel="stylesheet" href="css/site_header.css">
 		<link rel="stylesheet" href="css/concerts.css">

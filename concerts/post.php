@@ -1,6 +1,6 @@
 <?php
 
-	define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
+	define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
 	include("Concerts.php");
 	include("Concert.php");
 

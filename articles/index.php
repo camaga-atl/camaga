@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<?php 
-		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
+		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
 		include( CAMAGA_ROOT . "common/html_head.php"); 
 	?>
 	<body id="articles">

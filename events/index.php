@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php 
-		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
+		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
 		include( CAMAGA_ROOT . "common/html_head.php"); 
 	?>
 	<body id="events">
@@ -10,19 +10,22 @@
 				include(CAMAGA_ROOT . "common/site_header.php"); 
 			?>
 			<div id="content">
-		<h2>Upcoming Events</h2>
-		<hr/>
-		<h3><a name="composersDay">Great Composers' Day Celebrations 2017</a></h3>
+		<h2>Past Events</h2>
+<!--2017 Composer Day -->
+<article class="collapsible">
+		<h3>Great Composers' Day Celebrations 2017</h3>
 		<p><i>February 18 & 19, 2017</i></p>
 		<img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-                <h3>Download Program Details Documents</h3>
-                <p>
+        <h4>Download Program Details Documents</h4>
+        <p>
 			<a href="events/2017/composersDay/2017-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-			<a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
-                </p>
-		<br/>
-                <hr/>
-		<h2>Past Events</h2>
+			<a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2017, 2:50 PM</span>
+        </p>
+		<hr/>
+</article>
+<!--2017 Composer Day -->
+
+
 <!--2017 Composer Day Announcement-->
 <article class="collapsible">
         <h3>2017 Composers Day Registration Announcement</h3>
@@ -131,20 +134,6 @@
 </article>
 <!-- violin workshop 2016 -->
 
-
-<!-- narsi -->
-<article class="collapsible">
-                <h3>Dr. Narsi Narasimhan passes away</h3>
-		<img src="events/2016/narsi/narsi_narasimhan.jpg" height="80" align="left" style="padding: 0em 1em 1em 0em;"/>
-                <p>
-                       We are very saddened to hear that Dr. Narsi Narasimhan had died. 
-                       As the founder of Indian Professionals Network, he not only brought together the Atlanta professional organizations but also the community. 
-                       His yeomen service to Atlanta and its people will always be remembered and cherished. 
-                       Dr. Narasimhan had been an ardent supporter of CAMAGA since its inception. 
-                       CAMAGA conveys its deepest condolences to his family.
-                </p>
-</article>
-<!-- narsi -->
 <!-- carnatic mela 2016 -->
 <article class="collapsible">
 		<h3>Carnatic Mela 2016</h3>
