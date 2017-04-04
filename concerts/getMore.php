@@ -12,7 +12,7 @@
 					include( CAMAGA_ROOT . "concerts/message.php"); 
 				?>	
 		<?php 
-					if (isset($_SERVER['PHP_AUTH_USER']))	{ 
+					if (!empty($_SERVER['PHP_AUTH_USER']))	{ 
 		?>					
 						<div>
 							<a class="button" href="./concerts/createForm.php">Add Concert</a>
@@ -57,12 +57,12 @@
 								
 								<tr class="<?php echo($num % 2 == 0 ? 'even' : 'odd');?>">
 									<td class="date-column">
-										<a href="concerts/main.php?datetime=<?php echo $ymdhm ?>">							
+										<a href="concerts?datetime=<?php echo $ymdhm ?>">							
 											<?php echo date("M d, Y", $concert_date); ?>
 										</a>	
 									</td> <!-- date -->	
 									<td>
-										<a href="concerts/main.php?datetime=<?php echo $ymdhm ?>">							
+										<a href="concerts?datetime=<?php echo $ymdhm ?>">							
 		<?php
 											include("../artists/views/vertical.php");
 		?>

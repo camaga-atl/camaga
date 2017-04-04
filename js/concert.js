@@ -5,7 +5,7 @@
 				'./concerts/post.php', 
 				'concert_json=' + encodeURIComponent(formDataJSONStr), 
 				function(replyData) {
-					window.location = $('base').attr('href') + "/concerts/main.php" + "?message=" + replyData;
+					window.location = "/concerts" + "?message=" + replyData;
 				} // function(replyData)
 				
 			); // $.post
@@ -17,7 +17,7 @@
 					url: './concerts/delete.php?datetime=' + datetime,
 					type: 'DELETE',
 					success: function(replyData) {
-						window.location = $('base').attr('href') + "/concerts/main.php?message=" + replyData;						
+						window.location = "/concerts?message=" + replyData;						
 					}
 				});			
 			}	
@@ -31,7 +31,7 @@
 				type: 'PUT',
 				data : 'concert_json=' + encodeURIComponent(formDataJSONStr), 
 				success: function(replyData) {				  
-					window.location = $('base').attr('href') + "/concerts/getOne.php?datetime=" + datetime + "&message=" + replyData;						
+					window.location = "/concerts/getOne.php?datetime=" + datetime + "&message=" + replyData;						
 				}
 			});			
 		} // save	

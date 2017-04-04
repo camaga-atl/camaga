@@ -91,7 +91,7 @@
 							<?php 
 								}  // if songExists() 
 							?>
-							<?php if (isset($_SERVER['PHP_AUTH_USER']))	{ ?>
+							<?php if (!empty($_SERVER['PHP_AUTH_USER']))	{ ?>
 								<div>
 									<a class="button" href="./concerts/editForm.php?datetime=<?php echo ($datetime) ?>" >
 										Edit Concert

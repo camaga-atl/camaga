@@ -11,8 +11,6 @@
 		return $file_ary;	
 		
 	}
-	define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/camaga/" );
-
 	include("../Concerts.php");
 	include("../Concert.php");
 	$requestURI = strtolower($_SERVER['REQUEST_URI']);
@@ -50,7 +48,7 @@
 	}
 	
 	$host  = $_SERVER['HTTP_HOST'];
-	$uri = "camaga/" . "concerts/getOne.php?datetime=" . $datetime;
+	$uri = "/concerts/getOne.php?datetime=" . $datetime;
 	header("Location: http://$host/$uri");
 	exit;
 	

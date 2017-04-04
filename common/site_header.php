@@ -11,7 +11,7 @@
 	<nav id="expanded">
 		<ul>
 			<li><a class="home" href=".">HOME</a></li>
-			<li><a class="concerts" href="concerts/main.php">CONCERTS</a></li>
+			<li><a class="concerts" href="concerts">CONCERTS</a></li>
 			<li><a class="events" href="events">EVENTS</a></li>
 			<li><a class="articles" href="articles">ARTICLES</a></li>
 			<li><a class="member" href="member">MEMBER</a></li>
@@ -25,7 +25,9 @@
 	</script>		
 </header>
 <?php 
-	if (isset($_SERVER['PHP_AUTH_USER']))	{ 
+   list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) = 
+        explode(':', base64_decode(substr($_SERVER['HTTP_AUTHORIZATION'], 6)));
+   if (!empty($_SERVER['PHP_AUTH_USER']) )	{ 
 ?>					
 	<div class="login-info">
 		<?php echo "Welcome " . $_SERVER['PHP_AUTH_USER']; ?>

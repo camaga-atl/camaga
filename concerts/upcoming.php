@@ -1,8 +1,7 @@
         <?php
-		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
 		include("Concerts.php");
 		include("Concert.php");
-		include( CAMAGA_ROOT . "artists/Artist.php");
+        include( CAMAGA_ROOT . "artists/Artist.php");
 		$datetime = NULL;
 		$concerts = Concerts::getUpcoming();
 	?>
@@ -15,7 +14,7 @@
 	?>	
 		<div class="no-upcoming-concerts">
 			No concerts scheduled as of now. Please check back again later.
-			In the meanwhile, browse the <a href="concerts/main.php">Past Concerts</a>
+			In the meanwhile, browse the <a href="concerts">Past Concerts</a>
 
 		</div>
 	<?php 
@@ -31,9 +30,9 @@
 	?>			
 				<div class="list-concert-box">
 	<?php 
-					if (isset($_SERVER['PHP_AUTH_USER']))	{ 
+					if (!empty($_SERVER['PHP_AUTH_USER']))	{ 
 	?>					
-                                                <a href="concerts/main.php?datetime=<?php echo $ymdhm ?>">
+                            <a href="concerts?datetime=<?php echo $ymdhm ?>">
 	<?php 
 					} 
 	?>
