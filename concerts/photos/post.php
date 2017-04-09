@@ -1,4 +1,5 @@
 <?php
+	define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
 	function arrayImages ( &$file_post ) {
 		$file_ary = array();
 		$file_count = count($file_post['name']);
