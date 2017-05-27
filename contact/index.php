@@ -1,3 +1,7 @@
+<?php
+   $title="CAMAGA - Contact and About";
+?>
+
 <!DOCTYPE html>
 <html lang="us">
 	<?php 

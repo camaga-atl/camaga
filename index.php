@@ -1,3 +1,9 @@
+<?php 
+    $title="CAMAGA";
+    $pageTitle="CAMAGA";
+    $description="Home page for CAMAGA - Carnatic Music Association of Georgia";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<?php 
@@ -10,6 +16,7 @@
 			include(CAMAGA_ROOT . "common/site_header.php");
 			?>
 		<div id="content">
+                <h1><?php echo $pageTitle; ?></h1>
 <!-- upcoming concerts -->
 		<?php
 			include( CAMAGA_ROOT . "concerts/upcoming.php");

@@ -1,3 +1,7 @@
+<?php
+   $title="CAMAGA - Membership";
+?>
+
 <!DOCTYPE html>
 <html lang="us">
 	<?php 

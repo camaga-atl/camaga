@@ -1,3 +1,6 @@
+<?php 
+    $title="CAMAGA - Events";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php 

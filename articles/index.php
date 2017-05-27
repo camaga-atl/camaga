@@ -1,3 +1,7 @@
+<?php
+    $title="CAMAGA - Articles";
+?>
+
 <!DOCTYPE html>
 <html>
 	<?php 
@@ -8,7 +12,7 @@
 		<div class="wrapper">
 			<?php include(CAMAGA_ROOT . "common/site_header.php"); ?>
 			<div id="page-wrap">
-				<h1><a href="http://www.vidhyarthi.org">Vidyarthi</a></h1>		
+				<h1><a href="http://www.vidhyarthi.us">Vidyarthi</a></h1>
 
 				<h2>Music Philosophy</h2>
 
