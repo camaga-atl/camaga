@@ -24,6 +24,36 @@
 <!-- upcoming concerts -->
 	        <h2>CAMAGA in Pictures</h2>
 			<div id="gallery" >
+			       <img src="data/concerts/201708261600/thumbs/007.jpg"
+				   data-image="data/concerts/201708261600/007.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/001.jpg"
+				   data-image="data/concerts/201708261600/001.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/002.jpg"
+				   data-image="data/concerts/201708261600/002.jpg"
+				   data-description="Aug 26, 2017, Abhishek Raghuram" />
+			       <img src="data/concerts/201708261600/thumbs/003.jpg"
+				   data-image="data/concerts/201708261600/003.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar" />
+			       <img src="data/concerts/201708261600/thumbs/004.jpg"
+				   data-image="data/concerts/201708261600/004.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/005.jpg"
+				   data-image="data/concerts/201708261600/005.jpg"
+				   data-description="Aug 26, 2017, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/006.jpg"
+				   data-image="data/concerts/201708261600/006.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/008.jpg"
+				   data-image="data/concerts/201708261600/008.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/009.jpg"
+				   data-image="data/concerts/201708261600/009.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
+			       <img src="data/concerts/201708261600/thumbs/010.jpg"
+				   data-image="data/concerts/201708261600/010.jpg"
+				   data-description="Aug 26, 2017, Patri Satish Kumar, Abhishek Raghuram & H.N.Bhaskar" />
 			       <img src="data/concerts/201703251600/thumbs/IMG_0001.jpg"
 				   data-image="data/concerts/201703251600/IMG_0001.jpg"
 				   data-description="Mar 25, 2017, Thanjavur K Murugaboopathi. SundarKumar, Kunnakudi M.Balamuralikrishna & H.N.Bhaskar" />
