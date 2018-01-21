@@ -35,6 +35,18 @@
                <p>
                   Camaga will be celebrating the <a href="events#composersDay">Great Composers’ day</a> on February 17th and 18th, 2018. For more details refer <a href="events#composersDay">here</a>             
                </p>
+               <hr/>
+               <h4>Registration Closed <sup>updated as of Jan 18, 2018</sup></h4>
+               <p>
+                  Thanks to all who have sent in their registration. Unfortunately, 
+                  owing to overwhelming registration and constraints of time, 
+                  we had to close the registration for the two-day event as of January 18, 2018 
+               </p>
+               <p>
+                  If you have already registered, please make sure to send in the registration fee before end of January 2018.
+                  As always CAMAGA thanks you for your support and cooperation.
+               </p>
+               <hr/>
             </div>
             <!-- composers day  END-->
             <!-- upcoming concerts START  --
