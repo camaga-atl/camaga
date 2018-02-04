@@ -27,9 +27,6 @@
 					<dt>President</dt>
 						<dd>Ram Sriram</dd>
 						<dd>&nbsp;</dd>
-					<dt>Secretary</dt>
-						<dd>S.Ramaswamy</dd>
-						<dd>&nbsp;</dd>
 					<dt>Treasurer</dt>
 						<dd>Raj Rengarajan</dd>
 						<dd>&nbsp;</dd>
@@ -44,6 +41,10 @@
 						<dd>Bala Balakrishnan</dd>
 						<dd>Moorthy Srinivasan</dd>
 						<dd>R.Vasudevan</dd>
+						<dd>&nbsp;</dd>
+					<dt>Secretary</dt>
+						<dd>S.Ramaswamy</dd>
+						<dd>&nbsp;</dd>
 				</dl>
 				<h3>Membership</h3>
 				<dl>
@@ -55,7 +56,7 @@
 					<dd>$50</dd>
 				</dl>
 				<p>
-					<a href="doc/2015/Membershipform_2015.doc">Membership form &nbsp;&nbsp<i class="fa fa-download"></i></a>
+					<a href="doc/2018/Membershipform_2018.doc">Membership form &nbsp;&nbsp<i class="fa fa-download"></i></a>
 				</p>
 				<h3>Non-members</h3>
 				<dl>
