@@ -16,68 +16,73 @@
             <!-- 2018 Composers' Day START -->
             <h2>Upcoming Events</h2>
             <hr/>
-            <h3><a name="composersDay">Great Composers' Day Celebrations 2018</a></h3>
-            <p><i>Sat Feb 17 & Sun Feb 18, 2018</i></p>
-            <img src="events/2018/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-            <br/>
-            <br/>
-            <hr/>
-            <h4>Registration Closed <sup>updated on Jan 18, 2018</sup></h4> 
-            <p>
-                Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, 
-                we had to close the registration for the two-day event as of January 18, 2018 
-            </p>
-            <p>
-                If you have already registered, please make sure to send in the registration fee before January 2018 end. 
-                As always CAMAGA thanks you for your support and cooperation.
-            </p>
-            <hr/>
-            <p>
-                CAMAGA will be hosting the Great Composers’ day on Saturday February 17th and Sunday February 19th, 2018.
-            </p>
-            <p>
-               <b>Format</b>:  Participants can choose compositions pre-Trinity, Trinity, and post-Trinity.
-            </p>
-            <p> 
-               <b>Participation slot</b>:  Because of overwhelming registrations, an individual will be assigned ONLY one slot to participate.  For example, if a registrant is proficient in three categories: Vocal, Veena, and Violin, the registrant must choose which one of these three categories he/she wishes to participate.  This stipulation, however, does not apply to participation as member of a group or individuals providing instrumental support.
-            </p>
-            <p>
-               <b>Registration Form</b>:   
-            </p>
-            <p>
-               The registration form is required from 1) Individual performers; 2) group participants; 3) accompanists, and 4) individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis. 
-            </p>
-            <p>
-               <b>Registration fee</b>: Registration fee is required from all participants.  Members will pay a registration fee of $10 per participant and non-members of CAMAGA (those who did not maintain membership in CAMAGA during the calendar year 2017) will pay a registration fee of $30.  The non-members must pay a registration fee regardless of whether they participate as a member of a group, or as an individual, or as an accompanist. A current member of CAMAGA must renew their annual membership before January 31, 2018 or otherwise, pay registration fee as a non-member.
-            </p>
-            <p>
-               <b>Registrants</b> (both members and non-members) intending to participate are requested to mail in their registration forms as an attachment to an email and 2) mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084.  
-            </p>
-            <p>
-               <b>For those participating as members of a group</b>: However, if one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group. 
-            </p>
-            <p>
-               <b>Note to Teachers</b>: In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group.  Please note that CAMAGA does not decide the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group and mail a check favoring CAMAGA, to 6011 Rocky Shoals Court, Tucker, GA, 30084.
-            </p>
-            <p>
-               <b>Deadline for receipt of registration form and registration fees</b>:  The registration fee must be received latest by January 31, 2018. If the registration fee is not received by this due date, we will assume that the registrant is not intending to participate and remove their names accordingly.
-            </p>
-            <p>  
-               <b>Registration acknowledgement</b>: Once CAMAGA receives the registration email along with the registration form, it will send an acknowledgement confirming receipt of the registration form. If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time. 
-            </p>
-            <p>
-               <b>Early closure of registration</b>: If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2018) and it will no longer accept registration requests received after the early closure announcement.  
-            </p>
-            <p>
-               <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.    
-            </p>
-            <hr/>
-            <br/>
-            <!-- 2018 Composers' Day END -->
-            <h2>Past Events</h2>
+            <h3><a name="composersDay">2018 Great Composers' Day Celebrations</a></h3>
+           <p><i>Sat Feb 17 & Sun Feb 18, 2018</i></p>
+           <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
+           <h4>Download Program Details Documents</h4>
+              <p>
+                 <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+                 <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+              </p>
+           <br/>
+           <h2>Past Events</h2>
+            <article class="collapsible">
+               <h3>2018 Composers Day Registration Announcement</h3>
+		    <h4>Registration Closed <sup>updated on Jan 18, 2018</sup></h4> 
+		    <p>
+		        Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, 
+		        we had to close the registration for the two-day event as of January 18, 2018 
+		    </p>
+		    <p>
+		        If you have already registered, please make sure to send in the registration fee before January 2018 end. 
+		        As always CAMAGA thanks you for your support and cooperation.
+		    </p>
+		    <hr/>
+		    <p>
+		        CAMAGA will be hosting the Great Composers’ day on Saturday February 17th and Sunday February 19th, 2018.
+		    </p>
+		    <p>
+		       <b>Format</b>:  Participants can choose compositions pre-Trinity, Trinity, and post-Trinity.
+		    </p>
+		    <p> 
+		       <b>Participation slot</b>:  Because of overwhelming registrations, an individual will be assigned ONLY one slot to participate.  For example, if a registrant is proficient in three categories: Vocal, Veena, and Violin, the registrant must choose which one of these three categories he/she wishes to participate.  This stipulation, however, does not apply to participation as member of a group or individuals providing instrumental support.
+		    </p>
+		    <p>
+		       <b>Registration Form</b>:   
+		    </p>
+		    <p>
+		       The registration form is required from 1) Individual performers; 2) group participants; 3) accompanists, and 4) individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis. 
+		    </p>
+		    <p>
+		       <b>Registration fee</b>: Registration fee is required from all participants.  Members will pay a registration fee of $10 per participant and non-members of CAMAGA (those who did not maintain membership in CAMAGA during the calendar year 2017) will pay a registration fee of $30.  The non-members must pay a registration fee regardless of whether they participate as a member of a group, or as an individual, or as an accompanist. A current member of CAMAGA must renew their annual membership before January 31, 2018 or otherwise, pay registration fee as a non-member.
+		    </p>
+		    <p>
+		       <b>Registrants</b> (both members and non-members) intending to participate are requested to mail in their registration forms as an attachment to an email and 2) mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084.  
+		    </p>
+		    <p>
+		       <b>For those participating as members of a group</b>: However, if one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group. 
+		    </p>
+		    <p>
+		       <b>Note to Teachers</b>: In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group.  Please note that CAMAGA does not decide the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group and mail a check favoring CAMAGA, to 6011 Rocky Shoals Court, Tucker, GA, 30084.
+		    </p>
+		    <p>
+		       <b>Deadline for receipt of registration form and registration fees</b>:  The registration fee must be received latest by January 31, 2018. If the registration fee is not received by this due date, we will assume that the registrant is not intending to participate and remove their names accordingly.
+		    </p>
+		    <p>  
+		       <b>Registration acknowledgement</b>: Once CAMAGA receives the registration email along with the registration form, it will send an acknowledgement confirming receipt of the registration form. If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time. 
+		    </p>
+		    <p>
+		       <b>Early closure of registration</b>: If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2018) and it will no longer accept registration requests received after the early closure announcement.  
+		    </p>
+		    <p>
+		       <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.    
+		    </p>
+		    <hr/>
+		    <br/>
+            </article>
             <!--2017 Composer Day -->
             <article class="collapsible">
-               <h3>Great Composers' Day Celebrations 2017</h3>
+               <h3>2017 Great Composers' Day Celebrations</h3>
                <p><i>February 18 & 19, 2017</i></p>
                <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
                <h4>Download Program Details Documents</h4>
