@@ -38,7 +38,7 @@
                <h4>Download Documents</h4>
                 <p>
 		   <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-		   <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+		   <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 12, 2018, 5:50 PM</span>
                 </p>            </div>
             <!-- composers day  END-->
             <!-- upcoming concerts START  --
