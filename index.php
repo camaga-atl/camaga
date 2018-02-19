@@ -15,35 +15,9 @@
             include(CAMAGA_ROOT . "common/site_header.php");
             ?>
          <div id="content">
-            <!-- composers day -->
-            <h2>Upcoming Events</h2>
-            <div class="list-concert-box">
-               <h3><a href="events#composersDay">Great Composers' Day Celebrations 2018</a></h3>
-               <p><i>February 17th & 18th 2018</i></p>
-               <p>
-                  <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-                  Venue: Hindu Temple of Atlanta
-                  </a>
-               </p>
-               <img  class="desktop" src="events/2016/composersDay/purandaradasa.png"  />
-               <img class="desktop" src="events/2016/composersDay/syama-sastri.png"   />
-               <img class="desktop" src="events/2016/composersDay/thyagaraja.png"   />
-               <img class="desktop" src="events/2016/composersDay/muthuswami-dikshithar.png"  />
-               <img class="mobile" src="events/2016/composersDay/trinity.jpg" />
-               <br/>
-               <br/>
-               <p>
-                  Camaga will be celebrating the <a href="events#composersDay">Great Composers’ day</a> on February 17th and 18th, 2018.
-               </p>
-               <h4>Download Documents</h4>
-                <p>
-		   <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-		   <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2018, 2:10 PM</span>
-                </p>            </div>
-            <!-- composers day  END-->
             <!-- upcoming concerts START  --
-               <h1><?php echo $pageTitle; ?></h1>
-               <!-- upcoming concerts -->
+            <h1><?php echo $pageTitle; ?></h1>
+            -->
             <?php
                include( CAMAGA_ROOT . "concerts/upcoming.php");
                ?>

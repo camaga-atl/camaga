@@ -13,19 +13,17 @@
             include(CAMAGA_ROOT . "common/site_header.php"); 
             ?>
          <div id="content">
-            <!-- 2018 Composers' Day START -->
-            <h2>Upcoming Events</h2>
-            <hr/>
-            <h3><a name="composersDay">2018 Great Composers' Day Celebrations</a></h3>
-           <p><i>Sat Feb 17 & Sun Feb 18, 2018</i></p>
-           <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-           <h4>Download Program Details Documents</h4>
-              <p>
-                 <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                 <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2018, 2:10 PM</span>
-              </p>
-           <br/>
            <h2>Past Events</h2>
+           <article class="collapsible">
+              <h3>2018 Great Composers' Day Celebrations</a></h3>
+              <p><i>Sat Feb 17 & Sun Feb 18, 2018</i></p>
+              <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
+              <h4>Download Program Details Documents</h4>
+                 <p>
+                    <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+                    <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2018, 2:10 PM</span>
+                 </p>
+            </article>
             <article class="collapsible">
                <h3>2018 Composers Day Registration Announcement</h3>
 		    <h4>Registration Closed <sup>updated on Jan 18, 2018</sup></h4> 
