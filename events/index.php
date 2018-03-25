@@ -13,6 +13,89 @@
             include(CAMAGA_ROOT . "common/site_header.php"); 
             ?>
          <div id="content">
+
+            <!-- 2018 Carnatic Mela START -->
+            <h2>Upcoming Events</h2>
+            <h3><a name="2018-carnatic-mela">2018 Carnatic Mela</a></h3>
+            <h4>Celebrating 20 years of CAMAGA</h3>
+            <ul style="list-style-type:none">
+                <li>Sat Apr 7, 2018 10 AM</li>
+                <li><a target="_blank" href="http://maps.google.com/?q=Hindu Temple of Atlanta">@ Hindu Temple of Atlanta</a></li>
+            </ul>    
+            <p>
+                CAMAGA will host a whole-day Carnatic Mela event starting at 10 AM on Sat Apr 7, 2018. The objective of this event is to give our local 
+                talent – seniors, juniors, and sub-juniors (in terms of years of learning and experience) – an opportunity to showcase their talents.
+            </p>
+            <p>
+                Three performers from each category will give a vocal or solo violin concert for about fifteen minutes each and will be accompanied by 
+                local young artists. In the senior and sub-senior categories, the young artists will also show their knowledge of manodharma.
+            </p>
+            <p> 
+                The artists were selected based both on their talents and because, in recent years, they were not given a chance to perform on behalf of CAMAGA.            
+            </p>
+            <p>
+                After the end of their performances, the visiting professional musicians -- Carnatica Brothers – Shashikiran and Ganesh and violinist, 
+                Sri V.V.S. Murari will give each artist a brief review of their performance and make suggestions.  The purpose is not to do a critical 
+                analyses or criticism but to offer an ‘expert’ opinion that would help in the learning process.
+            </p>
+            <p>
+                The agenda for the day include:
+            </p>
+            <ul style="padding-left: 1.1em">
+               <li style="margin-top:10px">Performances by Junior, sub-senior, and senior artists from the community</li>
+               <li style="margin-top:10px">
+                   CAMAGA has completed twenty years as a music organization.  Following the young artists performances and review, 
+                   CAMAGA will honor the volunteers who had served and continue to serve this organization with dedication during 
+                   the last twenty years.  The visiting artists will recognize the volunteers.
+                </li>   
+                <li style="margin-top:10px">Lunch break (food can be purchased from the temple lunch counter)</li>
+                <li style="margin-top:10px">
+                    A brief (20 to 30 minutes) of interaction between the audiences and the visiting artists. It is an open format and 
+                    would include, general questions about music including a quiz to our knowledgeable audience.  Voluntary participation.
+                </li>
+                <li style="margin-top:10px">
+                    The day will conclude with a two-hour concert by<br/>
+                    <div style="padding-top:1.5rem;padding-bottom:1.5rem">
+                        <div>
+                            <span class="artist">
+                                <a target="_blank" href="https://www.google.com/search?q=carnatic brothers">
+					                <strong>
+					                    Carnatica Brothers – KN Shashikiran & P Ganesh
+                                    </strong>
+                                </a>
+                            </span>
+                            <span class="instrument">
+                                Vocal
+                            </span> 
+                        </div>
+                        <div>
+                            <span class="artist">
+                                <a target="_blank" href="https://www.google.com/search?q=VVS Murari">
+					                <strong>
+					                    VVS Murari
+                                    </strong>
+                                </a>
+                            </span>
+                            <span class="instrument">
+                                Violin
+                            </span> 
+                        </div>
+                        <div>
+                            <span class="artist">
+                                <a target="_blank" href="https://www.google.com/search?q=Thanjavur Murugabhoopathi">
+					                <strong>
+					                    Thanjavur Murugaboopathi
+                                    </strong>
+                                </a>
+                            </span>
+                            <span class="instrument">
+                                Mridangam
+                            </span> 
+                        </div>
+                    </div>
+                </li>
+            </ul>    
+            <!-- 2018 Carnatic Mela END -->
            <h2>Past Events</h2>
            <article class="collapsible">
               <h3>2018 Great Composers' Day Celebrations</a></h3>

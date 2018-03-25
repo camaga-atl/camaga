@@ -15,6 +15,19 @@
             include(CAMAGA_ROOT . "common/site_header.php");
             ?>
          <div id="content">
+           <!-- 2018 carnatic mela START -->
+           <h2>Upcoming Events</h2>
+            <div class="list-concert-box">
+               <h3><a href="events#2018-carnatic-mela">2018 Carnatic Mela</a></h3>
+                  <ul style="list-style-type:none">
+                   <li>Sat Apr 7, 2018 10 AM</li>
+                   <li><a target="_blank" href="http://maps.google.com/?q=Hindu Temple of Atlanta">@ Hindu Temple of Atlanta</a></li>
+                  </ul>    
+                  <p>
+                      Camaga will be celebrating their 20 years in Atlanta with <a href="events#2018-carnatic-mela">Carnatic Mela</a>. For more details refer <a href="events#2018-carnatic-mela">here</a>             
+                  </p>
+            </div>
+           <!-- 2018 carnatic mela END -->
             <!-- upcoming concerts START  --
             <h1><?php echo $pageTitle; ?></h1>
             -->
