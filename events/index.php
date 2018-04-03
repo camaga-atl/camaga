@@ -22,6 +22,10 @@
                 <li>Sat Apr 7, 2018 10 AM</li>
                 <li><a target="_blank" href="http://maps.google.com/?q=Hindu Temple of Atlanta">@ Hindu Temple of Atlanta</a></li>
             </ul>    
+            <h4>
+               <a href="events/2018/carnatic-mela/2018-carnatic-mela-program-details.pdf"  target="_blank">Download Carnatic Mela Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+            </h4>
+            </p>
             <p>
                 CAMAGA will host a whole-day Carnatic Mela event starting at 10 AM on Sat Apr 7, 2018. The objective of this event is to give our local 
                 talent – seniors, juniors, and sub-juniors (in terms of years of learning and experience) – an opportunity to showcase their talents.
