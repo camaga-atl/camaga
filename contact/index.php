@@ -1,5 +1,6 @@
 <?php
    $title="CAMAGA - Contact and About";
+   $description="Contact and About - CAMAGA - Carnatic Music Association of Georgia";   
 ?>
 
 <!DOCTYPE html>
@@ -22,6 +23,24 @@
 				<p>
 					<a href="doc/2016/Bylaws_2016.doc">Bylaws&nbsp;&nbsp;<i class="fa fa-download"></i></a>
 				</p>
+				<br/>
+				<h3>Contact</h3>
+				<dl>
+					<dt>address</dt>
+						<dd>Dr. Ram Sriram</dd>
+						<dd>1415 Carter Road</dd>
+						<dd>Decatur GA 30030</dd>
+						<dd>U.S.A</dd> 
+						<dd>&nbsp;</dd>
+					<dt>mobile</dt>
+						<dd>(678) 463-8729</dd> 
+						<dd><em>When possible, please send a text message so that we can respond to you</em></dd>
+						<dd>&nbsp;</dd>
+					<dt>email</dt>
+						<dd>camaga.atlanta@gmail.com</dd>
+						<dd>&nbsp;</dd>
+						<dd>&nbsp;</dd>
+				</dl>
 				<h3>Committee</h3>
 				<dl>
 					<dt>President</dt>
@@ -45,37 +64,7 @@
 					<dt>Secretary</dt>
 						<dd>S.Ramaswamy</dd>
 						<dd>&nbsp;</dd>
-				</dl>
-				<h3>Membership</h3>
-				<dl>
-					<dt>Family</dt>
-					<dd>$200</dd>
-					<dt>Individual</dt>
-					<dd>$100</dd>
-					<dt>Student with Id</dt>
-					<dd>$50</dd>
-				</dl>
-				<p>
-					<a href="doc/2018/Membershipform_2018.doc">Membership form &nbsp;&nbsp<i class="fa fa-download"></i></a>
-				</p>
-				<h3>Non-members</h3>
-				<dl>
-					<dt>Individual</dt>
-					<dd>$25 per concert</dd>
-					<dt>Students with Id</dt>
-					<dd>$10 per concert</dd>
-				</dl>  
-				<h3>Contact</h3>
-				<dl>
-					<dt>address</dt>
-						<dd>Dr. Ram Sriram</dd>
-						<dd>6011, Rocky Shoals Court</dd>
-						<dd>Tucker, GA 30084</dd>
-						<dd>U.S.A</dd> 
-						<dt>phone</dt>
-						<dd>770-493-6534</dd>
-					<dt>email</dt>
-						<dd>camaga.atlanta@gmail.com</dd>
+						<dd>&nbsp;</dd>
 				</dl>
 			</div>
 			<div class="push"></div>
