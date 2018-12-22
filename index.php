@@ -15,6 +15,34 @@
             include(CAMAGA_ROOT . "common/site_header.php");
             ?>
          <div id="content">
+
+
+          <!-- 2019 great composers day -->
+
+            <h2>Upcoming Events</h2>
+            <div class="list-concert-box">
+               <h3><a href="events#2019-great-composers-day">2019 Great Composers' Day</a></h3>
+               <h5>February 16th & 17th 2019</h5>
+               <p>
+                  <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
+                  Venue: Hindu Temple of Atlanta
+                  </a>
+               </p>
+               <img class="desktop" src="events/2019/composersDay/purandaradasa.png"  />
+               <img class="desktop" src="events/2019/composersDay/syama-sastri.png"   />
+               <img class="desktop" src="events/2019/composersDay/thyagaraja.png"   />
+               <img class="desktop" src="events/2019/composersDay/muthuswami-dikshithar.png"  />
+               <img class="mobile" src="events/2019/composersDay/trinity.jpg" />
+               <br/>
+               <br/>
+               <p>
+                  Camaga will be celebrating the <a href="events#2019-great-composers-day">Great Composers’ day</a> on Sat Feb 16th and Sun Feb 17th, 2019. For more details refer <a href="events#2019-great-composers-day">here</a>             
+               </p>
+            </div>
+            <!-- 2019 great composers day  END-->
+
+
+
             <!-- upcoming concerts START  --
             <h1><?php echo $pageTitle; ?></h1>
             -->

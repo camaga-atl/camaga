@@ -13,6 +13,92 @@
             include(CAMAGA_ROOT . "common/site_header.php"); 
             ?>
          <div id="content">
+            <!-- 2019 Composers' Day START -->
+            <h2>Upcoming Events</h2>
+            <hr/>
+            <h3><a name="2019-great-composers-day">2019 Great Composers' Day</a></h3>
+            <h5>Sat Feb 16 & Sun Feb 17, 2019</i></h5>
+            <img src="events/2019/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
+            <p>
+                <emp><a href="events/2019/composersDay/2019-composers-day-registration-form.docx">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>
+            </p>
+            <p>
+                <h4>Event</h4> 
+                CAMAGA will be hosting the 2019 Great Composers’ day on Saturday February 16th and Sunday February 17th, 2019
+            </p>
+               <h4>Participant</h4> 
+               CAMAGA invites you to particpate in the 2019 Great Composers' Day as 
+               <ol style="margin-left:35px">
+                   <li>Individual performer</li>
+                   <li>Group participant</li>
+                   <li>Accompanist</li>
+                   <li>Participant in the Pancharathna Krithis/Utsava Sampradaya kritis group singing alone</li>
+               </ol>
+            </p>
+            <p>
+                <h4>Format</h4> 
+                Participants can choose pre-Trinity, Trinity, and post-Trinity compositions.
+            </p>
+            <p>
+                <h4>Participation slot</h4> 
+                Because of overwhelming registrations, an individual will be assigned <emp>only one</emp> slot to participate. For example, if a registrant is proficient in three categories: Vocal, Veena, 
+                and Violin, the registrant must choose which one of these three categories he/she wishes to participate. This stipulation, however, does not apply to participate as a member of a group or to 
+                provide instrumental support.
+            </p>
+            <p>
+               <h4>Registration Form</h4> 
+               If you are interested in participating in the 2019 Great Composers' Day, please 
+               <ol style="margin-left:35px">
+                  <li>download <emp><a href="events/2019/composersDay/2019-composers-day-registration-form.docx">Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp></li>
+                  <li>complete the registration form</li>
+                  <li>send an email to <emp>camaga.atlanta@gmail.com</emp>> along with the filled up registration form as an attachment</li>
+                  <li>mail a check for registration fee favoring CAMAGA to 1415, Carter Road, Decatur, GA, 30030</li>
+               </ol>                  
+            </p>
+            </p>
+            <p>
+               <h4>Registration fee</h4> 
+               Registration fee is required from all participants.  
+               <ol style="margin-left:35px">
+                  <li>Members (those who have renewed membership for the calendar year 2019) will pay a registration fee of $10 per participant</li>
+                  <li>A current member of CAMAGA must renew their annual membership before January 31, 2019, or otherwise, pay a registration fee as a non-member</li>
+                  <li>Non-members of CAMAGA (those who did not renew membership for the calendar year 2019) will pay a registration fee of $30</li>
+                  <li>The non-members must pay a registration fee regardless of whether they participate as a member of a group, or as an individual, or as an accompanist</li> 
+              </ol>
+            </p>
+            <p>
+                <h4>Participation as members of a group</h4> 
+                If one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. Kindly note that CAMAGA does not accept registration 
+                forms received directly from a group member or from the parents of children participating in a group.
+            </p>
+            <p>
+                <h4>Note to Teachers</h4> 
+                In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group. Please note that CAMAGA does not decide 
+                the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group 
+                and mail a check favoring CAMAGA, to 1415, Carter Road, Decatur, GA, 30030.
+            </p>
+            <p>
+                <h4>Deadline for receipt of registration form and registration fees</h4> 
+                The registration fee must be received the latest by January 31, 2019. If the registration fee is not received by this due date, we will assume that the registrant is not intending to participate and 
+                remove their names accordingly.
+            </p>
+            <p>
+                <h4>Registration acknowledgment</h4> 
+                Once CAMAGA receives the registration email along with the registration form, an acknowledgment confirming receipt of the registration form will be sent. If an acknowledgment is not received from CAMAGA 
+                within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA 
+                can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last-minute additions to the registration because of claims that the registration form was sent on time. 
+            </p>
+            <p>
+                <h4>Early closure of registration</h4> 
+                If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated 
+                date of January 31, 2019) and it will no longer accept registration requests received after the early closure announcement.
+            </p>
+            <hr/>
+            <br/>
+            <!-- 2019 Composers' Day END -->
+
+
+
             <h2>Past Events</h2>
             <!-- 2018 Carnatic Mela START -->
             <article class="collapsible">
