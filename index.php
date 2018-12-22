@@ -24,6 +24,30 @@
             <!-- upcoming concerts END -->
             <h2>CAMAGA in Pictures</h2>
             <div id="gallery" >
+               <img src="data/concerts/201810271600/thumbs/001.jpg"
+                   data-image="data/concerts/201810271600/001.jpg"
+                   data-description="Oct 27, 2018 - B.Sivaraman, Gayathri Venkataraghavan and Mysore V.Srikanth" />
+               <img src="data/concerts/201810271600/thumbs/002.jpg"
+                   data-image="data/concerts/201810271600/002.jpg"
+                   data-description="Oct 27, 2018 - Gayathri Venkataraghavan" />
+               <img src="data/concerts/201810271600/thumbs/003.jpg"
+                   data-image="data/concerts/201810271600/003.jpg"
+                   data-description="Oct 27, 2018 - Mysore V.Srikanth" />
+               <img src="data/concerts/201810271600/thumbs/004.jpg"
+                   data-image="data/concerts/201810271600/004.jpg"
+                   data-description="Oct 27, 2018 - B.Sivaraman" />
+               <img src="data/concerts/201810271600/thumbs/005.jpg"
+                   data-image="data/concerts/201810271600/005.jpg"
+                   data-description="Oct 27, 2018 - Gayathri Venkataraghavan" />
+               <img src="data/concerts/201810271600/thumbs/006.jpg"
+                   data-image="data/concerts/201810271600/006.jpg"
+                   data-description="Oct 27, 2018 - Mysore V.Srikanth" />
+               <img src="data/concerts/201810271600/thumbs/007.jpg"
+                   data-image="data/concerts/201810271600/007.jpg"
+                   data-description="Oct 27, 2018 - B.Sivaraman" />
+               <img src="data/concerts/201810271600/thumbs/008.jpg"
+                   data-image="data/concerts/201810271600/008.jpg"
+                   data-description="Oct 27, 2018 - B.Sivaraman, Gayathri Venkataraghavan and Mysore V.Srikanth" />
                <img src="data/concerts/201810061600/thumbs/001.jpg"
                    data-image="data/concerts/201810061600/001.jpg"
                    data-description="Oct 6, 2018 - Srimushnam Raja Rao, Vittal Ramamurthy, VVS Murari and KV Gopalakrishnan" />
