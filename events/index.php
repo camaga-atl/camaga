@@ -1,16 +1,16 @@
-<?php 
+<?php
    $title="CAMAGA - Events";
    ?>
 <!DOCTYPE html>
 <html lang="en">
-   <?php 
+   <?php
       define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
-      include( CAMAGA_ROOT . "common/html_head.php"); 
+      include( CAMAGA_ROOT . "common/html_head.php");
       ?>
    <body id="events">
       <div class="wrapper">
-         <?php 
-            include(CAMAGA_ROOT . "common/site_header.php"); 
+         <?php
+            include(CAMAGA_ROOT . "common/site_header.php");
             ?>
          <div id="content">
             <!-- 2019 Composers' Day START -->
@@ -19,87 +19,13 @@
             <h3><a name="2019-great-composers-day">2019 Great Composers' Day</a></h3>
             <h5>Sat Feb 16 & Sun Feb 17, 2019</i></h5>
             <img src="events/2019/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-            <p>
-                <emp><a href="events/2019/composersDay/2019-composers-day-registration-form.docx">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>
-            </p>
-            <p>
-                <h4>Event</h4> 
-                CAMAGA will be hosting the 2019 Great Composers’ day on Saturday February 16th and Sunday February 17th, 2019
-            </p>
-               <h4>Participant</h4> 
-               CAMAGA invites you to particpate in the 2019 Great Composers' Day as 
-               <ol style="margin-left:35px">
-                   <li>Individual performer</li>
-                   <li>Group participant</li>
-                   <li>Accompanist</li>
-                   <li>Participant in the Pancharathna Krithis/Utsava Sampradaya kritis group singing alone</li>
-               </ol>
-            </p>
-            <p>
-                <h4>Format</h4> 
-                Participants can choose pre-Trinity, Trinity, and post-Trinity compositions.
-            </p>
-            <p>
-                <h4>Participation slot</h4> 
-                Because of overwhelming registrations, an individual will be assigned <emp>only one</emp> slot to participate. For example, if a registrant is proficient in three categories: Vocal, Veena, 
-                and Violin, the registrant must choose which one of these three categories he/she wishes to participate. This stipulation, however, does not apply to participate as a member of a group or to 
-                provide instrumental support.
-            </p>
-            <p>
-               <h4>Registration Form</h4> 
-               If you are interested in participating in the 2019 Great Composers' Day, please 
-               <ol style="margin-left:35px">
-                  <li>download <emp><a href="events/2019/composersDay/2019-composers-day-registration-form.docx">Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp></li>
-                  <li>complete the registration form</li>
-                  <li>send an email to <emp>camaga.atlanta@gmail.com</emp>> along with the filled up registration form as an attachment</li>
-                  <li>mail a check for registration fee favoring CAMAGA to 1415, Carter Road, Decatur, GA, 30030</li>
-               </ol>                  
-            </p>
-            </p>
-            <p>
-               <h4>Registration fee</h4> 
-               Registration fee is required from all participants.  
-               <ol style="margin-left:35px">
-                  <li>Members (those who have renewed membership for the calendar year 2019) will pay a registration fee of $10 per participant</li>
-                  <li>A current member of CAMAGA must renew their annual membership before January 31, 2019, or otherwise, pay a registration fee as a non-member</li>
-                  <li>Non-members of CAMAGA (those who did not renew membership for the calendar year 2019) will pay a registration fee of $30</li>
-                  <li>The non-members must pay a registration fee regardless of whether they participate as a member of a group, or as an individual, or as an accompanist</li> 
-              </ol>
-            </p>
-            <p>
-                <h4>Participation as members of a group</h4> 
-                If one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. Kindly note that CAMAGA does not accept registration 
-                forms received directly from a group member or from the parents of children participating in a group.
-            </p>
-            <p>
-                <h4>Note to Teachers</h4> 
-                In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group. Please note that CAMAGA does not decide 
-                the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group 
-                and mail a check favoring CAMAGA, to 1415, Carter Road, Decatur, GA, 30030.
-            </p>
-            <p>
-                <h4>Deadline for receipt of registration form and registration fees</h4> 
-                The registration fee must be received the latest by January 31, 2019. If the registration fee is not received by this due date, we will assume that the registrant is not intending to participate and 
-                remove their names accordingly.
-            </p>
-            <p>
-                <h4>Registration acknowledgment</h4> 
-                Once CAMAGA receives the registration email along with the registration form, an acknowledgment confirming receipt of the registration form will be sent. If an acknowledgment is not received from CAMAGA 
-                within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA 
-                can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last-minute additions to the registration because of claims that the registration form was sent on time. 
-            </p>
-            <p>
-                <h4>Early closure of registration</h4> 
-                If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated 
-                date of January 31, 2019) and it will no longer accept registration requests received after the early closure announcement.
-            </p>
-            <hr/>
-            <br/>
-            <!-- 2019 Composers' Day END -->
-
-
-
-            <h2>Past Events</h2>
+            <h4>Download Program Details Documents</h4>
+              <p>
+                 <a href="events/2019/composersDay/2019-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+                 <a href="events/2019/composersDay/2019-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2019, 6:38 AM</span>
+              </p>
+           <br/>
+           <h2>Past Events</h2>
             <!-- 2018 Carnatic Mela START -->
             <article class="collapsible">
                 <h3>2018 Carnatic Mela</h3>
@@ -107,25 +33,25 @@
                 <ul style="list-style-type:none">
                     <li>Sat Apr 7, 2018 10 AM</li>
                     <li><a target="_blank" href="http://maps.google.com/?q=Hindu Temple of Atlanta">@ Hindu Temple of Atlanta</a></li>
-                </ul>    
+                </ul>
                 <h4>
                 <a href="events/2018/carnatic-mela/2018-carnatic-mela-program-details.pdf"  target="_blank">Download Carnatic Mela Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a>
                 </h4>
                 </p>
                 <p>
-                    CAMAGA will host a whole-day Carnatic Mela event starting at 10 AM on Sat Apr 7, 2018. The objective of this event is to give our local 
+                    CAMAGA will host a whole-day Carnatic Mela event starting at 10 AM on Sat Apr 7, 2018. The objective of this event is to give our local
                     talent – seniors, juniors, and sub-juniors (in terms of years of learning and experience) – an opportunity to showcase their talents.
                 </p>
                 <p>
-                    Three performers from each category will give a vocal or solo violin concert for about fifteen minutes each and will be accompanied by 
+                    Three performers from each category will give a vocal or solo violin concert for about fifteen minutes each and will be accompanied by
                     local young artists. In the senior and sub-senior categories, the young artists will also show their knowledge of manodharma.
                 </p>
-                <p> 
-                    The artists were selected based both on their talents and because, in recent years, they were not given a chance to perform on behalf of CAMAGA.            
+                <p>
+                    The artists were selected based both on their talents and because, in recent years, they were not given a chance to perform on behalf of CAMAGA.
                 </p>
                 <p>
-                    After the end of their performances, the visiting professional musicians -- Carnatica Brothers – Shashikiran and Ganesh and violinist, 
-                    Sri V.V.S. Murari will give each artist a brief review of their performance and make suggestions.  The purpose is not to do a critical 
+                    After the end of their performances, the visiting professional musicians -- Carnatica Brothers – Shashikiran and Ganesh and violinist,
+                    Sri V.V.S. Murari will give each artist a brief review of their performance and make suggestions.  The purpose is not to do a critical
                     analyses or criticism but to offer an ‘expert’ opinion that would help in the learning process.
                 </p>
                 <p>
@@ -134,13 +60,13 @@
                 <ul style="padding-left: 1.1em">
                 <li style="margin-top:10px">Performances by Junior, sub-senior, and senior artists from the community</li>
                 <li style="margin-top:10px">
-                    CAMAGA has completed twenty years as a music organization.  Following the young artists performances and review, 
-                    CAMAGA will honor the volunteers who had served and continue to serve this organization with dedication during 
+                    CAMAGA has completed twenty years as a music organization.  Following the young artists performances and review,
+                    CAMAGA will honor the volunteers who had served and continue to serve this organization with dedication during
                     the last twenty years.  The visiting artists will recognize the volunteers.
-                    </li>   
+                    </li>
                     <li style="margin-top:10px">Lunch break (food can be purchased from the temple lunch counter)</li>
                     <li style="margin-top:10px">
-                        A brief (20 to 30 minutes) of interaction between the audiences and the visiting artists. It is an open format and 
+                        A brief (20 to 30 minutes) of interaction between the audiences and the visiting artists. It is an open format and
                         would include, general questions about music including a quiz to our knowledgeable audience.  Voluntary participation.
                     </li>
                     <li style="margin-top:10px">
@@ -156,7 +82,7 @@
                                 </span>
                                 <span class="instrument">
                                     Vocal
-                                </span> 
+                                </span>
                             </div>
                             <div>
                                 <span class="artist">
@@ -168,7 +94,7 @@
                                 </span>
                                 <span class="instrument">
                                     Violin
-                                </span> 
+                                </span>
                             </div>
                             <div>
                                 <span class="artist">
@@ -180,12 +106,12 @@
                                 </span>
                                 <span class="instrument">
                                     Mridangam
-                                </span> 
+                                </span>
                             </div>
                         </div>
                     </li>
                 </ul>
-            </article>    
+            </article>
             <!-- 2018 Carnatic Mela END -->
             <article class="collapsible">
                 <h3>2018 Great Composers' Day Celebrations</h3>
@@ -199,13 +125,13 @@
             </article>
             <article class="collapsible">
                <h3>2018 Composers Day Registration Announcement</h3>
-		    <h4>Registration Closed <sup>updated on Jan 18, 2018</sup></h4> 
+		    <h4>Registration Closed <sup>updated on Jan 18, 2018</sup></h4>
 		    <p>
-		        Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, 
-		        we had to close the registration for the two-day event as of January 18, 2018 
+		        Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time,
+		        we had to close the registration for the two-day event as of January 18, 2018
 		    </p>
 		    <p>
-		        If you have already registered, please make sure to send in the registration fee before January 2018 end. 
+		        If you have already registered, please make sure to send in the registration fee before January 2018 end.
 		        As always CAMAGA thanks you for your support and cooperation.
 		    </p>
 		    <hr/>
@@ -215,23 +141,23 @@
 		    <p>
 		       <b>Format</b>:  Participants can choose compositions pre-Trinity, Trinity, and post-Trinity.
 		    </p>
-		    <p> 
+		    <p>
 		       <b>Participation slot</b>:  Because of overwhelming registrations, an individual will be assigned ONLY one slot to participate.  For example, if a registrant is proficient in three categories: Vocal, Veena, and Violin, the registrant must choose which one of these three categories he/she wishes to participate.  This stipulation, however, does not apply to participation as member of a group or individuals providing instrumental support.
 		    </p>
 		    <p>
-		       <b>Registration Form</b>:   
+		       <b>Registration Form</b>:
 		    </p>
 		    <p>
-		       The registration form is required from 1) Individual performers; 2) group participants; 3) accompanists, and 4) individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis. 
+		       The registration form is required from 1) Individual performers; 2) group participants; 3) accompanists, and 4) individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis.
 		    </p>
 		    <p>
 		       <b>Registration fee</b>: Registration fee is required from all participants.  Members will pay a registration fee of $10 per participant and non-members of CAMAGA (those who did not maintain membership in CAMAGA during the calendar year 2017) will pay a registration fee of $30.  The non-members must pay a registration fee regardless of whether they participate as a member of a group, or as an individual, or as an accompanist. A current member of CAMAGA must renew their annual membership before January 31, 2018 or otherwise, pay registration fee as a non-member.
 		    </p>
 		    <p>
-		       <b>Registrants</b> (both members and non-members) intending to participate are requested to mail in their registration forms as an attachment to an email and 2) mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084.  
+		       <b>Registrants</b> (both members and non-members) intending to participate are requested to mail in their registration forms as an attachment to an email and 2) mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084.
 		    </p>
 		    <p>
-		       <b>For those participating as members of a group</b>: However, if one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group. 
+		       <b>For those participating as members of a group</b>: However, if one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group.
 		    </p>
 		    <p>
 		       <b>Note to Teachers</b>: In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group.  Please note that CAMAGA does not decide the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group and mail a check favoring CAMAGA, to 6011 Rocky Shoals Court, Tucker, GA, 30084.
@@ -239,14 +165,14 @@
 		    <p>
 		       <b>Deadline for receipt of registration form and registration fees</b>:  The registration fee must be received latest by January 31, 2018. If the registration fee is not received by this due date, we will assume that the registrant is not intending to participate and remove their names accordingly.
 		    </p>
-		    <p>  
-		       <b>Registration acknowledgement</b>: Once CAMAGA receives the registration email along with the registration form, it will send an acknowledgement confirming receipt of the registration form. If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time. 
+		    <p>
+		       <b>Registration acknowledgement</b>: Once CAMAGA receives the registration email along with the registration form, it will send an acknowledgement confirming receipt of the registration form. If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time.
 		    </p>
 		    <p>
-		       <b>Early closure of registration</b>: If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2018) and it will no longer accept registration requests received after the early closure announcement.  
+		       <b>Early closure of registration</b>: If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2018) and it will no longer accept registration requests received after the early closure announcement.
 		    </p>
 		    <p>
-		       <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.    
+		       <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.
 		    </p>
 		    <hr/>
 		    <br/>
@@ -269,11 +195,11 @@
                <h3>2017 Composers Day Registration Announcement</h3>
                <h4>Registration Closed</h4>
                <p>
-                  Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, we had to close the registration for the two-day event as of January 23, 2017 
+                  Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, we had to close the registration for the two-day event as of January 23, 2017
                </p>
                <p>
-                  If you have already registered, please make sure to send in the registration fee before 5 PM on January 31, 2017. 
-                  Please also note that, if the payment is not received by that date, CAMAGA will assign the slot to the individuals in the wait list, with the assumption that you do not intend to participate in the event. 
+                  If you have already registered, please make sure to send in the registration fee before 5 PM on January 31, 2017.
+                  Please also note that, if the payment is not received by that date, CAMAGA will assign the slot to the individuals in the wait list, with the assumption that you do not intend to participate in the event.
                   As always CAMAGA thanks you for your support and cooperation.
                </p>
                <hr/>
@@ -283,11 +209,11 @@
                <p>
                   <b>Format</b>:  Participants can choose compositions pre-Trinity, Trinity, and post-Trinity.
                </p>
-               <p> 
+               <p>
                   <b>Participation slot</b>:  Because of overwhelming registrations, an individual will be assigned ONLY one slot to participate.  For example, if a registrant is proficient in three categories: Vocal, Veena, and Violin, the registrant must choose which one of these three categories he/she wishes to participate.  This stipulation, however, does not apply to participation as member of a group or individuals providing instrumental support.
                </p>
                <p>
-                  <b>Registration Form</b>: 
+                  <b>Registration Form</b>:
                </p>
                <p>
                   The registration form is required from 1) Individual performers; 2) group participants; 3) accompanists, and 4) individuals interested in participating only in the group singing of Pancharathna Krithis/Utsava Sampradaya kritis. Kindly send the registration form as an attachment to your email and forward it to camaga.atlanta@gmail.com.
@@ -296,10 +222,10 @@
                   <b>Registration fee</b>: Registration fee is required from all participants.  Members will pay a registration fee of $10 per participant and non-members of CAMAGA (those who did not maintain membership in CAMAGA during the calendar year 2016) will pay a registration fee of $30.  The non-members must pay a registration fee regardless of whether they participate as a member of a group, or as an individual, or as an accompanist.   A current member of CAMAGA must renew their annual membership before January 31, 2017 or otherwise, pay registration fee as a non-member.
                </p>
                <p>
-                  <b>Registrants</b> (both members and non-members) intending to participate are requested to mail in their registration forms as an attachment to an email and 2) mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084.  
+                  <b>Registrants</b> (both members and non-members) intending to participate are requested to mail in their registration forms as an attachment to an email and 2) mail a check favoring check to CAMAGA to 6011 Rocky Shoals Court, Tucker, GA, 30084.
                </p>
                <p>
-                  <b>For those participating as members of a group</b>: However, if one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group. 
+                  <b>For those participating as members of a group</b>: However, if one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. CAMAGA does not accept registration forms received directly from a group member or from the parents of children participating in a group.
                </p>
                <p>
                   <b>Note to Teachers</b>: In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group.  Please note that CAMAGA does not decide the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group and mail a check favoring CAMAGA, to 6011 Rocky Shoals Court, Tucker, GA, 30084.
@@ -307,14 +233,14 @@
                <p>
                   <b>Deadline for receipt of registration form and registration fees</b>:  The registration fee must be received latest by February 1, 2017. If the registration fee is not received by this due date, we will assume that the registrant is not intending to participate and remove their names accordingly.
                </p>
-               <p>  
-                  <b>Registration acknowledgement</b>: Once CAMAGA receives the registration email along with the registration form, it will send an acknowledgement confirming receipt of the registration form. If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time. 
+               <p>
+                  <b>Registration acknowledgement</b>: Once CAMAGA receives the registration email along with the registration form, it will send an acknowledgement confirming receipt of the registration form. If an acknowledgement is not received from CAMAGA within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last minute additions to the registration because of claims that the registration form was sent on time.
                </p>
                <p>
-                  <b>Early closure of registration</b>: If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2017) and it will no longer accept registration requests received after the early closure announcement.  
+                  <b>Early closure of registration</b>: If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated date of January 31, 2017) and it will no longer accept registration requests received after the early closure announcement.
                </p>
                <p>
-                  <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.    
+                  <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.
                </p>
                <hr/>
             </article>
@@ -327,12 +253,12 @@
                <img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
                <p>
                   CAMAGA is pleased to announce that Sri Ganesh, the renowned violinist and vocalist (of the Ganesh and Kumaresh duo) will conduct a music workshop organized by CAMAGA.
-                  The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta. 
+                  The workshop will be held for seven consecutive days from June 18 through June 24, 2016 in Atlanta.
                </p>
                <p>
-                  This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.  
-                  We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.  
-                  Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.  
+                  This is a great opportunity for teachers, students, and others trained in Carnatic music (either vocal or violin) to learn from a senior musician.
+                  We also encourage teachers and those with several years of training in music to register for the workshops to learn more about manodharma and other performing skills.
+                  Ganesh would offer voice training, fingering techniques for those with a focus on violin, Manodharma, and more.
                </p>
                <p>
                   <a target="_blank" href="http://maps.google.com/?q=KA Academy of Indian Music & Dance">
@@ -340,7 +266,7 @@
                   KA Academy of Indian Music & Dance<br/>
                   2731 Sandy Plains Rd, Suite #156<br/>
                   Marietta, GA, 30066<br/>
-                  </a>	
+                  </a>
                </p>
                <p>
                   The workshop will be offered to independent groups
@@ -352,10 +278,10 @@
                </ol>
                </p>
                <p>
-                  The seniors, Vocal and Violin, would receive two hours of training per day while, juniors (grouped in to batches of 5 to 7 students), would receive one hour of training per batch per day.  
+                  The seniors, Vocal and Violin, would receive two hours of training per day while, juniors (grouped in to batches of 5 to 7 students), would receive one hour of training per batch per day.
                   Consequently, the number of registrants for the entire workshop will be restricted.
-                  The registration fee per participant for the one week session is $250 and it is payable in advance.  
-                  If you are interested in registering, please send an email to camaga.atlanta@gmail.com.  
+                  The registration fee per participant for the one week session is $250 and it is payable in advance.
+                  If you are interested in registering, please send an email to camaga.atlanta@gmail.com.
                   Because of the restrictions on the number of registrants, we will accept request for registration until the maximum participant for each group is reached (first come first served based on the date and time of receipt of the email.
                </p>
                <div>
@@ -380,21 +306,21 @@
                   </a>
                </p>
                <p>
-                  CAMAGA is organizing a Carnatic Mela.  The event is being organized to celebrate the centenary of Bharat Ratna Smt. M. S. Subbulakshmi, the illustrious musician. 
+                  CAMAGA is organizing a Carnatic Mela.  The event is being organized to celebrate the centenary of Bharat Ratna Smt. M. S. Subbulakshmi, the illustrious musician.
                </p>
                <p>
                   The objective of the Mela is to encourage younger members of the community learning music to participate in enjoyable and yet simple music-related activities
                   (e.g. choir singing, quiz program, debate, and more).  The Mela would also include items that adults can participate (the adults group activities will be independent
                   of the kids’ group activities).  Since the purpose of the Mela is make participation enjoyable and not stressful, the format, unlike a music competition,
-                  will have no 
+                  will have no
                   <emp>winners or losers</emp>
                   .
                </p>
                <p>
-                  The event starts at 10 A.M. (with registration starting at 9:30 AM).  The Mela is scheduled for a total of seven hours including an hour of lunch break.  The Mela 
-                  also includes a concert, Nrithya Katha, and dance.  Carnatica Brothers – Sri Shashikiran and Sri Ganesh would be joined by Upanyasa exponent Smt. Suchitra 
+                  The event starts at 10 A.M. (with registration starting at 9:30 AM).  The Mela is scheduled for a total of seven hours including an hour of lunch break.  The Mela
+                  also includes a concert, Nrithya Katha, and dance.  Carnatica Brothers – Sri Shashikiran and Sri Ganesh would be joined by Upanyasa exponent Smt. Suchitra
                   and Bharatanatyam exponent, Ms. Smitha Madhav.  The concert would be thematic, celebrating the memory of Smt. M. S. Subbulakshmi.  The artists will be accompanied
-                  on the violin by B. Raghavendra and on the Mridangam by Thiruvarur Bakthavatsalam.   At the end of the concert, certificates of `appreciation will be awarded by 
+                  on the violin by B. Raghavendra and on the Mridangam by Thiruvarur Bakthavatsalam.   At the end of the concert, certificates of `appreciation will be awarded by
                   Carnatica to the participants in the Mela.
                </p>
                <p>
@@ -414,11 +340,11 @@
                   </li>
                   <li>
                      <h5>Quiz, anthrakshari or multi-media presentation</h5>
-                     a kids group with a maximum of 4 participants (and a separate group of adults with 4 participants).  A multimedia quiz on Carnatic music would be conducted by the artists.  If no member from a group is able to answer a quiz question, the question will be opened to the audience participation. 				
+                     a kids group with a maximum of 4 participants (and a separate group of adults with 4 participants).  A multimedia quiz on Carnatic music would be conducted by the artists.  If no member from a group is able to answer a quiz question, the question will be opened to the audience participation.
                   </li>
                   <li>
                      <h5>Musical Pattimandram</h5>
-                     30 minutes max including for the moderator to summarize.  Two groups of three individuals (only younger individuals) will debate against each other;  the topics are wide open – Bhakthi or Melody in Smt. M. S. Amma’s performance; Carnatic music as passion or career, how do we made Carnatic Music youth friendly or what makes MS a Carnatic Icon; we welcome suggestions for other interesting topics ). 
+                     30 minutes max including for the moderator to summarize.  Two groups of three individuals (only younger individuals) will debate against each other;  the topics are wide open – Bhakthi or Melody in Smt. M. S. Amma’s performance; Carnatic music as passion or career, how do we made Carnatic Music youth friendly or what makes MS a Carnatic Icon; we welcome suggestions for other interesting topics ).
                   </li>
                   <li>
                      <h5>Raga Repertoire (time permitting)</h5>
@@ -484,7 +410,7 @@
             <article class="collapsible">
                <h3>Shashank and Shruthi - Congratulations</h3>
                <p>
-                  CAMAGA congratulates our Atlanta’s young musicians, Shruthi  	Santhanam and  Shashank Ganeshan.   At the Aradhana celebrations  and music competition currently being hosted  by the Cleveland Aradhana committtee, Shruthi and Shashank, between the two of them, have won five awards in various categories such as Pallavi rendition, Alapana, Neraval, and Swara Kalpana.  Shruthi and Shashank, you have made Atlanta community proud.  CAMAGA also appreciates their gurus and their parents for their contribution in making this recognition possible.		
+                  CAMAGA congratulates our Atlanta’s young musicians, Shruthi  	Santhanam and  Shashank Ganeshan.   At the Aradhana celebrations  and music competition currently being hosted  by the Cleveland Aradhana committtee, Shruthi and Shashank, between the two of them, have won five awards in various categories such as Pallavi rendition, Alapana, Neraval, and Swara Kalpana.  Shruthi and Shashank, you have made Atlanta community proud.  CAMAGA also appreciates their gurus and their parents for their contribution in making this recognition possible.
                </p>
                <div id="clevelandgallery">
                   <img src="data/events/201603290800/thumbs/Shruthi_ReceivesAward.JPG"
@@ -540,7 +466,7 @@
                               8:30 - 9:45 AM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                         <tr>
@@ -549,7 +475,7 @@
                            </td>
                            <td>
                               Pancharatna Krithis<br/>
-                              (Group Singing) 
+                              (Group Singing)
                            </td>
                         </tr>
                         <tr>
@@ -557,7 +483,7 @@
                               11:15 - 1:00 PM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                         <tr>
@@ -580,7 +506,7 @@
                               2:00 - 4:00 PM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                         <tr>
@@ -597,7 +523,7 @@
                               4:30 - 6:30 PM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                      </tbody>
@@ -618,7 +544,7 @@
                               9:30 - 10:30 AM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                         <tr>
@@ -636,7 +562,7 @@
                               11:00 - 1:00 PM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                         <tr>
@@ -653,7 +579,7 @@
                               1:30 - 3.00 PM
                            </td>
                            <td>
-                              Individual Singing 
+                              Individual Singing
                            </td>
                         </tr>
                         <tr>
@@ -1168,11 +1094,11 @@
                <h4>Saturday April 18, 2015 - 1 pm - 3:30 pm</h4>
                <p>
                   CAMAGA organized a Carnatic Mela program to encourage younger kids learning music to participate
-                  in enjoyable and yet simple music-related activities (e.g. choir singing, quiz program, symphony, and more).  
+                  in enjoyable and yet simple music-related activities (e.g. choir singing, quiz program, symphony, and more).
                   Since the purpose of the Mela was to make participation enjoyable and not strenuous, it was not similar to a competition.
                   There were no winners or losers.
                </p>
-               <p>  
+               <p>
                   The Mela was held on April 18, 2015 at the Hindu Temple of Atlanta Auditorium between 1 PM and 3:30PM.
                </p>
                <h4>PROGRAM</h4>
@@ -1294,7 +1220,7 @@
                <h4>Carnatic Quiz</h4>
                <p>
                   This program was a quiz on Carnatic music conducted by the artists.  If no member from a group was able to answer a quiz question, the question was opened to the audience.
-                  The quiz tested the basic knowledge on Carnatic music.   
+                  The quiz tested the basic knowledge on Carnatic music.
                </p>
                <h4>Guess the Kriti</h4>
                <p>
@@ -1304,14 +1230,14 @@
                <h4>Carnatic Choir</h4>
                <p>
                   About 20 students of Jassotha Balasubramaniam performed carnatic kritis in a choir on violin. They were accompanied on mrduangam and ghatam. Here is a youtube
-                  video of the performance. 
+                  video of the performance.
                </p>
                <br/> <br/>
                <div id="gallery2" style="margin:0px auto;display:none; ">
                   <img alt="Youtube With Images"
                      data-type="youtube"
                      src="https://img.youtube.com/vi/VqwlTcQAL9Q/default.jpg"
-                     data-image="https://img.youtube.com/vi/VqwlTcQAL9Q/0.jpg"		 
+                     data-image="https://img.youtube.com/vi/VqwlTcQAL9Q/0.jpg"
                      data-videoid="VqwlTcQAL9Q"
                      data-description="Violin Orchestra by students of Carnatic Strings Violin Studio" />
                </div>
@@ -1323,37 +1249,37 @@
          </div>
          <div class="push"></div>
       </div>
-      <?php 
+      <?php
          include(CAMAGA_ROOT . "common/site_footer.php");
-              ?>	
-      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/js/unitegallery.min.js'></script> 
-      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js'></script> 		
-      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script> 
+              ?>
+      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/js/unitegallery.min.js'></script>
+      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js'></script>
+      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script>
       <script type="text/javascript">
          jQuery("#gallery").unitegallery({
          	gallery_theme: "compact",
-         	gallery_min_width: 150,	
+         	gallery_min_width: 150,
                                       slider_scale_mode: "fit",
-         	theme_hide_panel_under_width: 4000		
-         });	
+         	theme_hide_panel_under_width: 4000
+         });
          jQuery("#gallery2").unitegallery({
          	gallery_theme: "compact",
          	gallery_min_width: 150,
          	theme_hide_panel_under_width: 4000
-         });	
+         });
          jQuery("#ss-gallery").unitegallery({
          	gallery_theme: "compact",
          	gallery_min_width: 150,
          	theme_hide_panel_under_width: 4000
-         });	
+         });
          jQuery("#clevelandgallery").unitegallery({
          	gallery_theme: "carousel",
          	theme_navigation_enable_play: false,
                                       carousel_space_between_tiles: 200,
               			carousel_navigation_numtiles:1,
-                                      carousel_autoplay: false		
-         });	
-      </script>		
+                                      carousel_autoplay: false
+         });
+      </script>
       <script>
          $(document).ready( function() {
          	$('.collapsible').each(function() {
@@ -1371,10 +1297,10 @@
          		icon.show();
          		icon.parents().show();
          	});
-         	
+
          	$('.collapsible h3').click(function(){
          		var collapsible = $(this).closest('.collapsible');
-         		collapsible.find('*').toggle();					
+         		collapsible.find('*').toggle();
          		var icon = $("i", this);
          		icon.show();
          		icon.parents().show();
@@ -1385,8 +1311,8 @@
          		}
          		else {
          			delete sessionStorage[key];
-         		}	
-         	});					
+         		}
+         	});
          });
       </script>
    </body>

@@ -36,7 +36,12 @@
                <br/>
                <br/>
                <p>
-                  Camaga will be celebrating the <a href="events#2019-great-composers-day">Great Composers’ day</a> on Sat Feb 16th and Sun Feb 17th, 2019. For more details refer <a href="events#2019-great-composers-day">here</a>             
+                  Camaga will be celebrating the <a href="events#2019-great-composers-day">Great Composers’ day</a> on Sat Feb 16th and Sun Feb 17th, 2019. For more details refer <a href="events#2019-great-composers-day">here</a>
+               </p>
+               <h4>Download Documents</h4>
+               <p>
+               	   <a href="events/2019/composersDay/2019-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+                   <a href="events/2019/composersDay/2019-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2019, 6:38 AM</span>
                </p>
             </div>
             <!-- 2019 great composers day  END-->
