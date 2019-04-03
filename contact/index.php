@@ -49,18 +49,13 @@
 					<dt>Treasurer</dt>
 						<dd>Raj Rengarajan</dd>
 						<dd>&nbsp;</dd>
-					<dt>Advisory Committee</dt>
+					<dt>Trustees</dt>
 						<dd>Kalpana Rengarajan</dd>
-						<dd>Rama Krishnakumar</dd>
+						<dd>Moorthy Srinivasan</dd>
 						<dd>Ramesh Vepure</dd>
 						<dd>Siva Nathan</dd>
 						<dd>Suresh Kothandaraman</dd>
-						<dd>&nbsp;</dd>
-					<dt>Administrative Committee</dt>
-						<dd>Bala Balakrishnan</dd>
-						<dd>Moorthy Srinivasan</dd>
-						<dd>R.Vasudevan</dd>
-						<dd>&nbsp;</dd>
+						<dd>&nbsp;</dd>					
 					<dt>Secretary</dt>
 						<dd>S.Ramaswamy</dd>
 						<dd>&nbsp;</dd>
