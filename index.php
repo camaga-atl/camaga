@@ -24,6 +24,27 @@
             <!-- upcoming concerts END -->
             <h2>CAMAGA in Pictures</h2>
             <div id="gallery" >
+               <img src="data/concerts/201904271600/thumbs/001.jpg"
+                   data-image="data/concerts/201904271600/001.jpg"
+                   data-description="Apr 27, 2019 - Karthik Narayanan, Vijayalakshmi Subramaniam and Ranjini Ramakrishnan" />
+               <img src="data/concerts/201904271600/thumbs/002.jpg"
+                   data-image="data/concerts/201904271600/002.jpg"
+                   data-description="Apr 27, 2019 - Vijayalakshmi Subramaniam" />
+               <img src="data/concerts/201904271600/thumbs/003.jpg"
+                   data-image="data/concerts/201904271600/003.jpg"
+                   data-description="Apr 27, 2019 - Ranjini Ramakrishnan" />
+               <img src="data/concerts/201904271600/thumbs/004.jpg"
+                   data-image="data/concerts/201904271600/004.jpg"
+                   data-description="Apr 27, 2019 - Karthik Narayanan" />
+               <img src="data/concerts/201904271600/thumbs/005.jpg"
+                   data-image="data/concerts/201904271600/005.jpg"
+                   data-description="Apr 27, 2019 - Vijayalakshmi Subramaniam" />
+               <img src="data/concerts/201904271600/thumbs/006.jpg"
+                   data-image="data/concerts/201904271600/006.jpg"
+                   data-description="Apr 27, 2019 - Vijayalakshmi Subramaniam" />
+               <img src="data/concerts/201904271600/thumbs/007.jpg"
+                   data-image="data/concerts/201904271600/007.jpg"
+                   data-description="Apr 27, 2019 - Karthik Narayanan, Vijayalakshmi Subramaniam and Ranjini Ramakrishnan" />
                <img src="data/concerts/201904131600/thumbs/001.jpg"
                    data-image="data/concerts/201904131600/001.jpg"
                    data-description="Apr 13, 2019 - Arjun Ganesh, Amrutha Venkatesh and Rajeev Mukundan" />
