@@ -1,142 +1,142 @@
 <?php
     $title="CAMAGA - Articles";
 ?>
-
 <!DOCTYPE html>
 <html>
-	<?php 
-		define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
-		include( CAMAGA_ROOT . "common/html_head.php"); 
-	?>
-	<body id="articles">
-		<div class="wrapper">
-			<?php include(CAMAGA_ROOT . "common/site_header.php"); ?>
-			<div id="page-wrap">
-				<h1><a href="http://www.vidhyarthi.us">Vidyarthi</a></h1>
-
-				<h2>Music Philosophy</h2>
-
-				<p>
-					Many of these articles were written by scholars in Carnatic Music - Sri T. S. Parthasarathy, Dr. R. Krishnaswamy (populalry known as Dr.R. K. - founder and President of Sadguru Sangeetha Samajam<Music_Philosophy/Sadguru_Sangeetha_Samajam.htm>, Chenna)i and his revered brother, R. Sreenivasan. I am thankful to Dr. R. K.'s daughters, Dr. R. K. Vimala and Dr. Lakshmi Murali for allowing me to digitalize the original manuscripts and presenting them on this site.
-				</p>
-
-				<article  class="collapsible">
-					<header>
-						<h3>A Short Biography of Thyagaraja Swami</h3>
-						<address class="author">P. Sreenivasan</address>
-					</header>
-
-					<p>
-						This short bio is only for the benefit of those not familiar with the details
-						 of Thyagaraja Swami's life story. He was born on the 4th of May 1767 and died 
-						 on January 7th, 1847. Thanks to our imprecise recording of history, there is 
-						 doubt about the place in which he was born. Most people believe he was born in 
-						 Thiruvaroor. But, one foreign student of Swami doubts this. He points out that 
-						 it is the custom to name the first born of the family after the presiding deity 
-						 of the place and if Thyagaraja was indeed been born in Thiruvaroor the eldest son, 
-						 Panchapakesan, would have been named Thyagaraja. It is also pointed out that Ramanathapuram
-						Srinivasa Iyengar has in his song in praise of Swami says that he was born in Thiruvayyar. 
-						We shall however have to leave it there for now.
-					</p>
-					<p>
-						Thyagaraja Swami had two brothers. Swami's father, Sri Ramabrahmam,
-						trained Swami in ritual worship and taught him the sastras and puranas.
-						Pothana's Bhagavatham was one of the granthas used for daily parayanam.
-						For a short time, Swami learnt music under the court musician Sonti
-						Venkatasubbiah and his son, Sonti Venkatramanayya. No direct descendants
-						of the Swami are now alive. He married twice and had one daughter who
-						died issueless. Both on the father's side and mother's side, there were
-						welll known musicians and Vidwants and it is said that from his
-						grandfather, Giri Raja Kavi, he aquired rare musical treatise, such as
-						the Sangeetha Ratnakara, the Sangraha Choodamani, and the mythical
-						Swararnavam (distinct from the book of that name now available).
-					</p>
-					<p>
-						There are many legends which attribute quite a few miracles as having
-						been performed by Swami. Such legends are naturally interpolated, at
-						least some of them apocryphical, added over the years but do have their
-						use in presenting an interesting life story of a great individual. It is
-						not this aspect which is of interest to us now. What he preached is what
-						he practiced, i.e., eschewing the emotional and character weaknesses -
-						Kama, kroda, lobha, moha, mada, and matsarya - but, practicing sama,
-						dama, uparati, titiksha, saraddha, and samadana. In other words, he
-						showed us that we must get rid of desire, lust, selfishness, ego,
-						jealousy, hatred, and fear and cultivate self control, equanimity,
-						tranquility, ability to bear suffering and look away from evil. Hence,
-						what we should remember and base ourselves on, are his streadfast
-						determination to stick to the path of truth and virture for "their" own
-						sake and not for fame, comfort, and vanity.	
-					</p>
-				</article>
-
-				<article  class="collapsible">
-					<header>
-						<h3>The Compositional Forms</h3>
-						<address class="author">Dr. R.Krishnaswami</address>
-					</header>
-					<p>
-						Saint Thyagaraja wrote compositions that included many forms and varieties:  Divyanama kritis, 
-						Utsava Sampradaya Kritis, The Pancharathnas, and the Operas.  These musical forms varied from 
-						the simplest to the complicated and allowed the novice to the learned scholar to enjoy his music 
-						and musical content.   In the variety and forms, Sri Thyagaraja has left a veritable treasure 
-						house of musical compositions.  
-					</p>
-					<p>
-						While his compositions ranged from the simplest to the most complicated and included elaborately 
-						ornamented compositions, the fundamental message was the same.  Music is not an end in itself but 
-						a path to bhakthi and Rama was the object of this bhakthi.  All compositions led to Rama, his personal 
-						God and Savior.  Whether you are a novice or a musicologist, if you practiced music without bhakthi, 
-						it serves no purpose and it is like decorating a corpse with garlands and smearing it with perfumes.
-					</p>
-					<p>
-						We will briefly compare the various forms of Saint Thyagaraja’s compositions.  Like the music of the 
-						natakas or the operas (e.g. Prahlada Bhakthi Vijayam and Nowka Charitham), the musicology of the Uthsava 
-						Sampradaya and Divya Nama kirtanas is also simple and capable of being sung by those with an ear for music, 
-						without any special training.  Nevertheless, the music of these songs is strictly classical and makes no 
-						compromise.  We do not find the influence of folk music styles such as kavadi chindu, Nondi chindu, Vazhi 
-						nadai chindu, themmangu, laavani etc.  With the limited range of notes and with no sangatis except for minor 
-						variations, these songs are ideally suited for group singing.
-					</p>
-					<h4>COMPOSITIONAL FORMS</h4>
-					<p>
-						The <strong>Utsava Sampradaya kirtanas</strong> represent the upacharas offered to the Deity in the course of Nithyothsava.  
-						The songs cover Hethsarika, Koluvu, Laali, Uyyala, Pavvali, Managalam, and Sobhanam; rituals followed during 
-						this process.  Of Mangalams and Lalis, there is more than one in each class.  In fact, there are two Melkolupus, 
-						two haratis, six lalis and so on.   It is a wonderful experience listening to the group singing of these melodies.
-					</p>
-					<p>
-						In content and form, the <strong>Divya Nama kirtanas</strong> present a wide range from common ragas like Nada Namakriya or Todi to 
-						the less common Aandhali, Ahiri, and Gowri.   All the common thalas are covered.  Like the Lambhaka type, all the 
-						Divya Nama Kirtanas have a pallavi followed by a series of charanas.  Suitable for the bhajana paddathi, the pallavi 
-						can be sung as chorus and each charana sung by the leader of the bhajana.  In their content, the Divya nama kirtanas 
-						offer simple namavalis, songs describing the qualities of Sri Rama, those bringing out the relationship of Rama to 
-						each member of his entourage.  For example, in one song, Samkshepa Ramayanam, using synonyms for feet, hands etc. the 
-						kirtana takes the story through from Viswamitra Yaga Samrakshanam to Pattabhishekam.  The kriti, Rama Jaya Rama in 
-						Yadukula Khambhoji starts with Kowsalya petting Sri Rama and through a series of sequential episodes from Ramayana, 
-						takes us on to Sits Swayamvara.  
-					</p>
-					<p>
-						One song lists the qualities of a true bhaktha and another, the list of evils that men commit from which liberation is 
-						achieved by singing the Ramanama.  One song lists the purposelessness of rituals perfunctorily performed.  Sri Thyagaraja 
-						asks whether monkeys which live in the forest are practicing vanavas and whether the highway robbers who live in caves are 
-						practicing ekantha.  In all, there are 78 songs in this category, all of which are eminently suitable for group singing.
-					</p>
-					<p>
-						The <strong>Ganaraga Pancharatna kirtanas</strong> are a class by themselves.  They are not only musical masterpieces but profound in context.  
-						Scholars have found material enough in these compositions to write large treatises on them.  A professor of English and an 
-						Orientalist, gave a five day talk on these, allocating each day for one of the five kirtanas.  The Gowla piece is the longest 
-						composition among the five.  We will discuss the contents of these kritis in another article when discussing the philosophy 
-						of Sri Thyagaraja.
-					</p>
-					<p>
-						The <strong>Kshetra kirtanas</strong> are the songs Swami is said to have composed on the deities of the place he visited during pilgrimage.  
-						Five kirtanas each have been sung at Srirangam, Lalgudi, Thiruvottiyur, and Kovur.  Two each in Tirupathi, Kancheepuram, 
-						Nagapattinam, Sholingur and one in Sirkali.  Some of these songs are masterpieces with wide ranging sangatis.  Darini 
-						Telusukonti, Mahita Pravrudha Srimathi are examples and considering the fact that these kirtanas were composed when Swami 
-						was over sixty years of age, one can understand the voice range of Swami and how easily he has created these complicated 
-						compositions with full of sangatis at every stage.
-					</p>
-				</article>
+   <?php 
+      define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
+      include( CAMAGA_ROOT . "common/html_head.php"); 
+   ?>
+   <body id="articles">
+      <div class="wrapper">
+         <?php include(CAMAGA_ROOT . "common/site_header.php"); ?>
+         <div id="page-wrap">
+            <h1><a href="http://www.vidhyarthi.us">Vidyarthi</a></h1>
+               <h2>Music Philosophy</h2>
+               <p>
+                     Many of these articles were written by scholars in Carnatic Music - Sri T.S.Parthasarathy,
+                     Dr. R. Krishnaswamy (populalry known as Dr.R. K. - founder and President of Sadguru Sangeetha 
+                     Samajam<Music_Philosophy/Sadguru_Sangeetha_Samajam.htm>, Chenna)i and his revered brother, 
+                     R. Sreenivasan. I am thankful to Dr. R. K.'s daughters, Dr. R. K. Vimala and Dr. Lakshmi 
+                     Murali for allowing me to digitalize the original manuscripts and presenting them on this site.
+               </p>
+               <!--    A short biography ......     -->
+               <details>
+                  <summary>A Short Biography of Thyagaraja Swami</summary>
+                  <address class="author">P. Sreenivasan</address>
+		  <p>
+     		     This short bio is only for the benefit of those not familiar with the details
+                     of Thyagaraja Swami's life story. He was born on the 4th of May 1767 and died 
+                     on January 7th, 1847. Thanks to our imprecise recording of history, there is 
+                     doubt about the place in which he was born. Most people believe he was born in 
+                     Thiruvaroor. But, one foreign student of Swami doubts this. He points out that 
+                     it is the custom to name the first born of the family after the presiding deity 
+                     of the place and if Thyagaraja was indeed been born in Thiruvaroor the eldest 
+                     son, Panchapakesan, would have been named Thyagaraja. It is also pointed out that 
+                     Ramanathapuram Srinivasa Iyengar has in his song in praise of Swami says that he 
+                     was born in Thiruvayyar. We shall however have to leave it there for now.
+                  </p>
+                  <p>
+                     Thyagaraja Swami had two brothers. Swami's father, Sri Ramabrahmam,
+                     trained Swami in ritual worship and taught him the sastras and puranas.
+                     Pothana's Bhagavatham was one of the granthas used for daily parayanam.
+                     For a short time, Swami learnt music under the court musician Sonti
+                     Venkatasubbiah and his son, Sonti Venkatramanayya. No direct descendants
+                     of the Swami are now alive. He married twice and had one daughter who
+                     died issueless. Both on the father's side and mother's side, there were
+                     welll known musicians and Vidwants and it is said that from his
+                     grandfather, Giri Raja Kavi, he aquired rare musical treatise, such as
+                     the Sangeetha Ratnakara, the Sangraha Choodamani, and the mythical
+                     Swararnavam (distinct from the book of that name now available).
+                  </p>
+                  <p>
+                     There are many legends which attribute quite a few miracles as having
+                     been performed by Swami. Such legends are naturally interpolated, at
+                     least some of them apocryphical, added over the years but do have their
+                     use in presenting an interesting life story of a great individual. It is
+                     not this aspect which is of interest to us now. What he preached is what
+                     he practiced, i.e., eschewing the emotional and character weaknesses -
+                     Kama, kroda, lobha, moha, mada, and matsarya - but, practicing sama,
+                     dama, uparati, titiksha, saraddha, and samadana. In other words, he
+                     showed us that we must get rid of desire, lust, selfishness, ego,
+                     jealousy, hatred, and fear and cultivate self control, equanimity,
+                     tranquility, ability to bear suffering and look away from evil. Hence,
+                     what we should remember and base ourselves on, are his streadfast
+                     determination to stick to the path of truth and virture for "their" own
+                     sake and not for fame, comfort, and vanity.	
+                  </p>
+		</details>
+                <!- Compositional Forms      -->
+                <details>
+                  <summary>The Compositional Forms</summary>
+		  <address class="author">Dr. R.Krishnaswami</address>
+                  <p>
+                     Saint Thyagaraja wrote compositions that included many forms and varieties:  Divyanama kritis, 
+                     Utsava Sampradaya Kritis, The Pancharathnas, and the Operas.  These musical forms varied from 
+                     the simplest to the complicated and allowed the novice to the learned scholar to enjoy his music 
+                     and musical content.   In the variety and forms, Sri Thyagaraja has left a veritable treasure 
+                     house of musical compositions.  
+                  </p>
+                  <p>
+                     While his compositions ranged from the simplest to the most complicated and included elaborately 
+                     ornamented compositions, the fundamental message was the same.  Music is not an end in itself but 
+                     a path to bhakthi and Rama was the object of this bhakthi.  All compositions led to Rama, his personal 
+                     God and Savior.  Whether you are a novice or a musicologist, if you practiced music without bhakthi, 
+                     it serves no purpose and it is like decorating a corpse with garlands and smearing it with perfumes.
+                  </p>
+                  <p>
+                     We will briefly compare the various forms of Saint Thyagaraja’s compositions.  Like the music of the 
+                     natakas or the operas (e.g. Prahlada Bhakthi Vijayam and Nowka Charitham), the musicology of the Uthsava 
+                     Sampradaya and Divya Nama kirtanas is also simple and capable of being sung by those with an ear for music, 
+                     without any special training.  Nevertheless, the music of these songs is strictly classical and makes no 
+                     compromise.  We do not find the influence of folk music styles such as kavadi chindu, Nondi chindu, Vazhi 
+                     nadai chindu, themmangu, laavani etc.  With the limited range of notes and with no sangatis except for minor 
+                     variations, these songs are ideally suited for group singing.
+                  </p>
+                  <h4>COMPOSITIONAL FORMS</h4>
+                  <p>
+                     The <strong>Utsava Sampradaya kirtanas</strong> represent the upacharas offered to the Deity in the course
+                     of Nithyothsava. The songs cover Hethsarika, Koluvu, Laali, Uyyala, Pavvali, Managalam, and Sobhanam; 
+                     rituals followed during this process. Of Mangalams and Lalis, there is more than one in each class. 
+                     In fact, there are two Melkolupus, two haratis, six lalis and so on. It is a wonderful experience listening
+                     to the group singing of these melodies.
+                  </p>
+                  <p>
+                     In content and form, the <strong>Divya Nama kirtanas</strong> present a wide range from common ragas like 
+                     Nada Namakriya or Todi to the less common Aandhali, Ahiri, and Gowri.   All the common thalas are covered. 
+                     Like the Lambhaka type, all the Divya Nama Kirtanas have a pallavi followed by a series of charanas. 
+                     Suitable for the bhajana paddathi, the pallavi can be sung as chorus and each charana sung by the leader 
+                     of the bhajana.  In their content, the Divya nama kirtanas offer simple namavalis, songs describing the 
+                     qualities of Sri Rama, those bringing out the relationship of Rama to each member of his entourage. For 
+                     example, in one song, Samkshepa Ramayanam, using synonyms for feet, hands etc. the kirtana takes the story 
+                     through from Viswamitra Yaga Samrakshanam to Pattabhishekam.  The kriti, Rama Jaya Rama in Yadukula Khambhoji 
+                     starts with Kowsalya petting Sri Rama and through a series of sequential episodes from Ramayana, takes us on 
+                     to Sits Swayamvara.  
+                  </p>
+                  <p>
+                     One song lists the qualities of a true bhaktha and another, the list of evils that men commit from which liberation is 
+                     achieved by singing the Ramanama.  One song lists the purposelessness of rituals perfunctorily performed.  Sri Thyagaraja 
+                     asks whether monkeys which live in the forest are practicing vanavas and whether the highway robbers who live in caves are 
+                     practicing ekantha.  In all, there are 78 songs in this category, all of which are eminently suitable for group singing.
+                  </p>
+                  <p>
+                     The <strong>Ganaraga Pancharatna kirtanas</strong> are a class by themselves. They are not only 
+                     musical masterpieces but profound in context.Scholars have found material enough in these compositions 
+                     to write large treatises on them.  A professor of English and an Orientalist, gave a five day talk on 
+                     these, allocating each day for one of the five kirtanas.  The Gowla piece is the longest composition 
+                     among the five.  We will discuss the contents of these kritis in another article when discussing the 
+                     philosophy of Sri Thyagaraja.
+                  </p>
+                  <p>
+                     The <strong>Kshetra kirtanas</strong> are the songs Swami is said to have composed on the deities of 
+                     the place he visited during pilgrimage.Five kirtanas each have been sung at Srirangam, Lalgudi, 
+                     Thiruvottiyur, and Kovur.  Two each in Tirupathi, Kancheepuram, Nagapattinam, Sholingur and one in 
+                     Sirkali. Some of these songs are masterpieces with wide ranging sangatis.Darini Telusukonti, Mahita 
+                     Pravrudha Srimathi are examples and considering the fact that these kirtanas were composed when Swami 
+                     was over sixty years of age, one can understand the voice range of Swami and how easily he has created 
+                     these complicated compositions with full of sangatis at every stage.
+                  </p>
+               </details>
 				<article  class="collapsible">
 					<header>
 						<h3>Utsava Sampradaya Kritis</h3>

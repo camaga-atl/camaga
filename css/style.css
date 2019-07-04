@@ -4,10 +4,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: #417781;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: #417781;
-}
-
 h1, h2, h3 {
 	line-height: 4rem;
 }
@@ -277,4 +273,28 @@ span.title {
 	padding-bottom: 3em;
 	clear: both;
 	word-wrap: break-word;
+}
+
+details {
+    padding: .5em .5em 0;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details summary {
+   font-weight: bold;
+   font-size: 2rem;
+   margin: -.5em -.5em 0;
+   color: #417781;
+   padding: .5em;
+}
+
+details[open] summary {
+   margin-bottom: .5em;
+}
+
+details li {
+   margin: 20px 10px;
 }

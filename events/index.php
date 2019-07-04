@@ -15,21 +15,21 @@
          <div id="content">
            <h2>Past Events</h2>
             <!-- 2019 Composers' Day START -->
-               <article class="collapsible">
-                  <h3>2019 Great Composers' Day</h3>
-                  <h5>Sat Feb 16 & Sun Feb 17, 2019</i></h5>
-                  <img src="events/2019/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
-                  <h4>Download Program Details Documents</h4>
-                  <p>
+            <details>
+                <summary>2019 Great Composers' Day</summary>
+                <h5>Sat Feb 16 & Sun Feb 17, 2019</i></h5>
+                <img src="events/2019/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
+                <h4>Download Program Details Documents</h4>
+                <p>
                       <a href="events/2019/composersDay/2019-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
                       <a href="events/2019/composersDay/2019-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2019, 4:49 PM</span>
-                  </p>
-              </article>
-              <!-- 2019 Composers' Day END -->
-           <!-- 2018 Carnatic Mela START -->
-           <article class="collapsible">
-                <h3>2018 Carnatic Mela</h3>
-                <h4>Celebrating 20 years of CAMAGA</h3>
+                </p>
+            </details>
+            <!-- 2019 Composers' Day END -->
+            <!-- 2018 Carnatic Mela START -->
+            <details>
+                <summary>2018 Carnatic Mela</summary>
+                <h4>Celebrating 20 years of CAMAGA</h4>
                 <ul style="list-style-type:none">
                     <li>Sat Apr 7, 2018 10 AM</li>
                     <li><a target="_blank" href="http://maps.google.com/?q=Hindu Temple of Atlanta">@ Hindu Temple of Atlanta</a></li>
@@ -111,10 +111,10 @@
                         </div>
                     </li>
                 </ul>
-            </article>
+            </details>
             <!-- 2018 Carnatic Mela END -->
-            <article class="collapsible">
-                <h3>2018 Great Composers' Day Celebrations</h3>
+            <details>
+                <summary>2018 Great Composers' Day Celebrations</summary>
                 <p><i>Sat Feb 17 & Sun Feb 18, 2018</i></p>
                 <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <h4>Download Program Details Documents</h4>
@@ -122,9 +122,9 @@
                     <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
                     <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2018, 2:10 PM</span>
                  </p>
-            </article>
-            <article class="collapsible">
-               <h3>2018 Composers Day Registration Announcement</h3>
+            </details>
+            <details>
+               <summary>2018 Composers Day Registration Announcement</summary>
 		    <h4>Registration Closed <sup>updated on Jan 18, 2018</sup></h4>
 		    <p>
 		        Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time,
@@ -176,10 +176,10 @@
 		    </p>
 		    <hr/>
 		    <br/>
-            </article>
+            </details>
             <!--2017 Composer Day -->
-            <article class="collapsible">
-               <h3>2017 Great Composers' Day Celebrations</h3>
+            <details>
+               <summary>2017 Great Composers' Day Celebrations</summary>
                <p><i>February 18 & 19, 2017</i></p>
                <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
                <h4>Download Program Details Documents</h4>
@@ -188,11 +188,11 @@
                   <a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2017, 2:50 PM</span>
                </p>
                <hr/>
-            </article>
+            </details>
             <!--2017 Composer Day -->
             <!--2017 Composer Day Announcement-->
-            <article class="collapsible">
-               <h3>2017 Composers Day Registration Announcement</h3>
+            <details>
+               <summary>2017 Composers Day Registration Announcement</summary>
                <h4>Registration Closed</h4>
                <p>
                   Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming registration and constraints of time, we had to close the registration for the two-day event as of January 23, 2017
@@ -243,11 +243,11 @@
                   <i>Note</i>: Once the participation details are finalized and announced, no further changes to the schedule will be made.  CAMAGA also will not accept requests to substitute one participant’s name from a specific slot and time with another participant’s name.
                </p>
                <hr/>
-            </article>
+            </details>
             <!--2017 Composer Day Announcement-->
             <!-- vocal and violin workshop by Ganesh -->
-            <article class="collapsible">
-               <h3>Vocal and Violin workshop</h3>
+            <details>
+               <summary>Vocal and Violin workshop</summary>
                <h4> by illustrious violinist Sri Ganesh</h4>
                <p><i>June 18 - 24, 2016</i></p>
                <img src="events/2016/violinWorkshop/ganeshKumaresh.jpg"  style="max-width: 100%; height: auto" />
@@ -291,11 +291,11 @@
                      </a>
                   </emp>
                </div>
-            </article>
+            </details>
             <!-- violin workshop 2016 -->
             <!-- carnatic mela 2016 -->
-            <article class="collapsible">
-               <h3>Carnatic Mela 2016</h3>
+            <details>
+               <summary>Carnatic Mela 2016</summary>
                <p><i>Sat April 9, 2016</i></p>
                <p>
                   <a target="_blank" href="http://maps.google.com/?q=Chinmaya Niketan">
@@ -405,10 +405,10 @@
                </div>
                <br/>
                <!-- carnatic mela 2016 -->
-            </article>
+            </details>
             <!-- shruthi and Shashank -->
-            <article class="collapsible">
-               <h3>Shashank and Shruthi - Congratulations</h3>
+            <details>
+               <summary>Shashank and Shruthi - Congratulations</summary>
                <p>
                   CAMAGA congratulates our Atlanta’s young musicians, Shruthi  	Santhanam and  Shashank Ganeshan.   At the Aradhana celebrations  and music competition currently being hosted  by the Cleveland Aradhana committtee, Shruthi and Shashank, between the two of them, have won five awards in various categories such as Pallavi rendition, Alapana, Neraval, and Swara Kalpana.  Shruthi and Shashank, you have made Atlanta community proud.  CAMAGA also appreciates their gurus and their parents for their contribution in making this recognition possible.
                </p>
@@ -423,11 +423,11 @@
                      data-image="data/events/201603290800/VVS_Shashank.JPG"
                      />
                </div>
-            </article>
+            </details>
             <!-- shashank and shruthi -->
-            <article class="collapsible">
+            <details>
                <!-- composers day 2016 -->
-               <h3>Composers' Day 2016</h3>
+               <summary>Composers' Day 2016</summary>
                <p>Feb 13 & 14 2016</p>
                <p>
                   <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
@@ -598,9 +598,9 @@
                </div>
                <!-- songlist -->
                <!-- composers day 2016 -->
-            </article>
-            <article class="collapsible">
-               <h3>Atlanta Carnatic Samraat - Sep 19, 2015</h3>
+            </details>
+            <details>
+               <summary>Atlanta Carnatic Samraat - Sep 19, 2015</summary>
                <p>
                   Below are the results from the <a href="http://sangeethsamraat.com/">Sangeeth Samraat Carnatic Premier League</a> regional event held at Hindu Temple of Atlanta, Riverdale on September 18 & September 19, 2015.
                </p>
@@ -1088,9 +1088,9 @@
                      </tbody>
                   </table>
                </div>
-            </article>
-            <article  class="collapsible">
-               <h3>Carnatic Mela - April 18, 2015</h3>
+            </details>
+            <details>
+               <summary>Carnatic Mela - April 18, 2015</summary>
                <h4>Saturday April 18, 2015 - 1 pm - 3:30 pm</h4>
                <p>
                   CAMAGA organized a Carnatic Mela program to encourage younger kids learning music to participate
@@ -1241,11 +1241,11 @@
                      data-videoid="VqwlTcQAL9Q"
                      data-description="Violin Orchestra by students of Carnatic Strings Violin Studio" />
                </div>
-            </article>
-            <article  class="collapsible">
-               <h3>Composers' Day 2015</h3>
+            </details>
+            <details>
+               <summary>Composers' Day 2015</summary>
                <h4>February 14 & 15, 2015</h4>
-            </article>
+            </details>
          </div>
          <div class="push"></div>
       </div>
@@ -1278,41 +1278,6 @@
                                       carousel_space_between_tiles: 200,
               			carousel_navigation_numtiles:1,
                                       carousel_autoplay: false
-         });
-      </script>
-      <script>
-         $(document).ready( function() {
-         	$('.collapsible').each(function() {
-         		var headingE = $('h3', this);
-         		var key = headingE.text();
-         		if ((key in sessionStorage) && sessionStorage[key]) {
-         			$('*', this).show();
-         			headingE.prepend('<i class="fa fa-caret-down"></i>').show();
-         		}
-         		else {
-         			$('*', this).hide();
-         			headingE.prepend('<i class="fa fa-caret-right"></i>').show();
-         		}
-         		var icon = $("i.fa-caret-right", this);
-         		icon.show();
-         		icon.parents().show();
-         	});
-
-         	$('.collapsible h3').click(function(){
-         		var collapsible = $(this).closest('.collapsible');
-         		collapsible.find('*').toggle();
-         		var icon = $("i", this);
-         		icon.show();
-         		icon.parents().show();
-         		icon.toggleClass('fa-caret-right fa-caret-down');
-         		var key = $(this).text();
-         		if (icon.attr('class') === 'fa-caret-down') {
-         			sessionStorage[key] =  true;
-         		}
-         		else {
-         			delete sessionStorage[key];
-         		}
-         	});
          });
       </script>
    </body>
