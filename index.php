@@ -24,6 +24,24 @@
             <!-- upcoming concerts END -->
             <h2>CAMAGA in Pictures</h2>
             <div id="gallery" >
+               <img src="data/concerts/201909071600/thumbs/001.jpg"
+                   data-image="data/concerts/201909071600/001.jpg"
+                   data-description="Sep 7, 2019 - K.V.Prasad, A.Kanyakumari and Vittal Rangan" />
+               <img src="data/concerts/201909071600/thumbs/002.jpg"
+                   data-image="data/concerts/201909071600/002.jpg"
+                   data-description="Sep 7, 2019 - A.Kanyakumari"/>
+               <img src="data/concerts/201909071600/thumbs/003.jpg"
+                   data-image="data/concerts/201909071600/003.jpg"
+                   data-description="Sep 7, 2019 - Vittal Rangan" />
+               <img src="data/concerts/201909071600/thumbs/004.jpg"
+                   data-image="data/concerts/201909071600/004.jpg"
+                   data-description="Sep 7, 2019 - K.V.Prasad" />
+               <img src="data/concerts/201909071600/thumbs/005.jpg"
+                   data-image="data/concerts/201909071600/005.jpg"
+                   data-description="Sep 7, 2019 - K.V.Prasad, A.Kanyakumari and Vittal Rangan" />
+               <img src="data/concerts/201909071600/thumbs/006.jpg"
+                   data-image="data/concerts/201909071600/006.jpg"
+                   data-description="Sep 7, 2019 - K.V.Prasad, A.Kanyakumari and Vittal Rangan" />
                <img src="data/concerts/201905051630/thumbs/001.jpg"
                    data-image="data/concerts/201905051630/001.jpg"
                    data-description="May 5, 2019 - Srivani Yella" />
