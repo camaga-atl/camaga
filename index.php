@@ -14,29 +14,79 @@
          <?php
             include(CAMAGA_ROOT . "common/site_header.php");
             ?>
-         <div id="content">
-            <!-- 2020 great composers day -->
+        <div id="content">
             <h2>Upcoming Events</h2>
+            
+            <!-- 2020 great composers day -->
             <div class="list-concert-box">
-               <h3><a href="events#2020-great-composers-day">2020 Great Composers' Day</a></h3>
-               <h5>February 15th & 16th 2020</h5>
-               <p>
-                  <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-                  Venue: Hindu Temple of Atlanta
-                  </a>
-               </p>
-               <img class="desktop" src="events/composers-day/purandaradasa.png"  />
-               <img class="desktop" src="events/composers-day/syama-sastri.png"   />
-               <img class="desktop" src="events/composers-day/thyagaraja.png"   />
-               <img class="desktop" src="events/composers-day/muthuswami-dikshithar.png"  />
-               <img class="mobile" src="events/composers-day/trinity.jpg" />
-               <br/>
-               <br/>
-               <p>
-                  Camaga will be celebrating the <a href="events#2020-great-composers-day">Great Composers’ day</a> on Sat Feb 15th and Sun Feb 16th, 2020. For more details refer <a href="events#2020-great-composers-day">here</a>             
-               </p>
+                <h3><a href="events#2020-great-composers-day">2020 Great Composers' Day</a></h3>
+                <h4>February 15th & 16th 2020</h4>
+                <p>
+                    <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
+                        Venue: Hindu Temple of Atlanta
+                    </a>
+                </p>
+                <img class="desktop" src="events/composers-day/purandaradasa.png"  />
+                <img class="desktop" src="events/composers-day/syama-sastri.png"   />
+                <img class="desktop" src="events/composers-day/thyagaraja.png"   />
+                <img class="desktop" src="events/composers-day/muthuswami-dikshithar.png"  />
+                <img class="mobile" src="events/composers-day/trinity.jpg" />
+                <p>
+                    Like every year, Camaga will be celebrating the <a href="events#2020-great-composers-day">Great Composers’ day</a> on Sat Feb 15th and Sun Feb 16th, 2020.
+                </p>
+                <a href="events#2020-great-composers-day">More .....</a>            
             </div>
             <!-- 2020 great composers day  END-->
+            
+            <!-- Trinity drama START -->
+            <div class="list-concert-box">
+                <h3><a href="events#2020-trinity-drama">Trinity Drama</a></h3>
+                <h4>Sat Mar 21, 2020</i></h4>
+                <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
+                  Venue: Hindu Temple of Atlanta
+                </a>
+                <p>
+				    Written by <a target="_blank" href="https://www.google.com/search?q=Seetha Ravi">
+					<strong>Seetha Ravi</strong>
+					</a><br/>
+				    Translated by <a target="_blank" href="https://www.google.com/search?q=Prabha Sridevan">
+					<strong>Prabha Sridevan</strong>
+					</a><br/>
+				    Directed by <a target="_blank" href="https://www.google.com/search?q=P.C.Ramakrishna">
+					<strong>P.C.Ramakrishna</strong>
+					</a><br/>
+				</p>
+				<p>
+                    ‘Trinity’ is a seamless weave of 3 short stories on the “Tiruvarur Three”, Muthuswami Dikshitar, Shyama Sastri and Thyagaraja, 
+                    the fountainheads of Carnatic music, who lived around Thanjavur at the same time in the 18th century.
+                </p>
+                <p>
+                    And starring in the three stories are well-known Carnatic musicians – <a target="_blank" href="https://www.google.com/search?q=Vijay Siva">
+					<strong>Vijay Siva</strong>
+					</a>, <a target="_blank" href="https://www.google.com/search?q=Gayathri Venkataraghavan">
+					<strong>Gayathri Venkataraghavan</strong>
+					</a> and 
+					<a target="_blank" href="https://www.google.com/search?q=dr sunder carnatic musician"><strong>Dr. Sunder</strong></a>.
+                </p>
+                <a href="events#2020-trinity-drama">More .....</a>
+            </div>
+            <!-- Trinity Drama  END-->
+
+            <!-- 2020 Carnatic Mela START -->
+            <div class="list-concert-box">
+                <h3><a href="events#2020-carnatic-mela">2020 Carnatic Mela</a></h3>
+                <h4>Sat Apr 18, 2020 10 AM</i></h4>
+                <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
+                  Venue: Hindu Temple of Atlanta
+                </a>
+                <p>
+                    Camaga will be conducting Carnatic Mela to showcase local talent. Details and rules for this are to be announced soon ....<br/>
+                    This will be followed by a concert in the evening by Sri K. N. Shashikiran and party
+                </p>
+                <a href="events#2020-carnatic-mela">More .....</a>
+
+            </div>
+            <!-- 2020 Carnatic Mela  END-->
 			 
             <!-- upcoming concerts START  --
             <h1><?php echo $pageTitle; ?></h1>
