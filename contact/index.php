@@ -44,20 +44,20 @@
 				<h3>Committee</h3>
 				<dl>
 					<dt>President</dt>
-						<dd>Ram Sriram</dd>
+						<dd>Dr. Ram Sriram</dd>
 						<dd>&nbsp;</dd>
 					<dt>Treasurer</dt>
-						<dd>Raj Rengarajan</dd>
+						<dd>Mr. Raj Rengarajan</dd>
 						<dd>&nbsp;</dd>
 					<dt>Trustees</dt>
-						<dd>Kalpana Rengarajan</dd>
-						<dd>Moorthy Srinivasan</dd>
-						<dd>Ramesh Vepure</dd>
-						<dd>Siva Nathan</dd>
-						<dd>Suresh Kothandaraman</dd>
+						<dd>Dr. Kalpana Rengarajan</dd>
+						<dd>Mr. Moorthy Srinivasan</dd>
+						<dd>Mr. Ramesh Vepure</dd>
+						<dd>Dr. Siva Nathan</dd>
+						<dd>Mr. Suresh Kothandaraman</dd>
 						<dd>&nbsp;</dd>					
 					<dt>Secretary</dt>
-						<dd>S.Ramaswamy</dd>
+						<dd>Mr. S.Ramaswamy</dd>
 						<dd>&nbsp;</dd>
 						<dd>&nbsp;</dd>
 				</dl>
