@@ -26,28 +26,12 @@
                         Venue: Hindu Temple of Atlanta
                     </a>
                 </p>
-                <img class="desktop" src="events/composers-day/purandaradasa.png"  />
-                <img class="desktop" src="events/composers-day/syama-sastri.png"   />
-                <img class="desktop" src="events/composers-day/thyagaraja.png"   />
-                <img class="desktop" src="events/composers-day/muthuswami-dikshithar.png"  />
-                <img class="mobile" src="events/composers-day/trinity.jpg" />
+                <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+                <h4>Download Documents</h4>
                 <p>
-                    Like every year, Camaga will be celebrating the <a href="events#2020-great-composers-day">Great Composers’ day</a> on Sat Feb 15th and Sun Feb 16th, 2020.
-				</p>	
-                <hr/>
-                <h4>Registration Closed <sup>updated as of Jan 20, 2020</sup></h4>
-                <p>
-                    Thanks to all who have sent in their registration. Unfortunately, 
-                    owing to overwhelming registration and constraints of time, 
-                    we had to close the registration for the two-day event as of January 20, 2020 
-                </p>
-                <p>
-                    If you have already registered, please make sure to send in the registration fee before end of January 2020.
-                    As always CAMAGA thanks you for your support and cooperation.
-                </p>
-                <hr/>
-				<br/>
-                <a href="events#2020-great-composers-day">More .....</a>            
+		           <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+		           <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+               </p>
             </div>
             <!-- 2020 great composers day  END-->
             

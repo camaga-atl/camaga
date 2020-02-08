@@ -20,6 +20,89 @@
             <details open>
 				<summary><a name="2020-great-composers-day">2020 Great Composers' Day</a></summary>
 				<h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
+                <p>
+                    <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
+                        Venue: Hindu Temple of Atlanta
+                    </a>
+                </p>			
+				<img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+                <h4>Download Program Details Documents</h4>
+                <p>
+                    <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+                    <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                </p>
+                <br/>				
+            </details>
+            <!-- 2020 Composers' Day END -->
+            
+            <!-- 2020 Trinity Drama START -->
+            
+            <details open>
+				<summary><a name="2020-trinity-drama">Trinity Drama</a></summary>				
+                <h4>on Sat Mar 21, 2020</h4>
+                <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
+                  Venue: Hindu Temple of Atlanta
+                </a>
+                <p>
+				    <i>written by</i> Seetha Ravi<br/>
+				    <i>Translated by</i> Prabha Sridevan<br/>
+				    <i>Directed by</i> P.C.Ramakrishna<br/>
+                </p>
+                <p>
+                    ‘Trinity’ is a seamless weave of 3 short stories by Seetha Ravi (published in Kalki) and translated by Prabha Sridevan (in The Hindu) on the “Tiruvarur Three”, Muthuswami Dikshitar, Shyama Sastri and Thyagaraja, the fountainheads of Carnatic music, who lived around Thanjavur at the same time in the 18th century.
+                </p>
+                <p>
+                    And starring in the three stories are well-known Carnatic musicians – Vijay Siva, Gayatri Venkataraghavan and Dr S Sunder.
+                </p>
+                <h4>PARIMALA RANGANATHAR</h4>
+                <p>
+                    In PARIMALA RANGANATHAR,  Muthuswami Dikshitar travels from one holy kshetra to another with his disciples, composing memorable keerthanais on the temple, deity and legend of the place.
+                    The scene begins in Mayuram, where he has just composed “Mayuranatham Anisham” in praise of the Lord there.
+                    He then travels to Indalur, where he composes 2 krithis with the same pallavi but different charanams in Hamir Kalyani. What makes him do it is the focus of the story.
+                    Vocalist Vijay Siva plays the role of Muthuswami Dikshitar.
+                </p>
+                <h4>SHYAMA KRISHNAN</h4>
+                <p>
+                    The second story, SHYAMA KRISHNAN is on Lalitha , the wife of composer Shyama Sastri who waits long hours for her husband to return home from the temple. In a conversation with her neighbour, Dharmambal, the poignancy of her married life with Shyama Sastri is revealed. She ultimately merges with the “naadam” of his tambura , singing the great Yadukula Kambhoji Swarajathi of her husband.
+                    Vocalist Gayathri Venkataraghavan plays the role of Lalitha
+                </p>
+                <h4>KEERTHI VILAASAM</h4>
+                <p>
+                    The third story is KEERTHI VILAASAM, Composer Thyagaraja is preparing for the wedding of his daughter Seethamma, who plies him with a multitude of questions on whether he actually saw Sri Rama, and, if so, why he continues to yearn for Him in every song. Thyagaraja has answers for her, and the scene ends with a revelation of why he uses his Mudra “Thyagaraja” in his compositions.
+                    Vocalist Dr. S. Sunder is Thyagaraja.
+                </p>
+                <p>
+                    The play also features Palghat Dr. R. Ramprasad, G. Madhavan, Bharath Narayan, Abhinav Shankar, Mathangi Kailasanath                
+                </p>
+                <a target="_blank" href="https://www.indulgexpress.com/culture/theatre/2018/nov/16/the-madras-players-trinity-is-a-tribute-to-the-three-jewels-of-carnatic-music-and-brings-the-two-11144.html">
+                    <img src="https://images.indulgexpress.com/uploads/user/imagelibrary/2018/11/15/original/Gopi_Nair_3.JPG" style="max-width: 100%; height: auto"/>
+                    image courtesy indulgeexpress.com
+                </a>
+            </details>
+
+            <!-- 2020 Carnatic Mela START -->
+            
+            <details open>
+				<summary><a name="2020-carnatic-mela">2020 Carnatic Mela</a></summary>				
+                <h4>on Sat Apr 18, 2020 starting at 10 am</h4>
+                <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
+                  Venue: Hindu Temple of Atlanta
+                </a>
+                <p>
+                    Camaga will be conducting Carnatic Mela to showcase local talent. Details and rules for this are to be announced soon ....<br/>
+                    This will be followed by a concert in the evening by Sri K. N. Shashikiran and party
+                </p>
+               
+            </details>
+            <!-- 2020 Carnatic Mela END -->
+			 
+           <h2>Past Events</h2>
+
+            <!-- 2020 composers Day announcement START -->
+
+            <details>
+				<summary><a name="2020-great-composers-day-announcement">2020 Great Composers' Day Announcement</a></summary>
+				<h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
 				<img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <br/>
                 <br/>
@@ -94,70 +177,7 @@
 					date of January 31, 2020) and it will no longer accept registration requests received after the early closure announcement.
 				</p>
             </details>
-            <!-- 2020 Composers' Day END -->
-            
-            <!-- 2020 Trinity Drama START -->
-            
-            <details open>
-				<summary><a name="2020-trinity-drama">Trinity Drama</a></summary>				
-                <h4>on Sat Mar 21, 2020</h4>
-                <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-                  Venue: Hindu Temple of Atlanta
-                </a>
-                <p>
-				    <i>written by</i> Seetha Ravi<br/>
-				    <i>Translated by</i> Prabha Sridevan<br/>
-				    <i>Directed by</i> P.C.Ramakrishna<br/>
-                </p>
-                <p>
-                    ‘Trinity’ is a seamless weave of 3 short stories by Seetha Ravi (published in Kalki) and translated by Prabha Sridevan (in The Hindu) on the “Tiruvarur Three”, Muthuswami Dikshitar, Shyama Sastri and Thyagaraja, the fountainheads of Carnatic music, who lived around Thanjavur at the same time in the 18th century.
-                </p>
-                <p>
-                    And starring in the three stories are well-known Carnatic musicians – Vijay Siva, Gayatri Venkataraghavan and Dr S Sunder.
-                </p>
-                <h4>PARIMALA RANGANATHAR</h4>
-                <p>
-                    In PARIMALA RANGANATHAR,  Muthuswami Dikshitar travels from one holy kshetra to another with his disciples, composing memorable keerthanais on the temple, deity and legend of the place.
-                    The scene begins in Mayuram, where he has just composed “Mayuranatham Anisham” in praise of the Lord there.
-                    He then travels to Indalur, where he composes 2 krithis with the same pallavi but different charanams in Hamir Kalyani. What makes him do it is the focus of the story.
-                    Vocalist Vijay Siva plays the role of Muthuswami Dikshitar.
-                </p>
-                <h4>SHYAMA KRISHNAN</h4>
-                <p>
-                    The second story, SHYAMA KRISHNAN is on Lalitha , the wife of composer Shyama Sastri who waits long hours for her husband to return home from the temple. In a conversation with her neighbour, Dharmambal, the poignancy of her married life with Shyama Sastri is revealed. She ultimately merges with the “naadam” of his tambura , singing the great Yadukula Kambhoji Swarajathi of her husband.
-                    Vocalist Gayathri Venkataraghavan plays the role of Lalitha
-                </p>
-                <h4>KEERTHI VILAASAM</h4>
-                <p>
-                    The third story is KEERTHI VILAASAM, Composer Thyagaraja is preparing for the wedding of his daughter Seethamma, who plies him with a multitude of questions on whether he actually saw Sri Rama, and, if so, why he continues to yearn for Him in every song. Thyagaraja has answers for her, and the scene ends with a revelation of why he uses his Mudra “Thyagaraja” in his compositions.
-                    Vocalist Dr. S. Sunder is Thyagaraja.
-                </p>
-                <p>
-                    The play also features Palghat Dr. R. Ramprasad, G. Madhavan, Bharath Narayan, Abhinav Shankar, Mathangi Kailasanath                
-                </p>
-                <a target="_blank" href="https://www.indulgexpress.com/culture/theatre/2018/nov/16/the-madras-players-trinity-is-a-tribute-to-the-three-jewels-of-carnatic-music-and-brings-the-two-11144.html">
-                    <img src="https://images.indulgexpress.com/uploads/user/imagelibrary/2018/11/15/original/Gopi_Nair_3.JPG" style="max-width: 100%; height: auto"/>
-                    image courtesy indulgeexpress.com
-                </a>
-            </details>
-
-            <!-- 2020 Carnatic Mela START -->
-            
-            <details open>
-				<summary><a name="2020-carnatic-mela">2020 Carnatic Mela</a></summary>				
-                <h4>on Sat Apr 18, 2020 starting at 10 am</h4>
-                <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-                  Venue: Hindu Temple of Atlanta
-                </a>
-                <p>
-                    Camaga will be conducting Carnatic Mela to showcase local talent. Details and rules for this are to be announced soon ....<br/>
-                    This will be followed by a concert in the evening by Sri K. N. Shashikiran and party
-                </p>
-               
-            </details>
-            <!-- 2020 Carnatic Mela END -->
-			 
-           <h2>Past Events</h2>
+            <!-- 2020 composers Day announcement END -->
             <!-- 2019 Composers' Day START -->
             <details>
                 <summary>2019 Great Composers' Day</summary>
