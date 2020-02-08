@@ -21,9 +21,18 @@
 				<summary><a name="2020-great-composers-day">2020 Great Composers' Day</a></summary>
 				<h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
 				<img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+                <br/>
+                <br/>
+                <hr/>
+                <h4>Registration Closed <sup>updated on Jan 20, 2020</sup></h4> 
 				<p>
-					<emp><a href="events/composers-day/2020/2020-composers-day-registration-form.doc">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>
-				</p>
+                    Thanks to all who have sent in their registration. Unfortunately, owing to overwhelming response and constraints of time, 
+                    we had to close the registration for the two-day event as of January 20, 2020 
+                </p>
+                    If you have already registered, please make sure to send in the registration fee by January end. 
+                    As always CAMAGA thanks you for your support and cooperation.
+                </p>
+                <hr/>
 				<p>
 					<h4>Event</h4> 
 					CAMAGA will be hosting the 2020 Great Composers’ day on Saturday February 15th and Sunday February 16th, 2020
@@ -46,17 +55,6 @@
 					Because of overwhelming registrations, an individual will be assigned <emp>only one</emp> slot to participate. For example, if a registrant is proficient in three categories: Vocal, Veena, 
 					and Violin, the registrant must choose which one of these three categories he/she wishes to participate. This stipulation, however, does not apply to participate as a member of a group or to 
 					provide instrumental support.
-				</p>
-				<p>
-				   <h4>Registration Form</h4> 
-				   If you are interested in participating in the 2020 Great Composers' Day, please 
-				   <ol style="margin-left:35px">
-					  <li>download <emp><a href="events/composers-day/2020/2020-composers-day-registration-form.doc">Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp></li>
-					  <li>complete the registration form</li>
-					  <li>send an email to <emp>camaga.atlanta@gmail.com</emp>> along with the filled up registration form as an attachment</li>
-					  <li>mail a check for registration fee favoring CAMAGA to 1415, Carter Road, Decatur, GA, 30030</li>
-				   </ol>                  
-				</p>
 				</p>
 				<p>
 				   <h4>Registration fee</h4> 
