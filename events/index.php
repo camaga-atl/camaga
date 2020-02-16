@@ -13,40 +13,40 @@
             include(CAMAGA_ROOT . "common/site_header.php");
             ?>
          <div id="content">
-			 
+
             <h2>Upcoming Events</h2>
             
             <!-- 2020 Composers' Day START -->
             <details open>
-				<summary><a name="2020-great-composers-day">2020 Great Composers' Day</a></summary>
-				<h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
+                <summary><a name="2020-great-composers-day">2020 Great Composers' Day</a></summary>
+                <h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
                 <p>
                     <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
                         Venue: Hindu Temple of Atlanta
                     </a>
-                </p>			
-				<img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+                </p>
+                <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <h4>Download Program Details Documents</h4>
                 <p>
                     <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
                     <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
                 </p>
-                <br/>				
+                <br/>
             </details>
             <!-- 2020 Composers' Day END -->
             
             <!-- 2020 Trinity Drama START -->
             
             <details open>
-				<summary><a name="2020-trinity-drama">Trinity Drama</a></summary>				
+                <summary><a name="2020-trinity-drama">Trinity Drama</a></summary>
                 <h4>on Sat Mar 21, 2020</h4>
                 <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
                   Venue: Hindu Temple of Atlanta
                 </a>
                 <p>
-				    <i>written by</i> Seetha Ravi<br/>
-				    <i>Translated by</i> Prabha Sridevan<br/>
-				    <i>Directed by</i> P.C.Ramakrishna<br/>
+                    <i>written by</i> Seetha Ravi<br/>
+                    <i>Translated by</i> Prabha Sridevan<br/>
+                    <i>Directed by</i> P.C.Ramakrishna<br/>
                 </p>
                 <p>
                     ‘Trinity’ is a seamless weave of 3 short stories by Seetha Ravi (published in Kalki) and translated by Prabha Sridevan (in The Hindu) on the “Tiruvarur Three”, Muthuswami Dikshitar, Shyama Sastri and Thyagaraja, the fountainheads of Carnatic music, who lived around Thanjavur at the same time in the 18th century.
@@ -54,6 +54,32 @@
                 <p>
                     And starring in the three stories are well-known Carnatic musicians – Vijay Siva, Gayatri Venkataraghavan and Dr S Sunder.
                 </p>
+                <div id="trinity-drama-gallery">
+                    <div
+                        data-type="html5video"
+                        data-thumb="data/events/202003211600/thumbs/trinity-drama-gayathri.png"
+                        data-image="data/events/202003211600/trinity-drama-gayathri.png"
+                        data-videomp4="data/events/202003211600/trinity-drama-gayathri.mp4"
+                        data-title="Gayathri Venkataraghavan"
+                        data-description="Gayathri Venkataraghavan on the Trinity journey">
+                    </div>
+                    <div
+                        data-type="html5video"
+                        data-thumb="data/events/202003211600/thumbs/trinity-drama-vijay-siva.png"
+                        data-image="data/events/202003211600/trinity-drama-vijay-siva.png"
+                        data-videomp4="data/events/202003211600/trinity-drama-vijay-siva.mp4"
+                        data-title="Vijay Siva"
+                        data-description="Vijay Siva as Muthuswami Dikshithar">
+                    </div>
+                    <div
+                        data-type="html5video"
+                        data-thumb="data/events/202003211600/thumbs/trinity-drama-tt-ram-vik.png"
+                        data-image="data/events/202003211600/trinity-drama-tt-ram-vik.png"
+                        data-videomp4="data/events/202003211600/trinity-drama-tt-ram-vik.mp4"
+                        data-title="TT Sriram & S Ram"
+                        data-description="TT Sriram & S Ram on their roles">
+                    </div>
+                </div>
                 <h4>PARIMALA RANGANATHAR</h4>
                 <p>
                     In PARIMALA RANGANATHAR,  Muthuswami Dikshitar travels from one holy kshetra to another with his disciples, composing memorable keerthanais on the temple, deity and legend of the place.
@@ -74,16 +100,16 @@
                 <p>
                     The play also features Palghat Dr. R. Ramprasad, G. Madhavan, Bharath Narayan, Abhinav Shankar, Mathangi Kailasanath                
                 </p>
-                <a target="_blank" href="https://www.indulgexpress.com/culture/theatre/2018/nov/16/the-madras-players-trinity-is-a-tribute-to-the-three-jewels-of-carnatic-music-and-brings-the-two-11144.html">
-                    <img src="https://images.indulgexpress.com/uploads/user/imagelibrary/2018/11/15/original/Gopi_Nair_3.JPG" style="max-width: 100%; height: auto"/>
-                    image courtesy indulgeexpress.com
-                </a>
+                <p>
+                    <a href="events/trinity-drama/2020-trinity-drama-mailer.pdf" target="_blank">Download Trinity Drama Mailer&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                </p>
+                <br/>
             </details>
 
             <!-- 2020 Carnatic Mela START -->
             
             <details open>
-				<summary><a name="2020-carnatic-mela">2020 Carnatic Mela</a></summary>				
+                <summary><a name="2020-carnatic-mela">2020 Carnatic Mela</a></summary>
                 <h4>on Sat Apr 18, 2020 starting at 10 am</h4>
                 <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
                   Venue: Hindu Temple of Atlanta
@@ -95,15 +121,15 @@
                
             </details>
             <!-- 2020 Carnatic Mela END -->
-			 
+
            <h2>Past Events</h2>
 
             <!-- 2020 composers Day announcement START -->
 
             <details>
-				<summary><a name="2020-great-composers-day-announcement">2020 Great Composers' Day Announcement</a></summary>
-				<h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
-				<img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+                <summary><a name="2020-great-composers-day-announcement">2020 Great Composers' Day Announcement</a></summary>
+                <h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
+                <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <br/>
                 <br/>
                 <hr/>
@@ -1419,6 +1445,7 @@
       <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/js/unitegallery.min.js'></script>
       <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/compact/ug-theme-compact.js'></script>
       <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/carousel/ug-theme-carousel.js'></script>
+      <script src='thirdparty/unitegallery/unitegallery-master/package/unitegallery/themes/video/ug-theme-video.js'></script>
       <script type="text/javascript">
          jQuery("#gallery").unitegallery({
          	gallery_theme: "compact",
@@ -1442,7 +1469,10 @@
                                       carousel_space_between_tiles: 200,
               			carousel_navigation_numtiles:1,
                                       carousel_autoplay: false
-         });
+        });
+        jQuery("#trinity-drama-gallery").unitegallery({
+			gallery_theme: "video"
+        });
       </script>
    </body>
 </html>
