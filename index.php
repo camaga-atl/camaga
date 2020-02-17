@@ -17,32 +17,6 @@
         <div id="content">
             <h2>Upcoming Events</h2>
             
-            <!-- 2020 great composers day -->
-            <h3><a href="events#2020-great-composers-day">2020 Great Composers' Day</a></h3>
-            <div class="r">
-                <div class="c-5">
-                    <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
-                </div>
-                <div class="c-7">
-                    <span style="font-size:1.5rem;font-weight:bold;color: #417781;"><a href="events#2020-great-composers-day">2020 Great Composers' Day</a></span>
-                    <h4>February 15th & 16th 2020</h4>
-                    <p>
-                        <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
-                            Venue: Hindu Temple of Atlanta
-                        </a>
-                    </p>
-                    <h4>Download Documents</h4>
-                    <p>
-                        <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                        <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2020</span>
-                    </p>
-                </div>
-            </div>
-            <a href="events#2020-great-composers-day">More on 2020 Composers Day  .....</a>
-            <!-- 2020 great composers day  END-->
-            <br/>
-            <br/>
-            <br/>
             <!-- Trinity drama START -->
             <h3><a href="events#2020-trinity-drama">Trinity Drama</a></h3>
             <div class="r">

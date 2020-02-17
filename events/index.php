@@ -16,24 +16,6 @@
 
             <h2>Upcoming Events</h2>
             
-            <!-- 2020 Composers' Day START -->
-            <details open>
-                <summary><a name="2020-great-composers-day">2020 Great Composers' Day</a></summary>
-                <h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
-                <p>
-                    <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
-                        Venue: Hindu Temple of Atlanta
-                    </a>
-                </p>
-                <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
-                <h4>Download Program Details Documents</h4>
-                <p>
-                    <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                    <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
-                </p>
-                <br/>
-            </details>
-            <!-- 2020 Composers' Day END -->
             
             <!-- 2020 Trinity Drama START -->
             
@@ -124,6 +106,26 @@
 
            <h2>Past Events</h2>
 
+            <!-- 2020 Composers' Day START -->
+            <details>
+                <summary><a name="2020-great-composers-day">2020 Great Composers' Day</a></summary>
+                <h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
+                <p>
+                    <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
+                        Venue: Hindu Temple of Atlanta
+                    </a>
+                </p>
+                <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+                <h4>Download Program Details Documents</h4>
+                <p>
+                    <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
+                    <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                </p>
+                <br/>
+            </details>
+            <!-- 2020 Composers' Day END -->
+            
+            
             <!-- 2020 composers Day announcement START -->
 
             <details>
