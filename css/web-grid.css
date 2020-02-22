@@ -1,12 +1,34 @@
 .r {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px
+    grid-row-gap: 20px;
+    grid-column-gap:10px;
 }
+
+.r-row-gap-10 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.r-row-gap-5 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 10px;
+}
+
+.r-row-gap-2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 2px;
+    grid-column-gap: 10px;
+}
+
 
 [class*="c-"] {
     grid-column: span 12;
-    padding: 10px
 }
 
 

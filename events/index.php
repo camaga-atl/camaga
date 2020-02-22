@@ -62,30 +62,132 @@
                         data-description="TT Sriram & S Ram on their roles">
                     </div>
                 </div>
-                <h4>PARIMALA RANGANATHAR</h4>
-                <p>
-                    In PARIMALA RANGANATHAR,  Muthuswami Dikshitar travels from one holy kshetra to another with his disciples, composing memorable keerthanais on the temple, deity and legend of the place.
-                    The scene begins in Mayuram, where he has just composed “Mayuranatham Anisham” in praise of the Lord there.
-                    He then travels to Indalur, where he composes 2 krithis with the same pallavi but different charanams in Hamir Kalyani. What makes him do it is the focus of the story.
-                    Vocalist Vijay Siva plays the role of Muthuswami Dikshitar.
-                </p>
-                <h4>SHYAMA KRISHNAN</h4>
-                <p>
-                    The second story, SHYAMA KRISHNAN is on Lalitha , the wife of composer Shyama Sastri who waits long hours for her husband to return home from the temple. In a conversation with her neighbour, Dharmambal, the poignancy of her married life with Shyama Sastri is revealed. She ultimately merges with the “naadam” of his tambura , singing the great Yadukula Kambhoji Swarajathi of her husband.
-                    Vocalist Gayathri Venkataraghavan plays the role of Lalitha
-                </p>
-                <h4>KEERTHI VILAASAM</h4>
-                <p>
-                    The third story is KEERTHI VILAASAM, Composer Thyagaraja is preparing for the wedding of his daughter Seethamma, who plies him with a multitude of questions on whether he actually saw Sri Rama, and, if so, why he continues to yearn for Him in every song. Thyagaraja has answers for her, and the scene ends with a revelation of why he uses his Mudra “Thyagaraja” in his compositions.
-                    Vocalist Dr. S. Sunder is Thyagaraja.
-                </p>
-                <p>
-                    The play also features Palghat Dr. R. Ramprasad, G. Madhavan, Bharath Narayan, Abhinav Shankar, Mathangi Kailasanath                
-                </p>
-                <p>
-                    <a href="events/trinity-drama/2020-trinity-drama-mailer.pdf" target="_blank">Download Trinity Drama Mailer&nbsp;&nbsp;<i class="fa fa-download"></i></a>
-                </p>
                 <br/>
+                <br/>
+                <br/>
+                <div class="r">
+                    <div class="c-8">
+                        <div class="r">
+                            <div class="c-12">
+                                <h4>PARIMALA RANGANATHAR</h4>
+                                <p>
+                                    In PARIMALA RANGANATHAR,  Muthuswami Dikshitar travels from one holy kshetra to another with his disciples, composing memorable keerthanais on the temple, deity and legend of the place.
+                                    The scene begins in Mayuram, where he has just composed “Mayuranatham Anisham” in praise of the Lord there.
+                                    He then travels to Indalur, where he composes 2 krithis with the same pallavi but different charanams in Hamir Kalyani. What makes him do it is the focus of the story.
+                                    Vocalist Vijay Siva plays the role of Muthuswami Dikshitar.
+                                </p>
+                                <h4>SHYAMA KRISHNAN</h4>
+                                <p>
+                                    The second story, SHYAMA KRISHNAN is on Lalitha , the wife of composer Shyama Sastri who waits long hours for her husband to return home from the temple. In a conversation with her neighbour, Dharmambal, the poignancy of her married life with Shyama Sastri is revealed. She ultimately merges with the “naadam” of his tambura , singing the great Yadukula Kambhoji Swarajathi of her husband.
+                                    Vocalist Gayathri Venkataraghavan plays the role of Lalitha
+                                </p>
+                                <h4>KEERTHI VILAASAM</h4>
+                                <p>
+                                    The third story is KEERTHI VILAASAM, Composer Thyagaraja is preparing for the wedding of his daughter Seethamma, who plies him with a multitude of questions on whether he actually saw Sri Rama, and, if so, why he continues to yearn for Him in every song. Thyagaraja has answers for her, and the scene ends with a revelation of why he uses his Mudra “Thyagaraja” in his compositions.
+                                    Vocalist Dr. S. Sunder is Thyagaraja.
+                                </p>
+                                <p>
+                                    The play also features Palghat Dr. R. Ramprasad, G. Madhavan, Bharath Narayan, Abhinav Shankar, Mathangi Kailasanath                
+                                </p>
+                            </div>    
+                            <div class="c-12">
+                                <a href="events/trinity-drama/2020-artist-profile.pdf" target="_blank">CONCERT ARTISTS PROFILE&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                            </div>
+                            <!-- Vijay Siva -->
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Vijay Siva">Vijay Siva</a> (Muthuswami Dikshitar)—is a top-rung Carnatic music artiste. 
+                                 A disciple of the renowned D.K.Jayaraman and D.K.Pattammal, he has also trained 
+                                in Mridangam under Kumbakonam Rajappa Iyer and Srirangarajapuram Jayaraman. He has sung in all major sabhas in India, as also in USA, Canada and Singapore. 
+                                A recipient of more than 100 awards, he has released several music albums. No stranger to drama, Vijay Siva played recently a pivotal role in “Bharathi Yaar?” 
+                            </div>
+                            <div class="c-2">
+                                <img src="events/trinity-drama/vijay-siva.png" style="max-width: 100%; height: auto" alt="Vijay Siva"/>
+                            </div>
+                            <!-- Gayathri -->
+                            <div class="c-2">
+                                <img src="events/trinity-drama/gayathri-venkataraghavan.png" style="max-width: 100%; height: auto" alt="Gaytahri Venkataraghavan"/>
+                            </div>
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Gayathri Venkataraghavan">Gayathri Venkataraghavan</a> (Lalitha)---is a senior concert musician. Initially 
+                                 trained by Smt. Rajalakshmi, she received advanced tutelage under A. Sundaresan, and has been under the guidance more recently of P.S.Narayanaswami. She is 
+                                 a “TOP” grade artiste of A.I.R. and a recipient of numerous awards. She has performed extensively in India, USA, Canada, New Zealand, Singapore and Middle East, 
+                                 and released many music albums. 
+                            </div>
+                            <!-- Dr. S.Sunder -->
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Dr. S.Sunder Carnatic Music">Dr. S.Sunder</a>  (Thyagaraja)—is a Kalaimamani awardee, and one of the foremost musicians 
+                                and musicologists in Carnatic music. He is a very senior disciple of the great D.K.Jayaraman and T.K.Govinda Rao. A professional physiatrist and ergonomic consultant, 
+                                he has given more than 500 concerts all over the world.  
+                            </div>
+                            <div class="c-2">
+                                <img src="events/trinity-drama/dr-s-sunder.png" style="max-width: 100%; height: auto" alt="Dr. S.Sunder"/>
+                            </div>
+                            <!-- Vikram Raghavan -->
+                            <div class="c-2">
+                                <img src="events/trinity-drama/vikram-raghavan.png" style="max-width: 100%; height: auto" alt="Vikram Raghavan"/>
+                            </div>
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Vikram Raghavan Carnatic Music">Vikram Raghavan</a>  (Vadivelu) - is an upcoming vocalist in the world of Carnatic Music. 
+                                He had his initial training from Smt. Rajalakshmi Ramachandran and has been under the guidance of T.M. Krishna since 2003. Vikram has performed extensively in Chennai, 
+                                across India and in North America over the past 10 years. He is a graded artist of the All India Radio and has been awarded several prizes from prestigious institutions.  
+                            </div>
+                            <!-- Bharath Narayan -->
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Bharath Narayan Carnatic Music">Bharath Narayan</a> (Sivanandam)—is the son and disciple of noted Vidushi Dr. G. Baby Sreeram 
+                                from Thiruvananthapuram. Starting to learn music at age 4, he released a CD of Dikshitar’s Navagraha Kritis when he was 8. He has won many prizes & awards. He dons 
+                                “grease paint” for the first time. Abhinav Shankar (Ponnaiah)—a disciple of well-known musician, Sikkil C. Gurucharan, he juggles between corporate life and music. 
+                                He has sung at several concerts in Chennai, and has lent his singing “persona” to The Madras Players’ production of “Madaiah the Cobbler”, directed by Prasanna 
+                                Ramaswamy recently. 
+                            </div>
+                            <div class="c-2">
+                                <img src="events/trinity-drama/bharath-narayan.png" style="max-width: 100%; height: auto" alt="Bharath Narayan"/>
+                            </div>
+                            <!-- Abhinav Shankar -->
+                            <div class="c-2">
+                                <img src="events/trinity-drama/abhinav-shankar.png" style="max-width: 100%; height: auto" alt="Abhinav Shankar "/>
+                            </div>
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Abhinav Shankar Carnatic Music">Abhinav Shankar</a> (Ponnaiah)—a disciple of well-known musician, Sikkil C. Gurucharan, 
+                                he juggles between corporate life and music. He has sung at several concerts in Chennai, and has lent his singing “persona” to The Madras Players’ production of 
+                                “Madaiah the Cobbler”, directed by Prasanna Ramaswamy recently 
+                            </div>
+                            <!-- Aryamba Sriram -->
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Aryamba Sriram Carnatic Music">Aryamba Sriram</a> (Seethamma)—is an accomplished Bharathanatyam dancer, having received 
+                                advanced training in Kalakshetra. She has been part of a few internationally renowned dance ensembles, and has performed all over India, Japan, Australia, Cambodia, 
+                                Germany and Malaysia. A winner of many awards and recognitions, she has in addition actively learnt and performed Carnatic music. 
+                            </div>
+                            <div class="c-2">
+                                <img src="events/trinity-drama/aryamba-sriram.png" style="max-width: 100%; height: auto" alt="Aryamba Sriram"/>
+                            </div>
+                            <!-- Sanjay Nag -->
+                            <div class="c-2">
+                                <img src="events/trinity-drama/sanjay-nag.png" style="max-width: 100%; height: auto" alt="Sanjay Nag"/>
+                            </div>
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Sanjay Nag Carnatic Music">Sanjay Nag</a> (Ananda) - was initiated into music at the tender age of 4 by his mother, 
+                                Vidushi Sowbhagya Ravishankar, and continued his learning from Vidwan Dr. K Varadarangan. Currently, he is under the tutelage of Vidwan Abhishek Raghuram. He has 
+                                been awarded Prathibhakankshi from Sree Ramaseva Mandali, CCRT scholarship, and directly graded "B-High" from All India Radio. He has been performing throughout 
+                                India and abroad 
+                            </div>
+                            <!-- Shilpa Sadagopan -->
+                            <div class="c-10">
+                                <a target="_blank" href="https://www.google.com/search?q=Shilpa Sadagopan Carnatic Music">Shilpa Sadagopan</a>  (Kamalam) - is a 22-year-old musician, who just 
+                                graduated from the University of Southern California’s Pop music program and Business School. She has been learning Carnatic music since the age of 3 - from 
+                                Kasthuri Shivakumar and Chitravina Ravikiran. She has won numerous prizes in competitions around the US, and has performed concerts in India. She also performs and
+                                songwrites American pop music, and currently is doing a sync licensing deal with Sony music and working on an RnB project 
+                            </div>
+                            <div class="c-2">
+                                <img src="events/trinity-drama/shilpa-sadagopan.png" style="max-width: 100%; height: auto" alt="Shilpa Sadagopan"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-4">
+                        <a href="events/trinity-drama/2020-trinity-drama-mailer.pdf" target="_blank">
+                            <img src="events/trinity-drama/2020-trinity-drama.jpg" style="max-width: 100%; height: auto" alt="2020 Trinity Drama in Atlanta"/>
+                        </a>
+                    </div>
+                </div>   
             </details>
 
             <!-- 2020 Carnatic Mela START -->

@@ -20,15 +20,12 @@
             <!-- Trinity drama START -->
             <h3><a href="events#2020-trinity-drama">Trinity Drama</a></h3>
             <div class="r">
-                <div class="c-4">
-                    <span style="font-size:1.5rem;font-weight:bold;color: #417781;"><a href="events#2020-trinity-drama">Trinity Drama</a></span> is a seamless weave of 3 short stories on the “Tiruvarur Three”, Muthuswami Dikshitar, Shyama Sastri and Thyagaraja, 
+                <div class="c-12">
+                    <span style="font-size:1.5rem;font-weight:bold;color: #417781;"><a href="events#2020-trinity-drama">Trinity Drama</a></span> 
+                    is a seamless weave of 3 short stories on the “Tiruvarur Three”, Muthuswami Dikshitar, Shyama Sastri and Thyagaraja, 
                     the fountainheads of Carnatic music, who lived around Thanjavur at the same time in the 18th century.<br/>
-                    And starring in the three stories are well-known Carnatic musicians – 
-                    <a target="_blank" href="https://www.google.com/search?q=Vijay Siva">Vijay Siva</a>, 
-                    <a target="_blank" href="https://www.google.com/search?q=Gayathri Venkataraghavan">Gayathri Venkataraghavan</a> and 
-                    <a target="_blank" href="https://www.google.com/search?q=dr sunder carnatic musician">Dr. Sunder</a>.
                 </div>
-                <div class="c-5">
+                <div class="c-8">
                     <div id="trinity-drama-gallery"  style="margin:0px auto;display:none;">
                         <div
                             data-type="html5video"
@@ -56,22 +53,61 @@
                         </div>
                     </div>
                 </div>
-                <div class="c-3">
-                    <span style="font-size:1.5rem;font-weight:bold;color: #417781;"><a href="events#2020-trinity-drama">Trinity Drama</a></span>
-                    <h4>Sat Mar 21, 2020</i></h4>
-                    <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
-                        Venue: Hindu Temple of Atlanta
-                    </a>
-                    <p>
-                        Written by <a target="_blank" href="https://www.google.com/search?q=Seetha Ravi">Seetha Ravi</a><br/>
-                        Translated by <a target="_blank" href="https://www.google.com/search?q=Prabha Sridevan">Prabha Sridevan</a><br/>
-                        Directed by <a target="_blank" href="https://www.google.com/search?q=P.C.Ramakrishna">P.C.Ramakrishna</a>
-                    </p>
+                <div class="c-4">
+                    <div class="r-row-gap-2">
+                        <div class="c-12" style="font-size: large">
+                            Trinity Drama
+                        </div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-4">Date</div>
+                        <div class="c-8">Sat Mar 21, 2020</div>
+                        <div class="c-4">Time</div>
+                        <div class="c-8">4 PM</div>    
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-4">Venue</div>
+                        <div class="c-8"><a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">Hindu Temple of Atlanta</a></div>    
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-4">Written by</div>
+                        <div class="c-8"><a target="_blank" href="https://www.google.com/search?q=Seetha Ravi">Seetha Ravi</a></div>
+                        <div class="c-12"></div>
+                        <div class="c-4">Translated by</div>
+                        <div class="c-8"><a target="_blank" href="https://www.google.com/search?q=Prabha Sridevan">Prabha Sridevan</a></div>
+                        <div class="c-12"></div>
+                        <div class="c-4">Directed by</div>
+                        <div class="c-8"><a target="_blank" href="https://www.google.com/search?q=P.C.Ramakrishna">P.C.Ramakrishna</a></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-12"></div>
+                        <div class="c-4">Starring</div>
+                        <div class="c-8"><a target="_blank" href="https://www.google.com/search?q=Vijay Siva">Vijay Siva</a></div>
+                        <div class="c-4"></div>
+                        <div class="c-8"><a target="_blank" href="https://www.google.com/search?q=Gayathri Venkataraghavan">Gayathri Venkataraghavan</a></div>
+                        <div class="c-4"></div>
+                        <div class="c-8"><a target="_blank" href="https://www.google.com/search?q=dr sunder carnatic musician">Dr. S.Sunder</a></div>
+                        <div class="c-4"></div>
+                        <div class="c-8">more ....</div>
+                    </div>
                 </div>
+                <div class="c-12">
+                    <span style="color: #417781;font-weight: bold;">Tickets: $25 per individual</span><sup>*</sup><br/>
+                    payable through Zelle to camaga.atlanta@gmail.com<br/>
+                    <span style="font-size: smaller;"><sup>*</sup>note that since this is a special program, CAMAGA members are also required to purchase tickets to attend the event</span>
+                </div>
+                <div class="c-12">
+                    <a href="events#2020-trinity-drama">More on Trinity Drama  .....</a>
+                </div>    
             </div>
-            <a href="events#2020-trinity-drama">More on Trinity Drama  .....</a>
-            <br/>
-            <br/>
             <br/>
             <!-- Trinity Drama End -->
 
