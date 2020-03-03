@@ -101,7 +101,11 @@
                 </div>
                 <div class="c-12">
                     <span style="color: #417781;font-weight: bold;">Tickets: $25 per individual</span><sup>*</sup><br/>
-                    payable through Zelle to camaga.atlanta@gmail.com<br/>
+                    <span style="color: Tomato">
+                        Unfortunately, tickets are no longer available. 
+                        They have been sold to the full capacity of the auditorium.
+                        Apologies to those who missed out. 
+                    </span><br/>
                     <span style="font-size: smaller;"><sup>*</sup>note that since this is a special program, CAMAGA members are also required to purchase tickets to attend the event</span>
                 </div>
                 <div class="c-12">
