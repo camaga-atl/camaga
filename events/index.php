@@ -14,13 +14,12 @@
             ?>
          <div id="content">
 
-            <h2>Upcoming Events</h2>
+           <h2>Past Events</h2>
             
+           <!-- 2020 Trinity Drama START -->
             
-            <!-- 2020 Trinity Drama START -->
-            
-            <details open>
-                <summary><a name="2020-trinity-drama">Trinity Drama</a></summary>
+            <details>
+                <summary><a name="2020-trinity-drama">Trinity Drama - Event (scheduled for March 21, 2020) is Cancelled due to Coronavirus Concerns</a></summary>
                 <h4>on Sat Mar 21, 2020</h4>
                 <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
                   Venue: Hindu Temple of Atlanta
@@ -189,24 +188,7 @@
                     </div>
                 </div>   
             </details>
-
-            <!-- 2020 Carnatic Mela START -->
-            
-            <details open>
-                <summary><a name="2020-carnatic-mela">2020 Carnatic Mela</a></summary>
-                <h4>on Sat Apr 18, 2020 starting at 10 am</h4>
-                <a target="_blank" href="http://maps.google.com/?q=Hindu Temple Of Atlanta">
-                  Venue: Hindu Temple of Atlanta
-                </a>
-                <p>
-                    Camaga will be conducting Carnatic Mela to showcase local talent. Details and rules for this are to be announced soon ....<br/>
-                    This will be followed by a concert in the evening by Sri K. N. Shashikiran and party
-                </p>
-               
-            </details>
-            <!-- 2020 Carnatic Mela END -->
-
-           <h2>Past Events</h2>
+            <!-- 2020 Trinity Drama END -->
 
             <!-- 2020 Composers' Day START -->
             <details>
