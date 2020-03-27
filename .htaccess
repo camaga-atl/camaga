@@ -1,3 +1,7 @@
+#Redirect http to be https
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE] 
 #http://stackoverflow.com/questions/3663520/php-auth-user-not-set?noredirect=1&lq=1
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
@@ -5,28 +9,28 @@ RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 <Files login>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  /home/atlantacamaga/public_html/.htpasswd
+AuthUserFile  /home/camagadotatlanta/camaga.org/.htpasswd
 Require valid-user
 </Files>
 
 <Files createForm.php>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  /home/atlantacamaga/public_html/.htpasswd
+AuthUserFile  /home/camagadotatlanta/camaga.org/.htpasswd
 Require valid-user
 </Files>
 
 <Files editForm.php>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  /home/atlantacamaga/public_html/.htpasswd
+AuthUserFile  /home/camagadotatlanta/camaga.org/.htpasswd
 Require valid-user
 </Files>
 
 <Limit POST PUT DELETE>
 AuthType Basic
 AuthName "CAMAGA Protected Area"
-AuthUserFile  /home/atlantacamaga/public_html/.htpasswd
+AuthUserFile  /home/camagadotatlanta/camaga.org/.htpasswd
 Require valid-user
 </Limit>
 
