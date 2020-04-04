@@ -39,16 +39,12 @@
 		?>
 										</tbody>	
 									</table> <!-- concert-list-table -->
-								</section>	
+								</details>	
 		<?php 			}
 				
 		?>			
-							<section class="collapsible">
-								<header>
-									<h3>
-										<?php  echo $year;?>
-									</h3>
-								</header>
+                                <details> 
+                                    <summary><?php  echo $year;?></summary>
 								<table class="concert-list-table"> 
 									<tbody>
 		<?php 		} 
@@ -81,7 +77,7 @@
 		?>
 								</tbody>	
 							</table> <!-- concert-year-section -->
-						</section>	
+						</details>	
 		<?php 			} ?>
 			</div> <!-- page-wrap -->
 			<div class="push"></div>
@@ -101,39 +97,6 @@
 						$(this).removeClass('active');
 					})
 					.superLink();
-					
-				$('.collapsible').each(function() {
-					var headingE = $('h1,h2,h3,h4,h5,h6,legend', this).first();
-					headingE.addClass('clickable');
-					var key = headingE.text();
-					if ((key in sessionStorage) && sessionStorage[key]) {
-						$('*', this).show();
-						headingE.prepend('<i class="fas fa-caret-down"></i>').show();
-					}
-					else {
-						$('*', this).hide();
-						headingE.prepend('<i class="fas fa-caret-right"></i>').show();
-					}
-					var icon = $("i", this);
-					icon.show();
-					icon.parents().show();
-				});
-				
-				$('.collapsible .clickable').click(function(){
-					var collapsible = $(this).closest('.collapsible');
-					collapsible.find('*').toggle();					
-					var icon = $("i", this);
-					icon.show();
-					icon.parents().show();
-					icon.toggleClass('fa-caret-right fa-caret-down');
-					var key = $(this).text();
-					if (icon.attr('class') === 'fa-caret-down') {
-						sessionStorage[key] =  true;
-					}
-					else {
-						delete sessionStorage[key];
-					}	
-				});					
 			});	
 		</script>
 	</body>
