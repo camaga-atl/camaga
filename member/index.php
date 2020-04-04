@@ -24,7 +24,7 @@
 					<dd>$50</dd>
 				</dl>
 				<p>
-					<a href="doc/2019/Membershipform_2019.doc">Membership form &nbsp;&nbsp<i class="fa fa-download"></i></a>
+					<a href="doc/2019/Membershipform_2019.doc">Membership form &nbsp;&nbsp<i class="fas fa-download"></i></a>
 				</p>
 				<h3>Non-members</h3>
 				<dl>

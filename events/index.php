@@ -90,7 +90,7 @@
                                 </p>
                             </div>    
                             <div class="c-12">
-                                <a href="events/trinity-drama/2020-artist-profile.pdf" target="_blank">CONCERT ARTISTS PROFILE&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                                <a href="events/trinity-drama/2020-artist-profile.pdf" target="_blank">CONCERT ARTISTS PROFILE&nbsp;&nbsp;<i class="fas fa-download"></i></a>
                             </div>
                             <!-- Vijay Siva -->
                             <div class="c-10">
@@ -202,8 +202,8 @@
                 <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <h4>Download Program Details Documents</h4>
                 <p>
-                    <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                    <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                    <a href="events/composers-day/2020/2020-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a><br/>
+                    <a href="events/composers-day/2020/2020-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fas fa-download"></i></a>
                 </p>
                 <br/>
             </details>
@@ -297,8 +297,8 @@
                 <img src="events/2019/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <h4>Download Program Details Documents</h4>
                 <p>
-                      <a href="events/2019/composersDay/2019-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                      <a href="events/2019/composersDay/2019-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2019, 4:49 PM</span>
+                      <a href="events/2019/composersDay/2019-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a><br/>
+                      <a href="events/2019/composersDay/2019-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fas fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2019, 4:49 PM</span>
                 </p>
             </details>
             <!-- 2019 Composers' Day END -->
@@ -311,7 +311,7 @@
                     <li><a target="_blank" href="http://maps.google.com/?q=Hindu Temple of Atlanta">@ Hindu Temple of Atlanta</a></li>
                 </ul>
                 <h4>
-                <a href="events/2018/carnatic-mela/2018-carnatic-mela-program-details.pdf"  target="_blank">Download Carnatic Mela Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+                <a href="events/2018/carnatic-mela/2018-carnatic-mela-program-details.pdf"  target="_blank">Download Carnatic Mela Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a>
                 </h4>
                 </p>
                 <p>
@@ -395,8 +395,8 @@
                 <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
                 <h4>Download Program Details Documents</h4>
                  <p>
-                    <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                    <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2018, 2:10 PM</span>
+                    <a href="events/2018/composersDay/2018-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a><br/>
+                    <a href="events/2018/composersDay/2018-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fas fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 14, 2018, 2:10 PM</span>
                  </p>
             </details>
             <details>
@@ -460,8 +460,8 @@
                <img src="events/2017/composersDay/trinity.jpg" style="max-width: 100%; height: auto"/>
                <h4>Download Program Details Documents</h4>
                <p>
-                  <a href="events/2017/composersDay/2017-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fa fa-download"></i></a><br/>
-                  <a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fa fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2017, 2:50 PM</span>
+                  <a href="events/2017/composersDay/2017-composers-day-program.pdf"  target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a><br/>
+                  <a href="events/2017/composersDay/2017-composers-day-participants-list.pdf"  target="_blank">Participants List&nbsp;&nbsp;<i class="fas fa-download"></i></a>&nbsp;&nbsp;<span style="font-size: smaller;">updated - Feb 13, 2017, 2:50 PM</span>
                </p>
                <hr/>
             </details>
@@ -563,7 +563,7 @@
                <div>
                   <emp>
                      <a href="events/2016/violinWorkshop/2016-violin-workshop-registration-form.docx">
-                     Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fa fa-download"></i>
+                     Download Registration Form for Music Workshop Conducted by Sri. Ganesh&nbsp;&nbsp;<i class="fas fa-download"></i>
                      </a>
                   </emp>
                </div>
@@ -639,7 +639,7 @@
                      Individuals (both young kids and adults) must send in a
                      <emp>
                         <a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
-                        Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i>
+                        Registration Form&nbsp;&nbsp;<i class="fas fa-download"></i>
                         </a>
                      </emp>
                   </li>
@@ -668,14 +668,14 @@
                <div>
                   <emp>
                      <a href="events/2016/carnatic-mela/2016-carnatic-mela-registration-form.docx">
-                     Download Registration Form for Carnatic Mela&nbsp;&nbsp;<i class="fa fa-download"></i>
+                     Download Registration Form for Carnatic Mela&nbsp;&nbsp;<i class="fas fa-download"></i>
                      </a>
                   </emp>
                </div>
                <div>
                   <emp>
                      <a href="events/2016/carnatic-mela/2016-carnatic-mela-announcement.docx">
-                     Download Carnatic Mela Announcement&nbsp;&nbsp;<i class="fa fa-download"></i>
+                     Download Carnatic Mela Announcement&nbsp;&nbsp;<i class="fas fa-download"></i>
                      </a>
                   </emp>
                </div>
@@ -715,14 +715,14 @@
                <div>
                   <emp>
                      <a href="events/2016/composersDay/2016-composers-day-program.pdf">
-                     Download Composers Day Program&nbsp;&nbsp;<i class="fa fa-download"></i>
+                     Download Composers Day Program&nbsp;&nbsp;<i class="fas fa-download"></i>
                      </a>
                   </emp>
                </div>
                <div>
                   <emp>
                      <a href="events/2016/composersDay/2016-composers-day-participants-list.pdf">
-                     Download Composers Day Participants List&nbsp;&nbsp;<i class="fa fa-download"></i>
+                     Download Composers Day Participants List&nbsp;&nbsp;<i class="fas fa-download"></i>
                      </a>
                   </emp>
                </div>

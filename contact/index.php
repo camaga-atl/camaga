@@ -21,7 +21,7 @@
 					CAMAGA is a non-profit organization with an objective to encourage and promote the growth of Carnatic Music in Georgia.
 				</p>
 				<p>
-					<a href="doc/2016/Bylaws_2016.doc">Bylaws&nbsp;&nbsp;<i class="fa fa-download"></i></a>
+					<a href="doc/2016/Bylaws_2016.doc">Bylaws&nbsp;&nbsp;<i class="fas fa-download"></i></a>
 				</p>
 				<br/>
 				<h3>Contact</h3>

@@ -2174,11 +2174,11 @@
 					var key = headingE.text();
 					if ((key in sessionStorage) && sessionStorage[key]) {
 						$('*', this).show();
-						headingE.prepend('<i class="fa fa-caret-down"></i>').show();
+						headingE.prepend('<i class="fas fa-caret-down"></i>').show();
 					}
 					else {
 						$('*', this).hide();
-						headingE.prepend('<i class="fa fa-caret-right"></i>').show();
+						headingE.prepend('<i class="fas fa-caret-right"></i>').show();
 					}
 					var icon = $("i", this);
 					icon.show();
