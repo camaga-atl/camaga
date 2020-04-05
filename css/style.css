@@ -1,6 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
 	margin: 1rem 0;
-	font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	color: #417781;
 }
 
@@ -253,7 +254,7 @@ span.title {
 }
 
 .finals-selected {
-	font-weight: bold;
+	font-weight: 600;
 	color: #417781;
 }
 
@@ -284,7 +285,8 @@ details[open] {
 }
 
 details summary {
-   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
    font-size: 2rem;
    margin: -.5em -.5em 0;
    color: #417781;
