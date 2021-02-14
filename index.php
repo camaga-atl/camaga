@@ -23,15 +23,11 @@
             During the year 2020, because of COVID-19, CAMAGA did not hold any in-person concerts or events, with the 
             exception of the Great Composers' Day.  However, this did not deter the Atlanta music community of 
             rasikas and performers from continuing with musical activities.  In keeping with this spirit, in 2021, 
-            CAMAGA will host the annual Great Composers' day. The event will be an online, virtual event and unlike in 
-            prior years, the event will be much smaller in duration. The event will consist of singing the five 
-            Pancharathna kritis followed by select Utsava Sampradaya Kritis. Each of these kritis is being by one 
-            of our local musicians. Camaga thanks all the artists for their participation.
+            CAMAGA hosted the annual Great Composers' day. The event was an online, virtual event and unlike in 
+            prior years, the event was smaller in duration. The event consisted of singing the five Pancharathna 
+            kritis, followed by select Utsava Sampradaya Kritis. Each of these kritis was sung by one of Atlanta 
+            area local musician. Camaga thanks all the artists for their participation.
             </p> 
-            <p>
-            You will see a <Watch Live> button that you can click to join, closer to Sat Feb 13 10 AM EST. Please do 
-            join, listen to the singing and show your appreciation of our local artists.   
-            </p>
             <div class="camaga-fb-post" >
                <div class="fb-post" data-href="https://www.facebook.com/camaga.org/posts/2986792304882717" data-width="750" data-show-text="true"><blockquote cite="https://www.facebook.com/camaga.org/posts/2986792304882717" class="fb-xfbml-parse-ignore"><p>Annual Composers Day - Virtual Broadcast on February 13, 2021 at 10:00 AM Eastern Time Zone</p>Posted by <a href="https://www.facebook.com/camaga.org/">Camaga</a> on&nbsp;<a href="https://www.facebook.com/camaga.org/posts/2986792304882717">Tuesday, February 9, 2021</a></blockquote></div>
             </div>
