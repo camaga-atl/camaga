@@ -1,35 +1,44 @@
 <?php
-   $title="CAMAGA";
-   $pageTitle="CAMAGA";
-   $description="Home page for CAMAGA - Carnatic Music Association of Georgia";
-   ?>
+$title = "CAMAGA";
+$pageTitle = "CAMAGA";
+$description = "Home page for CAMAGA - Carnatic Music Association of Georgia";
+?>
 <!DOCTYPE html>
 <html lang="en">
-   <?php
-      define( "CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/" );
-      include( CAMAGA_ROOT . "common/html_head.php");
+<?php
+define("CAMAGA_ROOT", $_SERVER['DOCUMENT_ROOT'] . "/");
+include(CAMAGA_ROOT . "common/html_head.php");
+?>
+
+<body id="home">
+   <div class="wrapper">
+      <?php
+      include(CAMAGA_ROOT . "common/site_header.php");
       ?>
-   <body id="home">
-      <div class="wrapper">
-         <?php
-            include(CAMAGA_ROOT . "common/site_header.php");
-        ?>
-        <div id="content">
-        <div id="fb-root"></div>
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="scyJkvjh">
-            </script>        
-            <h2>2021 Composers Day</h2>
-            <p>
-            During the year 2020, because of COVID-19, CAMAGA did not hold any in-person concerts or events, with the 
-            exception of the Great Composers' Day.  However, this did not deter the Atlanta music community of 
-            rasikas and performers from continuing with musical activities.  In keeping with this spirit, in 2021, 
-            CAMAGA hosted the annual Great Composers' day. The event was an online, virtual event and unlike in 
-            prior years, the event was smaller in duration. The event consisted of singing the five Pancharathna 
-            kritis, followed by select Utsava Sampradaya Kritis. Each of these kritis was sung by one of Atlanta 
-            area local musician. Camaga thanks all the artists for their participation.
-            </p> 
-            <div class="camaga-fb-post" >
-               <div class="fb-post" data-href="https://www.facebook.com/camaga.org/posts/2986792304882717" data-width="750" data-show-text="true"><blockquote cite="https://www.facebook.com/camaga.org/posts/2986792304882717" class="fb-xfbml-parse-ignore"><p>Annual Composers Day - Virtual Broadcast on February 13, 2021 at 10:00 AM Eastern Time Zone</p>Posted by <a href="https://www.facebook.com/camaga.org/">Camaga</a> on&nbsp;<a href="https://www.facebook.com/camaga.org/posts/2986792304882717">Tuesday, February 9, 2021</a></blockquote></div>
+      <div id="content">
+         <h2>TRINITY DRAMA ONLINE</h2>
+         <h6>by Madras Players and hosted by CAMAGA</h6>
+         <h3>April 16 through April 19, 2021</h3>
+         <p>The drama is based on the lives of the three Great Composers of Carnatic Music - Sri Syama Sastri, Sri Thyagaraja, and Sri Muthuswamy Dikshitar.
+            It is produced by the reputed The Madras Players, using the studios of Kalakshetra and using professional recording systems.
+            The participants in the drama are reputed Carnatic musicians such as Vijay Siva, Gayathri Venkatraghavan, to name a few,
+            who also will be singing in their own voices
+         </p>
+         <p>
+            The drama will be broadcast and available for viewing between April 16th and April 19, 2021 (Friday through Monday).
+            It will be available for members viewing for a maximum of 100 hours during these three days and it will be possible
+            for members to stop and continue as you please within this time frame.
+         </p>
+         <div class="trinity-drama-2021-gallery">
+            <div>
+               <img src="/events/2021/trinity-drama-online/poster-1.jpg" width="500px" />
             </div>
-   </body>
+            <div>
+               <img src="/events/2021/trinity-drama-online/poster-2.jpg" width="500px" />
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
 </html>
