@@ -24,19 +24,23 @@ include(CAMAGA_ROOT . "common/html_head.php");
             The participants in the drama are reputed Carnatic musicians such as Vijay Siva, Gayathri Venkatraghavan, to name a few,
             who also will be singing in their own voices
          </p>
-         <p>
-            The drama will be broadcast and available for viewing between April 16th and April 19, 2021 (Friday through Monday).
-            It will be available for members viewing for a maximum of 100 hours during these three days and it will be possible
-            for members to stop and continue as you please within this time frame.
-         </p>
          <div class="trinity-drama-2021-gallery">
             <div>
-               <img src="/events/2021/trinity-drama-online/poster-1.jpg" width="500px" />
+               <img src="/events/2021/trinity-drama-online/poster-1.jpg" width="360px" />
             </div>
             <div>
-               <img src="/events/2021/trinity-drama-online/poster-2.jpg" width="500px" />
+               <img src="/events/2021/trinity-drama-online/poster-2.jpg" width="360px" />
             </div>
          </div>
+         <h4>How to view?</h4>
+         <p>
+            The drama will be hosted online and available for viewing between April 16th and April 19, 2021 (Friday through Monday).
+            The organizer - Madras Players - will be sending a password and site information directly to each of those who were
+            members in 2019 as well as the few joined in 2020
+            It will be available for 'members' viewing for a maximum of 100 hours during these three days and it will be possible
+            for members to stop and continue as you please within this time frame.
+            Please be on the lookout for the email.
+         </p>
       </div>
    </div>
 </body>
