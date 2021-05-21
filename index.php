@@ -16,31 +16,64 @@ include(CAMAGA_ROOT . "common/html_head.php");
       include(CAMAGA_ROOT . "common/site_header.php");
       ?>
       <div id="content">
-         <h2>TRINITY DRAMA ONLINE</h2>
-         <h6>by Madras Players and hosted by CAMAGA</h6>
-         <h3>April 16 through April 19, 2021</h3>
-         <p>The drama is based on the lives of the three Great Composers of Carnatic Music - Sri Syama Sastri, Sri Thyagaraja, and Sri Muthuswamy Dikshitar.
-            It is produced by the reputed The Madras Players, using the studios of Kalakshetra and using professional recording systems.
-            The participants in the drama are reputed Carnatic musicians such as Vijay Siva, Gayathri Venkatraghavan, to name a few,
-            who also will be singing in their own voices
+         <!-- upcoming concerts START -->
+         <h2>Concert at the Seaside Temple - Online event</h2>
+         <h4>Online on June 18,19 and 20, 2021 (Friday through Sunday)</h4>
+         <p>
+            CAMAGA is presenting an online event - A vocal music performance titled "Concert at the Seaside Temple” by the following artists
          </p>
-         <div class="trinity-drama-2021-gallery">
-            <div>
-               <img src="/events/2021/trinity-drama-online/poster-1.jpg" width="360px" />
-            </div>
-            <div>
-               <img src="/events/2021/trinity-drama-online/poster-2.jpg" width="360px" />
-            </div>
+         <div>
+            <span class="artist">
+               <a target="_blank" href="https://www.google.com/search?q=Gayathri Venkataraghavan">
+                  <strong>Gayathri Venkataraghavan</strong>
+               </a>
+            </span>
+            <span class="instrument">
+               Vocal </span>
+         </div>
+         <div>
+            <span class="artist">
+               <a target="_blank" href="https://www.google.com/search?q=Mysore Srikanth">
+                  <strong>Mysore Srikanth</strong>
+               </a>
+            </span>
+            <span class="instrument">
+               Violin </span>
+         </div>
+         <div>
+            <span class="artist">
+               <a target="_blank" href="https://www.google.com/search?q=B.Sivaraman">
+                  <strong>B.Sivaraman</strong>
+               </a>
+            </span>
+            <span class="instrument">
+               Mridangam </span>
+         </div>
+         <div>
+            <span class="artist">
+               <a target="_blank" href="https://www.google.com/search?q=K.V.Gopalakrishnan">
+                  <strong>K.V.Gopalakrishnan</strong>
+               </a>
+            </span>
+            <span class="instrument">
+               Kanjira </span>
+         </div>
+         <br/>
+         <div>
+            <img src="/events/2021/concert-at-the-seaside-temple/1.jpg" width="360px" />
          </div>
          <h4>How to view?</h4>
          <p>
-            The drama will be hosted online and available for viewing between April 16th and April 19, 2021 (Friday through Monday).
-            The organizer - Madras Players - will be sending a password and site information directly to each of those who were
-            members in 2019 as well as the few joined in 2020
-            It will be available for 'members' viewing for a maximum of 100 hours during these three days and it will be possible
-            for members to stop and continue as you please within this time frame.
-            Please be on the lookout for the email.
+            The concert will be available for online viewing and listening, tentatively on June 18, 19, and 20 (Friday through Sunday).
+            The concert will be available ONLY for a maximum of 80 hours during the three days and during these days and hours, viewers can stop and continue as they prefer.
+            This event available ONLY to those who were members of CAMAGA as of the year 2019.
          </p>
+         <p>
+            A few days before June 15, we will share the access information and other details.
+
+            Please make sure you listen to the concert during the dates and period it is made available. If you missed it, CAMAGA will not be able to either extend the hours or change the dates. We regret that this is the stipulation per the contract, and, as an organization, CAMAGA must abide by it.
+         </p>
+         <!-- upcoming concerts END -->
       </div>
    </div>
 </body>
