@@ -14,26 +14,28 @@
 				include(CAMAGA_ROOT . "common/site_header.php"); 
 			?>
 			<div id="page-wrap">
-				<h2>Membership</h2>
-				<dl>
+				<h2>Membership*</h2>
+                <dl>
 					<dt>Family</dt>
-					<dd>$200</dd>
+					<dd>$300</dd>
 					<dt>Individual</dt>
-					<dd>$100</dd>
+					<dd>$150</dd>
 					<dt>Student with Id</dt>
 					<dd>$50</dd>
 				</dl>
 				<p>
 					<a href="doc/2019/Membershipform_2019.doc">Membership form &nbsp;&nbsp<i class="fas fa-download"></i></a>
 				</p>
-				<h3>Non-members</h3>
+				<h3>Non-members*</h3>
 				<dl>
 					<dt>Individual</dt>
-					<dd>$25 per concert</dd>
+					<dd>$35 per concert</dd>
 					<dt>Students with Id</dt>
-					<dd>$10 per concert</dd>
-				</dl>  
+					<dd>$15 per concert</dd>
+				</dl>
+                <p>* <small>price change as of  Jun 6, 2022</small></p>
 			</div>
+
 			<div class="push"></div>
 		</div>
 		<?php 
