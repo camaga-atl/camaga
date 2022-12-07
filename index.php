@@ -21,12 +21,6 @@ include(CAMAGA_ROOT . "common/html_head.php");
             include( CAMAGA_ROOT . "concerts/upcoming.php");
          ?>
          <!-- upcoming concerts END -->
-         <br/>
-         <br/>
-         <p>
-            <i>* membership</i><br/>
-            Membership is open for 2022. Please note the <a href="member">new membership rates</a>
-         </p>   
       </div>
    </div>
 </body>
