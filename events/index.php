@@ -23,7 +23,7 @@ include(CAMAGA_ROOT . "common/html_head.php");
          <h5>Sat Feb 18 & Sun Feb 19, 2023</i></h5>
          <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
          <p>
-            <emp><a href="events/2023/composers-day/2023-composers-day-registration-form.docx">Download Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp>
+            <emp><a href="https://forms.gle/AD2FdCPyzRi1zBA3A">Registration Form</a></emp>
          </p>
          <p>
             <h4>Event</h4> 
@@ -53,9 +53,7 @@ include(CAMAGA_ROOT . "common/html_head.php");
             <h4>Registration Form</h4> 
             If you are interested in participating in the 2023 Great Composers' Day, please 
             <ol style="margin-left:35px">
-               <li>download <emp><a href="events/2023/composers-day/2023-composers-day-registration-form.docx">Registration Form&nbsp;&nbsp;<i class="fa fa-download"></i></a></emp></li>
-               <li>complete the registration form</li>
-               <li>send an email to <emp>camaga.atlanta@gmail.com</emp>> along with the filled up registration form as an attachment</li>
+               <li>complete the <emp><a href="https://forms.gle/AD2FdCPyzRi1zBA3A">Registration Form</a></emp></li>
                <li>registration fee is $25 per participant</li>
                <li>send registration fee by zelle (details in registration form)</li>
             </ol>                  
