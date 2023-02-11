@@ -14,82 +14,101 @@ include(CAMAGA_ROOT . "common/html_head.php");
       include(CAMAGA_ROOT . "common/site_header.php");
       ?>
       <div id="content">
-
-
-         <!-- 2023 Composers' Day START -->
          <h2>Upcoming Events</h2>
          <hr/>
-         <h3><a name="2023-great-composers-day">2023 Great Composers' Day</a></h3>
-         <h5>Sat Feb 18 & Sun Feb 19, 2023</i></h5>
-         <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
-         <p>
-            <emp><a href="https://forms.gle/AD2FdCPyzRi1zBA3A">Registration Form</a></emp>
-         </p>
-         <p>
-            <h4>Event</h4> 
-            CAMAGA will be hosting the 2023 Great Composers’ day on Saturday February 18th and Sunday February 19th, 2023
-         </p>
-         <p>
-            <h4>Participant</h4> 
-            CAMAGA invites you to particpate in the 2023 Great Composers' Day as 
-            <ol style="margin-left:35px">
-               <li>Individual performer</li>
-               <li>Group participant</li>
-               <li>Accompanist</li>
-               <li>Participant in the Pancharathna Krithis/Utsava Sampradaya kritis group singing alone</li>
-            </ol>
-         </p>   
-         <p>
-            <h4>Format</h4> 
-            Participants can choose pre-Trinity, Trinity, and post-Trinity compositions.
-         </p>
-         <p>
-            <h4>Participation slot</h4> 
-            Because generally there are overwhelming registrations, an individual will be assigned <emp>only one</emp> slot to participate. For example, if a registrant is proficient in three categories: Vocal, Veena, 
-            and Violin, the registrant must choose which one of these three categories he/she wishes to participate. This stipulation, however, does not apply to participate as a member of a group or to 
-            provide instrumental support.
-         </p>
-         <p>
-            <h4>Registration Form</h4> 
-            If you are interested in participating in the 2023 Great Composers' Day, please 
-            <ol style="margin-left:35px">
-               <li>complete the <emp><a href="https://forms.gle/AD2FdCPyzRi1zBA3A">Registration Form</a></emp></li>
-               <li>registration fee is $25 per participant</li>
-               <li>send registration fee by zelle (details in registration form)</li>
-            </ol>                  
-         </p>
-         <p>
-            <h4>Participation as members of a group</h4> 
-            If one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. Kindly note that CAMAGA does not accept registration 
-            forms received directly from a group member or from the parents of children participating in a group.
-         </p>
-         <p>
-            <h4>Note to Teachers</h4> 
-            In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group. Please note that CAMAGA does not decide 
-            the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group 
-            and mail a check favoring CAMAGA, to 1415, Carter Road, Decatur, GA, 30030.
-         </p>
-         <p>
-            <h4>Deadline for receipt of registration form and registration fees</h4> 
-            The registration fee must be received the latest by January 31, 2023.
-         </p>
-         <p>
-            <h4>Registration acknowledgment</h4> 
-            Once CAMAGA receives the registration email along with the registration form, an acknowledgment confirming receipt of the registration form will be sent. If an acknowledgment is not received from CAMAGA 
-            within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA 
-            can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last-minute additions to the registration because of claims that the registration form was sent on time. 
-         </p>
-         <p>
-            <h4>Early closure of registration</h4> 
-            If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated 
-            date of January 31, 2023) and it will no longer accept registration requests received after the early closure announcement.
-         </p>
-         <hr/>
-         <br/>
-         <!-- 2023 Composers' Day END -->
+         <!-- 2023 Composers' Day START -->
+            <h3><a name="2023-great-composers-day">2023 Great Composers' Day</a></summary>
+            <h4>Sat Feb 18 & Sun Feb 19, 2023</h4>
+            <p>
+               <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
+                  Venue: Hindu Temple of Atlanta
+               </a>
+            </p>
+            <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto" />
+            <h4>Download Program Details Documents</h4>
+            <p>
+               <a href="events/2023/composers-day/2023-composers-day-program.pdf" target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a><br />
+               <a href="events/2023/composers-day/2023-composers-day-participants-list.pdf" target="_blank">Participants List&nbsp;&nbsp;<i class="fas fa-download"></i></a>
+            </p>
+            <br />
+         </details>
+         <!-- 2020 Composers' Day END -->
+
 
          <h2>Past Events</h2>
 
+         <!-- 2023 Composers' Announcement START -->
+         <details>
+            <summary><a name="2023-great-composers-day-announcement">2020 Great Composers' Day Announcement</a></summary>
+            <h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
+            <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
+            <p>
+               <emp><a href="https://forms.gle/AD2FdCPyzRi1zBA3A">Registration Form</a></emp>
+            </p>
+            <p>
+               <h4>Event</h4> 
+               CAMAGA will be hosting the 2023 Great Composers’ day on Saturday February 18th and Sunday February 19th, 2023
+            </p>
+            <p>
+               <h4>Participant</h4> 
+               CAMAGA invites you to particpate in the 2023 Great Composers' Day as 
+               <ol style="margin-left:35px">
+                  <li>Individual performer</li>
+                  <li>Group participant</li>
+                  <li>Accompanist</li>
+                  <li>Participant in the Pancharathna Krithis/Utsava Sampradaya kritis group singing alone</li>
+               </ol>
+            </p>   
+            <p>
+               <h4>Format</h4> 
+               Participants can choose pre-Trinity, Trinity, and post-Trinity compositions.
+            </p>
+            <p>
+               <h4>Participation slot</h4> 
+               Because generally there are overwhelming registrations, an individual will be assigned <emp>only one</emp> slot to participate. For example, if a registrant is proficient in three categories: Vocal, Veena, 
+               and Violin, the registrant must choose which one of these three categories he/she wishes to participate. This stipulation, however, does not apply to participate as a member of a group or to 
+               provide instrumental support.
+            </p>
+            <p>
+               <h4>Registration Form</h4> 
+               If you are interested in participating in the 2023 Great Composers' Day, please 
+               <ol style="margin-left:35px">
+                  <li>complete the <emp><a href="https://forms.gle/AD2FdCPyzRi1zBA3A">Registration Form</a></emp></li>
+                  <li>registration fee is $25 per participant</li>
+                  <li>send registration fee by zelle (details in registration form)</li>
+               </ol>                  
+            </p>
+            <p>
+               <h4>Participation as members of a group</h4> 
+               If one is intending to participate as a member of a teacher’s group, please request the teacher to submit the form on behalf of the entire group. Kindly note that CAMAGA does not accept registration 
+               forms received directly from a group member or from the parents of children participating in a group.
+            </p>
+            <p>
+               <h4>Note to Teachers</h4> 
+               In the case of student groups, kindly assign a serial number to each group of participants and include the names of each member within a group. Please note that CAMAGA does not decide 
+               the groups or who should participate within a specific group; it is solely the decision of the teacher.  For each group, teachers must collect the registration fees of $30 from each non- member from the group 
+               and mail a check favoring CAMAGA, to 1415, Carter Road, Decatur, GA, 30030.
+            </p>
+            <p>
+               <h4>Deadline for receipt of registration form and registration fees</h4> 
+               The registration fee must be received the latest by January 31, 2023.
+            </p>
+            <p>
+               <h4>Registration acknowledgment</h4> 
+               Once CAMAGA receives the registration email along with the registration form, an acknowledgment confirming receipt of the registration form will be sent. If an acknowledgment is not received from CAMAGA 
+               within four days of sending in the registration, please immediately contact CAMAGA and confirm that the registration form has been received.  If you did not resolve the issue within the four days, CAMAGA 
+               can no longer accept responsibility for the non-receipt of the registration. CAMAGA will not make last-minute additions to the registration because of claims that the registration form was sent on time. 
+            </p>
+            <p>
+               <h4>Early closure of registration</h4> 
+               If CAMAGA receives more participation requests than it could possibly accommodate within the two-day function, CAMAGA will announce an early closure of the registration process (earlier than the stipulated 
+               date of January 31, 2023) and it will no longer accept registration requests received after the early closure announcement.
+            </p>
+            <hr/>
+            <br/>
+         </details>   
+         <!-- 2023 Composers' Day Announcement END -->
+         
          <!-- 2021 Trinity Drama Online Start -->
          <details>
             <summary>TRINITY DRAMA ONLINE</summary>
