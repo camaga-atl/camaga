@@ -15,7 +15,6 @@ include(CAMAGA_ROOT . "common/html_head.php");
       ?>
       <div id="content">
          <h2>Upcoming Events</h2>
-         <hr/>
          <!-- 2023 Composers' Day START -->
             <h3><a name="2023-great-composers-day">2023 Great Composers' Day</a></summary>
             <h4>Sat Feb 18 & Sun Feb 19, 2023</h4>
@@ -32,14 +31,15 @@ include(CAMAGA_ROOT . "common/html_head.php");
             </p>
             <br />
          </details>
-         <!-- 2020 Composers' Day END -->
+         <hr/>
+         <!-- 2023 Composers' Day END -->
 
 
          <h2>Past Events</h2>
 
          <!-- 2023 Composers' Announcement START -->
          <details>
-            <summary><a name="2023-great-composers-day-announcement">2020 Great Composers' Day Announcement</a></summary>
+            <summary><a name="2023-great-composers-day-announcement">2023 Great Composers' Day Announcement</a></summary>
             <h4>Sat Feb 15 & Sun Feb 16, 2020</h4>
             <img src="events/composers-day/trinity.jpg" style="max-width: 100%; height: auto"/>
             <p>
