@@ -14,9 +14,11 @@ include(CAMAGA_ROOT . "common/html_head.php");
       include(CAMAGA_ROOT . "common/site_header.php");
       ?>
       <div id="content">
-         <h2>Upcoming Events</h2>
-         <!-- 2023 Composers' Day START -->
-            <h3><a name="2023-great-composers-day">2023 Great Composers' Day</a></summary>
+
+         <h2>Past Events</h2>
+         <details>    
+            <!-- 2023 Composers' Day START -->
+            <summary><a name="2023-great-composers-day">2023 Great Composers' Day</a></summary>
             <h4>Sat Feb 18 & Sun Feb 19, 2023</h4>
             <p>
                <a target="_blank" href="http://maps.google.com/?q=The Hindu Temple Of Atlanta">
@@ -29,13 +31,8 @@ include(CAMAGA_ROOT . "common/html_head.php");
                <a href="events/2023/composers-day/2023-composers-day-program.pdf" target="_blank">Composers Day Program Details&nbsp;&nbsp;<i class="fas fa-download"></i></a><br />
                <a href="events/2023/composers-day/2023-composers-day-participants-list.pdf" target="_blank">Participants List&nbsp;&nbsp;<i class="fas fa-download"></i></a>
             </p>
-            <br />
          </details>
-         <hr/>
          <!-- 2023 Composers' Day END -->
-
-
-         <h2>Past Events</h2>
 
          <!-- 2023 Composers' Announcement START -->
          <details>
