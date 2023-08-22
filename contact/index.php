@@ -44,20 +44,20 @@
 				<h3>Committee</h3>
 				<dl>
 					<dt>President</dt>
-						<dd>Dr. Kalpana Rengarajan</dd>
+						<dd>Kalpana Rengarajan</dd>
 						<dd>&nbsp;</dd>
 					<dt>Treasurer</dt>
-						<dd>Mr. Raj Rengarajan</dd>
+						<dd>Raj Rengarajan</dd>
 						<dd>&nbsp;</dd>
 					<dt>Secretary</dt>
-						<dd>Mr. Krishnaswamy Thirumalai</dd>
+						<dd>Krishnaswamy Thirumalai</dd>
 						<dd>&nbsp;</dd>					
 					<dt>Trustees</dt>
-						<dd>Mrs. Anu Moorthy</dd>
-						<dd>Mr. Gnanaruban Balasubramaniam</dd>
-						<dd>Mrs. Lakshmi Prabhakar</dd>
-						<dd>Mr. Prashanth Krishnamurthy</dd>
-						<dd>Mr. Ramesh Vepure</dd>
+						<dd>Anu Moorthy</dd>
+						<dd>Gnanaruban Balasubramaniam</dd>
+						<dd>Lakshmi Prabhakar</dd>
+						<dd>Prashanth Krishnamurthy</dd>
+						<dd>Ramesh Vepure</dd>
 						<dd>&nbsp;</dd>
 						<dd>&nbsp;</dd>
 				</dl>
