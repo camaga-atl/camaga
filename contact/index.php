@@ -27,14 +27,9 @@
 				<h3>Contact</h3>
 				<dl>
 					<dt><i class="fas fa-envelope"></i>&nbsp;address</dt>
-						<dd>Dr. Ram Sriram</dd>
-						<dd>1415 Carter Road</dd>
-						<dd>Decatur GA 30030</dd>
+						<dd>1417 Mandalay Ct SW</dd> 
+                        <dd>Lilburn GA 30047</dd>
 						<dd>U.S.A</dd> 
-						<dd>&nbsp;</dd>
-					<dt><i class="fas fa-phone-alt"></i>&nbsp;phone</dt>
-						<dd>(678) 463-8729</dd> 
-						<dd><em>When possible, please send a text message so that we can respond to you</em></dd>
 						<dd>&nbsp;</dd>
 					<dt><i class="fas fa-at"></i>&nbsp;email</dt>
 						<dd>camaga.atlanta@gmail.com</dd>
